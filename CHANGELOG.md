@@ -1,53 +1,3608 @@
 ## Change Log
 
-### v0.0.16 (2014/11/26 11:15 +00:00)
-- [#30](https://github.com/lalitkapoor/github-changes/pull/30) show changes between two tags (@lalitkapoor)
-
-### v0.0.14 (2014/11/06 02:45 +00:00)
-- [#45](https://github.com/lalitkapoor/github-changes/pull/45) Add option to allow specifying the changelog title (@fixe)
-- [#46](https://github.com/lalitkapoor/github-changes/pull/46) Add option to allow specifying the date format (@fixe)
-- [#41](https://github.com/lalitkapoor/github-changes/pull/41) Aesthetic fixes (@nylen)
-
-### v0.0.13 (2014/10/26 23:25 +00:00)
-- [#42](https://github.com/lalitkapoor/github-changes/pull/42) Fetch 100 tags per page (only 1 page for now) (@nylen)
-
-### v0.0.12 (2014/09/02 05:37 +00:00)
-- [#35](https://github.com/lalitkapoor/github-changes/pull/35) Update README.md with Grunt Plugin Info (@streetlight)
-- [#36](https://github.com/lalitkapoor/github-changes/pull/36) PR links point to https://null/... (@lalitkapoor)
-
-### v0.0.11 (2014/05/12 19:01 +00:00)
-- [#32](https://github.com/lalitkapoor/github-changes/pull/32) support for github enterprise (@lalitkapoor, @calmdev)
-
-### v0.0.10 (2014/03/01 06:02 +00:00)
-- [#26](https://github.com/lalitkapoor/github-changes/pull/26) handle missing author in pull requests (@lalitkapoor)
-
-### v0.0.9 (2014/03/01 04:09 +00:00)
-- [#22](https://github.com/lalitkapoor/github-changes/pull/22) show commit message if commit body is empty for --use-commit-body (@lalitkapoor)
-- [#23](https://github.com/lalitkapoor/github-changes/pull/23) though tagged correctly commit ordering may vary (@lalitkapoor)
-- [#24](https://github.com/lalitkapoor/github-changes/pull/24) sorting commits by date doesn't work for --data pulls (@lalitkapoor)
-- [#21](https://github.com/lalitkapoor/github-changes/pull/21) attribution is not always correct for pull requests (@lalitkapoor)
-
-### v0.0.8 (2014/02/25 08:05 +00:00)
-- [#18](https://github.com/lalitkapoor/github-changes/pull/18) Add a Bitdeli Badge to README (@bitdeli-chef)
-- [#15](https://github.com/lalitkapoor/github-changes/pull/15) add option to order versions based on semver instead of the tag date (@lalitkapoor)
-
-### v0.0.7 (2014/02/25 06:40 +00:00)
-- [#17](https://github.com/lalitkapoor/github-changes/pull/17) use-commit-body only works when only-pulls or only-merges is used (@lalitkapoor)
-
-### v0.0.6 (2014/02/25 06:21 +00:00)
-- [#13](https://github.com/lalitkapoor/github-changes/pull/13) don't strip down pull request object (@lalitkapoor)
-- [#14](https://github.com/lalitkapoor/github-changes/pull/14) flags to improve what merge items to into the changelog (@lalitkapoor)
-- [#16](https://github.com/lalitkapoor/github-changes/pull/16) when parsing pull request pr links not generated and attribution incorrect (@lalitkapoor)
-
-### v0.0.5 (2014/02/23 10:14 +00:00)
-- [#9](https://github.com/lalitkapoor/github-changes/pull/9) don't double space in the default formatter (@lalitkapoor)
-
-### v0.0.4 (2014/02/23 08:43 +00:00)
-- [#7](https://github.com/lalitkapoor/github-changes/pull/7) use commit date not author date when determining which commits belong to which tags (@lalitkapoor)
-
-### v0.0.3 (2014/02/23 08:24 +00:00)
-- [#2](https://github.com/lalitkapoor/github-changes/pull/2) Fixed typos. (@Fraser999)
-- [#4](https://github.com/lalitkapoor/github-changes/pull/4) consider generating changelog based on commit messages (@lalitkapoor)
-
-### v0.0.2 (2014/02/20 06:23 +00:00)
-- [#1](https://github.com/lalitkapoor/github-changes/pull/1) error thrown when link header doesn't contain last (@lalitkapoor)
+### upcoming (2014/12/19 05:27 +00:00)
+- [#123](https://github.com/franq/franq/pull/123) Merge pull request #123 from franq/bugfix/backing-to-nowhere (@franq)
+- [3de5965](https://github.com/franq/franq/commit/3de59659e36f31c0ea53100b8268f924fe6f8847) limit backing to only allow it within the same host (@tonytamps)
+- [d237547](https://github.com/franq/franq/commit/d237547de2d6e365683cc6201f4ac64d65b6ff26) logo position tweak (@Derrick666)
+- [56a92e8](https://github.com/franq/franq/commit/56a92e8a87a2bd22eebde2c5416b7a8a79d07542) Merge branch 'develop' of github.com:franq/franq into develop (@tonytamps)
+- [c4cde77](https://github.com/franq/franq/commit/c4cde77ea3f69388fd50a4313455fdf97d8b66a1) fix the clipping and repeating of the franq logo on the login screen. (@tonytamps)
+- [#121](https://github.com/franq/franq/pull/121) Merge pull request #121 from franq/hotfix/dashboard-venue-styling (@franq)
+- [04a7651](https://github.com/franq/franq/commit/04a7651651abca9592cef22d092c0ce6b8bc6a87) move the equator another 30px south (@Derrick666)
+- [c228968](https://github.com/franq/franq/commit/c2289683f427f013cbe10a2a1197334e2dc0ee2f) center the world and clean up (@Derrick666)
+- [2f1a7a3](https://github.com/franq/franq/commit/2f1a7a3260fad2e60caf26e5e4034f6fc255d907) Merge branch 'develop' into hotfix/dashboard-venue-styling (@Derrick666)
+- [5b76ee7](https://github.com/franq/franq/commit/5b76ee7682c0e625c4470cece8578b1d63663bdb) recalc the last transaction when emailing the receipt (@tonytamps)
+- [3d678bc](https://github.com/franq/franq/commit/3d678bcf82afd2d6cdfd6d5ac9ebdd7565d42768) better name for text address, ignore empty search (@Derrick666)
+- [#120](https://github.com/franq/franq/pull/120) Merge pull request #120 from franq/feature/email-receipt (@franq)
+- [00ceab6](https://github.com/franq/franq/commit/00ceab62a834a23ce771a72c94619a644c01463e) testing the email transaction receipt modal (@tonytamps)
+- [2729495](https://github.com/franq/franq/commit/2729495f922d49713af995b897ff19401d871135) single quotes in html template (@tonytamps)
+- [e139043](https://github.com/franq/franq/commit/e1390437bc97a489df2c1a5b9e0216fc9ccd0c5b) single quotes in html template (@tonytamps)
+- [ef7ecea](https://github.com/franq/franq/commit/ef7ecea770e157137ce0909686e935f4b81d7e5c) better usage of the es6 func (@tonytamps)
+- [6f346af](https://github.com/franq/franq/commit/6f346afd005787a40dfc12fc2ca4f222e7974f45) remove console long message (@tonytamps)
+- [efd3dd0](https://github.com/franq/franq/commit/efd3dd0c1627d7150eae4defe61a954b78bbe04e) change email test to use the regex, not just empty string test. (@tonytamps)
+- [095009a](https://github.com/franq/franq/commit/095009ab561e1e21d0624276c9c9595290189440) Merge branch 'develop' of github.com:franq/franq into feature/email-receipt (@tonytamps)
+- [#117](https://github.com/franq/franq/pull/117) Merge pull request #117 from franq/feature/terminal-venue-logo (@franq)
+- [#119](https://github.com/franq/franq/pull/119) Merge pull request #119 from franq/hotfix/404-looks (@franq)
+- [72e77e5](https://github.com/franq/franq/commit/72e77e5b497b850fb8d28fd732c81edfd48ddbfd) testing and validation fo email and html params for transaction receipt requests (@tonytamps)
+- [ec29e55](https://github.com/franq/franq/commit/ec29e55e51ca4589da09194e91c0d7932b28cf43) remove unnecessary controllers (@Derrick666)
+- [5fe9b90](https://github.com/franq/franq/commit/5fe9b90963e4ce347108e5983c58d85b3c191cb4) refresh triggered by input chanages (@Derrick666)
+- [492fce0](https://github.com/franq/franq/commit/492fce03fa83cfc8584dca18f290a689d79dc34f) remove dashed stroke in preview image, button colors, save/cancel btn text (@Derrick666)
+- [8f97001](https://github.com/franq/franq/commit/8f970016c56693277b4b985fb9000eaa19f501ed) rounded google map, zoomed out to display world (@Derrick666)
+- [25ee039](https://github.com/franq/franq/commit/25ee039a4a87d1919759b8caa915218058a468c1) page new resize to fit screen
+- [7417b8e](https://github.com/franq/franq/commit/7417b8ef6f813a3b33d26e7657f2cf2a261fb58b) send the email and refactor the world... of emailing (@tonytamps)
+- [#116](https://github.com/franq/franq/pull/116) Merge pull request #116 from franq/feature/receipt-template (@franq)
+- [#118](https://github.com/franq/franq/pull/118) Merge pull request #118 from franq/bugfix/user.usergroups-visibility (@franq)
+- [6f97240](https://github.com/franq/franq/commit/6f972403554b31bdeb1ab272572857a9d054c656) Extend ResponseSchema to allow for conditions on the relations (@SohumB)
+- [7755ef0](https://github.com/franq/franq/commit/7755ef093ef3bd3b902423b14de60eb51addd672) Failing test for the user.usergroups bug (@SohumB)
+- [9e9ccca](https://github.com/franq/franq/commit/9e9cccad6263cededab2cb33d06c4eede532e6e5) Merge branch 'develop' into feature/terminal-venue-logo (@Derrick666)
+- [4d8afc7](https://github.com/franq/franq/commit/4d8afc75cd57fece935e08361bac34997e289115) use firefox for the fast build instead of chrome (@Derrick666)
+- [c727540](https://github.com/franq/franq/commit/c727540009b4fd317af72acbba63690f1014ea9d) testem.json.chrome files for building only on chrome (@Derrick666)
+- [15a4348](https://github.com/franq/franq/commit/15a434840722251789b13db14424e954f3ac402f) Merge branch 'feature/receipt-template' of github.com:franq/franq into feature/email-receipt (@tonytamps)
+- [6aa7a23](https://github.com/franq/franq/commit/6aa7a23c7c1a58acd0c0032e8681d08461926723) Merge branch 'develop' of github.com:franq/franq into feature/receipt-template (@tonytamps)
+- [efb56f3](https://github.com/franq/franq/commit/efb56f3186f7b1b6651a84c2b6ed24b02c515a43) Merge branch 'feature/receipt-template' of github.com:franq/franq into feature/email-receipt (@tonytamps)
+- [a7fae16](https://github.com/franq/franq/commit/a7fae166822c0fa11061a88c6ad1c00ba9ffb405) Merge branch 'develop' of github.com:franq/franq into develop (@tonytamps)
+- [7acded1](https://github.com/franq/franq/commit/7acded1784c6b751bb5cb8868f1c74d15989e8d8) additional config change required for beta environment (@tonytamps)
+- [39021da](https://github.com/franq/franq/commit/39021da34c19ff8beffad3b06bcbe5d37e275143) tests for venue logo (@Derrick666)
+- [2f593b2](https://github.com/franq/franq/commit/2f593b2940e04dc04262f0bb2e56f9854c789e48) Merge branch 'develop' into feature/terminal-venue-logo (@Derrick666)
+- [5d4eebb](https://github.com/franq/franq/commit/5d4eebba37c04495cadabc3ce1c3a9179be3da30) complete terminal info in test helpers (@Derrick666)
+- [5e911ee](https://github.com/franq/franq/commit/5e911ee5b50f97fd4bdd26c17d18802fe1cf0bdc) venue info gets set in route not model (@Derrick666)
+- [b4f5eeb](https://github.com/franq/franq/commit/b4f5eeba5310f7d2e5066f7cd4f97b505c0f3947) better way to handle clear cart on deactiveate; fix terminal test
+- [fd94869](https://github.com/franq/franq/commit/fd94869121bb4161fc6573ab342b58fdcac76403) show iamge on the upper left corner (@Derrick666)
+- [c2ebaee](https://github.com/franq/franq/commit/c2ebaeeb1cab75514162e4705c15559051522629) rename template to handlebars. create api endpoint for template (@tonytamps)
+- [c60105c](https://github.com/franq/franq/commit/c60105cf17873219ae1b320a69af069f447ce29b) fix server side not returning terminal info with license assign response (@Derrick666)
+- [6a8c57e](https://github.com/franq/franq/commit/6a8c57e16b0d98715e053a8aa8200beaf139e374) Added ability to store the templates in the DB (@tonytamps)
+- [#114](https://github.com/franq/franq/pull/114) Merge pull request #114 from franq/bugfix/new-order-after-tender-complete (@franq)
+- [#111](https://github.com/franq/franq/pull/111) Merge pull request #111 from franq/feature/dashboard-venue (@franq)
+- [1b3ee06](https://github.com/franq/franq/commit/1b3ee06a6898add920594ef5f73ba495fa021762) indentation (@Derrick666)
+- [7cdbf34](https://github.com/franq/franq/commit/7cdbf34ecab95452bbd152b8b7aeca82253c408d) event trigger to call function in component (@Derrick666)
+- [36bb2c0](https://github.com/franq/franq/commit/36bb2c0d03f76a4c236652e978d8d668de1f93c3) create a new order when leaving the tender complete screen (@tonytamps)
+- [429bfdc](https://github.com/franq/franq/commit/429bfdca113320a2e9ed80689756bc87cb276ae5) code cleanup (@Derrick666)
+- [339c7f4](https://github.com/franq/franq/commit/339c7f4df0657221c5b02601b707fb6015b8b70c) update tests (@Derrick666)
+- [343da6f](https://github.com/franq/franq/commit/343da6fd0bc58ed02d728c484aa7cd3072e6738c) refactor to use address object insteadof separate properties (@Derrick666)
+- [43a1b4e](https://github.com/franq/franq/commit/43a1b4e8d0edead2b30049338d09420435889841) Merge branch 'develop' into feature/dashboard-venue (@Derrick666)
+- [399a457](https://github.com/franq/franq/commit/399a4574eb34ae2d3dc4f616c015d34756f4982a) PR feedback fixes (@Derrick666)
+- [#112](https://github.com/franq/franq/pull/112) Merge pull request #112 from franq/feature/discount-surcharge-group-products (@franq)
+- [40c29c0](https://github.com/franq/franq/commit/40c29c0dc8f68019371e631e37f2bde69936621e) PR feedback fix
+- [25c6731](https://github.com/franq/franq/commit/25c67313828f24b8e8eb2ca46aae04bb799094dd) Merge branch 'develop' into feature/discount-surcharge-group-products
+- [#110](https://github.com/franq/franq/pull/110) Merge pull request #110 from franq/improve-404-500-error-handling (@franq)
+- [107a77b](https://github.com/franq/franq/commit/107a77bfa402746e4cdd814719b79768ad4c3525) add surcount test for group of products
+- [5c767a7](https://github.com/franq/franq/commit/5c767a7e1b66364b8c2ff24791ed20f37e108241) Merge branch 'develop' into feature/discount-surcharge-group-products
+- [6984691](https://github.com/franq/franq/commit/69846911861051a76cc78c49abfba644f659afe9) add apply surcharge or discount for a groups of items
+- [6edea4e](https://github.com/franq/franq/commit/6edea4e43cc0977b3c129a1019f6146e6fb6870d) resolve build issues with esnext
+- [e95b10b](https://github.com/franq/franq/commit/e95b10be4e5400e2ec084faa8c1e5ae3ecbc03ee) clean up address-select (@Derrick666)
+- [902c325](https://github.com/franq/franq/commit/902c32551f8135980e1e1cff47dc9b792ef62a2e) Merge branch 'develop' into feature/dashboard-venue (@Derrick666)
+- [fa8ddf8](https://github.com/franq/franq/commit/fa8ddf8bacdc78f9088b9ab81018f028927acd11) tests now update to use city (@Derrick666)
+- [93e3b6f](https://github.com/franq/franq/commit/93e3b6f638dded81208539e9abe7abc46fa5ea5c) ember end update for using city (@Derrick666)
+- [7aa5a18](https://github.com/franq/franq/commit/7aa5a18f72850c32ebe296217c98128a9d8973fe) change addr3 to city, fix server side test and code (@Derrick666)
+- [#109](https://github.com/franq/franq/pull/109) Merge pull request #109 from franq/feature/undo-transaction (@franq)
+- [0b160ea](https://github.com/franq/franq/commit/0b160ea661802831917dd340d23d3e826d55b68a) add test for improvement
+- [f871b15](https://github.com/franq/franq/commit/f871b15864409248e24955a5f815ba44f84ac63a) from PR feedback
+- [558d0c2](https://github.com/franq/franq/commit/558d0c2114090057cd04f49d5a3a16a89e057d11) clean up test (@Derrick666)
+- [720b600](https://github.com/franq/franq/commit/720b600964359f3eb07bb2557d59ce1da202113c) improve 404 and 500 error handling
+- [d50fad9](https://github.com/franq/franq/commit/d50fad9a929aa41329142f7213eb0b2b68e21c53) Merge branch 'develop' into feature/dashboard-venue (@Derrick666)
+- [bdee573](https://github.com/franq/franq/commit/bdee573ea46bb4b41d0db6b02646edb285017a6b) google map image display fix (@Derrick666)
+- [3e8b610](https://github.com/franq/franq/commit/3e8b6107d6f2a5fc5502f3d48add14cf32316b2f) images to the right folder (@Derrick666)
+- [53aead4](https://github.com/franq/franq/commit/53aead49d4a00a7bd7681240b73e2d9ed8fce353) code clean up and move images to right folders (@Derrick666)
+- [aa7f316](https://github.com/franq/franq/commit/aa7f3167b9d06f786e486cdb316f71c1b7b47e61) fix update
+- [c6364c2](https://github.com/franq/franq/commit/c6364c2d7db5bbdd325770104610db0237d0329a) clean up
+- [d9ab733](https://github.com/franq/franq/commit/d9ab733c24b67d2130df65496a0f7f129a844da6) add undo transaction test
+- [75c5ef4](https://github.com/franq/franq/commit/75c5ef46e2ef910a5e581dd0c6b8167f4fac3834) Merge branch 'develop' into feature/undo-transaction
+- [3acf936](https://github.com/franq/franq/commit/3acf93693cef520cecab057c874af5b26094fa81) add undo transaction functionality
+- [d0ab7a7](https://github.com/franq/franq/commit/d0ab7a7484ce5a376050bf37717bfb167751be78) test for venue form validation (@Derrick666)
+- [8a0df17](https://github.com/franq/franq/commit/8a0df17d3fc5f482d39a0f55f1804dd6e1bfe19a) address is no longer requied (@Derrick666)
+- [6e7b2bf](https://github.com/franq/franq/commit/6e7b2bfe7501a12d9c6d7bd1f393fef64e3e2e0d) fix required input issues (@Derrick666)
+- [167ca11](https://github.com/franq/franq/commit/167ca1198a38d37090d0c0f8fc57a29bb843007b) test for create/edit venue (@Derrick666)
+- [3be8f2f](https://github.com/franq/franq/commit/3be8f2f062d8bdf01b813a7dcbb5c895802b9218) venue open default to false (@Derrick666)
+- [f435252](https://github.com/franq/franq/commit/f4352520e3bb7c7a08cfaeb91a1047f9a50bc42f) wrong name for email input (@Derrick666)
+- [960d333](https://github.com/franq/franq/commit/960d33331ca014169a43816ee237d5b1eacf54f1) move images attic (@Derrick666)
+- [2ff2015](https://github.com/franq/franq/commit/2ff201582fc7e8dee28e82b5a912f80c61d05f1c) fix styles (@Derrick666)
+- [#107](https://github.com/franq/franq/pull/107) Merge pull request #107 from franq/hotfix/reset-password-email-styling (@franq)
+- [dc50cf1](https://github.com/franq/franq/commit/dc50cf109a4528cd2b82e973fc8d42815b7fbfb8) Merge branch 'develop' into feature/dashboard-venue (@Derrick666)
+- [7254dd6](https://github.com/franq/franq/commit/7254dd6415960d956de2af5e77a52cd4510b6b29) relocate map center and style (@Derrick666)
+- [cb3c06c](https://github.com/franq/franq/commit/cb3c06c8f27be93eb2c74859e1d1c78a20280178) relocate map center and style (@Derrick666)
+- [3641ff0](https://github.com/franq/franq/commit/3641ff0c2b12af0cfe29ef203c902b6e18a48ade) fix create venue issue (@Derrick666)
+- [16111e2](https://github.com/franq/franq/commit/16111e281df97b879a9647c8703ee575ef52b48a) fix server side tests (@Derrick666)
+- [b36822c](https://github.com/franq/franq/commit/b36822cac2b98b4be13ef617b5babce8e1ddf38c) add country and postcode into map search , style the refresh map btn (@Derrick666)
+- [#106](https://github.com/franq/franq/pull/106) Merge pull request #106 from franq/feature/tender-complete-page-refund (@franq)
+- [49c7822](https://github.com/franq/franq/commit/49c782213b2eb1902fcba3e3a42a37144b017372) refund on tender complete page
+- [c66a283](https://github.com/franq/franq/commit/c66a283aac07bb1de234d2f86901817b9f70c067) update model for empty image (@Derrick666)
+- [c21f1e6](https://github.com/franq/franq/commit/c21f1e64177c2026bea4acd882ea4accba58cd53) styling for venue page and add default venue image (@Derrick666)
+- [#105](https://github.com/franq/franq/pull/105) Merge pull request #105 from franq/feature/login-and-recover-page-styling (@franq)
+- [70c1fd5](https://github.com/franq/franq/commit/70c1fd5180afc4ba9d127d76af932094ab9fa7e7) whitelist recover route in our ACL (@tonytamps)
+- [ff5dafb](https://github.com/franq/franq/commit/ff5dafbff30bacbbe0eb5169c87e531f62994334) bring acl-highlight back from the dead (@tonytamps)
+- [#103](https://github.com/franq/franq/pull/103) Merge pull request #103 from franq/feature/refund-order (@franq)
+- [ad69f57](https://github.com/franq/franq/commit/ad69f57fdae9a322ec268b0d2b0318dfc9c785bb) BigNumber use toFixed(0) not toNumber
+- [9cbeb79](https://github.com/franq/franq/commit/9cbeb7994178d668bc206fd83ae2a954175b7f1c) fix wrong width in venue page (@Derrick666)
+- [e640f00](https://github.com/franq/franq/commit/e640f0031faa19432c2a0881f7a292b59826bfbc) remove unnecessary BigNumber convert for plus calculation
+- [988282b](https://github.com/franq/franq/commit/988282b6c16e793ba41f07855518de6ed324ded7) clean up
+- [12faa57](https://github.com/franq/franq/commit/12faa573ed92c40f4cab488bc2c95f2073fc4408) styled the recovery page (@tonytamps)
+- [64c3831](https://github.com/franq/franq/commit/64c3831b409f4655d94531707dfd53f09b2cafe1) styled the login page, finally (@tonytamps)
+- [dffedc1](https://github.com/franq/franq/commit/dffedc1f6cac5c60b240ed64ea75d0665fa655c3) add style sheets (@Derrick666)
+- [721f224](https://github.com/franq/franq/commit/721f224d9c71352e41f1dcaa390dde07ee89cd3e) add address-locator and keep original address-select (@Derrick666)
+- [bbf2775](https://github.com/franq/franq/commit/bbf2775643c20279f5b0fbd4ab49762ddff0b5ab) map works (@Derrick666)
+- [c8b0fd8](https://github.com/franq/franq/commit/c8b0fd8553e4abb0d1ca10b396ab76d17bdad89e) enter address in multiple line and click btn to trigger map to update (@Derrick666)
+- [0d58e4f](https://github.com/franq/franq/commit/0d58e4fb944466f09a1fe3cf809bd365438dfe33) saperate test for more details test case
+- [522b632](https://github.com/franq/franq/commit/522b632e8e302c2f906e23dc62e0d10ab2acd4ba) remove default status
+- [450e119](https://github.com/franq/franq/commit/450e119aa290c15ab8e3f1a38c96c51534a17175) some feedback change
+- [a635826](https://github.com/franq/franq/commit/a635826507625d162a70ac781f83af0c0b414b8e) Merge branch 'develop' into feature/refund-order
+- [67d46cc](https://github.com/franq/franq/commit/67d46cc29b2f726754d3a8eed3dde66f259295d9) remove the .git from the bower url (@tonytamps)
+- [1052391](https://github.com/franq/franq/commit/1052391fbc27ae539065daad6582ef6f100ab967) Merge branch 'develop' into feature/refund-order
+- [#102](https://github.com/franq/franq/pull/102) Merge pull request #102 from franq/bugfix/license-assign (@franq)
+- [5384119](https://github.com/franq/franq/commit/5384119f39c3747df6d649b4f3d4b8f36fce7b24) remove brackets from single variable arrow func (@tonytamps)
+- [38b0f21](https://github.com/franq/franq/commit/38b0f212f8e431831a6e4fe96e372d2891a1602f) Merge branch 'develop' of github.com:franq/franq into bugfix/license-assign (@tonytamps)
+- [#100](https://github.com/franq/franq/pull/100) Merge pull request #100 from franq/feature/multiple-terminal-pages (@franq)
+- [b2ca329](https://github.com/franq/franq/commit/b2ca329c2ca53338b8e6d684a5c6eba63ae24631) replace double with single quotes in more files (@tonytamps)
+- [a8ff44f](https://github.com/franq/franq/commit/a8ff44fb2f97fd72c22505c5957768f1475f7b8b) replace double with single quotes (@tonytamps)
+- [a2978ad](https://github.com/franq/franq/commit/a2978add88737702d17615451d62587825fe0b98) add error message and handle error when assigning a termina that is already licensed to the org (@tonytamps)
+- [162ee40](https://github.com/franq/franq/commit/162ee406d14c82a588dd3d54062c24dee3ab8512) add test for refund order
+- [995ab35](https://github.com/franq/franq/commit/995ab3576894f84be3b51d36579c2ffafd8ab747) delete local uncommit transaction on error
+- [d9960e9](https://github.com/franq/franq/commit/d9960e9b8f3db1e7ab0d5a581ae3b3cbfff5479e) fix to display success refundmodal
+- [3ce437f](https://github.com/franq/franq/commit/3ce437f649b8b75e89bd174cb8b5de8359681348) Merge branch 'develop' into feature/refund-order
+- [6ac6cc5](https://github.com/franq/franq/commit/6ac6cc587edd2064568f38e93b188bfa11ed2cbe) clean up
+- [3093196](https://github.com/franq/franq/commit/309319677fef303064ae0b1752a31eae8f110571) fix transaction relationship
+- [2609519](https://github.com/franq/franq/commit/2609519064aaffeec7b94c395db093d1298ec807) extra text fields including image (@Derrick666)
+- [1adbd08](https://github.com/franq/franq/commit/1adbd089544f41a0922e167f71a08271b052d1e9) update data models (@Derrick666)
+- [485ad3c](https://github.com/franq/franq/commit/485ad3c51161fc7e77ec62ac0c151d96e8bc82ae) Merge branch 'develop' of github.com:franq/franq into feature/multiple-terminal-pages (@tonytamps)
+- [#99](https://github.com/franq/franq/pull/99) Merge pull request #99 from franq/feature/updates (@franq)
+- [941fe1b](https://github.com/franq/franq/commit/941fe1b0823f8991cdcc79ef4a979e8d6ab6916a) Merge remote-tracking branch 'origin/master' into feature/updates (@aexmachina)
+- [e8c0a1e](https://github.com/franq/franq/commit/e8c0a1eb14a0dbf2cabdff0aa2c3af2bb06bb478) Remove jstransform for esnext from ember-cli and re-remove code from currentorder/controller (@aexmachina)
+- [6ca7336](https://github.com/franq/franq/commit/6ca73369c0f72b9164f3a4e165eda83e738cea77) fix computed paid
+- [8a63b01](https://github.com/franq/franq/commit/8a63b01f47e01e82092118eac63af4582e2a4032) ensure the swipe event is available on the collapsed lineitem too (@tonytamps)
+- [c26aeaa](https://github.com/franq/franq/commit/c26aeaa13f8fe8672fd61f62d59af6aab868c860) Ember 1.8 (@aexmachina)
+- [76b9f33](https://github.com/franq/franq/commit/76b9f33744a2b05593b7ea9d4c0ed98d41e3b933) Version updates (@aexmachina)
+- [c45b719](https://github.com/franq/franq/commit/c45b719d589a98da5674553abae9ba5d200e3e78) clean up  " -> \'
+- [c2994f9](https://github.com/franq/franq/commit/c2994f91de30a17fd0059658cd338b3de33446fd) add transaction model, transaction on create and refund
+- [f91c4e4](https://github.com/franq/franq/commit/f91c4e4b547f83561f651d1e51f77f00e96577a3) added swiping events and tests for them (@tonytamps)
+- [c1db6f5](https://github.com/franq/franq/commit/c1db6f584ac60f01b805bb14cb942ad83a0f45b5) Merge remote-tracking branch 'origin/feature/ember-1.8' into feature/updates (@aexmachina)
+- [d1fd402](https://github.com/franq/franq/commit/d1fd40201b1990fd15234b6b4cc6ddb3c37c73e4) update venue ember model (@Derrick666)
+- [6b8e094](https://github.com/franq/franq/commit/6b8e09411926ef7d83240e322360a8d823b58185) initial template update for venue route (@Derrick666)
+- [e4e1f81](https://github.com/franq/franq/commit/e4e1f8110147f33666f97f10c608eb2b7e21d28c) remove a stupid test (@tonytamps)
+- [d23c16b](https://github.com/franq/franq/commit/d23c16b2974ffe8e3dad22c99c8ebc0843cf7d88) Merge branch 'develop' of github.com:franq/franq into feature/multiple-terminal-pages (@tonytamps)
+- [bcc8f57](https://github.com/franq/franq/commit/bcc8f577c71c6fc21597b47805260b25e99b3070) update venue table for extra columns (@Derrick666)
+- [a9277f8](https://github.com/franq/franq/commit/a9277f84e6f12c09f277f329e8a29130dec0a6f3) Merge branch 'develop' into feature/refund-order
+- [b926099](https://github.com/franq/franq/commit/b92609942d2cf41f51db925c942952da802544de) fix build
+- [3180561](https://github.com/franq/franq/commit/3180561d1366d5a0912a2d2d781efe5af5167168) remove the second page for testing, breaks a lot of tests (@tonytamps)
+- [6e8a23f](https://github.com/franq/franq/commit/6e8a23f9ee79da8285d8cef41f9adf433f58397c) merge some duplicated code (@tonytamps)
+- [70a81f4](https://github.com/franq/franq/commit/70a81f41b7540137305601e30f80198ec420d343) Merge branch 'develop' of github.com:franq/franq into feature/multiple-terminal-pages (@tonytamps)
+- [18f4092](https://github.com/franq/franq/commit/18f40926a0ddbd6183aff04f474813d2f55d8cd7) Merge branch 'develop' into feature/refund-order
+- [#95](https://github.com/franq/franq/pull/95) Merge pull request #95 from franq/feature/order-transactions (@franq)
+- [03dbfdd](https://github.com/franq/franq/commit/03dbfdd3d8287bdfeefa7c6379a5ec966b42013b) Merge remote-tracking branch 'origin/develop' into feature/order-transactions (@aexmachina)
+- [1dfdc61](https://github.com/franq/franq/commit/1dfdc616f442a9c92fa198612e170c20497f3160) Update WIP (@aexmachina)
+- [5963cb3](https://github.com/franq/franq/commit/5963cb3331e0be601e846568f8294e9d2f4d1a56) add a second page purely for testing (@tonytamps)
+- [15dfdca](https://github.com/franq/franq/commit/15dfdcaa7dd430fd0341a126b8cddc3b32aa78e6) add back missing action (@tonytamps)
+- [8d2a081](https://github.com/franq/franq/commit/8d2a081b1e44b9966db67c596fd6e438329c6320) adjust the column sizes to make the cart make a little more sense (@tonytamps)
+- [9f2c882](https://github.com/franq/franq/commit/9f2c8824e5116abfba8cbcb9953c018c92da41ad) pass the actions from the components properly (@tonytamps)
+- [c5a7087](https://github.com/franq/franq/commit/c5a7087f50d71d457a48f8beb1cab9cb902951f0) Merge branch 'develop' into feature/refund-order
+- [#97](https://github.com/franq/franq/pull/97) Merge pull request #97 from franq/hotfix/refine-price-range-error (@franq)
+- [acd502c](https://github.com/franq/franq/commit/acd502cfaeebd4ab8924e347cf20cb0843878f51) feedback disable button if error
+- [2fb06b2](https://github.com/franq/franq/commit/2fb06b2977b93c9cf7ab4ce3052b6a87e21bb9d7) stop clicking the product items if you're swiping (@tonytamps)
+- [a4c4356](https://github.com/franq/franq/commit/a4c4356336881512d092dacff9734f551bf004c6) Merge branch 'develop' into feature/refund-order
+- [1a3873b](https://github.com/franq/franq/commit/1a3873b14d015a739632fdf587fc22836d712779) add refine price range error
+- [#96](https://github.com/franq/franq/pull/96) Merge pull request #96 from franq/hotfix/no-more-deep-equal-on-ember-data-object (@franq)
+- [88b8ad6](https://github.com/franq/franq/commit/88b8ad6fa94c74e10a65a2aad17491334ea772e3) also fix the failed server side order test (@lyonlai)
+- [1912396](https://github.com/franq/franq/commit/19123961b3c7fab90d560ea526d9a89e7a06e276) same as the branch name. fix the haning bit in terminal tests. (@lyonlai)
+- [#94](https://github.com/franq/franq/pull/94) Merge pull request #94 from franq/styling/reset-password-email (@franq)
+- [e2b48fb](https://github.com/franq/franq/commit/e2b48fb60bfae943ac10f1ff60a69a64bb56da9a) make the cart items swipable to access the buttons (@tonytamps)
+- [329328a](https://github.com/franq/franq/commit/329328ab39b8a5f398999f13a2bb3df1f2de1b75) Add transactions to Orders and OrderController (@aexmachina)
+- [fbd74eb](https://github.com/franq/franq/commit/fbd74ebf6e7e8f54ee6d3b4fd4cc116d4a09441e) introduce transaction
+- [3fa6fa8](https://github.com/franq/franq/commit/3fa6fa87faa618fc42b08106eb99f3e70d807c93) make the sidebar display on top of the menu items (@tonytamps)
+- [2b2fd31](https://github.com/franq/franq/commit/2b2fd31a1823504aae3d4bdc7cffabe16fca9988) swipe on the menu page (@tonytamps)
+- [4d7b571](https://github.com/franq/franq/commit/4d7b57182fe341948d2e12ce6dad92939edf44fa) should return total in number
+- [ae4d944](https://github.com/franq/franq/commit/ae4d9448e04cfc7f31a2246024ae1236eee5ca0a) add transaction model
+- [6a238ec](https://github.com/franq/franq/commit/6a238ecc101deaefec7872c25af63f2b68530291) add transaction model
+- [aa340ff](https://github.com/franq/franq/commit/aa340fffa51b8e00cb93019f00b4cbe7815b6ab6) Merge branch 'develop' into styling/reset-password-email (@Derrick666)
+- [6629e80](https://github.com/franq/franq/commit/6629e8005a18a75a6880c207fd3b15a13b524279) remoev bottom impos address (@Derrick666)
+- [#93](https://github.com/franq/franq/pull/93) Merge pull request #93 from franq/feature/swipe-discount-product (@franq)
+- [661d3ae](https://github.com/franq/franq/commit/661d3aeb25ff52cfc295de3724eea534015ed9d9) remove more unused code (@tonytamps)
+- [67ed118](https://github.com/franq/franq/commit/67ed1180bf4ad6cc4e195d1a0cc62b1ac5e4e56b) move the surcount modal into the order state machine (/terminal route) (@tonytamps)
+- [4cec714](https://github.com/franq/franq/commit/4cec71419901dcb9ff88d47aec19c925990c87a7) use cells in left and right of tables to structure (@Derrick666)
+- [c092a47](https://github.com/franq/franq/commit/c092a4774c670b452c4d102502b379fb288c1436) add name attribute for order which is 'terminal_keyspace order_number'
+- [ee8ab5c](https://github.com/franq/franq/commit/ee8ab5cb04c441866b384557c6136a067c810d6f) remove unused variables (@tonytamps)
+- [f233f96](https://github.com/franq/franq/commit/f233f9645722a1dfaaf26b6b2aab35148f8be565) add host config to dev-config, inject host info to data template of reset pwd email and use it in html template (@Derrick666)
+- [72122d2](https://github.com/franq/franq/commit/72122d28076eb23d48df16aac41f91bc51da1a91) Merge branch 'develop' of github.com:franq/franq into feature/swipe-discount-product (@tonytamps)
+- [#90](https://github.com/franq/franq/pull/90) Merge pull request #90 from franq/feature/duplicate-lineitem (@franq)
+- [34b7c65](https://github.com/franq/franq/commit/34b7c65a789a62f1e6e5efd2e7b14409b7088572) MR changes. (@lyonlai)
+- [1d33699](https://github.com/franq/franq/commit/1d336994ce767d65b8a143114bacf0eb4d8f4eb5) Merge remote-tracking branch 'origin' into feature/duplicate-lineitem (@lyonlai)
+- [8a9b912](https://github.com/franq/franq/commit/8a9b9126842625daaccc7dfd86e64ef8d4695cd5) put back the missing selector for the discount modal (@tonytamps)
+- [dfbf341](https://github.com/franq/franq/commit/dfbf34138c922b4957e5f53707cdcbc6536ab18d) Merge branch 'feature/duplicate-lineitem' of github.com:franq/franq into feature/swipe-discount-product (@tonytamps)
+- [c8885f5](https://github.com/franq/franq/commit/c8885f5d6ae524474178e677a1afd53eb7a8d10b) Merge branch 'develop' of github.com:franq/franq into feature/swipe-discount-product (@tonytamps)
+- [#92](https://github.com/franq/franq/pull/92) Merge pull request #92 from franq/hotfix/display-error-on-date-range (@franq)
+- [4d3a55d](https://github.com/franq/franq/commit/4d3a55d1bbd2d2d27c9989e825c439cd8d87acab) display error if from-date is older then to-date
+- [1de03c5](https://github.com/franq/franq/commit/1de03c5ae81c3a47b415217529a19b950ed18174) fix some failing tests and refactor modal usage to be unique (@tonytamps)
+- [52d954d](https://github.com/franq/franq/commit/52d954d8c44f238842feaa861e64f5ae50ab112c) formatting (@Derrick666)
+- [8745e01](https://github.com/franq/franq/commit/8745e01cae1db4c50a0e17102e3f6feb850f820c) smaller footer padding (@Derrick666)
+- [35bad32](https://github.com/franq/franq/commit/35bad327956fead71dec4b11852fbd67c531b396) convert from image to html for footer (@Derrick666)
+- [c850654](https://github.com/franq/franq/commit/c850654e9fe1e9d384933d906db91a1cead72b4e) add franq logo head (@Derrick666)
+- [11ee97e](https://github.com/franq/franq/commit/11ee97e7eb2c066cdce9db377f7537d5fbb785aa) resize tables to 440px, fix row margins (@Derrick666)
+- [e2d25a0](https://github.com/franq/franq/commit/e2d25a097e757a67c332b00b6aeecd306fff7ab9) addtional msg and footer (@Derrick666)
+- [c555616](https://github.com/franq/franq/commit/c555616bfcd550f87ec856c8b63496f77680704f) add images for emails (@Derrick666)
+- [7478633](https://github.com/franq/franq/commit/747863302ed7a32059b42c4c612859f974b8cef6) format reset password btn (@Derrick666)
+- [a3c570f](https://github.com/franq/franq/commit/a3c570f7a30b4fe64e3fdc62a6de7dcca76140b8) header logo and email header (@Derrick666)
+- [6c12644](https://github.com/franq/franq/commit/6c1264466df6de928f25d47c9a1b360a6af2a780) fix wrong operator usage in lineitem.js (@lyonlai)
+- [fc64565](https://github.com/franq/franq/commit/fc64565eed99ec387ae017c6762ec5c30f3a8f77) format fixes, replace " with ' in hbs, also removed some unused needs in controllers. (@lyonlai)
+- [04fe898](https://github.com/franq/franq/commit/04fe898a0d26422b1b92b15f7372135dca1bfc5e) Merge branch 'develop' into feature/duplicate-lineitem (@lyonlai)
+- [920b1d5](https://github.com/franq/franq/commit/920b1d517284b41fc925b574c832add72c994577) Merge branch 'feature/payments-fixes' into develop (@aexmachina)
+- [95b81e8](https://github.com/franq/franq/commit/95b81e8510fe60d1e9f577018f46e98ce7a08422) Fix failing terminal test (@aexmachina)
+- [#91](https://github.com/franq/franq/pull/91) Merge pull request #91 from franq/feature/payments-fixes (@franq)
+- [782f362](https://github.com/franq/franq/commit/782f3629a384f7679a5ac2550f09b83ee8225ea7) Merge branch 'develop' of github.com:franq/franq into feature/payments-fixes (@aexmachina)
+- [6f96f99](https://github.com/franq/franq/commit/6f96f99bbced70b3ee1151b64630134df17c3996) Fixes for issues with terminal license assign, login, history.license.vid not updating correctly (@aexmachina)
+- [f617361](https://github.com/franq/franq/commit/f6173616c7d660acded7e3a94398084ba9fae96c) added quantity parameter into order.add method so we can set quantity immediately. (@lyonlai)
+- [#88](https://github.com/franq/franq/pull/88) Merge pull request #88 from franq/hotfix/selection-rules-next-to-each-of-the-product-option-headings (@franq)
+- [7364ffe](https://github.com/franq/franq/commit/7364ffecdd1a4a3cbe5f386a77e13a4a9f66920f) Merge branch 'develop' into feature/duplicate-lineitem (@lyonlai)
+- [b717bc7](https://github.com/franq/franq/commit/b717bc79e0f007a28786d807a83caa50315e8552) add quantity in lineitem for menu tess. (@lyonlai)
+- [5bdf48a](https://github.com/franq/franq/commit/5bdf48a599a274bb6eb4fe39a54d6b3a8a89dfa5) added test for change quantity button (@lyonlai)
+- [04fdaa1](https://github.com/franq/franq/commit/04fdaa1dfdf89e60a7967933f30aba914b2a2ae1) fixed all terminal tests (@lyonlai)
+- [0ac5d23](https://github.com/franq/franq/commit/0ac5d23039a09f1fb653b914bc4411a9e9fd4a32) fixed lineitem option test (@lyonlai)
+- [#89](https://github.com/franq/franq/pull/89) Merge pull request #89 from franq/hotfix/terminal-cashier-login (@franq)
+- [a093888](https://github.com/franq/franq/commit/a0938882a2aa5878be211626695378c8f6f56359) Merge branch 'develop' into hotfix/terminal-cashier-login (@Derrick666)
+- [6e8c52d](https://github.com/franq/franq/commit/6e8c52d05b5ea62b860ac1943496c68d842886e9) fix issue with getting venue id from client request (@Derrick666)
+- [2cac84a](https://github.com/franq/franq/commit/2cac84a650cea1c8b1999eb88d159a358c3e042d) add model tests for order (@lyonlai)
+- [1b36849](https://github.com/franq/franq/commit/1b3684994f2acb7fa912c6e7d95ee4cbd3d7042c) move accordion-header style to attic
+- [9583855](https://github.com/franq/franq/commit/95838559a908b2f071407d93627948e7a05715bd) removed currentorder/collapsible items and put duplicated logic into model (@lyonlai)
+- [6608d65](https://github.com/franq/franq/commit/6608d655e2e9d4c39e11de61729c0de0a6a67dc0) from designer latest feedback
+- [#86](https://github.com/franq/franq/pull/86) Merge pull request #86 from franq/feature/search-order (@franq)
+- [62893af](https://github.com/franq/franq/commit/62893af6e088aad667c5ef052bd2321839ab8448) remove used variables in lineitem/controller & also adapting 100 chars limits in terminal app/pods/currentorder/controller (@lyonlai)
+- [9fd7778](https://github.com/franq/franq/commit/9fd77782c9c69a5bbc228256050fcf2c5d442f6b) Merge branch 'develop' into feature/duplicate-lineitem (@lyonlai)
+- [cfe178c](https://github.com/franq/franq/commit/cfe178c843817a412acfa25a8348a22df33ca8a7) bring back 'bower_components/select2/select2.css' that I dont know why been taken out
+- [0a6aaed](https://github.com/franq/franq/commit/0a6aaedc682f9f889aedd8df7a268010281ae6a3) fixed order detail page where listed the collapsible items and single lineitems.
+- [960a5b4](https://github.com/franq/franq/commit/960a5b44185372a2fae09e7c6f44ea6ddb1d2b85) add missing property dependancy for orderedItems.
+- [0b2f1c5](https://github.com/franq/franq/commit/0b2f1c594f161d6b9b2a6da014a1416b151d8a60) fix order total & lineitem quantities in orders grid.
+- [d0b2cb0](https://github.com/franq/franq/commit/d0b2cb0ca7c8d2a18d6192ce8db799ecda0a52cc) added fix to quantityInCart in grid item.
+- [31f307a](https://github.com/franq/franq/commit/31f307ac7ae977b2ae68c78a14145974da26b198) added change quantity buttons for both items in collapsible item & also single line items.
+- [ee3151e](https://github.com/franq/franq/commit/ee3151ec50a76e950c638fce46a790793553c99c) moved change quantity model/logic up to terminal level.
+- [1db9e1e](https://github.com/franq/franq/commit/1db9e1ef1f0ab57de1c55a40063e12a9408321d0) move surcharge modal into a component! (@tonytamps)
+- [d4de060](https://github.com/franq/franq/commit/d4de0602f620c5c1d01d9df001e4886168c70115) Catch errors sending strangeness to BigNumber. It behaves a lot more predictably now. (@tonytamps)
+- [a1047be](https://github.com/franq/franq/commit/a1047becdb720850fc1c1b81ae50a14ef30328ab) [hotfix] Added traceur to package.json (@aexmachina)
+- [647602e](https://github.com/franq/franq/commit/647602e5ec6a51ff915276743de081d76e2a70e6) adjust the UI to have checkboxes for the surcounts (@tonytamps)
+- [#84](https://github.com/franq/franq/pull/84) Merge pull request #84 from franq/feature/payments (@franq)
+- [c61a61a](https://github.com/franq/franq/commit/c61a61a21fa07ba8d29364d82f7425e6b614301f) Tests passing (@aexmachina)
+- [872a33d](https://github.com/franq/franq/commit/872a33d839b15514f0e005ad53b0f9e55cda13ab) clean up
+- [8928c94](https://github.com/franq/franq/commit/8928c94542d73f9ebdcd8ee39171b766096007e7) Merge branch 'develop' of github.com:franq/franq into feature/payments (@aexmachina)
+- [b87f1de](https://github.com/franq/franq/commit/b87f1de4961e9ccd03769a725a561933438c1d10) Improve integrity constraints in orders (@aexmachina)
+- [e8177b8](https://github.com/franq/franq/commit/e8177b87d40360c22f6db00d4ab50e364139a099) Merge branch 'develop' into feature/search-order
+- [#87](https://github.com/franq/franq/pull/87) Merge pull request #87 from franq/hotfix/order-fix (@franq)
+- [d8c5202](https://github.com/franq/franq/commit/d8c52021cdcfe4297ca171c0684c4afdd2eff045) ember data fix only in not testing env so that it won't break the build.
+- [#85](https://github.com/franq/franq/pull/85) Merge pull request #85 from franq/hotfix/order-id (@franq)
+- [cab8959](https://github.com/franq/franq/commit/cab89591500da1460cf85a8a438e3a02ca56c31d) fix toDate changing bug
+- [c340f05](https://github.com/franq/franq/commit/c340f05cef3fddb128d0c9225f4a0a628bbff5db) clean up
+- [d4480d2](https://github.com/franq/franq/commit/d4480d20e60907aa01e77c1247e2726b379ee29e) Changes from merge review (@aexmachina)
+- [d807ca6](https://github.com/franq/franq/commit/d807ca62de24795638a0c5a90c489e0027f617cf) Merge branch 'develop' into feature/search-order
+- [8be6717](https://github.com/franq/franq/commit/8be67176b3863d2a9d04224ff4e44cba1d6ca45a) test for refind orders function
+- [be644fc](https://github.com/franq/franq/commit/be644fc0d37b3a705eeba531820aa8a902d80e8e) fix typo in migration (@tonytamps)
+- [52239cc](https://github.com/franq/franq/commit/52239cc9d80642bbe0ff6bfd1f0a7db49fefeb38) change fake price generator to return strings instead of integers (@tonytamps)
+- [edcbad0](https://github.com/franq/franq/commit/edcbad049226bec52026db7201abb157db32f370) first parse at making the controller use the new property. There will be problems (@tonytamps)
+- [2eb9c61](https://github.com/franq/franq/commit/2eb9c61dc8fd406f6ec871511de5a6ddd9c8b6f7) moved order/index/controller & route out to order, also the order/index.hbs is moved out to order.hbs.
+- [cb571e4](https://github.com/franq/franq/commit/cb571e446b5f99e14bd9c076ac8774c7a8c990a5) Update test-server.sh for new token format and added read-only TerminalController and tests (@aexmachina)
+- [3b41284](https://github.com/franq/franq/commit/3b4128410ad22979ce62440423ebc5b4b5521bb9) Merge remote-tracking branch 'origin/develop' into feature/payments (@aexmachina)
+- [214c63d](https://github.com/franq/franq/commit/214c63d4323c6ec0785a5655a68f964d8e8d4754) Adjusted the lineitem model, hopefully is a little more helpful with multiple discounts and surcharges. (@tonytamps)
+- [f869e03](https://github.com/franq/franq/commit/f869e03459092bc834da96cf10e622d9b4eb5aaa) Add the new surcounts relationship to the model (@tonytamps)
+- [1dc80d7](https://github.com/franq/franq/commit/1dc80d7a84d1d0fe9d4963962b34f6cdd8b740c6) create the many-many relationship table for surcounts (@tonytamps)
+- [5b76739](https://github.com/franq/franq/commit/5b7673962c45875657049a03b171efead494f343) Merge remote-tracking branch 'origin/master' into feature/payments (@aexmachina)
+- [3105c30](https://github.com/franq/franq/commit/3105c30ecdec28b31bc1833958bd30ba9d1b371e) found bug on order.create.
+- [48fa80a](https://github.com/franq/franq/commit/48fa80a8df5a0b77f1dbfe92c372db92e3cbd45d) Transaction parent-child support, replication and tests (@aexmachina)
+- [#83](https://github.com/franq/franq/pull/83) Merge pull request #83 from franq/feature/bigint-prices (@franq)
+- [d6573c0](https://github.com/franq/franq/commit/d6573c0df9d5640a5db46be14d10b1a6f78165c7) change curr code from 2 to 3 chars (@tonytamps)
+- [7cfcb85](https://github.com/franq/franq/commit/7cfcb850a3e2b8fc4d43c21c9bedada14f64a414) add back current order to display
+- [83ec3ff](https://github.com/franq/franq/commit/83ec3ffd630169a1ff6ab1e2c20cfc5319c7aefb) display no result
+- [b52cde3](https://github.com/franq/franq/commit/b52cde331f17626beedf5cf5d1b9ba29cefc49eb) remove .only (@tonytamps)
+- [d42f056](https://github.com/franq/franq/commit/d42f0564b24fd0406f1babd0604a75211d65cfe9) ensure that the outerlimit of bignumber is able to be serialised (@tonytamps)
+- [3930fce](https://github.com/franq/franq/commit/3930fce77e2e034d0a5b3650780be9034f176288) add refine result basic styling
+- [4937417](https://github.com/franq/franq/commit/493741743f72da48288a167047012b27cca9ebbf) add order page refine results function
+- [f50cfc1](https://github.com/franq/franq/commit/f50cfc1f426410c936aa7daad645c76ef7f72754) changed the schema and tested. Seems fine (@tonytamps)
+- [08873fe](https://github.com/franq/franq/commit/08873fea94022c1fb5591387e0c3c6013f272bfb) move datefield to attic
+- [67e2be5](https://github.com/franq/franq/commit/67e2be507033e613debdd38f7a62100218a6e760) Transaction controller tests complete (@aexmachina)
+- [3e1a5e2](https://github.com/franq/franq/commit/3e1a5e242fd6895db1db5906d6083d9e6b0f2f38) Improve consistency and encapsulation of token structure and creation. Greatly simplified the associated test helpers. ApiClient is now a base class with two implementations: ApiClient.License and ApiClient.User (@aexmachina)
+- [#82](https://github.com/franq/franq/pull/82) Merge pull request #82 from franq/hotfix/verify-terminal-id (@franq)
+- [271b736](https://github.com/franq/franq/commit/271b736ab475d9d39f3057ccd3bfaaf9995f251a) verify the terminal id on return from evercookie. if the terminal id doesn't fit uuid format. it will regenerate.
+- [#81](https://github.com/franq/franq/pull/81) Merge pull request #81 from franq/hotfix/product-modifiers-visual-feedback (@franq)
+- [#80](https://github.com/franq/franq/pull/80) Merge pull request #80 from franq/feature/remove-grouped-items (@franq)
+- [aaac516](https://github.com/franq/franq/commit/aaac5160dc2cc4b6648849cabd8e7329ba6e88b8) Up and Down buttons need to be separated
+- [e776eb4](https://github.com/franq/franq/commit/e776eb42a3df9e55ce144277329bf4d8ad82ba8b) Accordions should be expanded/unpacked by default.
+- [5c9b7e0](https://github.com/franq/franq/commit/5c9b7e0d25ebd30da7810433a908ca0c44a95edf) TransactionController read tests (@aexmachina)
+- [4d4bb22](https://github.com/franq/franq/commit/4d4bb2255f8595c7258e19d92462688c13c77abb) Change orders and terminal auth to refer to a license_vid so we have the terminal and venue as it was at that point in time (@aexmachina)
+- [c6a1547](https://github.com/franq/franq/commit/c6a154727bbb708509a9958405e16c420e898a58) added support for removing the grouped items
+- [#79](https://github.com/franq/franq/pull/79) Merge pull request #79 from franq/feature/remove-product-from-cart (@franq)
+- [0baccd3](https://github.com/franq/franq/commit/0baccd384f3728d983150758eb8ba0ded12714ee) modify the call to remove line item to use the one on the order service. (@tonytamps)
+- [fdfa257](https://github.com/franq/franq/commit/fdfa2575e56ae171e4601f392d3858bc14fdbbee) Rearrange some SQL schema code and some code layout improvements (@aexmachina)
+- [89cac95](https://github.com/franq/franq/commit/89cac952f9ed3afbe15992f15919b279f5830745) added some tests for removing lineitems from the cart (@tonytamps)
+- [ae13611](https://github.com/franq/franq/commit/ae13611321425db23647f7d5021ab0a339042460) add the remove button to the items in the cart and wire it up accoding to the order state machine (@tonytamps)
+- [#78](https://github.com/franq/franq/pull/78) Merge pull request #78 from franq/feature/sql-files (@franq)
+- [83a2987](https://github.com/franq/franq/commit/83a298748fff2042b8be7d636ad1dc62295a6adf) Rename organisation table to org (@aexmachina)
+- [ccacb17](https://github.com/franq/franq/commit/ccacb17eac0b9bbe83161b1d93358b01463edd38) Break franq.sql into separate files (@aexmachina)
+- [66d19b9](https://github.com/franq/franq/commit/66d19b958e31fd1c28749d195c92ce6311d69ae5) Merge branch 'develop' of github.com:franq/franq into develop (@tonytamps)
+- [aafe60f](https://github.com/franq/franq/commit/aafe60f4dee15911db5fe646965c479873ea4078) load the keyspace from the server for when the tests are run multiple times (@tonytamps)
+- [89c3762](https://github.com/franq/franq/commit/89c3762b441d7b9c24e39f7f39eb1eaa0f474bcd) innerText isn't avialable in FireFox (@tonytamps)
+- [#77](https://github.com/franq/franq/pull/77) Merge pull request #77 from franq/bugfix/inner-accordion-bug (@franq)
+- [#76](https://github.com/franq/franq/pull/76) Merge pull request #76 from franq/feature/404-500-page (@franq)
+- [fe1b42a](https://github.com/franq/franq/commit/fe1b42a2d62e27d8199287d001580f2803c4fc3e) fix misspell
+- [a5466c6](https://github.com/franq/franq/commit/a5466c63b4ae0a80c7524b093608342c82782d8f) should only add the current as active
+- [#73](https://github.com/franq/franq/pull/73) Merge pull request #73 from franq/feature/pay-cash-for-order (@franq)
+- [4967835](https://github.com/franq/franq/commit/49678352b3b57573918b011ed29501882eba0eab) removed references to fast-sass (@tonytamps)
+- [0479490](https://github.com/franq/franq/commit/0479490d5686aac001d1a385d6f2fb57a4089066) Merge branch 'develop' into feature/pay-cash-for-order (@lyonlai)
+- [2fbb0e1](https://github.com/franq/franq/commit/2fbb0e13aeca0c7f31b1963502fb5c2525e65dda) Merge request fixes. (@lyonlai)
+- [2538f06](https://github.com/franq/franq/commit/2538f062c8558a5f2fd9af5be73adc5ce1e4683f) Merge branch 'develop' into feature/404-500-page
+- [f760886](https://github.com/franq/franq/commit/f7608862966d5c04d99943f949cee171d2f0d7e9) rename test file name
+- [af5bbb9](https://github.com/franq/franq/commit/af5bbb97553817c9dbc232762ced97964681781e) Merge branch 'develop' of github.com:franq/franq into develop (@tonytamps)
+- [394b6a7](https://github.com/franq/franq/commit/394b6a72e8333e764ffe2f8640bd3a6444dc195c) fixing some tests, not sure why they started failing (@tonytamps)
+- [ae392cf](https://github.com/franq/franq/commit/ae392cf27419e20ab6259092f5b4bbd7945a9584) Merge branch 'develop' into feature/404-500-page
+- [6547816](https://github.com/franq/franq/commit/65478167ff1782b0d45fd3d8f209156a5e87b5c1) fix remove button style
+- [5926eb8](https://github.com/franq/franq/commit/5926eb861e5ac2ab4517927d46c6315a4f333ba5) ember-data model updates in Route#deactivate seems broken #ember-data-issue (@SohumB)
+- [ab8cdac](https://github.com/franq/franq/commit/ab8cdac090c6adc952ef99b59413ed6d9954c071) The property observer on these should be on the .resolved (@SohumB)
+- [79b504b](https://github.com/franq/franq/commit/79b504b1a08b3b4ddd05d0b8ce69f7ccc70484db) Em.Map#forEach has swapped argument order, ref emberjs#2323 (@SohumB)
+- [fdddebe](https://github.com/franq/franq/commit/fdddebedf936e4244ba3d5af3dfbee4a2083a051) {{view Ember.Select}} is deprecated for {{view 'select'}} (@SohumB)
+- [75b35e7](https://github.com/franq/franq/commit/75b35e75f951c9299da632fb43c8687a66d654d4) remove debug info (@lyonlai)
+- [3cadf8d](https://github.com/franq/franq/commit/3cadf8dea2d22ca8c5e6ebfe471e7bde9771f198) added big number support for order processing. (@lyonlai)
+- [e478df7](https://github.com/franq/franq/commit/e478df78d18532bc1c9d082850b5386424d87366) clean up
+- [e827aa7](https://github.com/franq/franq/commit/e827aa7389c9027655f5987f3f19fdb3d96380f0) remove error-page folder
+- [81f2fbc](https://github.com/franq/franq/commit/81f2fbc23f602fd7eac8ca6dac0a849bf48423cf) Merge branch 'develop' into feature/404-500-page
+- [95884f8](https://github.com/franq/franq/commit/95884f8d29b271ce38baa302017fdbce9d469dae) transit to 500 when server error on login
+- [c2120fc](https://github.com/franq/franq/commit/c2120fc940be6acb8781efe2ae5eff063b5bb396) add static 500 page
+- [0c4ee47](https://github.com/franq/franq/commit/0c4ee47da3ae5c930b5eda9d872e1c6a2612380c) Those comments should never have been checked in... (@SohumB)
+- [8fd9bc3](https://github.com/franq/franq/commit/8fd9bc39fc1ff4940b17daa047eaaa3aa2fb10d6) s/attr/prop (@SohumB)
+- [95e426c](https://github.com/franq/franq/commit/95e426c216b02d9151d867d60df7a4321c3d522a) object/ember object distinguishing (@SohumB)
+- [c2a53d8](https://github.com/franq/franq/commit/c2a53d8abeb690ea5ef47d22e1266d63b51f59ab) Merge branch 'develop' into feature/pay-cash-for-order (@lyonlai)
+- [#75](https://github.com/franq/franq/pull/75) Merge pull request #75 from franq/feature/bignumber (@franq)
+- [bbeea76](https://github.com/franq/franq/commit/bbeea76ac664d8693628f8a1c9d84d4715d0d171) Merge branch 'develop' into feature/pay-cash-for-order (@lyonlai)
+- [dc4f49b](https://github.com/franq/franq/commit/dc4f49b9314fe87ab2d4089c7c33247c3777c342) use BigNumber for cents -> price conversion and vice verca (@tonytamps)
+- [3a8bc2c](https://github.com/franq/franq/commit/3a8bc2c0013c4c394f159c512e7ac143df64d753) introduce and use BigNumber :) (@tonytamps)
+- [#74](https://github.com/franq/franq/pull/74) Merge pull request #74 from franq/feature/completed-order-options (@franq)
+- [cc3fd8e](https://github.com/franq/franq/commit/cc3fd8ee6279f0e0cefb4951248cb84d99eafb1c) fix the order create test server side assertions (@tonytamps)
+- [cdac6f9](https://github.com/franq/franq/commit/cdac6f94e4f30252de8811253e03c9f243a88fd9) merge review changes (@tonytamps)
+- [88f07f9](https://github.com/franq/franq/commit/88f07f9370e8bb40972f52efccaf955dc24cb3fd) move 404 page to attic
+- [b240fef](https://github.com/franq/franq/commit/b240fefa333d306cb65336ebe270a98dd0461192) set same font-family
+- [2d9c5b3](https://github.com/franq/franq/commit/2d9c5b33c18062c1e820d961aca9f02e0ec8e72e) Merge branch 'develop' of github.com:franq/franq into feature/completed-order-options (@tonytamps)
+- [fb400e5](https://github.com/franq/franq/commit/fb400e5d02e0dbe4c994f6c75d4bc3226d0e8736) fixing some tests and bugs (@tonytamps)
+- [23b7caf](https://github.com/franq/franq/commit/23b7cafd400d203d3599939c33baa1bbbaafd4d5) emberjs#9595 (@SohumB)
+- [4761378](https://github.com/franq/franq/commit/4761378f05f830e3da799ebe107cb17a6a5cdeb7) move 500 page to attic
+- [f5702a7](https://github.com/franq/franq/commit/f5702a7107b870077324a177c5ce29ab80049925) Merge branch 'develop' into feature/404-500-page
+- [ed1374f](https://github.com/franq/franq/commit/ed1374fc15644b34b7b32bc7f0b0c996716b18fc) move color code to variables.scss
+- [d8a0325](https://github.com/franq/franq/commit/d8a0325d3b4edc4f86814f49840ac6f29e515cd3) rename 400.scss to error-page.scss
+- [63d4c3a](https://github.com/franq/franq/commit/63d4c3a4ba0f192c175ad2a4af47bb2177d68fef) 400 & 500 page improve
+- [c86c8ff](https://github.com/franq/franq/commit/c86c8ffc3365300ea6a2ca9f129a3fcb675da3e5) Upgrading ember to 1.8.x (@SohumB)
+- [c5ca47a](https://github.com/franq/franq/commit/c5ca47abab977fe0b5d96dc8f53be0dc6d076f7c) I don't want to talk about it. (@tonytamps)
+- [d82b545](https://github.com/franq/franq/commit/d82b54528f29e85fb9f117018e5121750c314700) add 500 page
+- [a3c3d6f](https://github.com/franq/franq/commit/a3c3d6f28fd05592dce0d55d97b11be3eadbb599) add class for key-pad buttons (@lyonlai)
+- [51e7f2c](https://github.com/franq/franq/commit/51e7f2c75807a4d7084060ab973fa26cc43a0d74) add 404 page
+- [59b28ae](https://github.com/franq/franq/commit/59b28aea8c036db252b006f1a8ce087d814d9f48) added tests for puting figures first and click pay order. (@lyonlai)
+- [61c74d7](https://github.com/franq/franq/commit/61c74d71fc0ab32c9d7ed86147c30831248c873d) move tenderCash logic from terminal/route.js to (@lyonlai)
+- [#72](https://github.com/franq/franq/pull/72) Merge pull request #72 from franq/vdesign/product-modifiers (@franq)
+- [b2f3520](https://github.com/franq/franq/commit/b2f35201f84a2c57422e0f8b09960cbdcb53430b) move color code to variable.scss
+- [682f075](https://github.com/franq/franq/commit/682f0754dc710ec87409b438f628e2c126634af6) added 2 tests for tendering cash (@lyonlai)
+- [eafcdb2](https://github.com/franq/franq/commit/eafcdb2609b8b36795abadb41d6fa473d4017483) adjustedPrice was watching on surcharge, should be surcharge.content (@lyonlai)
+- [242f57c](https://github.com/franq/franq/commit/242f57cb610e0e57ed44c5f0f9b3972b7701783e) fix from feedback
+- [8483eab](https://github.com/franq/franq/commit/8483eabd18a8358a6605a3f2767ce8346f270c91) add total order amount in the pay order button (@lyonlai)
+- [c017a23](https://github.com/franq/franq/commit/c017a233497a570f22c1595770f3eef624e83606) new order button is working (@lyonlai)
+- [f607467](https://github.com/franq/franq/commit/f6074671b197d9848ca00df30081f6a9e895aa7f) implemented simple version of payment history (@lyonlai)
+- [5cb15db](https://github.com/franq/franq/commit/5cb15db1449f0b0502a88c9e38c5c909c1f91567) remove empty implementations of route, controller or actions. (@lyonlai)
+- [75c622c](https://github.com/franq/franq/commit/75c622c6b32c4eed726052e5a6b129b7dad3dda6) Merge branch 'develop' into feature/pay-cash-for-order (@lyonlai)
+- [9fe0da8](https://github.com/franq/franq/commit/9fe0da8ac5516f1c1508dd2beb9d91e4829bd20a) added actions for $109 quick pay (@lyonlai)
+- [fb551f1](https://github.com/franq/franq/commit/fb551f1f057a3dd0ad96445570077638d47a4cf3) added actions for quick-pay buttons, $10, $20, $50 (@lyonlai)
+- [5a82ec9](https://github.com/franq/franq/commit/5a82ec91a1d9b12a0b75449e718521600353bb2b) fix section inset line
+- [56cb926](https://github.com/franq/franq/commit/56cb9269fa1219db71295e066233a5fd3e84070c) fix test after styling
+- [c6085a5](https://github.com/franq/franq/commit/c6085a5e9c1ca6ba1324a510bf9d5a8e48d8386d) add refund button to each product (@tonytamps)
+- [ba1fe0d](https://github.com/franq/franq/commit/ba1fe0dfeacd5046bd6641ab1c5f4d151386a616) refine the sort code, slightly (@tonytamps)
+- [db79973](https://github.com/franq/franq/commit/db799730cf1fda2c128fd7ee0a8c3d1c37fbac03) order the items in the order grid (@tonytamps)
+- [51077e5](https://github.com/franq/franq/commit/51077e5919736a059f4c5a2c7edec63266023021) display the order items in a collapsable fashion (@tonytamps)
+- [052be2f](https://github.com/franq/franq/commit/052be2f30bfddfc24f6b03f5aa6265158717c4da) Move (unsupported) enterPressed action from key-pad to big button in sidebar (@aexmachina)
+- [727b2d3](https://github.com/franq/franq/commit/727b2d33b580fe3cebf0a37913ae4fe52564617f) fix keypad problem on inputValue set to null. (@lyonlai)
+- [c7b5189](https://github.com/franq/franq/commit/c7b518925f6a4536a6bc7dfa3d995b53b262c443) register auth service for model as well (@lyonlai)
+- [b21e57a](https://github.com/franq/franq/commit/b21e57a64efde4ff7c4bfb2860fdbbdb96fa64ad) set action buttons position
+- [020b217](https://github.com/franq/franq/commit/020b2174ca2f227f3b77f73a734774344c2c3c40) clean up
+- [8d6b58a](https://github.com/franq/franq/commit/8d6b58acc1f48bdb155c04d24cea61e97378e478) basic lineitem style
+- [661d602](https://github.com/franq/franq/commit/661d6020fd64672f3a0add8a62549e6efaf3bb4d) getting some data on the page title (@tonytamps)
+- [f612a81](https://github.com/franq/franq/commit/f612a81a301969e416a88c6336550f8f93ff6444) little bit of work to get orders posting (@tonytamps)
+- [6de7c33](https://github.com/franq/franq/commit/6de7c33312491547027488ee4969ca12c19b463b) Merge branch 'develop' into feature/completed-order-options (@tonytamps)
+- [af8b429](https://github.com/franq/franq/commit/af8b4290699b705e96873780d29bd76447ebda9b) moved next/previous and remove actions from controller up to route. (@lyonlai)
+- [7a60d7c](https://github.com/franq/franq/commit/7a60d7c0541e9e6c18b6a2b7ad1bf1e307089508) Merge branch 'develop' of github.com:franq/franq into develop
+- [f7e7eab](https://github.com/franq/franq/commit/f7e7eabff40a3056fcec2bfbcd43184731620a94) fix minor display style
+- [24d4908](https://github.com/franq/franq/commit/24d49080038adcc6c6b1597eb8149008083ef2d2) add option to display 'see more', 'see less' display
+- [7da5ef5](https://github.com/franq/franq/commit/7da5ef53939789a9587cd360a5a0886dd00d5eb7) gross rollback of modal properties (@tonytamps)
+- [#69](https://github.com/franq/franq/pull/69) Merge pull request #69 from franq/vdesign/product-sizes-and-prices-tab (@franq)
+- [#70](https://github.com/franq/franq/pull/70) Merge pull request #70 from franq/feature/optionitem-refactor (@franq)
+- [c91ddc2](https://github.com/franq/franq/commit/c91ddc289561354ca2e2d32d1f93d7f98c1f0088) remove useages of concat, replace with Ember.computed.union (@tonytamps)
+- [6d2634d](https://github.com/franq/franq/commit/6d2634dc3e7f659daf834573cfb939de69fda670) Merge branch 'develop' into vdesign/product-sizes-and-prices-tab
+- [263464f](https://github.com/franq/franq/commit/263464f7c932820fbecc48618f59b04609f6737c) add onvalue change even call
+- [c78e1be](https://github.com/franq/franq/commit/c78e1bedf92d34f27d3015ba1bdf6732c07f095b) should just return value that changed
+- [7c43215](https://github.com/franq/franq/commit/7c43215652cf5ff3d325b4a2a75b7dc675a14c9e) bind incTax & exTax + multistage undo on cancel
+- [27c95fa](https://github.com/franq/franq/commit/27c95fa91914364f3e761e69d51c4641ad653fe1) add set method for incTax and exTax
+- [21c29b0](https://github.com/franq/franq/commit/21c29b08a48920767bc4e10bb797f89dde535398) remove px from rem-calc
+- [76b9c3e](https://github.com/franq/franq/commit/76b9c3ef237927018345b15b24f5ee72e49d1ec6) Fix key-pad line-height (@aexmachina)
+- [4bd1adb](https://github.com/franq/franq/commit/4bd1adbc3e2a5cc1341fb923b5b9c0996a17907c) Merge branch 'develop' of github.com:franq/franq into feature/optionitem-refactor (@tonytamps)
+- [#68](https://github.com/franq/franq/pull/68) Merge pull request #68 from franq/feature/normalize-key-pad (@franq)
+- [fafdf18](https://github.com/franq/franq/commit/fafdf186fd1d8b5006cc702b1b825ab5596b3c2f) Change key-pad defaults to match common usage (@aexmachina)
+- [fd5916c](https://github.com/franq/franq/commit/fd5916cbbcb172f090c743c33f6d2cd236c30702) Cashier login styling fixes (@aexmachina)
+- [29c35f0](https://github.com/franq/franq/commit/29c35f03d134e4b2b6878318f8b0066602c236a6) Merge branch 'develop' of github.com:franq/franq into feature/optionitem-refactor (@tonytamps)
+- [d6e4da4](https://github.com/franq/franq/commit/d6e4da41a98b2386ca6ee79d4a6b33036e544275) change a an incorrect property observer (@tonytamps)
+- [84e400e](https://github.com/franq/franq/commit/84e400e53b08647f1c4ac78956ebd34e8ff2c844) fix the remaining broken tests (I hope) (@tonytamps)
+- [d76f029](https://github.com/franq/franq/commit/d76f029c91ef1da8ba23c14c5f29794ff76498e6) first couple tests passing (@tonytamps)
+- [b6e9a95](https://github.com/franq/franq/commit/b6e9a95f00348321342a7ac7815d4b55776b4082) first parse at some imporvements (@tonytamps)
+- [5e04c28](https://github.com/franq/franq/commit/5e04c28b05fd2adbf9f512e97b14382152400d69) Tests passing and remove {{key-pad}} initialValue property (@aexmachina)
+- [a0feab9](https://github.com/franq/franq/commit/a0feab9bcf0e02165668de48ce8a8b7c1e6086a0) Merge branch 'vdesign/product-sizes-and-prices-tab' of github.com:franq/franq into vdesign/product-sizes-and-prices-tab
+- [822afd9](https://github.com/franq/franq/commit/822afd9f64aa7c6caf6bf4f38345468dcb16f013) fix test
+- [ea80650](https://github.com/franq/franq/commit/ea8065001bc16e2ef5172dec0d6b91ade83734bb) Merge remote-tracking branch 'origin/develop' into feature/normalize-key-pad (@aexmachina)
+- [f1a3e2e](https://github.com/franq/franq/commit/f1a3e2e1ea23b4c20d1fb772dc9c5c6044ea0f18) Normalize the keyboard layout (@aexmachina)
+- [436600e](https://github.com/franq/franq/commit/436600e812a45422a981b06b1538aca03df368bf) clean up
+- [57ca4aa](https://github.com/franq/franq/commit/57ca4aa51a5bbf2e94ddf174e5cfa2867a858ce6) Merge branch 'develop' into vdesign/product-sizes-and-prices-tab
+- [#67](https://github.com/franq/franq/pull/67) Merge pull request #67 from franq/feature/duplicate-button (@franq)
+- [4f38b7d](https://github.com/franq/franq/commit/4f38b7d30f0d5cdbd52960b0ba6e798a2179ced0) MR fixes. (@lyonlai)
+- [d597414](https://github.com/franq/franq/commit/d59741475d8c5afa945b13e9d1a96f062e2917a5) Merge branch 'develop' into vdesign/product-sizes-and-prices-tab
+- [7cf92a7](https://github.com/franq/franq/commit/7cf92a773da363b5eabb5a77dbc9e08fd3af7344) due to the change of wireframes, variations of numpad are no longer (@lyonlai)
+- [ba31949](https://github.com/franq/franq/commit/ba31949e8c2a9a57dbc0ab585ee8c3242dd60935) add basic style for product prices and sizes tab
+- [e3bf7f8](https://github.com/franq/franq/commit/e3bf7f82883646e7654bdaa5e92744657a29dcd6) add remove variant, onCancel actions, change incTaxPriceUpdate action value
+- [3f57f59](https://github.com/franq/franq/commit/3f57f592a01c5f4f8c2f87026d90ae0dc66ce3dc) format instruction text display
+- [1b71f82](https://github.com/franq/franq/commit/1b71f82ebec47a03eca4773da171cfbe7bf5b11f) add see more and less text
+- [68053ef](https://github.com/franq/franq/commit/68053ef23ebe3bf354129c6eff6d6193047ba592) add on-change, on-confirm, on-cancel action call
+- [f7efb21](https://github.com/franq/franq/commit/f7efb21794a90e2e2a8cea3b2d8a6c3680ebf231) fix the current order items not visible bug, thanks auto merge. (@lyonlai)
+- [4edf0d1](https://github.com/franq/franq/commit/4edf0d1b94b39717cc31932c78f5c85912bb040c) Merge branch 'develop' into feature/duplicate-button (@lyonlai)
+- [4350427](https://github.com/franq/franq/commit/4350427fa67f9cef3f8c6f4808efa57a0c25be1a) swap the optionitem inheritence (@tonytamps)
+- [ecdbe11](https://github.com/franq/franq/commit/ecdbe1171a3d9702cb4649c4707c0e9766b7db58) server side tests pass with the optionitem changes (@tonytamps)
+- [cfca1cf](https://github.com/franq/franq/commit/cfca1cfd4758902ab173626a1310420732bc0572) Workaround for un-clickable menu edit links (@aexmachina)
+- [#66](https://github.com/franq/franq/pull/66) Merge pull request #66 from franq/feature/terminal-layout (@franq)
+- [3775ba4](https://github.com/franq/franq/commit/3775ba4613561af8d0bede155df95273a372141c) Changes from merge review (@aexmachina)
+- [12dad4c](https://github.com/franq/franq/commit/12dad4cc078cbfb59ef3c268ed6e01d4d4c1f8fa) further prep for fixing tests, mostly fixture data changes (@tonytamps)
+- [796735e](https://github.com/franq/franq/commit/796735ee33c33360505fa42ceb9bb54e96137a97) server side changes to optionitems to split them into productoptionitems and groupoptionitems (@tonytamps)
+- [479ab06](https://github.com/franq/franq/commit/479ab069c6874bfd2fc1b9132492f26139b3b9f6) adding the required fiends for the new lineitem to the database (@tonytamps)
+- [cf7671a](https://github.com/franq/franq/commit/cf7671a9d06752855d340cb2c63850a56dd3cabf) Fixes from merge review (@aexmachina)
+- [646ccdf](https://github.com/franq/franq/commit/646ccdf8c09beb39cda678f9183ef852d5b7cc44) fix the surcount reset on deactivation (@lyonlai)
+- [5ff3ef1](https://github.com/franq/franq/commit/5ff3ef16a1fe617510938ac3ed6bacd2910abf73) remove console log and move the reset surcountOpen on route deactivation (@lyonlai)
+- [6602de4](https://github.com/franq/franq/commit/6602de4c58cfd83b8b0970a7ce7deead640662f7) Merge branch 'develop' into feature/duplicate-button (@lyonlai)
+- [a143d83](https://github.com/franq/franq/commit/a143d8381a656c76c7bb7872697a23d7e5a8b452) Tests passing (some through removal) (@aexmachina)
+- [dd9171e](https://github.com/franq/franq/commit/dd9171e6733ea69afe7537bf5f6935545632a86e) add tests for spinner keypad. (@lyonlai)
+- [b1fa54e](https://github.com/franq/franq/commit/b1fa54e835e61f4f14e19a2b306692a5d0e73936) change accordion button display
+- [7420ba5](https://github.com/franq/franq/commit/7420ba5cfb81154ac85ccd5709c4b2700c52266c) fix terminal tests (@lyonlai)
+- [b2635fd](https://github.com/franq/franq/commit/b2635fd1606efa4a4846f802339a4c6e18101acf) Merge changes from develop (@aexmachina)
+- [da95140](https://github.com/franq/franq/commit/da951401ffb58a54406c8a9a8561e14815bad894) Merge branch 'develop' of github.com:franq/franq into feature/terminal-layout (@aexmachina)
+- [4b7b53f](https://github.com/franq/franq/commit/4b7b53f39c05f89c0bd715baf7d91471393c57e9) Added logout to terminal and tests passing (@aexmachina)
+- [4c72b35](https://github.com/franq/franq/commit/4c72b35e73462c60b083c18d163574f8b5472718) added computed gt gte lt lte into computed, properly set the (@lyonlai)
+- [c6e40c9](https://github.com/franq/franq/commit/c6e40c9f2810e025f21148d80502d52011c1eff2) change quantity modal is in. fix foundation-reveal problem when navigate (@lyonlai)
+- [#64](https://github.com/franq/franq/pull/64) Merge pull request #64 from franq/feature/orders-tab (@franq)
+- [220a15e](https://github.com/franq/franq/commit/220a15ede0172bc655f73e82c2042ea889684326) Merge branch 'develop' of github.com:franq/franq into feature/orders-tab (@tonytamps)
+- [ae08190](https://github.com/franq/franq/commit/ae08190626c578ce0796c3527ec2fc74d273df42) Merge branch 'develop' into vdesign/product-sizes-and-prices-tab
+- [#65](https://github.com/franq/franq/pull/65) Merge pull request #65 from franq/hotfix/build-test (@franq)
+- [c5564e5](https://github.com/franq/franq/commit/c5564e5de4ee4066b9cfc648cafefa9f0efbe3a1) fix productGridPage == 0 problems
+- [d9c1433](https://github.com/franq/franq/commit/d9c14333ba4d2f2f71711cb2c0d46ba25d049371) change drop item at first avaliable space
+- [dc4ab8b](https://github.com/franq/franq/commit/dc4ab8bd25fd80cb7d340e6788fddeb00055611e) create only single page menulist
+- [91580a4](https://github.com/franq/franq/commit/91580a4e44bf5a421b119dab97f3be6863fa23ff) remove extra export default. copypasta (@tonytamps)
+- [8f621b5](https://github.com/franq/franq/commit/8f621b56f581d5d84acae6b8b943fdd854db6fcd) changes from feedback (@tonytamps)
+- [38431c4](https://github.com/franq/franq/commit/38431c4e1e4a965a9aacfff497bcfa6916e74201) Merge branch 'develop' of github.com:franq/franq into feature/orders-tab (@tonytamps)
+- [6122ae2](https://github.com/franq/franq/commit/6122ae2b7c92eab6f5a26e70491904c38e46ae74) ensure the current order is displayed on the grid (@tonytamps)
+- [4652617](https://github.com/franq/franq/commit/46526171735c6dd44c3efcec08abba8888b033a4) it calculates! (@tonytamps)
+- [84449d2](https://github.com/franq/franq/commit/84449d2da1c6b1700a70d5c06eeefd276a3d251e) Merge branch 'master' of github.com:franq/franq into feature/terminal-layout (@aexmachina)
+- [c0ffbdc](https://github.com/franq/franq/commit/c0ffbdc3a8b7d523a28c29d946984b74f0352535) Terminal layout (@aexmachina)
+- [75d45e9](https://github.com/franq/franq/commit/75d45e910e3587c912b1a3a26e7ca4552f30ebc6) add more icon
+- [#62](https://github.com/franq/franq/pull/62) Merge pull request #62 from franq/feature/remove-menulist-page (@franq)
+- [3788eb7](https://github.com/franq/franq/commit/3788eb7c79bdbaf1ee17d66fa0cc9167b72af93d) almost a working total... need to sort out some NaN cases still (@tonytamps)
+- [840b3db](https://github.com/franq/franq/commit/840b3db82953f606b94adfc53f4ae78068c8d313) add the easy properties to the order grid elements (@tonytamps)
+- [1155335](https://github.com/franq/franq/commit/1155335c6a59364a167f9f2c75832059a2c3ae52) find all orders at keep it attached to the store. (@tonytamps)
+- [0c77691](https://github.com/franq/franq/commit/0c77691a85b2410c46b6dae7d155032eca8f2a48) fix delete from row calculation
+- [ae78110](https://github.com/franq/franq/commit/ae7811013509d70ae123fa9485a246e84ced10d2) Merge branch 'develop' into feature/remove-menulist-page
+- [10acd35](https://github.com/franq/franq/commit/10acd35917213e7e6efaceb07f5619ef4c90ceb2) add delete menulist page test
+- [bcc5828](https://github.com/franq/franq/commit/bcc582833d4ef04c9d2d079b61e26ffdabfbbfa7) add class for delete page modal
+- [#61](https://github.com/franq/franq/pull/61) Merge pull request #61 from franq/feature/discount-surcharge-modal (@franq)
+- [9a4e87c](https://github.com/franq/franq/commit/9a4e87c112d85bf2f9be22d067daaa66c9bf9fd5) more changes to clean the code up (@tonytamps)
+- [a4f4035](https://github.com/franq/franq/commit/a4f40355984559a868f5ce09c2f930ff2497ecfd) change the cancelSurcount action to be called when open becomes false (@tonytamps)
+- [f6c555f](https://github.com/franq/franq/commit/f6c555f9cf07282ef03499b5f91640d5430fcefd) Merge branch 'develop' into feature/remove-menulist-page
+- [a9d35b2](https://github.com/franq/franq/commit/a9d35b2788d145bad8c8cdaa74b223b81a063ce6) Merge branch 'develop' of github.com:franq/franq into feature/discount-surcharge-modal (@tonytamps)
+- [#59](https://github.com/franq/franq/pull/59) Merge pull request #59 from franq/feature/cart-next-back-btn (@franq)
+- [168b876](https://github.com/franq/franq/commit/168b876c13a33e2604b1660a757980e19befd3f0) Merge branch 'develop' of github.com:franq/franq into feature/discount-surcharge-modal (@tonytamps)
+- [8e5c009](https://github.com/franq/franq/commit/8e5c009d0d9a61047e401f9add16d177ef15984f) add ability to close the confirm action modal with esc key press (@tonytamps)
+- [9ff7b3c](https://github.com/franq/franq/commit/9ff7b3c8a16e494e4e3bb3d585086c83b7662d62) add delete page function
+- [7c29df5](https://github.com/franq/franq/commit/7c29df5361da85d26eb49a38cee0d34793cb191d) Fixing outdated fixture counts in tests, sorry! (@SohumB)
+- [2911184](https://github.com/franq/franq/commit/2911184f92244c26d03d514937862f082c6699ce) Array#every, not Array#all (@SohumB)
+- [a5d7953](https://github.com/franq/franq/commit/a5d795373a590ea23e0589b313d2662345fa7687) Merge branch 'develop' of github.com:franq/franq into feature/discount-surcharge-modal (@tonytamps)
+- [#60](https://github.com/franq/franq/pull/60) Merge pull request #60 from franq/bugfix/test-for-menu-add-product-group (@franq)
+- [#57](https://github.com/franq/franq/pull/57) Merge pull request #57 from franq/feature/acl-checks (@franq)
+- [98de2e2](https://github.com/franq/franq/commit/98de2e269207808572239d2dda57c297471958f1) {{acl-delete-link}} uses `action` now instead of `delete` (@SohumB)
+- [e9e7e70](https://github.com/franq/franq/commit/e9e7e708de6ac582827d03aa6c7a6ac8c734107d) Comments on the devtools acl-highlight (@SohumB)
+- [502f3a4](https://github.com/franq/franq/commit/502f3a440c51ff87f7dd57a79967167e0ae161b1) Comments on {{acl-link}} (@SohumB)
+- [a52a218](https://github.com/franq/franq/commit/a52a218f056fe585c2506c060fa036f146767ef3) combind the next previous logic into remove. (@lyonlai)
+- [1801ed7](https://github.com/franq/franq/commit/1801ed752ab7e74b73c2bc85a21793b2e82229b3) I was wrong, reverted (@tonytamps)
+- [e18a092](https://github.com/franq/franq/commit/e18a09243cbed142a4bab8c4bbdc05131cc58fb9) minor tweaks on Yun's feature branch (@tonytamps)
+- [1aa1d0e](https://github.com/franq/franq/commit/1aa1d0e2b3924986a8177fabfdbe184d8fb96331) Merge branch 'develop' of github.com:franq/franq into feature/discount-surcharge-modal (@tonytamps)
+- [#58](https://github.com/franq/franq/pull/58) Merge pull request #58 from franq/feature/cart-next-back-btn (@franq)
+- [8095f99](https://github.com/franq/franq/commit/8095f99d503061ab38b49608e55bd045be2a90aa) set the value in intial data for the surcharge to be able to test it properly (@tonytamps)
+- [fc8f40f](https://github.com/franq/franq/commit/fc8f40fee024887bb2238a5c63a56fbdf3f32b06) Merge branch 'develop' of github.com:franq/franq into feature/discount-surcharge-modal (@tonytamps)
+- [937a072](https://github.com/franq/franq/commit/937a072ca8d6ef05103fec9169b0395099fcc438) testing the discount and surcharge selections (@tonytamps)
+- [bf99ef4](https://github.com/franq/franq/commit/bf99ef4efa1f5de673ed7c16916aa224c798c199) better behaviour for disabling confirm and clearing selections on change (@tonytamps)
+- [a05980e](https://github.com/franq/franq/commit/a05980ec36ad1c2c2008a70a08194068fd6a6233) test for adding intersecting product groups (@SohumB)
+- [5f750de](https://github.com/franq/franq/commit/5f750de0e1eeada852538ec2d69f34b0f98f63f6) Quick test fix; sorry! (@SohumB)
+- [ab349e3](https://github.com/franq/franq/commit/ab349e3828c4b9a7c4b9fa3b0b0ccbaa3e27fdb6) use collapsibleItem.accordionOpen instead of (@lyonlai)
+- [ad63d6f](https://github.com/franq/franq/commit/ad63d6fc53ac7720475c0cef40fcfaccec5f441a) caculate the manual adjustment (@tonytamps)
+- [d08cf8b](https://github.com/franq/franq/commit/d08cf8b2220df418c7809a85d64c44d790c68109) tests for next & previous item (@lyonlai)
+- [#55](https://github.com/franq/franq/pull/55) Merge pull request #55 from franq/feature/menulist-add-page (@franq)
+- [648343c](https://github.com/franq/franq/commit/648343c49e0d49326ae782d9ef18e37c90a87c4b) typo var name
+- [d0a776e](https://github.com/franq/franq/commit/d0a776eab7e3d9dc97e0114db98f30c142919243) check updated row is correct
+- [b42042e](https://github.com/franq/franq/commit/b42042ef412a3af4a30752289601821b5f9d7c07) fix PR :) menulist page
+- [fb28595](https://github.com/franq/franq/commit/fb2859563537d21612d0cc616d9adf30c9b1c9b6) Merge branch 'develop' into feature/menulist-add-page
+- [#56](https://github.com/franq/franq/pull/56) Merge pull request #56 from franq/bugfix/menu-border-styling (@franq)
+- [f9a0d7f](https://github.com/franq/franq/commit/f9a0d7febc07768427115b00186ffb03d0f47021) Unit tests for {{acl-link}} (@SohumB)
+- [652b93c](https://github.com/franq/franq/commit/652b93cf568981c73e9abd3b22c5f03fdcb174aa) Fixing some tests that assumed only one modal in the dom, and menu tests (@SohumB)
+- [e0c6175](https://github.com/franq/franq/commit/e0c61755429e7608315f9bff7ad0765928b58e1f) adding acl actions to the index pages, including the missing ones in menu (@SohumB)
+- [3944733](https://github.com/franq/franq/commit/394473314f287e1f48d3d0b9b2b36c3aac8cf37a) {{acl-link}}, and downstream {{acl-edit-link}}, {{acl-delete-link}}, and (@SohumB)
+- [190ddc9](https://github.com/franq/franq/commit/190ddc986d7916b99f29f47ca389f592417d6ac1) app and navbar acls (@SohumB)
+- [0860e07](https://github.com/franq/franq/commit/0860e071668dda7e97e859ade038c6aeef6f59d4) fix menu border styling
+- [051b813](https://github.com/franq/franq/commit/051b8135caa37280dc2e20c05e787722fd9f553c) clean up
+- [f51ce90](https://github.com/franq/franq/commit/f51ce90b5d349d198ace171c7870a3c9ccb88db4) change to not storing pages attribute for menulist
+- [c235b67](https://github.com/franq/franq/commit/c235b6750d5ac37b747863ef493ede783dd8ba14) tidy, refactor, confirm functionality (@tonytamps)
+- [8df0d04](https://github.com/franq/franq/commit/8df0d044335c9ac4364f8f6e105dee0a0d92c2c2) make the reason mandatory and clear on cancel (@tonytamps)
+- [cf17c9a](https://github.com/franq/franq/commit/cf17c9a1db3983533a6330e2deb65ccb0dee5373) Terminal layout WIP (@aexmachina)
+- [c61c839](https://github.com/franq/franq/commit/c61c8396cb2a438d8cc5bfe25c10eba425ef1065) able to display, select and calculate the selected discount and surcharge (@tonytamps)
+- [c3959a9](https://github.com/franq/franq/commit/c3959a94b202ded8c50a24bf105852223c4ee0fc) Devtools: Highlight links and actions that don't explicitly say their (@SohumB)
+- [86e7b5f](https://github.com/franq/franq/commit/86e7b5f68030b4c781acce36f2b662359cf37c1d) next & previous buttons are ready. also it can open the accordion when (@lyonlai)
+- [ddeed25](https://github.com/franq/franq/commit/ddeed25b723c85b5975a348e79fb37ef654d3c7e) use Math.ceil to compute minimumPages
+- [c274268](https://github.com/franq/franq/commit/c27426823d80a61135e783fd6ed2d657084dd134) better control for minimumPage
+- [f7cac8c](https://github.com/franq/franq/commit/f7cac8cd0f3a62876d31d52939a6e4b3791395bc) add test: adding new page for menulist
+- [036ee41](https://github.com/franq/franq/commit/036ee4133eee884b5ff09faad845ea76d6472de9) Merge remote-tracking branch 'origin/develop' into feature/terminal-layout (@aexmachina)
+- [e9519e2](https://github.com/franq/franq/commit/e9519e24363095f9bb49591ed2c9627ec9c2a4c1) Terminal styling WIP (@aexmachina)
+- [870e2c2](https://github.com/franq/franq/commit/870e2c297e706427f8fcfcf969630bb634126591) final pagination display
+- [320dcb0](https://github.com/franq/franq/commit/320dcb010be568be0d20b3b92fdd1fad34f4fbdb) clean up
+- [4ccdd88](https://github.com/franq/franq/commit/4ccdd88af07911e12eaa523f3f126fe09bf6870b) add new page after current page
+- [41e06d2](https://github.com/franq/franq/commit/41e06d2bce0eb4cf9cb715ea00098bba0497ca89) noneed page attribute for menulistitem
+- [fcf6478](https://github.com/franq/franq/commit/fcf64785aeb57bb01ea2256a84a41e54b6144359) Merge branch 'develop' into feature/menulist-add-page
+- [#52](https://github.com/franq/franq/pull/52) Merge pull request #52 from franq/feature/terminal-products-grid-styling (@franq)
+- [4c9d144](https://github.com/franq/franq/commit/4c9d144aa7ba136fc6cbad7f5fe3bf65fd5b0142) fix conflict & indentation
+- [cf4df0c](https://github.com/franq/franq/commit/cf4df0cf9ece0fefa8d18e0c96b115a73b936edd) Merge branch 'develop' into feature/menulist-add-page
+- [d118143](https://github.com/franq/franq/commit/d11814378d5ad41ae6cf3a0bcba6e70719253ad5) pre-merge mess develop
+- [90e61f0](https://github.com/franq/franq/commit/90e61f049b4f3bd2e9f99bdd588d75cba8c3737c) add a little extra padding, you deserve it. (@tonytamps)
+- [dbb139e](https://github.com/franq/franq/commit/dbb139eaa6ab2d0902de3affa26d11ccf5f22fe0) Merge branch 'develop' of github.com:franq/franq into develop (@tonytamps)
+- [84b9ffd](https://github.com/franq/franq/commit/84b9ffd556e8d05a89322439f97bd308e72eaf35) FIX THE TESTS! (@tonytamps)
+- [#54](https://github.com/franq/franq/pull/54) Merge pull request #54 from franq/hotfix/foundation-settings (@franq)
+- [1c70bff](https://github.com/franq/franq/commit/1c70bff0f92b3ec2b6ad4385d5931d50dccff94d) Merge branch 'develop' into hotfix/foundation-settings (@lyonlai)
+- [4aa766b](https://github.com/franq/franq/commit/4aa766b55ab0f8765030eb144742d772261d3193) add working pagination
+- [b5deda1](https://github.com/franq/franq/commit/b5deda10c1f8836d94af14ca8b3d933365f5f688) added missing foundation-settings (@lyonlai)
+- [#49](https://github.com/franq/franq/pull/49) Merge pull request #49 from franq/feature/style-modals (@franq)
+- [bee07df](https://github.com/franq/franq/commit/bee07df7258801cbb19e934b8d069756c59723c9) fixed menus-test (@lyonlai)
+- [7be4d7e](https://github.com/franq/franq/commit/7be4d7e81bb9986102b0688ebbfb2b69d1f791b1) add the foundation/component/global back in utils.scss (@lyonlai)
+- [4b25c7f](https://github.com/franq/franq/commit/4b25c7f79a36b2d00c659ec5e364fa70b9fdddac) Merge branch 'develop' into feature/style-modals (@lyonlai)
+- [368c4ad](https://github.com/franq/franq/commit/368c4adc0213d81912d3eda008e602eed1b41af2) Merge branch 'develop' into feature/style-modals (@lyonlai)
+- [ecc5940](https://github.com/franq/franq/commit/ecc5940dc1a33cee3cd07da94b561f8737a67d94) Merge branch 'develop' of github.com:franq/franq into feature/terminal-products-grid-styling (@tonytamps)
+- [#53](https://github.com/franq/franq/pull/53) Merge pull request #53 from franq/feature/terminal-layout (@franq)
+- [6f4ce6c](https://github.com/franq/franq/commit/6f4ce6c6ab5d61bef1ba2a1af4d37583f83a7842) refactor the class names structure in filterable-list-select. also fix (@lyonlai)
+- [e37897d](https://github.com/franq/franq/commit/e37897dfca9442863643c55b2c7eac97f4828515) Terminal layout styling WIP (@aexmachina)
+- [f559e83](https://github.com/franq/franq/commit/f559e83a18ef9ca051d42e3f97b8d07e4072af7b) Merge branch 'develop' into feature/menulist-add-page
+- [5fc456b](https://github.com/franq/franq/commit/5fc456b67db6b234608f821571092f78e15d4c26) Merge branch 'develop' of github.com:franq/franq into feature/terminal-products-grid-styling (@tonytamps)
+- [d83b66d](https://github.com/franq/franq/commit/d83b66d3b0b6893db4153faabdefa1837ec7c118) button should only visible for normal menulist
+- [#51](https://github.com/franq/franq/pull/51) Merge pull request #51 from franq/bugfix/option-rules-defaultValue (@franq)
+- [777e32d](https://github.com/franq/franq/commit/777e32d1d76537f06020c996a9cff90a32d7a1da) add  property for menulist,  for menulistitem
+- [c7e7712](https://github.com/franq/franq/commit/c7e7712788df7de3ea3cf9c8269db1095e9feaa8) Merge branch 'develop' of github.com:franq/franq into feature/styling-product-productgroup-selector (@tonytamps)
+- [afcd31e](https://github.com/franq/franq/commit/afcd31e8a2568995b1de4f3f1c8b58d9cbc59193) fix the styling on the Product Groups select screen. (@tonytamps)
+- [950824c](https://github.com/franq/franq/commit/950824cb9facb3eea3ef3cbba3e7dcde7f16f94f) switching option.minimum and option.maximum's defaultValue back to null (@SohumB)
+- [e124af0](https://github.com/franq/franq/commit/e124af0686d30c7bbb6d8c381724506cd04868df) show add, delete page button only visible for custome designed menu list
+- [#50](https://github.com/franq/franq/pull/50) Merge pull request #50 from franq/feature/style-numpad-cart (@franq)
+- [2704b1d](https://github.com/franq/franq/commit/2704b1d7976340ef0d38294f8e2baac474ba02ba) added setTabIndices for the confirm-popover. (@lyonlai)
+- [fd03784](https://github.com/franq/franq/commit/fd03784bb52a402a27e8000115b2adbe3c8da61c) smaller the keypad, fix position (@Derrick666)
+- [d2ffd2e](https://github.com/franq/franq/commit/d2ffd2e5824e6c6b51a0e7a7eba8eee8daef164b) refer to $battleship variable in color for menu.scss, added comments for (@lyonlai)
+- [b480ad5](https://github.com/franq/franq/commit/b480ad5123c3809654a61e59e4ff64e40fa268c9) refactor failing tests to match new UI (@tonytamps)
+- [80abecf](https://github.com/franq/franq/commit/80abecf1cdb3a237a9c1fe4c891570b4f57e6a8c) Merge branch 'develop' into feature/menulist-add-page
+- [6fcc45c](https://github.com/franq/franq/commit/6fcc45ce08ce8c2d323d03ea09c615af0e1bd16f) Fix the issue bailing early out of the route before it could set the currentList (@tonytamps)
+- [2a52722](https://github.com/franq/franq/commit/2a52722b30141a4a31abf0ab38dc476cbaaaaa08) Mostly styling and DOM refactoring. (@tonytamps)
+- [#46](https://github.com/franq/franq/pull/46) Merge pull request #46 from franq/feature/primary-nav (@franq)
+- [8741ca0](https://github.com/franq/franq/commit/8741ca0fdb3698bbdebee4827f387bb58b2a9039) Use rems instead of px (@aexmachina)
+- [3769962](https://github.com/franq/franq/commit/376996276276be44313ca8a76a560a17d3cc413a) formatting (@Derrick666)
+- [c740437](https://github.com/franq/franq/commit/c740437359f73a695f443793a1d10f48c68a0aa5) Merge branch 'develop' into feature/style-numpad-cart (@Derrick666)
+- [7d9d480](https://github.com/franq/franq/commit/7d9d48040e98c15e9ebc0cbac8af2407ae10ff30) total header (@Derrick666)
+- [e9e1833](https://github.com/franq/franq/commit/e9e1833d3276fff18fda0943430e88b94c8ceaaa) refacotor info panel so there are both info panel and numpad panel (@Derrick666)
+- [1f38586](https://github.com/franq/franq/commit/1f385861f3d42da0a3f13501b7b4491be67c24c8) fix the changing tests from dev. (@lyonlai)
+- [5776981](https://github.com/franq/franq/commit/57769811493288eee4663e8b33bafcffab4d4957) Merge branch 'develop' into feature/menulist-add-page
+- [c57d971](https://github.com/franq/franq/commit/c57d971d91eb99e97d61555ea4bf44d70a8af1e9) Merge branch 'develop' into feature/style-modals (@lyonlai)
+- [#47](https://github.com/franq/franq/pull/47) Merge pull request #47 from franq/bugfix/menu-form-saving-menu (@franq)
+- [2fd77da](https://github.com/franq/franq/commit/2fd77dafde94afd816eab161a1498dd275d9483b) add basic layout and style for menu list item page pagination, add-page, and delete-page button
+- [07c3f50](https://github.com/franq/franq/commit/07c3f50071b485cb34bfb3a08724e1d18c5377cf) styled delete btn (@Derrick666)
+- [de6c180](https://github.com/franq/franq/commit/de6c180911bd9ed99b717532f94a2359572043ca) fixed style for show-variants in the menu-list-inspector
+- [6744baf](https://github.com/franq/franq/commit/6744baf41b0462e2a21a294308330b00e57dc425) restore the layoutName for confirm-input
+- [6692f71](https://github.com/franq/franq/commit/6692f71fbd89bc3cf0a0213b3675ec812276c87e) padding update (@Derrick666)
+- [b27ace5](https://github.com/franq/franq/commit/b27ace5617442ff00b0bdadc916e03365dc42de4) added usages for f-popover
+- [1e7bdcc](https://github.com/franq/franq/commit/1e7bdcc01d0e371e9477dd6506d287763ded1699) better code format in menu/form.hbs
+- [bac2767](https://github.com/franq/franq/commit/bac276712e3c5f5c1ba5f920051b1cab089b4b8a) styled keypad, order btn, quickpay, and order func (@Derrick666)
+- [8157b19](https://github.com/franq/franq/commit/8157b1946153bde34d23d275888fc2a61a304397) fix wrong name in menu-detail menu-list
+- [5c2acdc](https://github.com/franq/franq/commit/5c2acdc18d1aab33a8c5a5f1c73702ad6a483ce8) remove sameColor property in menu/index/item/controller
+- [0640802](https://github.com/franq/franq/commit/06408029c43ffba3285ebdf53dccfb18d06b49d3) remove the unused isVariantModelOpen in menu/form/controller
+- [5b4bc43](https://github.com/franq/franq/commit/5b4bc43c5c6023d0dc269e208348f1854967b681) add the confirmDisabled for the confirm-popover in menu-list.
+- [9e85217](https://github.com/franq/franq/commit/9e85217b36da06bb8bb35bc9f13f193d0119234f) fixed menus integration test.
+- [20c1b6b](https://github.com/franq/franq/commit/20c1b6bc721c97d6844cc98a8063559ec6ceb3bb) revised the class names in menu-list component. also fix the test for
+- [8424237](https://github.com/franq/franq/commit/8424237e1d539d65d336081f3513f4b866904ae6) add test: save menu after adding menulistitem work
+- [8b09c66](https://github.com/franq/franq/commit/8b09c665954d66c2e7ed45e3dd7f0df9a4f9f471) fix ember embaded data loading error in observer via workaround for checking saving state
+- [79c229e](https://github.com/franq/franq/commit/79c229ed4574f852deec014f6a86367f45f2e5fc) format fix for confirm-input
+- [7885f74](https://github.com/franq/franq/commit/7885f74d2bfb88767e5c83c534ba5a4d2354ba52) Merge branch 'develop' into feature/style-modals
+- [c4aca30](https://github.com/franq/franq/commit/c4aca302ee9af12bc3c41d0149c3f0daf9a8ba49) Merge branch 'develop' into feature/style-numpad-cart (@Derrick666)
+- [8091dff](https://github.com/franq/franq/commit/8091dff2be4e4d99afbe1788fd6aa0cae38e61b7) change class names (@Derrick666)
+- [#45](https://github.com/franq/franq/pull/45) Merge pull request #45 from franq/feature/menu-nav-visual-design (@franq)
+- [b82e688](https://github.com/franq/franq/commit/b82e6882d77cd05989eac1d43a4710331c915f11) fix the tests I broke due to UI changes (@tonytamps)
+- [a1cf356](https://github.com/franq/franq/commit/a1cf356f87609623764841c9794ae464ad0614ed) fixed menu-list tests.cleaned up a bit about the style sheet.
+- [e94fbb2](https://github.com/franq/franq/commit/e94fbb2142404c9246dc9a62018cd3ca5dcd5e70) style the menu lists according to the design. (@tonytamps)
+- [652fd05](https://github.com/franq/franq/commit/652fd05c09f3631780de60f84d03b415bc251e3a) add class for cart numpad (@Derrick666)
+- [20c6f1a](https://github.com/franq/franq/commit/20c6f1abd101ca9bbd2b9406d87c2f02c9f1fdf2) Update deserializeModel() to use store.normalize (@aexmachina)
+- [acaccbf](https://github.com/franq/franq/commit/acaccbf734404f5be74969d367627178e35712d9) Merge remote-tracking branch 'origin/develop' into develop (@aexmachina)
+- [a7ba285](https://github.com/franq/franq/commit/a7ba285037d5c2c70c7ef8c9c23ca3d5c3ab0583) Add icons for primary nav. (@aexmachina)
+- [#42](https://github.com/franq/franq/pull/42) Merge pull request #42 from franq/feature/cart-groups-similar-items (@franq)
+- [746fb40](https://github.com/franq/franq/commit/746fb40971f959f7e6b12bd2ced7a3510e08fc00) Add icons for primary nav. (@aexmachina)
+- [#44](https://github.com/franq/franq/pull/44) Merge pull request #44 from franq/bug/menu-grid-display-on-second-visit (@franq)
+- [58a6381](https://github.com/franq/franq/commit/58a6381e29ff86c45c13e1f0e26c5c9f07616ab4) change addSpacerBtn = addSpacerBtn.get(0) from previously geting from every statement
+- [60020eb](https://github.com/franq/franq/commit/60020eb7e7f26e0b662ff343b207ef8400640d59) new icon for the menu index color picker.
+- [f7d747e](https://github.com/franq/franq/commit/f7d747eebcdc54dacfa77fa33f3f87709d3919c5) better getOppositePosition in f-popover, fix dnd list height problem.
+- [34b9152](https://github.com/franq/franq/commit/34b91524456408e014776843ddb1be0fddbc8dce) Merge branch 'develop' into feature/style-modals
+- [6ffa201](https://github.com/franq/franq/commit/6ffa201a000dad046fe9f7c4f14766459aa09bae) correct the line item style for dnd list.
+- [0b3b939](https://github.com/franq/franq/commit/0b3b939595ae50918b3c9363a97332f1a919c804) added place holder text for product-group-management
+- [6c36ece](https://github.com/franq/franq/commit/6c36ece5a69322e19245441870f91652d828016f) finished styling the add group product modal, & also the
+- [c8cca71](https://github.com/franq/franq/commit/c8cca71e57d0f12456b2a6a311c0bd236dc0a353) Merge branch 'develop' into bug/menu-grid-display-on-second-visit
+- [1b10d5a](https://github.com/franq/franq/commit/1b10d5aed0c539e9c4df6660012b68c19bcad2e6) clean up
+- [#43](https://github.com/franq/franq/pull/43) Merge pull request #43 from franq/bugfix/optionitem (@franq)
+- [52868cd](https://github.com/franq/franq/commit/52868cd4f319b6c2b23e197ea93efaa27a0f639d) Quashin' heisenbugs all day err day (@SohumB)
+- [2b98a7f](https://github.com/franq/franq/commit/2b98a7fac89dd9388452a6b0fbd3e9f407d51b2a) Merge branch 'develop' into bug/menu-grid-display-on-second-visit
+- [2b51ba6](https://github.com/franq/franq/commit/2b51ba6a266f9d4021ede42d29a78487d71aa3c4) create grid item when we visit edit menu page
+- [72fe9b9](https://github.com/franq/franq/commit/72fe9b986a9ab98fcb688a65653e7266f684b057) avoid NaN when totalling items with no price (@tonytamps)
+- [1019a74](https://github.com/franq/franq/commit/1019a742d9b97fbf2497e8798c7b267653a251a4) Merge branch 'develop' of github.com:franq/franq into feature/cart-groups-similar-items (@tonytamps)
+- [#41](https://github.com/franq/franq/pull/41) Merge pull request #41 from franq/hotfix/accordion-toggle (@franq)
+- [bc14fa5](https://github.com/franq/franq/commit/bc14fa51dd2d0cb71c1fa14b0c6c4f1ffbb07d60) indentation and titletagname (@Derrick666)
+- [45e1967](https://github.com/franq/franq/commit/45e19671f3fea30e9a7e0b700df2f8e1c40fc326) Merge branch 'develop' into hotfix/accordion-toggle (@Derrick666)
+- [bf15165](https://github.com/franq/franq/commit/bf15165ea954fa4f6c04f8306b827fcd00d6ac76) provide default values for title and tagName to accordion-header (@Derrick666)
+- [adb2ab2](https://github.com/franq/franq/commit/adb2ab28b73097b5333f125163011ae883bc8642) Merge branch 'develop' of github.com:franq/franq into feature/cart-groups-similar-items (@tonytamps)
+- [d153055](https://github.com/franq/franq/commit/d1530550db4c1e4b1bc4b22fdbf45574c39c8ae5) fix failing tests due to cart refactor (@tonytamps)
+- [3bdd335](https://github.com/franq/franq/commit/3bdd335e8ce9f65b50462753650a500ba8a9ec96) tests for bundling and not bundling line items (@tonytamps)
+- [480d679](https://github.com/franq/franq/commit/480d6791fc137be7d47fe86061863fc99c560c4d) fix products size&price tab  button should be
+- [4601676](https://github.com/franq/franq/commit/46016764a62186421f331f2240cc2d530fccb42d) fix grid product item row calculation error
+- [5fd6299](https://github.com/franq/franq/commit/5fd62992112f4119a38b2d8a237f9b66b11dfc89) The create variant test should create a variant, not an option (@SohumB)
+- [0453b4e](https://github.com/franq/franq/commit/0453b4eb2682d53cf71420412962423f633d6df7) Our Ember.I18n hack needs to be in attic, because type-names uses it and (@SohumB)
+- [ac7830a](https://github.com/franq/franq/commit/ac7830af756b3fb44332fe3e92dcd5c95aee0de7) Use a simple entropy calculation to make deepSatisfy use better sorts (@SohumB)
+- [3cc894d](https://github.com/franq/franq/commit/3cc894db24c44959f0a3874fce81e4628ae779d7) refactor lineitem route to use accordion-header component (@Derrick666)
+- [d3bcd54](https://github.com/franq/franq/commit/d3bcd54240f80921333039233c7e5588b56c7224) add accordion header component (@Derrick666)
+- [89bac66](https://github.com/franq/franq/commit/89bac664db43b5afe5443830b5c32282af08ccd2) bugfix: deleting optionitems via the option->items relation (@SohumB)
+- [4dc0729](https://github.com/franq/franq/commit/4dc072967d2e947ba0924339c20bd0f893b5bd19) BaseModel#mutators now contracts to returning thenables, not promises (@SohumB)
+- [0b0c89e](https://github.com/franq/franq/commit/0b0c89ed709f47ba4ae2a7a86bd8c67620cbe08a) fixed wrong arguments to the debounce
+- [7e74cf8](https://github.com/franq/franq/commit/7e74cf8303a387e2eb1cc538ddb54bba7c6c0a9f) accumulate the total for the bundled items (@tonytamps)
+- [901c170](https://github.com/franq/franq/commit/901c17087f50428a5b70641b42a622130131a7da) Merge branch 'develop' into feature/style-modals
+- [3447509](https://github.com/franq/franq/commit/3447509c0071f3851086e0c6e083b9021c564428) move the shadow mixin out to the utils scss file.
+- [3f432ed](https://github.com/franq/franq/commit/3f432ed06f1b75aa599e62bfc704c4bd45f542d1) use rem-calc instead of px (@tonytamps)
+- [b3b3f6a](https://github.com/franq/franq/commit/b3b3f6ab47113a2ee895178cf5ab803e41f051b8) Merge branch 'develop' of github.com:franq/franq into feature/cart-groups-similar-items (@tonytamps)
+- [#40](https://github.com/franq/franq/pull/40) Merge pull request #40 from franq/feature/styling-product-productgroup-selector (@franq)
+- [d4e7888](https://github.com/franq/franq/commit/d4e7888854eb83e2cb7478d7071416d905c34f1a) bundle multiple instances of the same product into an accordion. (@tonytamps)
+- [71fc2c7](https://github.com/franq/franq/commit/71fc2c791cf4cae398a0f02fe5af006ce23962fb) New test fixtures, fixing failing tests for (@SohumB)
+- [e0ad504](https://github.com/franq/franq/commit/e0ad50446cbdd01254901f8d20f30e35668b7264) fix the menuNameInputSelector after the classname change in
+- [fcd8d4a](https://github.com/franq/franq/commit/fcd8d4a64a183fd53196b9c5bf3bae38c3a84d4a) change the available variant select to use confirm-popover
+- [25aef46](https://github.com/franq/franq/commit/25aef4648f92ea4ba8ad35e96117384c98ffed67) change the menu-list-inspector to use confirm-popover.
+- [884312e](https://github.com/franq/franq/commit/884312e89d9e54d8af9a04338811b775d6b568f4) styled the menu color picker in menu index page.
+- [06ad8e6](https://github.com/franq/franq/commit/06ad8e633b49b5aec3bec4b0474674951214b36a) styled the confirm-popover
+- [f886cb3](https://github.com/franq/franq/commit/f886cb3c8bb475d057a02568af37c58763042e21) move the translation initializer into attic, we need it in terminal too. (@tonytamps)
+- [0e1aa82](https://github.com/franq/franq/commit/0e1aa82222263a14b35b00fa6e16dfdc005f918d) Merge branch 'develop' of github.com:franq/franq into feature/styling-product-productgroup-selector (@tonytamps)
+- [668ac6f](https://github.com/franq/franq/commit/668ac6ffbf0ae6d776f8bbea17ca55724fd7c2fa) Merge branch 'master' of github.com:franq/franq into feature/styling-product-productgroup-selector (@tonytamps)
+- [#34](https://github.com/franq/franq/pull/34) Merge pull request #34 from franq/feature/index-routes (@franq)
+- [95107de](https://github.com/franq/franq/commit/95107de0cda62fc3c256ee5af7a9d7f8faebe56d) fix failing test from develop (@Derrick666)
+- [#37](https://github.com/franq/franq/pull/37) Merge pull request #37 from franq/bugfix/id-consistency (@franq)
+- [a75421b](https://github.com/franq/franq/commit/a75421b9e68524153758b5fc26380abbec5856aa) Merge branch 'hotfix/default-radio' into develop (@aexmachina)
+- [e1905b2](https://github.com/franq/franq/commit/e1905b27af22fb490c5ac05271c5704fd57e5f3e) Fix create-variant button (again) (@aexmachina)
+- [81d869a](https://github.com/franq/franq/commit/81d869a47ac7ceb8b4a2dcb4868153e223b0e473) adding a move event in color picker, still need options to control
+- [6b038e5](https://github.com/franq/franq/commit/6b038e578b7a57eb03942b1ab967c835213bd561) Merge branch 'develop' into feature/index-routes (@Derrick666)
+- [fb83103](https://github.com/franq/franq/commit/fb831031bae50667afa15605e4832260a890e7a3) color now saved on confirm  rather than changed.
+- [#39](https://github.com/franq/franq/pull/39) Merge pull request #39 from franq/hotfix/default-radio (@franq)
+- [f8c04b4](https://github.com/franq/franq/commit/f8c04b4aa2969afd9049c022226d78ed6862a2e2) added confirm input for the menu index color, but the model is changed
+- [0e441ea](https://github.com/franq/franq/commit/0e441ea93aef04867a91c27a8be5a12d4e8bdcb9) fix zone test (@Derrick666)
+- [0020d61](https://github.com/franq/franq/commit/0020d61211a1765cddf5827b96c8a98fa3b9f466) Merge remote-tracking branch 'origin/develop' into hotfix/default-radio (@aexmachina)
+- [bf52db4](https://github.com/franq/franq/commit/bf52db4b3c74a121120ee8729aa79876e0365484) Fix ability to change the default option item when max == 1 (@aexmachina)
+- [29b5c91](https://github.com/franq/franq/commit/29b5c9180a27ba3f5a007b59f9d3ca43af814e5c) add zone route (@Derrick666)
+- [5fda180](https://github.com/franq/franq/commit/5fda1800ca99f488e8d860f0bebedbc9694d01c2) wip menu index color popover.
+- [0cf8da9](https://github.com/franq/franq/commit/0cf8da9600028d4740081526ced9fdb662531d36) indentation fix and move confirm action into index-cn (@Derrick666)
+- [4854664](https://github.com/franq/franq/commit/4854664291b49dfd0b9b64d7ad6d98d2ad78e4e9) fix duplicated class names issues (@Derrick666)
+- [#38](https://github.com/franq/franq/pull/38) Merge pull request #38 from franq/hotfix/remove-ember-i18n (@franq)
+- [85cf168](https://github.com/franq/franq/commit/85cf168bd7ce4d66c0178f139f1a0fab4b5d6feb) Bye, ember-i18n! Hello, stupid simple i18n hack! (@SohumB)
+- [d5325f4](https://github.com/franq/franq/commit/d5325f40230713f9f88fc4efa014097ce9225c48) classNames not classNameBindings (@Derrick666)
+- [535519c](https://github.com/franq/franq/commit/535519c0a785976771c9afd5b3cb3b64f77d476b) Removing ember-i18n (@SohumB)
+- [f8f9200](https://github.com/franq/franq/commit/f8f92006ce3d42998b5208946111bf27d296debc) Misc: one single check for ignoring ids, and s/getFromRequest/parseRequest (@SohumB)
+- [153703d](https://github.com/franq/franq/commit/153703dbb8acb1cf5d6380478077d197096599ee) fed missing offsetTop when calculating the pos for horizontal placement.
+- [#36](https://github.com/franq/franq/pull/36) Merge pull request #36 from franq/feature/visual-design (@franq)
+- [#35](https://github.com/franq/franq/pull/35) Merge pull request #35 from franq/feature/menu-form-page-tab (@franq)
+- [683621b](https://github.com/franq/franq/commit/683621b13ed25489183894e8d0cd630be2a00ba0) change class name selected-list-name to list name & all double quotes to single quotes
+- [c24d949](https://github.com/franq/franq/commit/c24d949eb8d36a72227f3fe4be1a306af60bda9f) change class selected-list-name to list-name
+- [ca23d0b](https://github.com/franq/franq/commit/ca23d0b5998e0cc3406735d6a1799bfe76de944e) Merge remote-tracking branch 'origin/master' into feature/visual-design (@aexmachina)
+- [ff50a14](https://github.com/franq/franq/commit/ff50a144992e19379a58e9cf5e003b75f226c825) Fix #content flex-grid (@aexmachina)
+- [b075d8c](https://github.com/franq/franq/commit/b075d8c2c2b2cd6a4ad92ddb3af492991b43f45c) menu form: add tab and set style
+- [4f06173](https://github.com/franq/franq/commit/4f0617316e6e8ef3235ff15928609680fc4486ef) some improvements to deepSatisfy in the face of ordering changes (@SohumB)
+- [4aef7e7](https://github.com/franq/franq/commit/4aef7e778b39966f882bdf435d6b963e993215fe) style the product groups when they are draggable (@tonytamps)
+- [214164e](https://github.com/franq/franq/commit/214164e5d6e5c7b95cb3ffa3f395ee4b20dccdb4) Merge branch 'develop' into feature/index-routes (@Derrick666)
+- [dc31e16](https://github.com/franq/franq/commit/dc31e16dc0673124c9a293134533cfa31dd393cb) add typeKey as class name for index-cn (@Derrick666)
+- [eece87a](https://github.com/franq/franq/commit/eece87a180c75a211925501afc6ebfa5e93232c6) ids are consistently strings inside the serverside app (@SohumB)
+- [131e2a5](https://github.com/franq/franq/commit/131e2a5f851d5a7db3db6193c20b563d67a92b2b) change the popover's interface so that it can be open by using feeding
+- [#32](https://github.com/franq/franq/pull/32) Merge pull request #32 from franq/hotfix/product-grid-non-editable-display (@franq)
+- [0c828e8](https://github.com/franq/franq/commit/0c828e8625d5e720b25b4a5fde939f947829ad2b) styled the select box for the available size modal(later will be
+- [#20](https://github.com/franq/franq/pull/20) Merge pull request #20 from franq/feature/menu-structure-lines (@franq)
+- [eac1376](https://github.com/franq/franq/commit/eac137666b5292e487cd0368afdba2b206f8b449) reuse existing green variable (@tonytamps)
+- [5e4b055](https://github.com/franq/franq/commit/5e4b05543ebedbf16439b3dc70ead957356bf7fa) Merge branch 'develop' of github.com:franq/franq into feature/menu-structure-lines (@tonytamps)
+- [9c2ec48](https://github.com/franq/franq/commit/9c2ec486607e4a5791cf56f9edfc0f5866787d13) Merge branch 'develop' into feature/index-routes (@Derrick666)
+- [ae8333d](https://github.com/franq/franq/commit/ae8333d251612b914c4d5f6a7ead8a5797952ce8) make menu list widgit to use internal vars for color
+- [c1110f6](https://github.com/franq/franq/commit/c1110f6688d587c987acedcbefc1dc169486ec31) fix menu test (@Derrick666)
+- [aa5f13e](https://github.com/franq/franq/commit/aa5f13e7ad8adf6941d0fe3627b788ff6ce1d5f9) added a color-palette to choose colors from either presets or
+- [530bc5a](https://github.com/franq/franq/commit/530bc5a625fa09e99147102cd35de3f6bb2f6c0e) fix failing test for license, surcharge and printerimages (@Derrick666)
+- [b7d5357](https://github.com/franq/franq/commit/b7d5357bb06fd41d810f735aebd14bc63b8e7509) add overlay to prevent dragable cursors
+- [#31](https://github.com/franq/franq/pull/31) Merge pull request #31 from franq/bugfix/for-update (@franq)
+- [#33](https://github.com/franq/franq/pull/33) Merge pull request #33 from franq/hotfix/handlebars-for-i18n (@franq)
+- [c9edfb1](https://github.com/franq/franq/commit/c9edfb1d347bb3c833f5244ef09720f74a99dd2a) Include handlebars for staging (@SohumB)
+- [b068792](https://github.com/franq/franq/commit/b068792c592697d8a43ce452c06815b65bbf3340) look blur when not able to select
+- [17be6c8](https://github.com/franq/franq/commit/17be6c8d60e079b13b0695a7937743725b2d4dbd) fix searching in mean index (@Derrick666)
+- [eacc1de](https://github.com/franq/franq/commit/eacc1de325591acf258aa723565a86c1d6ea20a4) make the height of the name input right.
+- [160d234](https://github.com/franq/franq/commit/160d234a68cd887733b49b53f393be3078b903cc) Merge branch 'develop' into feature/style-modals
+- [6bb6acc](https://github.com/franq/franq/commit/6bb6acc22fcfb3e7adc462f7a56538b63faa2e4e) Merge branch 'develop' into hotfix/product-grid-non-editable-display
+- [98db8f7](https://github.com/franq/franq/commit/98db8f7a2d609d535d770e00db28267af8454a7f) minor grid section style
+- [c386d7e](https://github.com/franq/franq/commit/c386d7e6dba099fe9acc10b64bd86c97a5acacc7) styled the edit-menu-list-popover, including name, two checkboxes and
+- [47c47eb](https://github.com/franq/franq/commit/47c47eb99a89d3b2a120dce50eb0f60b2c59946d) Merge branch 'develop' into feature/index-routes (@Derrick666)
+- [c593176](https://github.com/franq/franq/commit/c593176ebb7d4efcb8b941973e5384e314505b84) sort gateways by ip addr (@Derrick666)
+- [7c5cea8](https://github.com/franq/franq/commit/7c5cea89f14e76b584c1d67bb9eb6be6ddf135c1) new style for menu (@Derrick666)
+- [2d0a475](https://github.com/franq/franq/commit/2d0a475e8b7ad48c0f41a4db936ba25c58ff7202) fix grid view when all product is selected
+- [#30](https://github.com/franq/franq/pull/30) Merge pull request #30 from franq/hotfix/fails (@franq)
+- [c42962d](https://github.com/franq/franq/commit/c42962d12ea2ef8504cbd2be4f558b6c211d614c) What do we do when we use a form-cn on a thing without a typeKey? (@SohumB)
+- [e23f5d0](https://github.com/franq/franq/commit/e23f5d00fad264901f542e8f14a9c71a9137c2b4) Not dragging the right thing in menus-test (@SohumB)
+- [fc25545](https://github.com/franq/franq/commit/fc25545e3ee56f8ef3eb62606d3339982b2a58da) terminal needs ember-i18n (@SohumB)
+- [e2c6cc9](https://github.com/franq/franq/commit/e2c6cc9f7336b8517e4408e833c1cef79f7f0e88) new style for instructions (@Derrick666)
+- [#29](https://github.com/franq/franq/pull/29) Merge pull request #29 from franq/hotfix/missed-underscore-fix (@franq)
+- [4e49c49](https://github.com/franq/franq/commit/4e49c491348972ca65896c26a78098fd2faa54ea) fix missed dash replace for underscore
+- [ecdafd9](https://github.com/franq/franq/commit/ecdafd9660ae09e2fa83e21056ce1b53b7ef7791) new style for license (@Derrick666)
+- [3b3db5e](https://github.com/franq/franq/commit/3b3db5ec2f6c961d08f07b1084132e6d6c6f483f) new style for printer image (@Derrick666)
+- [d2425f4](https://github.com/franq/franq/commit/d2425f406000b9557ef699a812437d73db92766f) use alternative way to prevent the popover from closing when clicking
+- [#28](https://github.com/franq/franq/pull/28) Merge pull request #28 from franq/feature/visual-design (@franq)
+- [0c35e86](https://github.com/franq/franq/commit/0c35e869f3320a5e2abec76d704d972ea5c88ef1) Tests passing (@aexmachina)
+- [9cf044b](https://github.com/franq/franq/commit/9cf044bc3c21cce2945c9902c5bb0bcc3f6b6c4b) enable filter for each page (@Derrick666)
+- [c45f220](https://github.com/franq/franq/commit/c45f2200d63d69dfd902315d263cbd9790480f65) Merge remote-tracking branch 'origin/feature/menu-designer-layout' into feature/visual-design (@aexmachina)
+- [#26](https://github.com/franq/franq/pull/26) Merge pull request #26 from franq/feature/menu-designer-layout (@franq)
+- [b01a38f](https://github.com/franq/franq/commit/b01a38fa792f69b6ecec68ea9a846253491b0fea) Comments for x-tag (@SohumB)
+- [bccf58b](https://github.com/franq/franq/commit/bccf58b89743834a9b6f7ded406f28447d66086a) Tests passing (@aexmachina)
+- [#27](https://github.com/franq/franq/pull/27) Merge pull request #27 from franq/hotfix/add-space (@franq)
+- [b7f43b5](https://github.com/franq/franq/commit/b7f43b5f39f0733a66d25e369195402b542cdbe5) allowing confirm-input to specify inner tags (@SohumB)
+- [4c61418](https://github.com/franq/franq/commit/4c6141875ddc121bd9e88990d1d68bd848a6c455) Fixing tests (@SohumB)
+- [566cfb7](https://github.com/franq/franq/commit/566cfb7a10702fad65a703906eabf677d9afa184) change title naming (@Derrick666)
+- [f1947eb](https://github.com/franq/franq/commit/f1947ebfcb41c1df3c6def031cedffa764719f47) new style for users/employee (@Derrick666)
+- [28a285f](https://github.com/franq/franq/commit/28a285fd8dd8025d1b400c3c4888930c7a837c0b) Merge remote-tracking branch 'origin/develop' into feature/visual-design (@aexmachina)
+- [f0e7940](https://github.com/franq/franq/commit/f0e79405f9da046e7ab37118e676d077429daa27) fix plural type name issues (@Derrick666)
+- [2425771](https://github.com/franq/franq/commit/2425771d2cdf6e7563e58c693be0e528865a6a43) Styling for product instructions and price-entry component (@aexmachina)
+- [105c188](https://github.com/franq/franq/commit/105c1883494ff31373cd69221d88300ae85f8f71) new style for surcharge (@Derrick666)
+- [2ad09e6](https://github.com/franq/franq/commit/2ad09e61b7784de0e366e3a08f7ce8c548461901) complete menulist component visual design
+- [c7d4198](https://github.com/franq/franq/commit/c7d4198824dc4b22c0bf69f33becc3631f8753e5) new style for printergroups (@Derrick666)
+- [0152bd7](https://github.com/franq/franq/commit/0152bd7d5c83cef0150df2a9aac6305ad7680ae7) new style for printer (@Derrick666)
+- [d636e05](https://github.com/franq/franq/commit/d636e058c419d51be77857a784963bc2373586b1) fix add-space bug & also add comment for f-popover padding.
+- [09cb5e6](https://github.com/franq/franq/commit/09cb5e67c9c63f7fc6eeab6e30323deef2c7d69a) fix wrong selector for the add space button.
+- [3c18d41](https://github.com/franq/franq/commit/3c18d41e3fcbaa55d52ee7dc560455605cf33e92) new style for gateways (@Derrick666)
+- [0b18f65](https://github.com/franq/franq/commit/0b18f659043aa94b88e43e41692385638f53e26d) move the content of the menulist editor modal to the popover.
+- [3236ae1](https://github.com/franq/franq/commit/3236ae142a93d3b8747af196a07866987b16b0a0) ...Just make the transactions serializable. That's all. (@SohumB)
+- [cd4741c](https://github.com/franq/franq/commit/cd4741cb4fa8ec81472642f837d8ad735c5f8f07) new style for usergroup (@Derrick666)
+- [2c53302](https://github.com/franq/franq/commit/2c5330289ee468e717fed8dc5ae656aa0fb7e4cf) new style for venue (@Derrick666)
+- [68a2b15](https://github.com/franq/franq/commit/68a2b156434748e00613beeaea3429a1a51c086d) add view js for product group to make it sortable (@Derrick666)
+- [422bcd6](https://github.com/franq/franq/commit/422bcd62481058af321eb7a817f27196dfce516f) add support for flip option. now the popover can handle the overflow
+- [b0a0447](https://github.com/franq/franq/commit/b0a0447ce8f843e80564d8e57130b798bc944e9b) fix archived search failing test from develop
+- [a0deedd](https://github.com/franq/franq/commit/a0deedd3749d48ec6ab10819df7da8b3ecdf8ba3) change pencil icon
+- [879875f](https://github.com/franq/franq/commit/879875f50689dc725b749c81e57e7adfb5e2721a) added support for the filp feature of PositionCalculator.
+- [5b6d53b](https://github.com/franq/franq/commit/5b6d53b33caea638afea793d071fb82f0b0d63ad) fix popover triangle size, re-arrange the f-popover js & scss code.
+- [ead5269](https://github.com/franq/franq/commit/ead5269b4a34f9aade9bfc212c9e0a1d11c29513) fix MR comment
+- [1b8c0fa](https://github.com/franq/franq/commit/1b8c0fae0a862cb7082003a73a9209adfb11273f) Merge branch 'develop' into feature/menu-designer-layout
+- [52965e0](https://github.com/franq/franq/commit/52965e0f13fdce50c214bdb5bd2e4755a421e0d0) popover is in. but cannot handle the flip condition yet. WIP
+- [e7e9402](https://github.com/franq/franq/commit/e7e940296c8c18db236159c1bcd559d17cac8e62) Update README.md (@Derrick666)
+- [63c8c7a](https://github.com/franq/franq/commit/63c8c7ae1a15e702f075a28ef399893f0a59072e) Product form options & instructions tab (@aexmachina)
+- [#25](https://github.com/franq/franq/pull/25) Merge pull request #25 from franq/feature/products-index (@franq)
+- [74d9a65](https://github.com/franq/franq/commit/74d9a65611defa36195629f5e472369e949cf0bf) use the full-width button class as per Simons feedback (@tonytamps)
+- [424fa53](https://github.com/franq/franq/commit/424fa5399b0166020c93204463b50f68752df7c4) fix test - after adding some class for visual design
+- [1e9df64](https://github.com/franq/franq/commit/1e9df646b23d7e87860b5a8766f95ffbb0f8829b) do not include create button
+- [0e6d958](https://github.com/franq/franq/commit/0e6d958c8ad554bdb6f181cb0e43366e6b379d6f) remove unneeded binding
+- [1760acc](https://github.com/franq/franq/commit/1760acc222dce9ac945227c7694c3fa8e490c2ae) change set color style (object contoller) to {{#with menulist.color}}{{this}}{{/with}}
+- [073f5ba](https://github.com/franq/franq/commit/073f5ba5e1ab9590737d753f09124536e9280c8a) add label for 'breadcrumbs'
+- [21fe37e](https://github.com/franq/franq/commit/21fe37e4729efa4f82fa17f8eda62d0b122905cc) form-cn to support exclude create button for that type
+- [48d8edd](https://github.com/franq/franq/commit/48d8edd793dce1eb9eca11cd5f9eff14aa99baa3) make form-heading support display different label others then just pluralType
+- [3178f6a](https://github.com/franq/franq/commit/3178f6a0acbefa738f57299622ba79e2922b96fc) Merge remote-tracking branch 'origin/master' into feature/products-index (@aexmachina)
+- [0a4aec2](https://github.com/franq/franq/commit/0a4aec23f090860eec086c4599d493d1bffe610c) Add icon assets from icomoon (@aexmachina)
+- [507327a](https://github.com/franq/franq/commit/507327a09f0be30aa7f379a04c820a4a030f20b2) Products index page styling (@aexmachina)
+- [eb76b65](https://github.com/franq/franq/commit/eb76b655b4d7f7b82f23b4306ec5b217f8807379) basic layout .. need some clean up
+- [9f11773](https://github.com/franq/franq/commit/9f11773baecd2f464fc082b99a2048f8bcbab770) Merge remote-tracking branch 'origin/develop' into feature/menu-designer-layout
+- [c631791](https://github.com/franq/franq/commit/c6317916306359fafd4893d67967303218da02e8) Merge branch 'develop' into feature/menu-designer-layout
+- [#24](https://github.com/franq/franq/pull/24) Merge pull request #24 from franq/hotfix/draggable-in-filterable-list (@franq)
+- [4a8918a](https://github.com/franq/franq/commit/4a8918a7a00bdb45a355a7cc40d0506460393776) should depend on draggable in the template rather than dragEnabled
+- [#23](https://github.com/franq/franq/pull/23) Merge pull request #23 from franq/feature/style-grid (@franq)
+- [1000ca7](https://github.com/franq/franq/commit/1000ca70c75aaaa2fe872b81b746e7bfa96998b7) change available_size to just available
+- [2d26b20](https://github.com/franq/franq/commit/2d26b20862f7923d85a1c934dbfc84ea04b07a52) fix indentation in form.hbs. replace javadoc comment with multiline
+- [c2e354b](https://github.com/franq/franq/commit/c2e354be2edac46e639cfd4376a5069643e69736) rename radius
+- [0c4c827](https://github.com/franq/franq/commit/0c4c827fdab96c346db45841c3b213b2d54dcf34) rename the $itemRadius to $radius
+- [59eb0cc](https://github.com/franq/franq/commit/59eb0cc6e3b1ca0948417701033ceb5f1e7eb138) move .icon-button-content to %icon-button-content
+- [7a90e91](https://github.com/franq/franq/commit/7a90e9139a34ae85eb9324e79fd26e4a9b5d0003) Merge branch 'develop' into feature/style-grid
+- [#12](https://github.com/franq/franq/pull/12) Merge pull request #12 from franq/feature/add-space (@franq)
+- [d1a8fa0](https://github.com/franq/franq/commit/d1a8fa04581f77c8bf238447345814200bf114b8) Merge branch 'develop' into feature/menu-designer-layout
+- [641302b](https://github.com/franq/franq/commit/641302b2517ea4e81f3400527df6086d42fb6b4a) fix the filterable-list-select draggable attribute problem(causing the
+- [2cc09ac](https://github.com/franq/franq/commit/2cc09aca64ef6f9a91cf05c51ae68c012fbf6039) Merge branch 'develop' into feature/add-space
+- [abb9427](https://github.com/franq/franq/commit/abb9427afb99188d9ec6fa3411fc2dd206984081) move fromPosition & toPosition from utils to menulist-mixin.js
+- [#22](https://github.com/franq/franq/pull/22) Merge pull request #22 from franq/bugfix/disable-allproducts-select (@franq)
+- [38a8e69](https://github.com/franq/franq/commit/38a8e69b8fb5d4c0481d9d8512a94e0f1af938b9) Merge branch 'develop' into bugfix/disable-allproducts-select (@SohumB)
+- [f6d6f32](https://github.com/franq/franq/commit/f6d6f323b0cca2dd65b8a385acf2212aa26259e4) Tests for the disabling behaviour (@SohumB)
+- [f337a71](https://github.com/franq/franq/commit/f337a719748e5863c493a2f2337f7fb35afa3561) fix unit tests that weren't living in runloops (@SohumB)
+- [9fd3a25](https://github.com/franq/franq/commit/9fd3a257cd98306d7fe2d1e2cc8ffa2b4edc34ec) Allow disabling filterable-selects, and disable the product-select in (@SohumB)
+- [#6](https://github.com/franq/franq/pull/6) Merge pull request #6 from franq/feature/add-group-of-products-to-menu (@franq)
+- [ae76916](https://github.com/franq/franq/commit/ae76916cfe60a2a6c5916881bf543b71afed4e01) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [832e3f3](https://github.com/franq/franq/commit/832e3f35315d7b93529952dae8fee8a99d4c6574) add in medium and large class for flex-row
+- [6de6d9b](https://github.com/franq/franq/commit/6de6d9bd5b6bf2c92a21222d5dd2cb676359738f) Merge branch 'develop' of github.com:franq/franq into feature/menu-structure-lines (@tonytamps)
+- [0354670](https://github.com/franq/franq/commit/035467071bc07bdbb893ef3c1debd556ad726f6f) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [#21](https://github.com/franq/franq/pull/21) Merge pull request #21 from franq/feature/production-css (@franq)
+- [ade6fdd](https://github.com/franq/franq/commit/ade6fdd5d3f17dc15e9569d08c644814e2cecd2d) Fix CSS minification of foundation-icons and select2. Fix broken grid (@aexmachina)
+- [fbff733](https://github.com/franq/franq/commit/fbff733f68b7936af02311ea259f72552ad86714) fix test which class changed
+- [593d3e6](https://github.com/franq/franq/commit/593d3e6e73f24988887f3eb1e99122eaf23d6c47) fix last item row and column value
+- [e5030f1](https://github.com/franq/franq/commit/e5030f1db0fab01859a6c46c4b53f11a5b50c2f7) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [ddb0850](https://github.com/franq/franq/commit/ddb0850afad75623ae8fa36cbd2851ae423b5655) finished styling the variant grid.
+- [314648e](https://github.com/franq/franq/commit/314648eb465eaab3dbc57c9e6122e05ad1101228) add some style for menu-list section
+- [650559c](https://github.com/franq/franq/commit/650559c3efbc719f2b5a052a17045ec34d49a2c4) Merge branch 'develop' of github.com:franq/franq into feature/menu-structure-lines (@tonytamps)
+- [#18](https://github.com/franq/franq/pull/18) Merge pull request #18 from franq/bugfix/misc (@franq)
+- [7869450](https://github.com/franq/franq/commit/786945075e4223c8abd04afe0f5e96f27fefbdfa) Merge branch 'feature/remove-from-cart' into develop (@tonytamps)
+- [8b537ec](https://github.com/franq/franq/commit/8b537ec2d2abb13b6544e22a8421496747c896c3) make sure the remove transition back to menu is correct (@tonytamps)
+- [#19](https://github.com/franq/franq/pull/19) Merge pull request #19 from franq/feature/flex-grid (@franq)
+- [37f80a6](https://github.com/franq/franq/commit/37f80a6ab447cabeedaddbd987cff504a8691746) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [#7](https://github.com/franq/franq/pull/7) Merge pull request #7 from franq/feature/menu-designer-delete-list-confirmation (@franq)
+- [2de864b](https://github.com/franq/franq/commit/2de864b71293ddf682dc523e8597b1dce56a447a) Merge branch 'feature/add-space' into feature/style-grid
+- [25ba9f6](https://github.com/franq/franq/commit/25ba9f658adee1428417c5346ecd4a54a0604d1d) Very basic flexbox-based grid system (@aexmachina)
+- [c66dc9c](https://github.com/franq/franq/commit/c66dc9c084c0a8315513bb4878559845a1f8254c) Merge branch 'develop' of github.com:franq/franq into feature/menu-structure-lines (@tonytamps)
+- [008ae4b](https://github.com/franq/franq/commit/008ae4b042921ccbd064fdf6a58969451d26503e) fix menu tests (@tonytamps)
+- [01dcc18](https://github.com/franq/franq/commit/01dcc18d981fe011b5993a068ac31b49a93ef8de) styling for menu structure screen (@tonytamps)
+- [b8c9255](https://github.com/franq/franq/commit/b8c9255a85e6bd6a04c75f52556f8421b73ab165) Menus index now uses the full list of menus for the default menu dropdown (@SohumB)
+- [179d039](https://github.com/franq/franq/commit/179d039917ea308318ffb53ff3f3ee69385907a4) product-and-group-select filtering now works (@SohumB)
+- [dc22c2c](https://github.com/franq/franq/commit/dc22c2c6c390ae7b564140ea3065c83412dc632d) Merge branch 'develop' into feature/add-space
+- [79e063b](https://github.com/franq/franq/commit/79e063b20cafe586fa11a39ef476df503acc9f1b) product grid is ready
+- [b1a3ec5](https://github.com/franq/franq/commit/b1a3ec579acaae2c36e66fbd16d4de540a9baf64) initial-data now has allproducts menulists for the archived menus (@SohumB)
+- [f1d9f63](https://github.com/franq/franq/commit/f1d9f637f985ab4c01773f25171a50b35dda860f) added sass menu style.
+- [#16](https://github.com/franq/franq/pull/16) Merge pull request #16 from franq/hotfix/client-tests (@franq)
+- [8f00029](https://github.com/franq/franq/commit/8f000299a1a3da2d1456b02da9ec8032e5213b33) Some quick cleanup on h-a-e (@SohumB)
+- [cca537b](https://github.com/franq/franq/commit/cca537bc0292dca103fdc41c66f5339c9d6c2bb4) Fixing the duplicate variant position issue, thanks Yun (@SohumB)
+- [ecf91ee](https://github.com/franq/franq/commit/ecf91ee3494b75209667f4c4329f6cccb73e5371) fixing a lack-of-demuxing bug (@SohumB)
+- [00505a4](https://github.com/franq/franq/commit/00505a4f60a591e76a1b175f09696e93cca5e938) merge develop & fix conflict
+- [0737fb9](https://github.com/franq/franq/commit/0737fb98260f1b78066aed0a9cb3f00e2a49dd6e) pinning ember to 1.7.x, because 1.8 breaks a buncha stuff (@SohumB)
+- [b807841](https://github.com/franq/franq/commit/b807841ea4625d16a544f69e2b179ff7e78b7621) add es6-math inside
+- [d99d894](https://github.com/franq/franq/commit/d99d89455e7f4f29983fca8225a0a794d8c04aeb) make the productgriditem as object proxy
+- [b2e6136](https://github.com/franq/franq/commit/b2e6136b66e411da7b4254d818af21136a27e9ba) fix trim label text
+- [b714389](https://github.com/franq/franq/commit/b714389de48464e1dd962afe907c196ce166d7cb) better version of sort
+- [#15](https://github.com/franq/franq/pull/15) Merge pull request #15 from franq/feature/ember-data (@franq)
+- [4d0c506](https://github.com/franq/franq/commit/4d0c50605a97a63ea7c68b225cc216366bbf5601) my bad, we still need to remove menu list from its parent inorder to display correctly (since it not the actual delete untill user click on save)
+- [47482a2](https://github.com/franq/franq/commit/47482a26e63d8a9363c7aa583f88122518e774f8) Merge branch 'develop' into feature/menu-designer-delete-list-confirmation
+- [b9daa09](https://github.com/franq/franq/commit/b9daa095aa7e1352add134fc4d45184e22ebb0c3) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [e413be3](https://github.com/franq/franq/commit/e413be3a616f8507a04be876284b426c27a26263) change  acceptDrop to use Em.computed.or
+- [def9608](https://github.com/franq/franq/commit/def9608783ecedbeb65e313051c3c9a4786d2e3b) Merge branch 'develop' into feature/add-space
+- [#11](https://github.com/franq/franq/pull/11) Merge pull request #11 from franq/feature/menu-index-styling (@franq)
+- [#10](https://github.com/franq/franq/pull/10) Merge pull request #10 from franq/feature/remove-from-cart (@franq)
+- [ddf44a6](https://github.com/franq/franq/commit/ddf44a66d0b58f9fee60935cce341078d7517c06) remove typo, thanks Yun (@tonytamps)
+- [942070f](https://github.com/franq/franq/commit/942070f6ea262a0e8be217bdb762f2b4e7739c6c) feedback from simon's review (@tonytamps)
+- [1becb12](https://github.com/franq/franq/commit/1becb12aa7c203c4995c4f15841c72ce30c11f55) Restore test assertions (@aexmachina)
+- [36144db](https://github.com/franq/franq/commit/36144db11c8a1abac1476a5c2da723fe4e0ddac4) Merge remote-tracking branch 'origin/develop' into feature/ember-data (@aexmachina)
+- [#14](https://github.com/franq/franq/pull/14) Merge pull request #14 from franq/feature/visual-design (@franq)
+- [fc3984e](https://github.com/franq/franq/commit/fc3984e46bc86e7cf8df85fde814561242b77181) Merge branch 'feature/visual-design' into feature/ember-data (@aexmachina)
+- [d4d6980](https://github.com/franq/franq/commit/d4d6980b0305cf057f89c0a4f6762543d398af70) Tests passing (@aexmachina)
+- [8d85cb3](https://github.com/franq/franq/commit/8d85cb36694ffd26550e160a40f030d999f10eb1) some test fixes, and {{input type='radio'}} seems to not do anything radiobuttonlike (@SohumB)
+- [1646d0a](https://github.com/franq/franq/commit/1646d0a0032592678341e3d1e604a82ac1f17536) Fixes for tests (@aexmachina)
+- [38fa20a](https://github.com/franq/franq/commit/38fa20a78b3679dfa1e661336fdf61ad525811af) foundation-reveal has somehow stopped being destroyed. sigh. (@SohumB)
+- [360722a](https://github.com/franq/franq/commit/360722a44be9bce9809aef10a7d2c3df47c2d895) restore the dashboard/package.json
+- [ed29f2e](https://github.com/franq/franq/commit/ed29f2e041b01be080ea42469bc3cf196e5279d9) fixed menu tests.
+- [c5be605](https://github.com/franq/franq/commit/c5be605d2f923bda7660ab7efb59977ac27fe380) Merge branch 'develop' into feature/visual-design (@SohumB)
+- [1061855](https://github.com/franq/franq/commit/106185576193bdd95adf5d40db818a84c22c2b2e) Oh, woops, don't restore the couch stubs on rollback (@SohumB)
+- [3f49f7f](https://github.com/franq/franq/commit/3f49f7fbb6688911641319f8f786e5c3a9cf69e3) Visual styling and test fixes (@aexmachina)
+- [d9b5118](https://github.com/franq/franq/commit/d9b5118f4cedb610637218d23778afe0186ed72c) Simplified item controllers for product options (@aexmachina)
+- [b7336d5](https://github.com/franq/franq/commit/b7336d50f7923daee0e47eeeb01a2613c4c3bf6b) Fixing a borked printer test (@SohumB)
+- [50c3763](https://github.com/franq/franq/commit/50c3763ff9b06913d5a8db2ba3e9f6cb684e3ead) Merge branch 'develop' of github.com:franq/franq into feature/menu-index-styling (@tonytamps)
+- [dbe920e](https://github.com/franq/franq/commit/dbe920e507aff6fe2d6be8d78aaebaa84026c072) remove the name of the temp class (@tonytamps)
+- [3682c77](https://github.com/franq/franq/commit/3682c7742176b7fe536e5e5a21f4c996cc359988) remove items from the order test (@tonytamps)
+- [7cc9ccb](https://github.com/franq/franq/commit/7cc9ccb478f8a45a175011ba37932de7d12dcde2) remove items from the order test (@tonytamps)
+- [36a035d](https://github.com/franq/franq/commit/36a035d09ee1cd4b087e6d8189f31aaa1d173f67) refactor tests to use the styled ui :D (@tonytamps)
+- [000c257](https://github.com/franq/franq/commit/000c257e209a6ef1865f1ad103627459b309402e) Merge branch 'develop' into feature/add-space
+- [8882f95](https://github.com/franq/franq/commit/8882f95576bac55027a74571eb7d082298e66901) ember-cli needs ac-ajax
+- [123714d](https://github.com/franq/franq/commit/123714dc5c860dfe0d52bbeced3c663afb5c3010) Merge branch 'develop' of github.com:franq/franq into feature/remove-from-cart (@tonytamps)
+- [34baa55](https://github.com/franq/franq/commit/34baa558d234de58081bfb1dea36bbfdbd10ce2b) menu index styling, tests next (@tonytamps)
+- [4d8341f](https://github.com/franq/franq/commit/4d8341f05ca1dfbebd40c3eb61929d1b7d080883) Code formatting (@aexmachina)
+- [bba6d35](https://github.com/franq/franq/commit/bba6d35be655420d94302c6cfb06aa8c9a2f7ae4) Merge branch 'feature/ember-data' of github.com:franq/franq into feature/ember-data (@aexmachina)
+- [25e93ce](https://github.com/franq/franq/commit/25e93ce2a8b3bffee2c254fa2993a454bce94ee6) stubbing out some additional Replicator calls (@SohumB)
+- [662fa61](https://github.com/franq/franq/commit/662fa61da9fbb2c6f3f2991d60e4cc4ac2460fae) stubbing out couch in test-server (@SohumB)
+- [7bf6fce](https://github.com/franq/franq/commit/7bf6fce90d06b6878388bfd77df5297b6b1ad18c) migrate test-server on NODE_ENV=test as well (@SohumB)
+- [#9](https://github.com/franq/franq/pull/9) Merge pull request #9 from franq/hotfix/xdummy (@franq)
+- [8faf9d5](https://github.com/franq/franq/commit/8faf9d5fe8e3e035d7f3997d38e287e76ea48be0) stand up and shut down the test-server on client-side tests as well (@SohumB)
+- [5635ba2](https://github.com/franq/franq/commit/5635ba2034facf6be772239cbd9c4c11226ca778) Use a real mode for the xdummy, and give it a writable logfile (@SohumB)
+- [9bd29b2](https://github.com/franq/franq/commit/9bd29b2a3fb84f6fa377008b3755ae18d22964f7) Avoid label issue in Firefox and update select-transformer to provide a warning (@aexmachina)
+- [e43dd5d](https://github.com/franq/franq/commit/e43dd5d57d785a073aece1126f7dfef2acced773) add difference in style between a spacer and grid cell
+- [#8](https://github.com/franq/franq/pull/8) Merge pull request #8 from franq/feature/xdummy (@franq)
+- [d9d5149](https://github.com/franq/franq/commit/d9d5149a0618a3c254178520a08c9cf6d1cf98da) Wire up the tests to run on the build agent (@SohumB)
+- [6d32b5d](https://github.com/franq/franq/commit/6d32b5def1d5bfdcac21f5afcf1f74975d92f19b) usergroups tests passing in firefox, apart from the select-transformer issue (@SohumB)
+- [5146fdb](https://github.com/franq/franq/commit/5146fdb3de1167127158062e2a6f67ad84b1db75) products passing on firefox (@SohumB)
+- [837fab4](https://github.com/franq/franq/commit/837fab496ffcb13b51e5dcf94fbd237a3c16f703) Make testem run all browsers (@SohumB)
+- [699609b](https://github.com/franq/franq/commit/699609b482dd07ddde3d8014340a10549c618fe3) productgroups tests passing on firefox (@SohumB)
+- [1f50e7a](https://github.com/franq/franq/commit/1f50e7a97483b8408634a775cb90a9b1cc2a56a4) printergroups passing in firefox (@SohumB)
+- [879722d](https://github.com/franq/franq/commit/879722d0ec39342dc35272b7741430f6ca7f2390) product option controller tests passing in firefox (@SohumB)
+- [d577757](https://github.com/franq/franq/commit/d577757d7e5b446dddc390eee06170e5dd8c53c0) menu-list component tests passing in firefox (and chrome...) (@SohumB)
+- [66026e5](https://github.com/franq/franq/commit/66026e5de9513a56575d24aeec694c1b176f7b1c) menus passing in firefox (@SohumB)
+- [ab46e52](https://github.com/franq/franq/commit/ab46e525f54371d9b534e71e7ed461e7dd77fd7e) fix sort function bug in sorting both product grid and variant grid.
+- [2470974](https://github.com/franq/franq/commit/2470974a5df13dbf3ec6dcd44dcd6f6e06a0e3a8) fix clean install with matrix
+- [320b414](https://github.com/franq/franq/commit/320b4148a4bf5bdf2680b24efd047e3dda9c954a) Merge branch 'develop' into feature/add-space
+- [862a218](https://github.com/franq/franq/commit/862a218ee4011ff0ed380f0372a2ce26ef3ab324) remove the unused console.log
+- [1dfa9c5](https://github.com/franq/franq/commit/1dfa9c51e2fcd5d8a502e7f666abd21f8d9898ae) make the add spacer working, and also the grid pagination is partially working. only lack of the triggers (buttons/ swipes) to do the pagination.
+- [43d6540](https://github.com/franq/franq/commit/43d6540412fec33a2d8672a6fa7653d6dc7d8f2b) rename hasChildrenMenuLists to menuListsWithChildren
+- [0cf74f2](https://github.com/franq/franq/commit/0cf74f201a8048bfa1e93e295f126b93b3ead559) remove overlap on close function & let EmberData do the delete
+- [6362c11](https://github.com/franq/franq/commit/6362c11ad8dcacbe99bedab87df6597ce3567f1e) remove my stupid switch case checking for getting last grid item
+- [b8ea7b7](https://github.com/franq/franq/commit/b8ea7b71adfa9734c15e2a6f2edbfd47a315a1f6) Merge branch 'develop' of github.com:franq/franq into feature/remove-from-cart (@tonytamps)
+- [#5](https://github.com/franq/franq/pull/5) Merge pull request #5 from franq/feature/visual-design (@franq)
+- [5b7c0b2](https://github.com/franq/franq/commit/5b7c0b2eeceb494abeee44e93fdcc26037225e73) Several fixes and improvements to option-rules component (@aexmachina)
+- [7094260](https://github.com/franq/franq/commit/709426072e00b5feeeebef99caa1afc554d4f54d) more refactoring of the order service. More to come (@tonytamps)
+- [6513cec](https://github.com/franq/franq/commit/6513cece85c74d65158462f2ed26e00f255e4ff2) changed to use product grid item instead of hte original items.
+- [93739ef](https://github.com/franq/franq/commit/93739ef4d805be104c0fffe67d42fc7d4659f8d0) more refactoring of the order service. More to come (@tonytamps)
+- [19f313f](https://github.com/franq/franq/commit/19f313fcc0fc27521de19a11e9004e71f537361e) moved confirm delete modal to component & fix test
+- [86b1908](https://github.com/franq/franq/commit/86b1908be32a3a87f5d5096537a1bfa0b4390ac1) use menu-list-delete-modal (confirm delete list modal) & fix test
+- [429aea3](https://github.com/franq/franq/commit/429aea3a1a7f4c14a0905ecb3da17b1c5ced1c63) add menu-list-delete-modal component unit test
+- [d4ba760](https://github.com/franq/franq/commit/d4ba760827ec117476c5a58053b05c6711d8eebd) add menu-list-delete-modal component
+- [413f0cd](https://github.com/franq/franq/commit/413f0cdf2a47221852d4daf3078780f2544dc48c) Fixin' a maximum 0/undefined error (@SohumB)
+- [97271ec](https://github.com/franq/franq/commit/97271ec6b43009b7f84ed04feab164b2bf3b4a93) test for adding products in a group to grid
+- [f68eafb](https://github.com/franq/franq/commit/f68eafb96a368f137f643c639f36e539c1fd8079) option rules tests passing (@SohumB)
+- [7d43c90](https://github.com/franq/franq/commit/7d43c9062ef470cd3d8fed4311ef8b13e56347fc) Minor improvements on review and several test fixes (@aexmachina)
+- [397c694](https://github.com/franq/franq/commit/397c694bf685f4c5625288ea46bc63b12d29ecf0) WIP used productGridItem to replace the original product grid rendering.
+- [52b138a](https://github.com/franq/franq/commit/52b138a0cc00aaffe19e9b23050db375ea69aa25) I AM THE REFACTOR QUEEN (@tonytamps)
+- [9cda6a2](https://github.com/franq/franq/commit/9cda6a2d5c5167bcc9d402bd7c223493eb7e4e03) Merge branch 'develop' of github.com:franq/franq into feature/remove-from-cart (@tonytamps)
+- [fbd195b](https://github.com/franq/franq/commit/fbd195bc9df7e14c8ba0f2913399c3c72ed41dbe) move the logic for order service to order model (@tonytamps)
+- [401f03e](https://github.com/franq/franq/commit/401f03e0e5666377119ea5450981268778d1a830) Merge remote-tracking branch 'origin/master' into feature/visual-design (@aexmachina)
+- [d8f65dd](https://github.com/franq/franq/commit/d8f65dd74f09f4f10ffcdbe51734f7c4bd770dfd) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [#4](https://github.com/franq/franq/pull/4) Merge pull request #4 from franq/hotfix/client-test (@franq)
+- [8092aa1](https://github.com/franq/franq/commit/8092aa131aaf34bec196212049bc98bb62ce6777) Styling, remove unnecessary quick_code and more passing tests (@aexmachina)
+- [931b5e0](https://github.com/franq/franq/commit/931b5e0d0f4dff9c49066add5ffff1735660f370) it's maximum, not minimum (@SohumB)
+- [a134bf7](https://github.com/franq/franq/commit/a134bf7415adb0e361fb13045cbafb3a83af8cfe) make the remove product form cart work. (@tonytamps)
+- [c03d979](https://github.com/franq/franq/commit/c03d979d23d885e3984bdafa8b7cb2a89bcc54f1) fix a bunch of usergroups testing (@SohumB)
+- [104f7cc](https://github.com/franq/franq/commit/104f7cca82b2fcb5e005a716352c397d52193cc9) fix menus-test
+- [8b115ac](https://github.com/franq/franq/commit/8b115acefc780384a6de5fca9870dea5785c337a) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [#3](https://github.com/franq/franq/pull/3) Merge pull request #3 from franq/bugfix/org-transaction (@franq)
+- [#2](https://github.com/franq/franq/pull/2) Merge pull request #2 from franq/feature/selectable-options (@franq)
+- [74026c6](https://github.com/franq/franq/commit/74026c68132111c6780df7aa9cba32dbd98a2ab2) changed a property to use a statefulMap - based on Sohums review (@tonytamps)
+- [e6e712f](https://github.com/franq/franq/commit/e6e712f3f5b477f9805c04f64b0e2a193783d9c9) sort performance checking
+- [f6ceaba](https://github.com/franq/franq/commit/f6ceabaaad2f2dc19461fbe135a19b11a72dbf44) Merge branch 'develop' of github.com:franq/franq into feature/add-group-of-products-to-menu
+- [e989021](https://github.com/franq/franq/commit/e989021f6b49f49c20e05a88047c6acbacd71928) add groups's product and variants to grid functionality
+- [4da6aef](https://github.com/franq/franq/commit/4da6aef1ba7d46a3c3a424615225848448a302aa) correct attempt, overriding save (@SohumB)
+- [a28055c](https://github.com/franq/franq/commit/a28055cb450411872794cab5d61f6152af74a2de) Initial attempt, on creating and created hooks (@SohumB)
+- [a512d82](https://github.com/franq/franq/commit/a512d82473c01b4ccbdd2cb6e52fa7a700113a11) add space button is in
+- [3fcacdc](https://github.com/franq/franq/commit/3fcacdce323eaa17bda35005591be099ef3fcab3) Merge remote-tracking branch 'origin/master' into feature/visual-design (@aexmachina)
+- [0ebaf91](https://github.com/franq/franq/commit/0ebaf915f1b2cdb643555f613f76a60fd5b8112f) Options & instructions styling WIP (@aexmachina)
+- [#1](https://github.com/franq/franq/pull/1) Merge pull request #1 from franq/feature/move-menu-structure (@franq)
+- [3a2d1f2](https://github.com/franq/franq/commit/3a2d1f2962776418352eafdedb201d6f794d018b) add tests for seelcting and deselecting instructions (@tonytamps)
+- [478ddcc](https://github.com/franq/franq/commit/478ddccf4b24f6710741341fe9f955ad754e2a33) Options & instructions styling WIP (@aexmachina)
+- [a4b0849](https://github.com/franq/franq/commit/a4b0849002d9e77939f136ecfcdfbce58d4ae4f6) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [4bf7d75](https://github.com/franq/franq/commit/4bf7d75fbbf77c2eb59539986a5748139e938072) add menulistitem to grid from group
+- [10a4bda](https://github.com/franq/franq/commit/10a4bda24d6d72551cd9ab18215b2d2ea8e4c67a) add a couple option tests for line items (@tonytamps)
+- [5da323d](https://github.com/franq/franq/commit/5da323d7f0bb16c371f754c307e8fcdae562c8e5) revert the changes to initial data, we dont need that at the moment (@tonytamps)
+- [0910ec7](https://github.com/franq/franq/commit/0910ec7bd39bf7e87a53880ea253a240413b6dbd) add split buttons back (@tonytamps)
+- [89ff994](https://github.com/franq/franq/commit/89ff9940aae444fc248ca40b89b85716c51b2ab0) Merge branch 'develop' of github.com:franq/franq into feature/selectable-options (@tonytamps)
+- [f14bd49](https://github.com/franq/franq/commit/f14bd49e20f2f738438b506f4151107076d41ee1) Merge branch 'develop' of gitlab.corp.impos.com.au:franq/franq into feature/selectable-options (@tonytamps)
+- [cebfb4e](https://github.com/franq/franq/commit/cebfb4e0730b0696726047f9632d31a273a562ae) give the max and min a default to I dont have to || 0 all the time. (@tonytamps)
+- [3072f7b](https://github.com/franq/franq/commit/3072f7bfc42a3f1a484e119d4c86d5f396dc9cfb) Update the basement submodule remote to point to GitHub (@ralish)
+- [0ac71fc](https://github.com/franq/franq/commit/0ac71fcf5c65663cf0a45146e3d0e13d0d52f8f9) enforce min/max on the options (@tonytamps)
+- [342b534](https://github.com/franq/franq/commit/342b5340df7df951f1a7ba6202fd9517fb743a9c) Some more test fixes from :eq(2) to .reveal-modal.open (@SohumB)
+- [dc67244](https://github.com/franq/franq/commit/dc6724485b0050c780bbcf3825fb42db0e01f022) Fixes for tests (@aexmachina)
+- [084328d](https://github.com/franq/franq/commit/084328d03c0cba78ad126b837c9e83366402715b) Merge remote-tracking branch 'origin/master' into feature/visual-design (@aexmachina)
+- [8592f6f](https://github.com/franq/franq/commit/8592f6f7595f5b81af5ce8f26336a5c272bdf19f) you certainly did not see that debugger. nope. (@SohumB)
+- [c0c9a31](https://github.com/franq/franq/commit/c0c9a31896a5aedac379e31cda3284c6f7053097) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [5327510](https://github.com/franq/franq/commit/53275105fe09140fbfad8f22da51083066c15845) Some more quick test fixes (@SohumB)
+- [f961ad6](https://github.com/franq/franq/commit/f961ad6e6cdfbe432546eae7ad67b5e1746357c9) Merge remote-tracking branch 'origin/master' into feature/visual-design (@aexmachina)
+- [5038d46](https://github.com/franq/franq/commit/5038d468d24c78c3b9c4d3e47d4f101455bf20cd) Visual styling (@aexmachina)
+- [d277031](https://github.com/franq/franq/commit/d27703117c305cfe21eea6c6c2ebb3d8d16cbdfe) Merge branch 'feature/full-feature-variants-grid' into 'develop'
+- [7709a65](https://github.com/franq/franq/commit/7709a656b12ef854c17cd79d3deea93ec2192ae6) Merge branch 'hotfix/pgroup-grid-item' into 'develop'
+- [4c1e3af](https://github.com/franq/franq/commit/4c1e3af65eb0d6490081246421fea35b22673684) addPoses for group, and also observes for []
+- [b0bd862](https://github.com/franq/franq/commit/b0bd862a91b5bad360cbc5ef9a0f1339ddf644af) Refactored embedded records mixin into computed properties (@igorT)
+- [1c47233](https://github.com/franq/franq/commit/1c47233449c32ba908f2b52dcf6e8df5f53a5ec7) Merge branch 'develop' into feature/move-menu-structure (@SohumB)
+- [e95f273](https://github.com/franq/franq/commit/e95f27389dacfce45b28e583a4622fe50bad43e4) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [8fa2ef1](https://github.com/franq/franq/commit/8fa2ef1ca113370b27e26dad2c115084e576c7ac) Add comments for variantGridItems in grid.
+- [139c538](https://github.com/franq/franq/commit/139c538b9c67bf18b3dca45f4a3f1452be08f606) Quick fixes to some other tests (@SohumB)
+- [1479185](https://github.com/franq/franq/commit/1479185ede29a813bdf207f420627b1720ce822c) Merge branch 'feature/full-feature-variants-grid' into 'develop' (@tonytamps)
+- [a44d0b3](https://github.com/franq/franq/commit/a44d0b311ff83beab08cb179bd556f34b526e441) add more coment for variantGridItem in init
+- [4cde53b](https://github.com/franq/franq/commit/4cde53bace631ab2f8f69f7d89048b6b10dfc33e) Merge remote-tracking branch 'origin/master' into feature/visual-design (@aexmachina)
+- [bb6f733](https://github.com/franq/franq/commit/bb6f733958e4c1c1bbf6c0c4add7bebf71209ea2) Product form basic tab styling (@aexmachina)
+- [ebcb216](https://github.com/franq/franq/commit/ebcb216a42706eb506cbe1fba6abde05f1ccdef3) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [2993b2a](https://github.com/franq/franq/commit/2993b2a25bf1cfdd9581e44b7c96e0565657b064) Merge branch 'feature/sort-menu-on-menu-landing-page' into 'develop' (@tonytamps)
+- [710a7f7](https://github.com/franq/franq/commit/710a7f7fcc007929e49accf9bb3e05260df76c0c) update sortGrid to only sort the element.
+- [7e9e284](https://github.com/franq/franq/commit/7e9e284e7f65dcc09d7015da2e61265cec374cdc) added comments for the code
+- [280c3e7](https://github.com/franq/franq/commit/280c3e7e20d8c174165f55b7c24afe32eea3280e) Tests for the menu structure movement, along with classnames and bugfixes (@SohumB)
+- [c33b726](https://github.com/franq/franq/commit/c33b726af8e66356941fdde262a24e9d7c8d5405) all tests are green, even with fragment.
+- [c45c531](https://github.com/franq/franq/commit/c45c5318779087fdb8910d4e22336626ca915962) Merge branch 'develop' into feature/add-group-of-products-to-menu
+- [108f324](https://github.com/franq/franq/commit/108f324ec4cb8ad36fba8bf3d60119322a1333c5) MR change compare color method
+- [41bde0d](https://github.com/franq/franq/commit/41bde0d8d89202987a6bf83c729f856d7aad9b9a) change switch default style
+- [a6b745f](https://github.com/franq/franq/commit/a6b745fec3c1521847343395e9fe65bbde9cb5c7) Merge branch 'develop' into feature/sort-menu-on-menu-landing-page
+- [fe6e0bc](https://github.com/franq/franq/commit/fe6e0bcc2a5821025116fb238ad5eaf958d81cd6) Merge branch 'feature/menu-structure-edit-list' into 'develop' (@tonytamps)
+- [21e0052](https://github.com/franq/franq/commit/21e00520f952ed6180a10a95e1d040e74b5f5981) Merge branch 'develop' into feature/sort-menu-on-menu-landing-page
+- [8807e8e](https://github.com/franq/franq/commit/8807e8e7b4e2c8c3a05ff6e7f0d73bf50637a786) Merge branch 'feature/menu-structure-delete-list' into 'develop' (@tonytamps)
+- [ce924b5](https://github.com/franq/franq/commit/ce924b5c447ff43e326cde94790ec16f5ed0c97b) Visual design WIP and version updates for ember-cli@0.1.2 (@aexmachina)
+- [609042f](https://github.com/franq/franq/commit/609042fb28ca503568eec24c63a46bafe75a6546) Fix has many embedded by scheduling observers to the end of the runloop (@igorT)
+- [f8f9272](https://github.com/franq/franq/commit/f8f9272bea3a4043af2b3b46e67969ad4df5d590) Fixes for updates (@aexmachina)
+- [60803d2](https://github.com/franq/franq/commit/60803d2d34531efb3f3b2862795b07231c13b72d) added tests for full feature variant grid.
+- [de0cad1](https://github.com/franq/franq/commit/de0cad12dac616baee24a60379f81d8d3cc30ddb) sort product & productgroup by name on entering
+- [eb05262](https://github.com/franq/franq/commit/eb05262f0daad95174346b34144f1ef732f609bd) fix mising set variants value
+- [d3f71ca](https://github.com/franq/franq/commit/d3f71ca58475fde6a478cd7debe7c743bf08ea60) fix get correct value of isDefault (is default menu value)
+- [403ed74](https://github.com/franq/franq/commit/403ed7419b27fc776f8535c01a053e8b18ed5ad3) fix set default menu bug (not setting new defaultMenu to server)
+- [30429aa](https://github.com/franq/franq/commit/30429aaad1de1a15540c0bec2f1f25de70fef2f2) Fix failing tests (@aexmachina)
+- [fbfeb7e](https://github.com/franq/franq/commit/fbfeb7e8b17bcbfceb3780d2bd1a6c79c71aeade) Fix incorrect user route (@aexmachina)
+- [1e35cb4](https://github.com/franq/franq/commit/1e35cb43a4f29222e15172f9f539d97adca70ce0) add ability to select instructions in options page (@tonytamps)
+- [38f4b3d](https://github.com/franq/franq/commit/38f4b3d2d6cdfabae7b801e15e9a2bf9687a363f) Merge remote-tracking branch 'origin/master' into feature/ember-data (@aexmachina)
+- [97635ee](https://github.com/franq/franq/commit/97635ee0f16a114688e2b5ea5933a40363bc93ee) enable selectable product options on the option screen (@tonytamps)
+- [d29126b](https://github.com/franq/franq/commit/d29126bade4f624f0cef2a0f15eedc661b03cb4c) plus the merge also feed the items in allproducts & groups with row & column attributes which is important for the grid to pick up.
+- [388379c](https://github.com/franq/franq/commit/388379c5c646607e8723797a710b7b03237e78cb) isDirty and currentState.isDirty checks, and expect(16) to avoid bailing (@SohumB)
+- [f256be2](https://github.com/franq/franq/commit/f256be2d5dfbd9615a60aa50bcda3e38df6775d8) Allow selecting and deselecting variants in the product options screen (@tonytamps)
+- [7faa9f1](https://github.com/franq/franq/commit/7faa9f152373e5df93d25007d1c60247ab6357f6) Rollback foundation and ember-cli-sass updates (@aexmachina)
+- [cb5b651](https://github.com/franq/franq/commit/cb5b651dbe6ad7297623c19f8bfb566a78afff20) able to add out of sight variants when remove a space.
+- [c50ae42](https://github.com/franq/franq/commit/c50ae42301ab98c6ef917cf57085a0d19ec0997c) add & fix test after add sorting menu function
+- [2a9ef68](https://github.com/franq/franq/commit/2a9ef68741b10437ab9d0bcd2cef0bf05dc3d9b5) Update README.md and ember-cli dependency (@aexmachina)
+- [f26a91b](https://github.com/franq/franq/commit/f26a91b22c905a78b518e6ac48c32334bf466ed4) fix menu changing color bug
+- [26e9d33](https://github.com/franq/franq/commit/26e9d3377dc16965061a2b77387cd28271567c9f) add sort function on menu landing page
+- [37e1046](https://github.com/franq/franq/commit/37e1046a880072acb039874eb8488417af467d74) Merge branch 'feature/visual-design' into feature/ember-data (@aexmachina)
+- [b050c36](https://github.com/franq/franq/commit/b050c36ce2d6d680e727d494d8cd7031ebc7d407) Updated has-embedded-children.js (@aexmachina)
+- [90a89d2](https://github.com/franq/franq/commit/90a89d2d11cad1dc7c7e592a7bf7feef424f11f1) ensure the selected subproducts are highlighted now the relations are async (@tonytamps)
+- [3d3e609](https://github.com/franq/franq/commit/3d3e609c9b884932475bca363e0294266c5c8f82) Change basement to Github (@aexmachina)
+- [75aff6f](https://github.com/franq/franq/commit/75aff6f5dc292bf2198c8307da1e7279b7a665a3) option items finally work with the new package upgrades (@tonytamps)
+- [0c71314](https://github.com/franq/franq/commit/0c713148384334a106199480f1021166f6fd6093) able to add the next available variants back to the variant grid.
+- [679f23c](https://github.com/franq/franq/commit/679f23ce86558102ca8b47a1477d06e367cbd36c) Moving menulists in the menu structure (@SohumB)
+- [a684a1d](https://github.com/franq/franq/commit/a684a1d4216a1a204aaae10d62c871f23a9b3d42) able to delete a size, delete an empty slot.
+- [2f7b310](https://github.com/franq/franq/commit/2f7b310bff296477a624226b06ed22b415e6522f) Update to ember-cli@0.1.2 (@aexmachina)
+- [b01399e](https://github.com/franq/franq/commit/b01399eca6e895c7a5c688f09368fd04abc4bb22) fixing some products test in the dashboard... they seem a little strange (@tonytamps)
+- [53f3772](https://github.com/franq/franq/commit/53f3772f2623d4abf7c17951af84b025f4a9602c) make the product menu test a little more specific so they don't fail (@tonytamps)
+- [e9fa902](https://github.com/franq/franq/commit/e9fa90218d7bfd27bf78e33b70323e0fe60f1fab) fix the replication tests that were failing due to users conditions being nolonger in a subquery (@tonytamps)
+- [b6ebd95](https://github.com/franq/franq/commit/b6ebd957cad7c564f3d9f723ebd207f47c553629) Visual styling: outer layout, primary navigation, content grid (@aexmachina)
+- [542a1fd](https://github.com/franq/franq/commit/542a1fd95efa25a22210f916f5ded1dd76b7f7cd) clean up
+- [8c75139](https://github.com/franq/franq/commit/8c751395a882c194e953254fb4b263608b643d35) fix the license helper for the terminal tests. (@tonytamps)
+- [9113760](https://github.com/franq/franq/commit/91137605f47cfc9e99c15c11160fd846360ad977) Merge branch 'feature/menu-structure-delete-list' into feature/menu-structure-edit-list
+- [8eed3d8](https://github.com/franq/franq/commit/8eed3d8676b55fa0eeb2a3eed985480d3ae8bcf4) Fix menu tests, added color variable to the assertion (@tonytamps)
+- [081cf94](https://github.com/franq/franq/commit/081cf9433963c8f289b53540414aaaba603ad5a8) trying to track down some bugs in terminal option select (@tonytamps)
+- [a3ea292](https://github.com/franq/franq/commit/a3ea292ce3b9b4951767a5f5f1dcefb6da30a452) Merge branch 'develop' into feature/menu-structure-delete-list
+- [da9ff7f](https://github.com/franq/franq/commit/da9ff7f4d612970dc7bc249cb4500737af804982) on delete menulist should delete menulistitem which reference to it
+- [529b5dd](https://github.com/franq/franq/commit/529b5dd04050154d89d213967fda5888fc8efc7c) change menulist parent_id to foreign key reference with organisation_id.
+- [ab04e0f](https://github.com/franq/franq/commit/ab04e0ffae3d3af2692855c3243ca742357f162a) Merge branch 'develop' into feature/allproducts (@SohumB)
+- [5f47815](https://github.com/franq/franq/commit/5f478157fb27b4aa935163779146bb377403e08c) remove unnecessary recursive delete children
+- [10f3f1e](https://github.com/franq/franq/commit/10f3f1ea211ceb9207b4d9d5955db38e5d1aa554) Merge branch 'develop' into feature/menu-structure-delete-list
+- [b08363d](https://github.com/franq/franq/commit/b08363d13d85db87de021984e6280a008061b263) Merge branch 'feature/menu-structure-add-list-sublist' into 'develop' (@SohumB)
+- [33891da](https://github.com/franq/franq/commit/33891daabba514eab5986ce0ff26edf6e972a4bd) We could ... just not use menuitems. Yea. That could happen. (@SohumB)
+- [595933e](https://github.com/franq/franq/commit/595933efbb5323c3c43a013da108a6b1c8228cd5) Merge branch 'feature/menu-structure-delete-list' into feature/menu-structure-edit-list
+- [06391f5](https://github.com/franq/franq/commit/06391f57a33698d7979e42b8e50ef70cb8754840) Merge branch 'feature/order-ids' into 'develop' (@SohumB)
+- [8bd1663](https://github.com/franq/franq/commit/8bd16634a681b698044bb58b009db3d72aca5971) Merge branch 'feature/menu-structure-add-list-sublist' into feature/menu-structure-delete-list
+- [9d5e945](https://github.com/franq/franq/commit/9d5e9457bb76aa83e005bf7e5b3730704d77875d) variable name change, nothing of substance here (@tonytamps)
+- [61e6cc8](https://github.com/franq/franq/commit/61e6cc834d9b413b875d8150acc9e81171aed97a) review changes so far, moved the environment from the create override (@tonytamps)
+- [ef9fed9](https://github.com/franq/franq/commit/ef9fed9cf5b52212a8bfd7de2f5cbc495ab173b0) Header styling (@aexmachina)
+- [a12414b](https://github.com/franq/franq/commit/a12414b216bab7a42dd362fe267d33d13a2f561b) Changes required to have Org and User available to a terminal. (@tonytamps)
+- [5272f96](https://github.com/franq/franq/commit/5272f96ddeacfcda4e8d33ea32ac5e898dcfe222) set menulist's  default value to false
+- [e5ddb58](https://github.com/franq/franq/commit/e5ddb583810eb92631158e26d21eaa041e3102dc) fix test
+- [622cd53](https://github.com/franq/franq/commit/622cd53cce12d4523c721ae8d464e8766ad47ded) Merge branch 'develop' into feature/menu-structure-add-list-sublist
+- [50e5a4a](https://github.com/franq/franq/commit/50e5a4a53c26d412d5c54e2b64d493c2ee2e8adc) Merge branch 'develop' of gitlab.corp.impos.com.au:franq/franq into feature/order-ids (@tonytamps)
+- [08874e4](https://github.com/franq/franq/commit/08874e40600a3fd2402e884b61151d1652ea8a2d) Remove the redirect to root (because it doesnt work and because the offline mode isnt on) (@tonytamps)
+- [0186ace](https://github.com/franq/franq/commit/0186ace391a315b28e0cdfec234b160bd7b15356) Give terminal read access to all resoruces (for now) but only CRUD to orders. (@tonytamps)
+- [edeea76](https://github.com/franq/franq/commit/edeea76129c6c9103b4375f7fbd683b85973672b) fixes runtime errors in the order, venue, terminal triggers (@tonytamps)
+- [ae5512a](https://github.com/franq/franq/commit/ae5512a9f36a86efa9991596d70fe87ec573e52a) better name; update menulist model attribute
+- [0cf98ff](https://github.com/franq/franq/commit/0cf98ff2bb5b1e2aa5c6dd6aa830a11a2afbb154) Merge branch 'feature/menu-structure-delete-list' into feature/menu-structure-edit-list
+- [d7c52c8](https://github.com/franq/franq/commit/d7c52c8bcb66d734c535c53e7fa365a22356b1e3) nope no debuggers here (@SohumB)
+- [3ce926c](https://github.com/franq/franq/commit/3ce926cce65b80631b2a94a551f80877667020fd) Merge branch 'feature/disable-offline' into 'develop' (@SohumB)
+- [7431635](https://github.com/franq/franq/commit/74316351f1e644e9b7d5d5702ae2ffaeabae1ee9) quick integration test for allproducts display (@SohumB)
+- [d974ec3](https://github.com/franq/franq/commit/d974ec34cac764f1d9bc24c7926ac4553066b23f) splitting the statefulMap out into its own thing, and we need to uniqBy, (@SohumB)
+- [07ea4ec](https://github.com/franq/franq/commit/07ea4ec3c06e7189d6188ef2ba1dd7ddb5a1de69) allow sorting, and handle group menulists (@SohumB)
+- [503fd39](https://github.com/franq/franq/commit/503fd399d1ac0bc41edbaae7572e6b1396b4178d) unit tests for the menulist mixin (@SohumB)
+- [76872e9](https://github.com/franq/franq/commit/76872e9853723576c81118621279aec21690520d) display images if they exist (@SohumB)
+- [0ed833d](https://github.com/franq/franq/commit/0ed833d1d4643da2463ede83d4e54e4d61cca49e) s/AllProductsMenulistMixin/MenulistMixin/g (@SohumB)
+- [d7dbe0c](https://github.com/franq/franq/commit/d7dbe0c2371221d3250cef453548f4e74c4a0779) Use AllProductsMenulistMixin in dashboard/menu designer, too (@SohumB)
+- [3fd0201](https://github.com/franq/franq/commit/3fd0201ef1fa1a6f3bff2929c5d6f2857af560ea) AllProductsMenulistMixin (@SohumB)
+- [991d80d](https://github.com/franq/franq/commit/991d80d5b7ced2432e2ef3b9520e7e051f131e5f) quick code cleanup (@SohumB)
+- [2dce8f2](https://github.com/franq/franq/commit/2dce8f2f57bf4b1405c1dac70e4497bdf3c6196a) Merge branch 'feature/menu-structure-add-list-sublist' into feature/menu-structure-delete-list
+- [80c3731](https://github.com/franq/franq/commit/80c3731d6c06ad1ed2a4e42a7644806e7b9003c8) fix test after changing menu-list-modal
+- [703a608](https://github.com/franq/franq/commit/703a6083d07a9446416d271d1e0dbd55531ca6df) change menu-list-modal to use confirm-action
+- [1e998e0](https://github.com/franq/franq/commit/1e998e0796ba2346b7aee46cc575be546bc2355c) check not sending confirm action if button is disabled
+- [c36bb12](https://github.com/franq/franq/commit/c36bb1203f65ef6b98ea909ff8af17628ba4056c) fix confirm-action on outside cancel action notifier
+- [a9eada6](https://github.com/franq/franq/commit/a9eada60462d917fd176b870cab9e47b9416b98c) Merge branch 'feature/disable-offline' of gitlab.corp.impos.com.au:franq/franq into feature/order-ids (@tonytamps)
+- [eb529bd](https://github.com/franq/franq/commit/eb529bdf54b2a14580ebbe9908b5487f29cbf90c) Merge branch 'develop' into feature/menu-structure-add-list-sublist
+- [7261b31](https://github.com/franq/franq/commit/7261b3176023dad6db6eb1855fe01bf6011f0de0) actually make the migrations work, not just look pretty (@tonytamps)
+- [8082f4a](https://github.com/franq/franq/commit/8082f4aba6e768b1c4f0f85582c3a0d402aa7f08) Merge branch 'feature/menu-variants' into 'develop' (@tonytamps)
+- [00125be](https://github.com/franq/franq/commit/00125be7c8a8a4f3daa1620630d725fbd826f2f2) comment out the offline-service tests while offline service is offline (@tonytamps)
+- [45c8ef7](https://github.com/franq/franq/commit/45c8ef719c7f1d7de2276ba8948d34faa7b0c1fd) isDirty issues reproduced (@SohumB)
+- [3047273](https://github.com/franq/franq/commit/3047273b4bd00da456772711b79364b7ea3e8f94) jquery-bonsai v1.0.0
+- [df0cd26](https://github.com/franq/franq/commit/df0cd261ce9fa576a329586008d99d7a27c81ec6) Merge branch 'develop' into feature/menu-structure-add-list-sublist
+- [a376fd5](https://github.com/franq/franq/commit/a376fd56d037fcb9c35cce1f2a9790dd71c87bb3) comments for variants grid, and add the missing div.
+- [1d24daa](https://github.com/franq/franq/commit/1d24daa9d217b6b53b315efae9e2d1e08bdbddc6) add triggers to create sequences for unique venue-terminal-order ids (@tonytamps)
+- [15a32f5](https://github.com/franq/franq/commit/15a32f5cd8742903e4f5ab48358fa698d6e2979d) remove what should have been removed in develop
+- [b49dd8e](https://github.com/franq/franq/commit/b49dd8ed56d07da2f4087646bd8719765fdb76e9) and also fix the f-matrix flickering problem
+- [c7a0106](https://github.com/franq/franq/commit/c7a010635de55e8fb93c557f71f6e1422af5d57a) Merge branch 'develop' into feature/menu-structure-add-list-sublist
+- [8721138](https://github.com/franq/franq/commit/87211384fa8eb4f0b9bcde2c7bac9ff05bc4de21) Avoid redirection loop on 401 (@aexmachina)
+- [c2d1d10](https://github.com/franq/franq/commit/c2d1d103c93e076ec1a0bd5a245f77585e56e32d) Fix Terminal product-menu-test (@aexmachina)
+- [ba4a51a](https://github.com/franq/franq/commit/ba4a51a29764ea73c74b83584803df9f4f85e03f) Merge branch 'master' of gitlab.corp.impos.com.au:franq/franq (@aexmachina)
+- [8c8d08b](https://github.com/franq/franq/commit/8c8d08b9d69314e17d9689d9352e8d68676c369e) Update to ember-data v1.0.0-beta.11 (@aexmachina)
+- [c27ccaf](https://github.com/franq/franq/commit/c27ccaf4c313b6199bc809f6d1a3d0d5a99c6278) Merge branch 'master' of gitlab.corp.impos.com.au:franq/franq into feature/order-ids (@tonytamps)
+- [89e9cc1](https://github.com/franq/franq/commit/89e9cc1dbda3ae2e64f001d4c675f5cec4d2f01f) Merge branch 'feature/product-menu-list-item' into 'develop' (@tonytamps)
+- [e4538ba](https://github.com/franq/franq/commit/e4538ba0ea2a4ffe04ed5cfe4e181810fec701a4) Merge branch 'develop' into feature/product-menu-list-item
+- [8d4a964](https://github.com/franq/franq/commit/8d4a9648ac9caa7a9b9c75b993de8e7298ee5e22) recover the missing things again.
+- [ddc8b12](https://github.com/franq/franq/commit/ddc8b12c52fac8d528d94381fcc46191e59058e3) MR fixes.
+- [45c1511](https://github.com/franq/franq/commit/45c1511b4d3a5c0caae80ccc19abec952fe20f01) Merge branch 'feature/pgm-tests' into develop (@SohumB)
+- [6b5c956](https://github.com/franq/franq/commit/6b5c95679bb286a42b41727ded16049be7902403) better variable names! (@SohumB)
+- [f13dad6](https://github.com/franq/franq/commit/f13dad683298b3d706dd5fc4b027af87d4ed2364) Merge branch 'feature/options-route' into 'develop' (@tonytamps)
+- [8f291a4](https://github.com/franq/franq/commit/8f291a46320a5207d3fe2d2b4e338061b135261d) Add menu structure edit list test
+- [842e65e](https://github.com/franq/franq/commit/842e65e11a48b74e57a73c4756497e999f966c75) merge branch
+- [a607bba](https://github.com/franq/franq/commit/a607bbad59634a9b53cabe04ae773e9bf979f10a) Merge branch 'develop' into feature/product-menu-list-item
+- [c14107d](https://github.com/franq/franq/commit/c14107dabaffd336e8c39ea41bbd9cc428d9703e) Merge branch feature/menu-structur-tree into develop (@SohumB)
+- [a0fb5bf](https://github.com/franq/franq/commit/a0fb5bfe0196fedaafd7a6b771c52ae6473830a4) fix menu-list-modal unit test
+- [1752bb9](https://github.com/franq/franq/commit/1752bb95c805ee95c8cd59c001d19904bdd07790) layout fixes in the menu form (@SohumB)
+- [605d29d](https://github.com/franq/franq/commit/605d29d807129d0afb6d627424402374f97aeedf) Tests for the PGM usage (@SohumB)
+- [c59dd4c](https://github.com/franq/franq/commit/c59dd4c9889b9e70e1f1d772141e5f704aa0a48c) Fixing the menu controller to be two-way bound (@SohumB)
+- [10eca43](https://github.com/franq/franq/commit/10eca43ad04da08bb9e3783d5e82a8ee971ac297) menu structure editor: add edit menulist functionality
+- [51abc98](https://github.com/franq/franq/commit/51abc988506a0519f6aa69a6dbf8c29b434189b4) menu-list-modal: on cancel rollback model to entry state
+- [4b1a38e](https://github.com/franq/franq/commit/4b1a38e5106ee2fd744c1a1d0dfbb8e817394104) add color attribute to menulist
+- [24d0759](https://github.com/franq/franq/commit/24d0759eddad385c3dd771b11c96f5dd30eb01af) add color attribute to menulist table
+- [dad147e](https://github.com/franq/franq/commit/dad147e609ca6f8b924e5622a0ad20cc4467013a) tmp save
+- [c538abd](https://github.com/franq/franq/commit/c538abdbce914f2ac05fed89b173af995c6717fd) fix the failing tests due to the merge (@tonytamps)
+- [3f566af](https://github.com/franq/franq/commit/3f566af625bd28de2527bd7fc3f9b73d36633ca3) refer to current order correctly (@tonytamps)
+- [6fd7c79](https://github.com/franq/franq/commit/6fd7c797a8b1faf719371836e354ad0b9d58423b) Merge branch 'develop' of gitlab.corp.impos.com.au:franq/franq into feature/options-route (@tonytamps)
+- [057d4c3](https://github.com/franq/franq/commit/057d4c34ed85924ddfdea5dd4b213e74366439b7) Merge branch 'feature/fixture-server' into 'develop' (@tonytamps)
+- [1d6f2b4](https://github.com/franq/franq/commit/1d6f2b4f0076829947a8304e03d515e649c02502) remove menulist  attribute
+- [d89fad6](https://github.com/franq/franq/commit/d89fad6cb795bd87d86ec26ba1768d0a9a09a7b6) fix misspell ; move actions from route to controller
+- [ca24b28](https://github.com/franq/franq/commit/ca24b28614aa14b4d4badc76784dfa2274c616b4) menu structure - delete list test
+- [777d6c9](https://github.com/franq/franq/commit/777d6c918ff4f17eb7d4e4d898c6a7249e56beb4) more concise computed property (@tonytamps)
+- [cc5d199](https://github.com/franq/franq/commit/cc5d1995518049c9c2d1ca12286338cdffae0d23) feedback from Sohum's review (@tonytamps)
+- [63b224d](https://github.com/franq/franq/commit/63b224d3bddc5f099ba72a0f4ff1a11dbe1649f6) Menu Structure Editor: Add Delete list functionality
+- [47bd4fa](https://github.com/franq/franq/commit/47bd4fabc31b2840191ad318088abb42bc50840c) HELLO EMBER TESTING CLASS SCOPE NONSENSE, PLEASE DIE IN A FIRE (@SohumB)
+- [575fedc](https://github.com/franq/franq/commit/575fedce1a983bbcd2a0a484772e4b4fd7978ecc) productgroups mostly passing (@SohumB)
+- [75de3da](https://github.com/franq/franq/commit/75de3da8d0959b6c540cdd07c33fb574c5c41a05) Merge branch 'feature/fixture-server' of gitlab.corp.impos.com.au:franq/franq into feature/fixture-server (@tonytamps)
+- [55e5947](https://github.com/franq/franq/commit/55e59475db24889b3061aa8d8e5c3653bc20d18b) if I fix, I commits (@tonytamps)
+- [d95ba4b](https://github.com/franq/franq/commit/d95ba4bdc4479c07325c0e4c74b0c5ec2e0bb2cc) bump express-jwt to 0.4.0 (@SohumB)
+- [e9b0a6a](https://github.com/franq/franq/commit/e9b0a6a8c24003d120b998f9b43d42e2cb32d970) if I fix, I commits (@tonytamps)
+- [c8bedc8](https://github.com/franq/franq/commit/c8bedc8805d9229642d1947ebd5332430a15b3de) if I fix, I commits (@tonytamps)
+- [202f282](https://github.com/franq/franq/commit/202f282b430ee78ad6acb07a14f8f607075f5369) if I fix, I commits (@tonytamps)
+- [54bac54](https://github.com/franq/franq/commit/54bac54d4f9e5783998b2584ac0679ffb94adcc2) if I fix, I commits (@tonytamps)
+- [c48557a](https://github.com/franq/franq/commit/c48557a5ab9228e9078a733bb5dea271e76fd0b0) Merge branch 'feature/fixture-server' of gitlab.corp.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [3ae1017](https://github.com/franq/franq/commit/3ae1017edf377b97cbd01bb65257063b0f466f36) Server tests passing (@aexmachina)
+- [9f6c9cd](https://github.com/franq/franq/commit/9f6c9cd8d4d1437091811af2b7d1cfb24e4d973e) on save update DOM tree view
+- [3da2775](https://github.com/franq/franq/commit/3da2775007a1c47ae9df74dc019a502eb0855139) component:menu-list is green (@SohumB)
+- [ff31138](https://github.com/franq/franq/commit/ff311388ee9006b7c1356e9e2bbeabb06087d9dc) Merge branch 'feature/fixture-server' of gitlab.corp.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [a4b8f8d](https://github.com/franq/franq/commit/a4b8f8de684dc366461256bd8a38dde0ef4090ee) Menu test passing (@aexmachina)
+- [d5ac21e](https://github.com/franq/franq/commit/d5ac21ebb888ffa31bb6860f66b3bea4668abb75) components:product-group-management is green (@SohumB)
+- [b16d426](https://github.com/franq/franq/commit/b16d426f96580093ff030642bd1d9015a889ea3a) components:product-select and components:product-group-select are green (@SohumB)
+- [b3aa584](https://github.com/franq/franq/commit/b3aa58430df549297b31508fb22df4f81b7a8cca) model:product is green (@SohumB)
+- [6551bb5](https://github.com/franq/franq/commit/6551bb596c5b1a5dfc2b2f0c26bf56e52718cb3f) Merge branch 'feature/fixture-server' of gitlab.corp.impos.com.au:franq/franq into feature/fixture-server (@tonytamps)
+- [194df6a](https://github.com/franq/franq/commit/194df6a7cb4e9500cd4c6645eda85e022b6cefc0) fix the small things I've gotten to (@tonytamps)
+- [2a37942](https://github.com/franq/franq/commit/2a379429a130e1d1cc2c03cfbe2d0ce7d04ac7bc) package.jsons/matrix (@SohumB)
+- [933119d](https://github.com/franq/franq/commit/933119db5d7c048579af6a5ca9a4603723bf6acd) Merge branch 'feature/fixture-server' of gitlab.corp.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [db068b8](https://github.com/franq/franq/commit/db068b89f260249d6bda47c88ebcbc7579f63c2c) Moved color-picker.hbs (@aexmachina)
+- [41eefa6](https://github.com/franq/franq/commit/41eefa63ab472fd414a7bba18bd5a80d33e7287b) WIP for the tests.
+- [b861221](https://github.com/franq/franq/commit/b86122124f1ee139b950176932bfc324f7d121a5) changes to get the app building (@tonytamps)
+- [675ca68](https://github.com/franq/franq/commit/675ca6818605c057b186ed701acd4c673d13ba9d) add keyspace to terminal table (@tonytamps)
+- [d572071](https://github.com/franq/franq/commit/d5720713f099b61b0eb9a5f9c94e4cb767fa4a40) h-e-c is green? (@SohumB)
+- [32637ec](https://github.com/franq/franq/commit/32637ecf008249704bc82d052b850fdd466e080a) Merge branch 'feature/fixture-server' of gitlab.corp.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [ef8a47c](https://github.com/franq/franq/commit/ef8a47c4e011bd39f2ff8c529ff740908c30f588) Oops (@aexmachina)
+- [8718083](https://github.com/franq/franq/commit/8718083d25843d42c979b2d7ca483e79afc971ef) registering the api into the container, greenifyin' a bunch'o tests (@SohumB)
+- [b87c61b](https://github.com/franq/franq/commit/b87c61bd468be757bd5d9d4651334063dcc74c3d) Merge WIP (@aexmachina)
+- [a017e94](https://github.com/franq/franq/commit/a017e94a9248361ac7439687551f6638c9f6de37) add dnd-helper to do actual dnd in test.
+- [3742de1](https://github.com/franq/franq/commit/3742de1ee99a6c350594fe276143a77f1520865b) security is green (@SohumB)
+- [a0ac663](https://github.com/franq/franq/commit/a0ac663d707d9abf0c23b161f91962aface4e580) login and printerimages are green (@SohumB)
+- [889d62e](https://github.com/franq/franq/commit/889d62e104199ef1720c2095f7566a680194d878) Merge branch 'feature/fixture-server' of gitlab.corp.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [144a998](https://github.com/franq/franq/commit/144a9980af66b304f7d596c6e15f8e1507aa8a42) Merge remote-tracking branch 'origin/develop' into feature/fixture-server (@aexmachina)
+- [9d52952](https://github.com/franq/franq/commit/9d529528511d8bee69a6d02736d3f31a8bf1288d) adapter-test is green (@SohumB)
+- [93f75bd](https://github.com/franq/franq/commit/93f75bdf9a39ac837ace083d5fd244c657910765) auth-test is green (@SohumB)
+- [94eceb2](https://github.com/franq/franq/commit/94eceb20b6d283ac24ff5619bee818f2f233e31a) fix create correct menulist which all_products = false
+- [09bce5b](https://github.com/franq/franq/commit/09bce5b27291d6788754ddf55c891ef4333a5ffc) recover-password is green (@SohumB)
+- [b4a066b](https://github.com/franq/franq/commit/b4a066bbc1fbda808a8148d04e9ff7bdadc44a38) Merge branch 'develop' into feature/menu-structur-tree
+- [13cee42](https://github.com/franq/franq/commit/13cee42bb44a9901464490552175ba5495513198) Change to ember-cli@0.0.46 to avoid regression affecting jstransform (@aexmachina)
+- [96c1d08](https://github.com/franq/franq/commit/96c1d08f30959dfbc5a1f56de1c68bc418a3abbb) Update to ember-cli@0.1.1 (@aexmachina)
+- [8bf0e88](https://github.com/franq/franq/commit/8bf0e884bfd8e7817b5c5371936375039f06c575) Merge branch 'develop' of gitlab.corp.impos.com.au:franq/franq into feature/options-route (@tonytamps)
+- [b11eaad](https://github.com/franq/franq/commit/b11eaad8b5ddf6878da9ebbdc05b082e78f195eb) Nearly all tests passing in both PhantomJS and Chrome! (@aexmachina)
+- [a20d530](https://github.com/franq/franq/commit/a20d530324b48d8c2a297a0704f6e2a2c7652f5b) Fixed problem with class-scope variables in controller-props (@aexmachina)
+- [c96b1af](https://github.com/franq/franq/commit/c96b1af825f98f293d55b9a9aeb48a976557e032) Merge branch 'feature/menu-structur-tree' into feature/menu-structure-add-list-sublist
+- [e3ec53c](https://github.com/franq/franq/commit/e3ec53cf297abc7edbcc731de27d3e40af7a1154) fix tree-view-component unit test
+- [ffd5a7a](https://github.com/franq/franq/commit/ffd5a7a51ef4fc4ecd0cec07729ab00fbfe222eb) change call expandAllChildren, collapseAllChildren to an event
+- [d9fd643](https://github.com/franq/franq/commit/d9fd64359959e3397294ec9ffb7307579e194ef2) fix menulist's menu foreign keys
+- [1642f0b](https://github.com/franq/franq/commit/1642f0b12638e3d5f4eddf4563cdd607d793f832) fixing wrong reference to excluded products.
+- [7c127d0](https://github.com/franq/franq/commit/7c127d0f5a6c97d4f8363231db56c9d32b095b74) get more correct init data.
+- [1c567d7](https://github.com/franq/franq/commit/1c567d754db1a9f29aeb2c981a875917a92e7c76) remove console.log (@tonytamps)
+- [ebd9e64](https://github.com/franq/franq/commit/ebd9e64155ddb2456bc6b22829c726117db61420) filter the optionitems by the associated variant (@tonytamps)
+- [b84e22d](https://github.com/franq/franq/commit/b84e22da24df76d67ec71d5b43fd4ef9dcd5a2f1) Merge branch 'develop' into feature/product-menu-list-item
+- [edef5bf](https://github.com/franq/franq/commit/edef5bf5cac5381059a45135d5ce88024da6d000) WIP getting close.
+- [25e7dcb](https://github.com/franq/franq/commit/25e7dcbbf1972cf4756a544566a480c6d9fb7518) menu-list-modal unit test
+- [b15dc7d](https://github.com/franq/franq/commit/b15dc7d78fc4ab513ef8aadea0b542afc2a44e75) Merge branch 'feature/menu_product_select' into 'develop' (@SohumB)
+- [a62935f](https://github.com/franq/franq/commit/a62935fc83956f879ea14e99ffbbed3d1a1bd971) Merge branch 'develop' into feature/menu_product_select
+- [e7c3ae8](https://github.com/franq/franq/commit/e7c3ae8b77959b89857b3bd759c3f694304393b7) Add resolutions to bower.json files (@aexmachina)
+- [5891d18](https://github.com/franq/franq/commit/5891d187b24a132ad1eab9db897433738bfc1808) comment added to the drag and drop name reference.
+- [237e709](https://github.com/franq/franq/commit/237e709b95854b8e2a4748444d23ab1cacf9459f) Merge branch 'feature/fixture-server' of gitlab.corp.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [64b6441](https://github.com/franq/franq/commit/64b6441054988e57a5108bf56e4a7ce48d819a4a) Add has_quantity to the optionitem and use it to display split buttons (@tonytamps)
+- [5834e39](https://github.com/franq/franq/commit/5834e39cb4a2c1537a52e025304dc27f4ded0e51) Change to our fork of ember-data (@aexmachina)
+- [a8bb2a4](https://github.com/franq/franq/commit/a8bb2a4c5dfcf96ea915630d9d83ff5b7f68c73e) integration test for menu-list-modal
+- [3cb0d44](https://github.com/franq/franq/commit/3cb0d4485950b3adacb95e7972088ef6677f778b) Merge branch 'feature/pgroup-menus' into 'develop'
+- [6e0c387](https://github.com/franq/franq/commit/6e0c387a6c5f91d49860ef0e003140d9110a7d07) loader.js needs to be loader in ember-cli-46 (@SohumB)
+- [c890070](https://github.com/franq/franq/commit/c890070f0d97b09c09db8240559683cdb1244bfd) ember-data beta10, on both terminal and dashboard, with the resolutions (@SohumB)
+- [1d130e5](https://github.com/franq/franq/commit/1d130e5a737cd507b1d662fb20017e189c1bf118) Added PromiseObject.resolved property (@aexmachina)
+- [8633e06](https://github.com/franq/franq/commit/8633e06f1938003d3c179da5b439754cf202a1e6) Restored products tests, import exists helper where it is used (@aexmachina)
+- [611480c](https://github.com/franq/franq/commit/611480cfeb9e41338985aebd99c214a7eb295ce1) Printer and Product Group tests passing (@aexmachina)
+- [9442cfb](https://github.com/franq/franq/commit/9442cfb8cb6efb78ea7a5d8398b08d5465aa891c) Add integration test for structure add menu list sublist
+- [e7f0670](https://github.com/franq/franq/commit/e7f0670f1e4f43d259c0beafe57933f0a77ec63d) Merge branch 'feature/menu-structur-tree' into feature/menu-structure-add-list-sublist
+- [86ae23c](https://github.com/franq/franq/commit/86ae23ca41c6860056b050edb51a9f4927296207) fix missing name changes
+- [694159e](https://github.com/franq/franq/commit/694159e7d87150865b75327dc702b7c8fc4613f9) gotta get dem split buttens (@tonytamps)
+- [5e60534](https://github.com/franq/franq/commit/5e60534fad77746c32b285c0bc951961131e8c81) some docs about what tests are necessary (@SohumB)
+- [70eac33](https://github.com/franq/franq/commit/70eac3373b66d744aaac285e25e7c945806c2976) fixing failing tests (@SohumB)
+- [1ccffb2](https://github.com/franq/franq/commit/1ccffb2eec35740ffbe50b5463436a1f87447962) Embedded records weren't being sanitised first (@SohumB)
+- [37f510f](https://github.com/franq/franq/commit/37f510f5489547c48116e436623f6b36967cc0bb) Menulists didn't cascade deletes to mlist_pgroup (@SohumB)
+- [9f0238a](https://github.com/franq/franq/commit/9f0238a0850e8c5217a12c79300940f059cbb148) make the selected variant display (@tonytamps)
+- [feec904](https://github.com/franq/franq/commit/feec90479aecaca635ed73a187e38c4bd2320181) Merge branch 'feature/menu-structur-tree' into feature/menu-structure-add-list-sublist
+- [b120529](https://github.com/franq/franq/commit/b120529d8eaf5845af9f4f96cfb7b80bcfd9b8f4) fix test
+- [f8191a1](https://github.com/franq/franq/commit/f8191a1295f383fdc91b514cc926969e9c37cba6) FIX RELATION RECURSION BUG - RangeError: Maximum call stack size exceeded
+- [ae1dd56](https://github.com/franq/franq/commit/ae1dd568af193dc6eab7dd8b12c7c1954097196d) Add the restriction messages next to option groups (@tonytamps)
+- [e48bcca](https://github.com/franq/franq/commit/e48bccaacedab2e1fdd5eadc38e70d668903d7dd) Merge branch 'develop' into feature/menu-structur-tree
+- [450facd](https://github.com/franq/franq/commit/450facdc6c0a8ab46e7a422f9550a68a4cfb8d07) add all_products = false to menulist
+- [a27cfdb](https://github.com/franq/franq/commit/a27cfdbaca6ce44d0803c4e37e865870c82e5d52) initial implementation complete. remaining: tests, parentNode heisenbug (@SohumB)
+- [bd66e02](https://github.com/franq/franq/commit/bd66e02a7c0e5cb21ea87d66d5abaf70e0a40c20) Quick fix (and test) to groupable-checkbox (@SohumB)
+- [9e31699](https://github.com/franq/franq/commit/9e31699af71b623c7b5927601d1492cd0930ae15) pinning ember-cli-sass to 1.0.2 (@SohumB)
+- [938de6c](https://github.com/franq/franq/commit/938de6cac80b5f9ba76529951fc239d4d810c697) Removing menulist/all_products, adding a type enum and a uses_variants flag (@SohumB)
+- [1eeb0bd](https://github.com/franq/franq/commit/1eeb0bdc54e36aaf18fe5e3d54862fcba83601fd) We can now have group-style menulists. (+fixing some ui bugs in menulist) (@SohumB)
+- [17845fc](https://github.com/franq/franq/commit/17845fcf9099a567b9970f22a5b3353d72480bb6) decomplecting some parts of {{menu-list}} (@SohumB)
+- [3ed1f98](https://github.com/franq/franq/commit/3ed1f98010ce9e553d21a76d0da3d1b52a4e19c2) Fixing orders serverside tests (@SohumB)
+- [5aa11c4](https://github.com/franq/franq/commit/5aa11c4468b79a98dc91c4b6eed75d9d7a2042f4) Remove some of the leftover cruft and make the accodion titles clickable (@tonytamps)
+- [8970be4](https://github.com/franq/franq/commit/8970be4121200c55e2035c7222b5b3b1850fda31) ITEM CONTROLLERS FOR EVERYONE! (@tonytamps)
+- [5ed2cab](https://github.com/franq/franq/commit/5ed2cab865c4a13ede4c08fce1aef94fc4ca4436) change expandAll to expandAllChildren, collapseAll to collapseAllChildren
+- [c77f7db](https://github.com/franq/franq/commit/c77f7dbd3dfe95b8af97ab8340c0f804988740c7) Add controller to filter toplevel tree list
+- [7ebc2f9](https://github.com/franq/franq/commit/7ebc2f903ef8d500445b746c7f76840c6ca2d151) Merge branch 'develop' into feature/product-menu-list-item
+- [32bc405](https://github.com/franq/franq/commit/32bc405c87029b405c889642772a8e962cd9620b) update .gitmodules for the corp. change (@SohumB)
+- [91f1572](https://github.com/franq/franq/commit/91f15726ca49b8c2832daa29705ff1002dad7d87) Fixing symlinks/package.jsons/clean-install for matrix (@SohumB)
+- [a600fc3](https://github.com/franq/franq/commit/a600fc36227d4b6bee0e6549bd68eb2a721ffe65) Merge branch 'develop' into feature/menu-structur-tree
+- [47931de](https://github.com/franq/franq/commit/47931de37c3c30aa37251135119a9dfccebb46fa) Change variable names to be more specific so Sohums I don't break Sohums brain. (@tonytamps)
+- [6d3e082](https://github.com/franq/franq/commit/6d3e08275dd861dd6b0a643bb34535d9f50bb96e) Allow navigating to /lineitem/:cid to display the options and variants for the selected line item (@tonytamps)
+- [cc8a002](https://github.com/franq/franq/commit/cc8a002060a378f35b7536739a41c736ece43362) Rename the route representing the cart to /currentorder (@tonytamps)
+- [977be49](https://github.com/franq/franq/commit/977be49802f3ab65902d4076d7ca6843be199bb4) Menu structure page add list and sublist functionality using menu-list-modal
+- [22adf16](https://github.com/franq/franq/commit/22adf16f3484ba48d9d3597a0e11a06bb110fedc) Add menu-list-model component (represent a menulist)
+- [5ebb91e](https://github.com/franq/franq/commit/5ebb91e9d22bdd2e5a430cecb781d0dc6f4a456e) make register dnd events after render.
+- [520ce11](https://github.com/franq/franq/commit/520ce11d40b02250b9689949494d0d26bdb0b0c8) Merge branch 'develop' into feature/menu_product_select
+- [7e3b96e](https://github.com/franq/franq/commit/7e3b96e04ca3403c621e8e966e02579ffe58b89a) make filterable list item draggable on settings.
+- [3bace3d](https://github.com/franq/franq/commit/3bace3df1e95e872060d5698edeef34db4005274) Merge branch 'feature/fixture-server' of gitlab.corp.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [fca9bd5](https://github.com/franq/franq/commit/fca9bd5fa382f15904198eaaf0f9c5641aad6b2a) Update to ember-data beta.10 WIP (@aexmachina)
+- [b5aca3f](https://github.com/franq/franq/commit/b5aca3fb8b2461bc4d9761a8285e87c55fb67e6b) Merge branch 'feature/post-orders' into 'develop' (@SohumB)
+- [4a73aaa](https://github.com/franq/franq/commit/4a73aaab7ec4ec662e4d4d9b2f917e2a439340f7) Merge branch 'feature/matrix' into 'develop' (@SohumB)
+- [61522f0](https://github.com/franq/franq/commit/61522f01c09bdc44029f27f9402b87fd35d03279) test fixses.
+- [90c5e26](https://github.com/franq/franq/commit/90c5e268f11adef6b4ed48ed2db246a1cab52b0e) Merge branch 'develop' into feature/menu-structur-tree
+- [2d74663](https://github.com/franq/franq/commit/2d7466370d684e768eeb16698d6589285888f605) Add intergration test for menu structure
+- [231f68b](https://github.com/franq/franq/commit/231f68b7a0ef4f165cf274f6beeeadf59480a671) Add unit test for tree view component
+- [fc21fc3](https://github.com/franq/franq/commit/fc21fc3a16b7a0090ac93f48b1794880dd8d45c3) Merge branch 'develop' into feature/matrix
+- [62703dd](https://github.com/franq/franq/commit/62703dd9ab9e14e4e1fad7fcf504a72d40e50542) Add tree-view component; Add tree view for menu structure.
+- [c857a5f](https://github.com/franq/franq/commit/c857a5f6c5993d8453b8cbf0d40d693001347a21) Allowing default options to be selected when selecting a menuitem (@tonytamps)
+- [193d936](https://github.com/franq/franq/commit/193d93675b7145d330803811f4580a3a682a83e6) current-order is green (@SohumB)
+- [b0b6434](https://github.com/franq/franq/commit/b0b6434a7952f84ba79b541773221756d4f9c7c7) terminal adapter tests are green (@SohumB)
+- [45143ed](https://github.com/franq/franq/commit/45143ed5cbda0e1540003be95af13cfcb5561c09) product menu isn't green, but fuckit.js (@SohumB)
+- [c86830e](https://github.com/franq/franq/commit/c86830e7586515b38bf9143542affb7f1099d28b) terminal/app route ungreenified, this should fix it (@SohumB)
+- [a684c23](https://github.com/franq/franq/commit/a684c23d958b221fd461d61a1ee87ffb71000f12) use checkCellPosition in the 1st test.
+- [1102c7e](https://github.com/franq/franq/commit/1102c7ec6c3ab645dfe05f0190ee396910946e7a) added tests for the drop case.
+- [590f3a8](https://github.com/franq/franq/commit/590f3a8240f8a6778c0f1096fec21af5359012fe) terminal/app route is green (@SohumB)
+- [ad6a4ad](https://github.com/franq/franq/commit/ad6a4ad196dafd2066d09b29658f49c1c511da88) added 12 tests for grid, more to go.
+- [470e655](https://github.com/franq/franq/commit/470e655bf9ac0668c7c1b8da924e59fdeb49c0a3) Merge branch 'develop' of gitlab.impos.com.au:franq/franq into feature/post-orders (@tonytamps)
+- [aa13ab1](https://github.com/franq/franq/commit/aa13ab1759c2229327e264a869563f48042da9e4) move import spectrum from ember-app to brocfile
+- [231b9b2](https://github.com/franq/franq/commit/231b9b241ac62466d25249a3ee48abc257d718ae) Merge branch 'develop' of gitlab.impos.com.au:franq/franq into feature/post-orders (@tonytamps)
+- [8d81219](https://github.com/franq/franq/commit/8d81219495326deecbc119e40253b6bfbb4d99fb) Merge branch 'feature/pick-menu-colour' into 'develop' (@tonytamps)
+- [d0fc966](https://github.com/franq/franq/commit/d0fc96627b0e1c06cae352ca303e922987714ece) fix filterable-list-select component test
+- [7575d30](https://github.com/franq/franq/commit/7575d305baf58887bbe4246833f29ad0897cd480) Merge branch 'develop' into feature/pick-menu-colour
+- [bb2745d](https://github.com/franq/franq/commit/bb2745d4a8425731c185a720daed6f6df318076c) remove empty list diff
+- [73505c0](https://github.com/franq/franq/commit/73505c0619a5a146d0782dc005758ad637bb2e3f) remove test.html spectrum link
+- [2a62deb](https://github.com/franq/franq/commit/2a62deb307550738c3c66a41c9808ba1cfd29d4f) include spectrum to broccoli build
+- [2457841](https://github.com/franq/franq/commit/245784199806d121ec3aae883d86ecbeed5b0b66) menus test changes for edit menu color
+- [f27df9e](https://github.com/franq/franq/commit/f27df9edd5454a060f9b951264df26f89ff9d3d0) change all 'colour to 'color'
+- [b8d6adf](https://github.com/franq/franq/commit/b8d6adfe2a5771fd5ea54bfa9fcd9f096f8c44b4) deselect selected variant when adding product to cart (@tonytamps)
+- [a243e71](https://github.com/franq/franq/commit/a243e71d4521fca6945794b72e962eda2f4f2c93) moves the prices field into the has-prices mixin. (@tonytamps)
+- [40fcd8b](https://github.com/franq/franq/commit/40fcd8bb87873bddb3f6c48312af2132523e9e93) option rules are green (@SohumB)
+- [341a6b2](https://github.com/franq/franq/commit/341a6b206d9d17c901e492b0df31c8b2c6a2972e) product option controller tests are green (@SohumB)
+- [cdf5b6f](https://github.com/franq/franq/commit/cdf5b6f948217467159a4127567dcfdaa1df3897) product option item controller unit tests are green (@SohumB)
+- [04071d5](https://github.com/franq/franq/commit/04071d54df68ac3a3bf30e6ebb9ee0c9680dc6c7) remove extra gap.
+- [232f00f](https://github.com/franq/franq/commit/232f00f398c9bfcc286dc7e10be1b16d62dfa69e) model:product unit tests are green (@SohumB)
+- [c79142a](https://github.com/franq/franq/commit/c79142a2447a01f8a012bb8408d4ea9ba9f3efa9) remove spacer from outside.
+- [7248507](https://github.com/franq/franq/commit/7248507010474863d9be243e8cbcb8161c1b2332) Finalizing the matrix to a stage.
+- [1f80768](https://github.com/franq/franq/commit/1f807682b8449f50af75c37e085d0b1ceb5ed3c0) Merge branch 'feature/fixture-server' of gitlab.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [3b61ff7](https://github.com/franq/franq/commit/3b61ff74044d08cf9de74154e3593c02a0d044fe) Dashboard products tests passing (@aexmachina)
+- [b9921e7](https://github.com/franq/franq/commit/b9921e73210927dd00866deab08224ff9b0ea279) Product group select component is green (@SohumB)
+- [1d8d10a](https://github.com/franq/franq/commit/1d8d10a30ca584f30cd0d1ddbea3955fa7792bc4) remove commented code (@tonytamps)
+- [acf01a4](https://github.com/franq/franq/commit/acf01a4667183a3cbbe90949b9929dba950fd071) product groups is green (because we cheat) (@SohumB)
+- [d376ac7](https://github.com/franq/franq/commit/d376ac78cca7c960d7ec569d5d207902025015b4) Merge branch 'develop' of gitlab.impos.com.au:franq/franq into feature/post-orders (@tonytamps)
+- [2939745](https://github.com/franq/franq/commit/29397456a11f9e127e8e3ddf6d6895270c939c00) Merge branch 'feature/add-quantity-to-order' into 'develop'
+- [b8044f9](https://github.com/franq/franq/commit/b8044f9981e33e7de60ff90f52bbb3ea22b3cc87) Merge branch 'feature/duplicate-menu' into 'develop' (@tonytamps)
+- [9a7e03f](https://github.com/franq/franq/commit/9a7e03fe43bf83ded25de90634f835b8094a4494) Merge branch 'develop' of gitlab.impos.com.au:franq/franq into feature/post-orders (@tonytamps)
+- [a7dd1c6](https://github.com/franq/franq/commit/a7dd1c6459b76a1440f95df80c5c3cda7d1d6bd6) Merge branch 'feature/fully-featured-sublists' into 'develop'
+- [9ef06bc](https://github.com/franq/franq/commit/9ef06bc4655edc30da67a1ac59c3b76b3d3cec7c) Add menu-structure route & basic layout
+- [fc5fb99](https://github.com/franq/franq/commit/fc5fb994d1545392058fc1d680fc7514a946f4a3) Merge branch 'feature/pgroup-management' into 'develop'
+- [cc6dfd6](https://github.com/franq/franq/commit/cc6dfd622c3fcb3d9497de272cd3e84f3e921b97) Merge branch 'hotfix/rawable-tweaks' into 'develop'
+- [e8a10fb](https://github.com/franq/franq/commit/e8a10fb03ce2aa7beb0b2d9ab7f06dd6badce44b) Merge branch 'develop' of gitlab.impos.com.au:franq/franq into feature/add-quantity-to-order (@tonytamps)
+- [305f474](https://github.com/franq/franq/commit/305f474a411a539fd398f54c82c4e3b8c1f2fbe5) Merge branch 'develop' of gitlab.impos.com.au:franq/franq into feature/fully-featured-sublists (@tonytamps)
+- [98c0213](https://github.com/franq/franq/commit/98c0213216b64b23ba967471965910b0b774851c) fix some failing terminal tests for the keypad component (@tonytamps)
+- [4f798da](https://github.com/franq/franq/commit/4f798da1e388ef268aa2a38ddeefb3f5c746f261) Merge branch 'feature/fixture-server' of gitlab.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [0334bff](https://github.com/franq/franq/commit/0334bff5f7d53f8e87b8dd5acbbce48bf08ca086) Added ability to access the fixture graph from the client side, providing fixturesFor() functionality (@aexmachina)
+- [6a5bd6c](https://github.com/franq/franq/commit/6a5bd6c9ab079bfad085049d799a3dc34e7d5a6f) Add delete menu function
+- [44c7631](https://github.com/franq/franq/commit/44c76310e8f35f8834c59184e4c442a85d3ca5f0) Merge branch 'develop' of gitlab.impos.com.au:franq/franq into feature/post-orders (@tonytamps)
+- [736d439](https://github.com/franq/franq/commit/736d4390cac04d68a986cf1af706d59bff3bbb42) tweak the helpers to be more helpful (@tonytamps)
+- [00ecf92](https://github.com/franq/franq/commit/00ecf92fd8352c4a97d2d37bb0164a2795303ef7) filterable-list-select-component-test is green again (@SohumB)
+- [4dd5a6c](https://github.com/franq/franq/commit/4dd5a6cf28b14bd698065f3d0cb7880dd762e3e0) Surcharges are green again (@SohumB)
+- [4d1dda1](https://github.com/franq/franq/commit/4d1dda12f9653d1c7278ad9290aa41283568274b) Fixing serverside tests (@SohumB)
+- [1172e80](https://github.com/franq/franq/commit/1172e8040d1dd8cfbc8339a6923150d797c11f13) submitDisabled suppose to be just return boolean value
+- [879f42d](https://github.com/franq/franq/commit/879f42dddbcd079f7b9d803b9e220825eb49e82f) update password recovery to work with the apiClient (@tonytamps)
+- [76a80e8](https://github.com/franq/franq/commit/76a80e832b8f7483b6673c8fce1b5c18c795e183) Oops, sorry for wasting your time Sohum. (@tonytamps)
+- [0124ad6](https://github.com/franq/franq/commit/0124ad63ffc9e8a20f1a70957720f873850c5727) change to the release version of express-jwt (including my patch) (@tonytamps)
+- [eaf1af9](https://github.com/franq/franq/commit/eaf1af9f7930483e168b6f9ab97b6e830c1485a1) Resolved issues from merge (@aexmachina)
+- [21fed7d](https://github.com/franq/franq/commit/21fed7d9b6139473a6ba1256d4956fcdfcd806e5) Merge branch 'feature/fixture-server' of gitlab.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [fd3582c](https://github.com/franq/franq/commit/fd3582c17a63fd73930804296401b9772f95b32f) Use stubs to avoid calling out to external services in test-server.js (@aexmachina)
+- [7409138](https://github.com/franq/franq/commit/7409138f16f8994b12bbde191ef6b3a5e55dca4e) Products fixture data, Dashboard product groups test passing (except for issue with HasEmbeddedRelations mixin) (@aexmachina)
+- [2db6a1a](https://github.com/franq/franq/commit/2db6a1aec50c7ef8d9d9f22d757328ab16dd43d4) Users controller tests now pass, yay (@tonytamps)
+- [870ea4e](https://github.com/franq/franq/commit/870ea4ea76344fac3ee3000e65e5da6694880847) bring replications requests in line with normal requests (@tonytamps)
+- [4bbf6ed](https://github.com/franq/franq/commit/4bbf6edb3e3b08c22d7bbfe67ce85060d9270d53) use req.auth instead of req.user and make use of the modified JWT lib (@tonytamps)
+- [d3e22ce](https://github.com/franq/franq/commit/d3e22ce25df830ff7896a68a19d73a1e7c822166) Actually, those can just be ids (@SohumB)
+- [3ffb658](https://github.com/franq/franq/commit/3ffb658b0cb8307b5802568b2847b4bb1e984e43) has-embedded-children is green (@SohumB)
+- [b6c7211](https://github.com/franq/franq/commit/b6c721194a3df30c4d29b35837a03a2b1fdf5834) instruction-model is green, and killing fixture adapter tests (@SohumB)
+- [277a270](https://github.com/franq/franq/commit/277a270c9b437345ac6b1cb98d595de4238a113e) attempt to use selenium to test html5 drag & drop has failed. now the grid testing will be human base.
+- [a88cc4c](https://github.com/franq/franq/commit/a88cc4c4c5958a866d9b062eb839644be8369ddd) more test on color-picker component
+- [86c4e87](https://github.com/franq/franq/commit/86c4e8705cb39ca91280566747b74de786b89c78) making a bunch of the unit tests run now that setupIsolatedContainer (@SohumB)
+- [ad15124](https://github.com/franq/franq/commit/ad15124ab0d8370d8c2c36fe19f0fafab4dd2eab) making setupIsolatedContainer work with the new test server, and (@SohumB)
+- [7b4dbd1](https://github.com/franq/franq/commit/7b4dbd17205a71762ca89ff56a9ec5aad1784481) Quick mispelling in groupable-checkbox-component-test (@SohumB)
+- [9be2b78](https://github.com/franq/franq/commit/9be2b78028f3a3001ce62840b58968f46a68b3bd) rest adapter is green (@SohumB)
+- [a18b736](https://github.com/franq/franq/commit/a18b736d03b1b8516bca0af7b1807de8ebceafc7) Set default menu colour value
+- [e84efe8](https://github.com/franq/franq/commit/e84efe886d58336b281a3fa0a12326726721f62f) Add test for color picker.
+- [fc44b4a](https://github.com/franq/franq/commit/fc44b4a352622af4cff2966a068984bb73f95f65) fixing counts in gateways tests (@SohumB)
+- [92c865d](https://github.com/franq/franq/commit/92c865db7f2f68a2b0421bfdf7c6b3410738b614) re-adding google maps to the tests (@SohumB)
+- [60e9a35](https://github.com/franq/franq/commit/60e9a3580bf64f8db435a21526ae860f0300b349) reset-password and route-patterns are green# (@SohumB)
+- [64e9ddd](https://github.com/franq/franq/commit/64e9ddd900fd0df8acfe910c60274f09966e1b82) correct OrgController to use req.auth (@tonytamps)
+- [a54fd77](https://github.com/franq/franq/commit/a54fd77a2f7c511221abc4edcbe54bc8a222f95a) BaseController now works on req.auth instead of req.user (@tonytamps)
+- [c59d685](https://github.com/franq/franq/commit/c59d6850cdef51dcb31f3f4b7f0f07a1032cdb7d) remove TokenAuthUser and TokenAuthTerminal, we just use the User and Terminal models now. (@tonytamps)
+- [c49ff34](https://github.com/franq/franq/commit/c49ff346bc244693bad1cdbafb47fa83245fec36) token-ath now refers to req.auth instead of req.user because the apiclient isn't always a user. (@tonytamps)
+- [c4bf5fd](https://github.com/franq/franq/commit/c4bf5fde1ab734e160f67cdd2a995ef87566b138) revert changes to token-auth, it was a bleed of requirements into what should be a generic part of the system (@tonytamps)
+- [cbe6c3d](https://github.com/franq/franq/commit/cbe6c3dba6c03828ef1b32295ae10b80f15878c8) removing a stray debugger (@SohumB)
+- [9c3df82](https://github.com/franq/franq/commit/9c3df8299db4d2561d325a9452fbafacc2e073ad) change references to 'user' to be 'payload' instead (@tonytamps)
+- [9a2426a](https://github.com/franq/franq/commit/9a2426a0263586b5e01a3dcb0288cfc0dbc00383) Merge branch 'feature/fixture-server' of gitlab.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [a7fa454](https://github.com/franq/franq/commit/a7fa4541091f6e1b923ad44c9c93e4e1771bd310) Dashboard printers tests passing (@aexmachina)
+- [62819fc](https://github.com/franq/franq/commit/62819fc3e4f2a88b6b92dd83e4ca8657dcda6a38) Set the line item parent and modify license assign to use apiUser (@tonytamps)
+- [7337f7f](https://github.com/franq/franq/commit/7337f7fccbb60a2cc9ca49d0639a9295bc7f40a9) tweak relationship and data definition for orders and line items. (@tonytamps)
+- [03bb256](https://github.com/franq/franq/commit/03bb2561ace3eabf388455ca3282d29f45605df6) Dashboard printerimage tests passing (@aexmachina)
+- [8feb48f](https://github.com/franq/franq/commit/8feb48f12bc1b30c04e52a91240383e9b1fdb15b) surcharges are green (@SohumB)
+- [73e6604](https://github.com/franq/franq/commit/73e66048a7f8d0c193c51954dee88d16c1bc4b23) usergroups are green, and helper.fetchVisit exists now (@SohumB)
+- [ee111ae](https://github.com/franq/franq/commit/ee111aeae3d044106a8b3ac338d93ea7481b9646) Dashboard organisation and printergroups tests passing (@aexmachina)
+- [960d1e4](https://github.com/franq/franq/commit/960d1e49698e65b9d51ace1ce2e8f7b0b0394fbb) Added test-server db to setup instructions (@aexmachina)
+- [d34f839](https://github.com/franq/franq/commit/d34f839390d46a1f764eef82b0015a54f7501dc0) Merge branch 'feature/fixture-server' of gitlab.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [5fb364d](https://github.com/franq/franq/commit/5fb364d8288c559044e6fb2a30b98b0cfed4690e) Dashboard menu tests passing (@aexmachina)
+- [2ced2af](https://github.com/franq/franq/commit/2ced2af8ec5e1047884b1b22c70ca70d5729338b) add color-picker to menu index page: able to choose colour for each menu
+- [bc7901f](https://github.com/franq/franq/commit/bc7901fc75a27482bfb1fa308846eee0d97cd6a9) Add color-picker component (using spectrum).
+- [acf5ee4](https://github.com/franq/franq/commit/acf5ee4413268cb9d6e2c71c47ccb248c51e9ea1) implement serialize method.
+- [6296dd5](https://github.com/franq/franq/commit/6296dd516e81a9b1e06d3f1fb57e74af8759f0c9) users are green (@SohumB)
+- [e153846](https://github.com/franq/franq/commit/e153846edfbd5a49e32d48d6cdedc2e8a22db2cd) update indexes of all cells.
+- [5f3461f](https://github.com/franq/franq/commit/5f3461f87535249ea2765ed543debd5738e74b36) Change user_id to placed_by in the order. (@tonytamps)
+- [026e9c3](https://github.com/franq/franq/commit/026e9c34d710f079a1007823f1eb394a427397f8) When replicating all models, destroy and recreate each orgs Couch DB first (@tonytamps)
+- [b663010](https://github.com/franq/franq/commit/b663010733e2c0e15c114c42dc3f19b9defabe85) kinda working grid?
+- [c602973](https://github.com/franq/franq/commit/c602973fffad51b7c969733b3bc2bfb2634098e8) venues are green (@SohumB)
+- [617aa3e](https://github.com/franq/franq/commit/617aa3e36aee85b02fac3fce37e08cd8d5d39e14) Fix path to test-server.js (@aexmachina)
+- [15f3848](https://github.com/franq/franq/commit/15f38489c219746730b78eea4f41122142af4a9b) correcting wrong behavior when there's no space to push the element into, it now will change the direction under this situation.
+- [616f27b](https://github.com/franq/franq/commit/616f27b54e2ca2b1f938f67ac61e95a9f9b0289a) Add colour attribute for menu, fix test
+- [42794e7](https://github.com/franq/franq/commit/42794e7cf284a1d2639844f4a8d634e5bfb7e221) Several fixes (@aexmachina)
+- [d0a2696](https://github.com/franq/franq/commit/d0a269698f8557b80c8f0a47cd51bccc9fad920d) Clean up after duplicateMenu action
+- [b64acc9](https://github.com/franq/franq/commit/b64acc98ab0d1b18024ea72c76b15a3e9a08b618) Add test: duplicate menu
+- [afaace7](https://github.com/franq/franq/commit/afaace7530d97f7de5e61e648ff52b3cb6e62d4a) Merge branch 'feature/fixture-server' of gitlab.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [3e5d806](https://github.com/franq/franq/commit/3e5d806a5d8ab55b84666aeea141e9011f614199) Dashboard menus test (@aexmachina)
+- [9d1f7fa](https://github.com/franq/franq/commit/9d1f7faee152ff7b7f4cb5b9b4b1c35fe356d98c) zones are green (@SohumB)
+- [7b1b295](https://github.com/franq/franq/commit/7b1b295877e74924b1b3c22c7cfd970df90a1e81) Add duplicate menu action function
+- [49a1473](https://github.com/franq/franq/commit/49a1473b21744b26f5fe185d2e1425524492913f) tokenAuthAdapter now builds and APIUser (@tonytamps)
+- [4462f13](https://github.com/franq/franq/commit/4462f13d82180dc330da9501a378a0e0de74af94) Reverting res.end.bind(res) to not pass arguments from rollback (@SohumB)
+- [f7f8c30](https://github.com/franq/franq/commit/f7f8c3078bd57c935b69ec24066102a0abee2778) modules/attic/package.json needs broccoli-jstransform (@SohumB)
+- [64eb65c](https://github.com/franq/franq/commit/64eb65cf3f4f423c27401fa7b80fd054f2c0b316) Put the preloading in the right place, and preload the right things (@SohumB)
+- [f592f69](https://github.com/franq/franq/commit/f592f69b0d98d6f06cb69eeaaf944e6089a1b3cf) basic functionality of the matrix without visual effect about what's about to happen.
+- [c3e8bc5](https://github.com/franq/franq/commit/c3e8bc5f0d6e13ce947bca3cdf9d523d7b07e550) add the order database structure (@tonytamps)
+- [895129a](https://github.com/franq/franq/commit/895129a1ac9875d8528c9fa43da8341fc2c94c15) Licenses, login and logout tests (@aexmachina)
+- [63a80ac](https://github.com/franq/franq/commit/63a80ac9f70b0eee19e524f40273709a86982c2e) Merge branch 'feature/fixture-server' of gitlab.impos.com.au:franq/franq into feature/fixture-server (@aexmachina)
+- [d630d72](https://github.com/franq/franq/commit/d630d7202b1b48b56bd770fcb6dba8a3694c4f17) Change test-server.js to use initial-data.js (@aexmachina)
+- [69a3c20](https://github.com/franq/franq/commit/69a3c201a0353d9ec74b3d59f63c88578fd48d08) Start test server sequences at 10k (@SohumB)
+- [2fc946d](https://github.com/franq/franq/commit/2fc946d844306047e0c7e43cbff0466bc4c252b2) moving test-server.js to -example (@SohumB)
+- [fe51f13](https://github.com/franq/franq/commit/fe51f1329d5a5e6f8f86e58ed74cfee33050f911) s/vendor/bower_components in clean-install.sh (@SohumB)
+- [d75e991](https://github.com/franq/franq/commit/d75e9919ccddc67ba4319af690da0aa65064fcd9) test-server LIVES!! (@aexmachina)
+- [fe8ec25](https://github.com/franq/franq/commit/fe8ec25785b698e4853f6273a3adf4e9f2587118) Merge remote-tracking branch 'franq/develop' into feature/fixture-server (@aexmachina)
+- [7996752](https://github.com/franq/franq/commit/7996752c2a422870355374f15e1ef894774e9f90) Merge branch 'feature/edit-menu-name' into 'develop' (@tonytamps)
+- [26552a0](https://github.com/franq/franq/commit/26552a001f3b3e3594fa78db2bb2ce55c3eab790) my bad, should use currentModel after create it
+- [4299600](https://github.com/franq/franq/commit/4299600508e903d5f4997a7967706a35416c08b5) Add test for edit menu name from index route
+- [dda6943](https://github.com/franq/franq/commit/dda69435974a9bfd6c3cf171d844b58c5df5c888) re-create the has-prices model (@tonytamps)
+- [dbbcb66](https://github.com/franq/franq/commit/dbbcb66642514e2aca1b7da5ec0100213ebbfafa) post orders to the server when paid (@tonytamps)
+- [8560f7f](https://github.com/franq/franq/commit/8560f7faadb2e4847d5c14badec612bfac25f23d) restore oldname if server update fail
+- [7cda3b8](https://github.com/franq/franq/commit/7cda3b8d08a88a85f69421977634d19fd4c6e471) Merge branch 'develop' into feature/edit-menu-name
+- [7b42c20](https://github.com/franq/franq/commit/7b42c20153a585b6cecc86426de5840c12f57200) Merge branch 'feature/select-default-menu' into 'develop' (@tonytamps)
+- [46cd736](https://github.com/franq/franq/commit/46cd7360960020f02a3cde15f77061d7e9cc1190) MR changes
+- [3d73e41](https://github.com/franq/franq/commit/3d73e41d6913bcda8cd46bb48ffc5bf56ad3a78b) edit menu name from menu index route
+- [806cf09](https://github.com/franq/franq/commit/806cf0914f09c1ed4eda9c3e19751d69cca337cd) Test server WIP (@aexmachina)
+- [852111b](https://github.com/franq/franq/commit/852111b58cdba8c52ea5798792208cd8b35d34e8) Merge branch 'feature/ember-cli-update' into feature/fixture-server (@aexmachina)
+- [9158ec2](https://github.com/franq/franq/commit/9158ec22e3c274a5b41500f8f035f9467c80325c) Update ember and ember-data (@aexmachina)
+- [7255f96](https://github.com/franq/franq/commit/7255f962b2028a32a2f31af9402c1803be174cb7) Test server WIP (@aexmachina)
+- [43a8842](https://github.com/franq/franq/commit/43a8842806d0c93db0bdfd4b4b5388bcfb7003ad) Test server WIP (@aexmachina)
+- [38febf8](https://github.com/franq/franq/commit/38febf8416f9eedb11a5071a2c127e1d0d58176e) change single quote to double
+- [a1aeba4](https://github.com/franq/franq/commit/a1aeba4bdfd5f490c5a9fe21c1aeaa0806117c09) Merge branch 'develop' into feature/select-default-menu
+- [752951b](https://github.com/franq/franq/commit/752951bffb28312557b221a198ed767a0ea68808) Add test: update default menu from menus index route
+- [94c14be](https://github.com/franq/franq/commit/94c14bef4f1d9a774e23380473d74be10d540a58) tests to ensure we can perform the desired behaviour (@tonytamps)
+- [8cbc6f2](https://github.com/franq/franq/commit/8cbc6f22050c773b521733aa2c223dd92130d35d) configure clearInsteadOfDelete flag on the keypad (@tonytamps)
+- [35d01cc](https://github.com/franq/franq/commit/35d01cc233d60429a90b59662c11d58f767789c7) allow the key-pad component to be accessed through the order controller (@tonytamps)
+- [bfac3f4](https://github.com/franq/franq/commit/bfac3f482e04fd96bbc54fa3cc8c40b49a4c36a8) Merge branch 'develop' of gitlab.impos.com.au:franq/franq into feature/fully-featured-sublists (@tonytamps)
+- [84721d2](https://github.com/franq/franq/commit/84721d2154d288350b3054570d0163c781f8f5c9) testie tests (@tonytamps)
+- [b4904ee](https://github.com/franq/franq/commit/b4904ee1d2ae55defa25aca761191a133f33cca4) Fix and add server test for checking: create default menu once we create an organisation
+- [9387387](https://github.com/franq/franq/commit/9387387a18176da4347c438a276fe2d0e1082ac3) change the initial data to be a little clearer and more useful (@tonytamps)
+- [72b3abc](https://github.com/franq/franq/commit/72b3abce38a64e6e7d6d91f72a2a42b9747cf679) move menulist into menu.list - its now a leaf node. (@tonytamps)
+- [c1adb35](https://github.com/franq/franq/commit/c1adb35327609ab3b80a569ad95554fa0968949c) set on create organisation's menu as default
+- [b780429](https://github.com/franq/franq/commit/b780429ba94fd8d7033697a69eea8a725eacb308) menulists now naviagte properly (@tonytamps)
+- [408d735](https://github.com/franq/franq/commit/408d7354e418dcdf1d91a2023a16b2d1a850a334) Add set menu as default functionality
+- [d85b3e8](https://github.com/franq/franq/commit/d85b3e8b9d506a5ce1546bf2fda149b7aec031ca) Add capability to get activeOrganisation from auth
+- [d5576f6](https://github.com/franq/franq/commit/d5576f6602d4fed881df6dca629c05ac5ca28a42) Remove send link to client
+- [d991a1d](https://github.com/franq/franq/commit/d991a1d30da93c5a5b1666ad0055990cefd89142) Product Group Management component (@SohumB)
+- [3416e96](https://github.com/franq/franq/commit/3416e9633a08d8fdc035e2a3ae589301897857b1) "ember-cli-jstransform": "1.0.1"
+- [611c9eb](https://github.com/franq/franq/commit/611c9eb00f82d01042120d1f9253a2e21da59324) "ember-cli-jstransform": "1.0.1"
+- [137319c](https://github.com/franq/franq/commit/137319c0356a9c3ed82073248babac38f07464c1) commit the changes that are really close but infuriatingly far away (@tonytamps)
+- [e03daa9](https://github.com/franq/franq/commit/e03daa9f79a3fc955636369103a07ac6af8581b3) Merge branch 'feature/menu-archive-and-restore' into 'develop' (@SohumB)
+- [000964b](https://github.com/franq/franq/commit/000964b0a9f47ef46728dc6a882bd9f7589c6e48) MR comment fix
+- [41e0ff2](https://github.com/franq/franq/commit/41e0ff25f65950def3f55761b2a071712f0e5ea0) Fix test
+- [0d0c19e](https://github.com/franq/franq/commit/0d0c19ebae4e9dbc137216faa82e2285d53d3c54) Improve from suggestion: load all menus to index & archived route
+- [276d691](https://github.com/franq/franq/commit/276d691d533eececdab09723da4b7ad2d09f2e00) Pinning ember-cli-jstransform to a version that works (@SohumB)
+- [4cb80b1](https://github.com/franq/franq/commit/4cb80b1f5aab7aca76d5aee479fddf99a7ae15d3) Matrix WIP (@aexmachina)
+- [ef73dc4](https://github.com/franq/franq/commit/ef73dc4c06f8490c2467dfdd7525272b508d15c0) add new items to the menuitemcache, remove non-existant items from the cache. (@tonytamps)
+- [1264ded](https://github.com/franq/franq/commit/1264ded0e97a015483f482306e812dc03755cbba) Merge branch 'feature/fully-featured-sublists' of gitlab.impos.com.au:franq/franq into feature/fully-featured-sublists (@tonytamps)
+- [5c804ba](https://github.com/franq/franq/commit/5c804bafc1a96d133caece767a464fafaba9679a) add the menu/index route to automatically render the first list (@tonytamps)
+- [31222c4](https://github.com/franq/franq/commit/31222c4ead2b21ae4b3fdcbf88fc48a5d6e9e234) Change vendor/attic to attic (@aexmachina)
+- [9c0f47b](https://github.com/franq/franq/commit/9c0f47b25d47195b74c105f55d8078b526344e96) Update attic to latest ember-cli (@aexmachina)
+- [4d8fa6b](https://github.com/franq/franq/commit/4d8fa6b2b29ae74c425c0f4d48f25d60fda4885e) Some comments and rearch, and making RawableArray idempotent (@SohumB)
+- [5c91ab2](https://github.com/franq/franq/commit/5c91ab23e3873ef23b816caf798c1597f66a6c45) Change base on MR comment
+- [37c2931](https://github.com/franq/franq/commit/37c2931c0eeafe832345bd1f2170825e8c6595ca) stashing because it is about to change (@tonytamps)
+- [6f2c959](https://github.com/franq/franq/commit/6f2c959f02d511cc73fbbbf783bb6de58946a4f3) Merge branch 'feature/edit-menu' into 'develop' (@SohumB)
+- [eda8d65](https://github.com/franq/franq/commit/eda8d654b16dee9d6060acfe28acd84feb71e78a) Remove name argument which do nothing..
+- [0e189bd](https://github.com/franq/franq/commit/0e189bd249fc2554a2c50a032a4e9e18b8a42144) recomission the previously borked tests now that the data is back again (@tonytamps)
+- [1eeff08](https://github.com/franq/franq/commit/1eeff08255fba87626753a17ec73df3169ab30e9) recomission the previously borked tests (@tonytamps)
+- [e74f08e](https://github.com/franq/franq/commit/e74f08e3081ee11f33a932809f70965dd9a5d731) refactor and clean the code (@tonytamps)
+- [089a333](https://github.com/franq/franq/commit/089a333793dafeb4df928d895bfe676041fed770) ember-cli update to v0.0.45 (@aexmachina)
+- [c0e993e](https://github.com/franq/franq/commit/c0e993ec096f62c82a905e7e99532069f0304406) Add test
+- [f0a7c8d](https://github.com/franq/franq/commit/f0a7c8dade74259ba48f53458ddb399f1b955555) Add notification on archive and restore
+- [d28a096](https://github.com/franq/franq/commit/d28a09646424c2a0900e46790567c886b7baf4e3) Add archive and restore menu functionality
+- [8303ac3](https://github.com/franq/franq/commit/8303ac395c19393e6aa416c3e86c712c7df6e1d5) made the lists/sublists navigate roughly according to the revised design (@tonytamps)
+- [a38bc1d](https://github.com/franq/franq/commit/a38bc1dab8239ef4de0e31fe63964152e00c4059) Add test
+- [153fc71](https://github.com/franq/franq/commit/153fc71aaa93f28966d2d9881526c3d78095637b) validateNameInput checking should allow previous name on edit mode
+- [bd73a84](https://github.com/franq/franq/commit/bd73a8438922d7f8cb982dfbbc4d2c23b8adc0be) Add edit menu route function
+- [4707701](https://github.com/franq/franq/commit/4707701bfec61b0587aed019a284cff83e67552b) Merge branch 'develop' of gitlab.impos.com.au:franq/franq into feature/fully-featured-sublists (@tonytamps)
+- [496eb7d](https://github.com/franq/franq/commit/496eb7db5f1bc03ff23eebf7a277252ffb699217) Fix slow tests (@aexmachina)
+- [6df5149](https://github.com/franq/franq/commit/6df5149e8112683d05211ca5a36c5be505e957f1) Fix menu variant labels (@aexmachina)
+- [82de11b](https://github.com/franq/franq/commit/82de11bd3eca97dfd0c66889ab20adf96bc86243) Merge branch 'feature/menu-selection' into 'develop'
+- [43ae4b0](https://github.com/franq/franq/commit/43ae4b05efcb45f0f7705835344bdd0c9d5763e9) Remove hard-coded menu and list IDs in Terminal (@aexmachina)
+- [9c0d278](https://github.com/franq/franq/commit/9c0d2786ffcaa666dbfedc68e7689fd1bccc9675) Merge branch 'feature/initial-menus' into 'develop' (@SohumB)
+- [17be95b](https://github.com/franq/franq/commit/17be95b6cc57c0e8904d34ccedf9ff616dadd1ae) Add menus to initial-data.js. Organisations now create their default menu on create (@aexmachina)
+- [31dcae2](https://github.com/franq/franq/commit/31dcae2b26eedfbd0bd976b3c8e3b3345aa6d98a) fix some terminal tests that were missed (@tonytamps)
+- [d75973f](https://github.com/franq/franq/commit/d75973f5755c862057942e5e094722e794265038) Merge branch 'feature/menu-list-component' into 'develop' (@tonytamps)
+- [c407dff](https://github.com/franq/franq/commit/c407dff27421a1644d537e1cd68b8bc924f51e79) Fix typo selectParent
+- [50e5f34](https://github.com/franq/franq/commit/50e5f3459dfddc8f7578096b627d492d3cd9877d) Merge branch 'develop' into feature/menu-list-component
+- [bf797d5](https://github.com/franq/franq/commit/bf797d5d48845454ea2acb83566ab269294b5aaf) Merge branch 'develop' of gitlab.impos.com.au:franq/franq into develop (@tonytamps)
+- [ec323eb](https://github.com/franq/franq/commit/ec323ebe8a6b6ce91a2c36ead083bf7484dedbe9) remove problematic lines from a test, they dont belong there anyway (@tonytamps)
+- [de080d3](https://github.com/franq/franq/commit/de080d36b79d5067fafa1bcc8e9d2bf2f98cbc59) Merge branch 'develop' into feature/menu-list-component
+- [182efd7](https://github.com/franq/franq/commit/182efd75e669f0c607f17ad7cb3a5bca9bf4a104) Add more intergration test for edit menu list. menulist navigation and delete menulists
+- [1b8eae9](https://github.com/franq/franq/commit/1b8eae9c1ff2993a0b87962b1043ab85fd49601a) FIX ALL SERVER API CHANGES of MENU,MENULIST,MENULISTITEM, so it work
+- [f016fb6](https://github.com/franq/franq/commit/f016fb6095151ca78c968a70678ddb579fe03690) empty variants and deleted_variants should return an empty list, not null
+- [890b193](https://github.com/franq/franq/commit/890b19356bdd16eac14167b59a9c8467b5622f66) move the binding to be Simons preferred method (@tonytamps)
+- [40b1839](https://github.com/franq/franq/commit/40b18398a79bc37f8a243e5eb0bd7ef3a8f85069) Merge remote-tracking branch 'franq/develop' into feature/embedded-relations-mixin (@aexmachina)
+- [f4b8003](https://github.com/franq/franq/commit/f4b80036f78378de44360dc8694b0f3776139c4b) change base on MR comment
+- [5d3feb7](https://github.com/franq/franq/commit/5d3feb7a859b81d2f584e0ac73eaf43570c03396) Merge branch 'develop' into feature/menu-list-component
+- [fd5bf11](https://github.com/franq/franq/commit/fd5bf115e6443e9f6c00ec23b84ccc88a4ad61ca) Merge branch 'hotfix/menu-samples' into 'develop' (@SohumB)
+- [d88a74c](https://github.com/franq/franq/commit/d88a74c6282610b7b4c9d4a3afe66be7fab70985) added the API tag to the write tests and errors (@tonytamps)
+- [f652134](https://github.com/franq/franq/commit/f65213403bbc5b2b1b36dd51af2b020ea4dfaedf) Merge branch 'develop' into feature/menu-list-component
+- [fbf42bb](https://github.com/franq/franq/commit/fbf42bb1c1b0d9152de749a7ecd4d3ce878e3e06) Merge branch 'master' into feature/embedded-relations-mixin (@SohumB)
+- [0496694](https://github.com/franq/franq/commit/0496694e0ae6948f7629cfd3f900488f888d0339) Merge branch 'feature/health' into 'develop'
+- [946e6ce](https://github.com/franq/franq/commit/946e6ce54e8211a718394f2c62949a805e79a3b7) Merge branch 'feature/order' into 'develop'
+- [50457f5](https://github.com/franq/franq/commit/50457f5766dd6ab819a169eeb6fdbaeddad4fec9) Merge branch 'develop' into feature/menu-list-component
+- [347622a](https://github.com/franq/franq/commit/347622a3a07a22e4e18a8ba9375767fecfb7eb8c) remove blocking element
+- [9d38ab9](https://github.com/franq/franq/commit/9d38ab94be02adc8213ba00436d94418291387ac) Merge branch 'feature/server-menu-db' into 'develop' (@SohumB)
+- [f440a93](https://github.com/franq/franq/commit/f440a93467a8cff7309b6e0e38df76dc12f3e5c4) restore _handleResponse to the origin
+- [b198954](https://github.com/franq/franq/commit/b19895493413755b6a9006832cd3da2780d6fc22) update according to Yun's feedback (@tonytamps)
+- [184e53b](https://github.com/franq/franq/commit/184e53b9b27089e1f481f422474b36f693134ca4) change promise to bluebird
+- [7c99c2c](https://github.com/franq/franq/commit/7c99c2c59fd229503794f9ca622f6a381cc7321d) Merge branch 'develop' into feature/menu-list-component
+- [dd0fd87](https://github.com/franq/franq/commit/dd0fd87f14fe2d308c1df7654d325ef3a06ec84f) Merge branch 'develop' into feature/server-menu-db
+- [2113148](https://github.com/franq/franq/commit/211314849ed3cb3012e70287fe609deba478b7de) Merge branch 'feature/order' into 'develop' (@tonytamps)
+- [31b2687](https://github.com/franq/franq/commit/31b268730679807c99733fb2472252f7b1e2eb7f) add remove unrequired binding, Simon prefers them un the template (@tonytamps)
+- [7c11add](https://github.com/franq/franq/commit/7c11add59ea436cd64628ad75fa9476a2983bc45) Add intergration test
+- [32d8f37](https://github.com/franq/franq/commit/32d8f371a45cc154bf7fb6b452d215d176586963) make the terminal 16 cols again (@tonytamps)
+- [48c385c](https://github.com/franq/franq/commit/48c385c76071de2811a29605fe4caabf597a5770) further testing and refactoring badness I'd changed (@tonytamps)
+- [a993ecc](https://github.com/franq/franq/commit/a993eccc87c41f844f9494fb3ae2c87c02bd3d42) Merge branch 'feature/add-to-order' of gitlab.impos.com.au:franq/franq into feature/order (@tonytamps)
+- [f427f01](https://github.com/franq/franq/commit/f427f01b2430d37353875525c797f8eff01ed8ab) Merge branch 'develop' into feature/menu-list-component
+- [aee7bef](https://github.com/franq/franq/commit/aee7bef59cb61a94cc89dbd831c190731574d154) Merge branch 'feature/variants-grid' into 'develop'
+- [2d0768b](https://github.com/franq/franq/commit/2d0768be2e4f8be6b0f3164366de50346aa57748) ch-ch-ch-chaaaanges (@tonytamps)
+- [ae885c2](https://github.com/franq/franq/commit/ae885c22130d97e026893fd21101aef6a9bbb5af) Change CurrentOrderService to an ObjectProxy - required changes to initializer deps to avoid dataCache not being available when it's required (@aexmachina)
+- [bee0edf](https://github.com/franq/franq/commit/bee0edffcae06978760278c83ba5f33cd352e903) Merge branch 'develop' into feature/menu-list-component
+- [a3cc670](https://github.com/franq/franq/commit/a3cc67006a07aa57181772afa868186358a5256f) Add default selection to all product list
+- [c03f48e](https://github.com/franq/franq/commit/c03f48e2d0b37ed97142c1154574da8e520b59fa) put the new fake method for menu in the right place.
+- [5f0e8ea](https://github.com/franq/franq/commit/5f0e8eaceaf20cf647f2ac7058c8a58076c4f140) clean up the error tests even more.
+- [93514f9](https://github.com/franq/franq/commit/93514f91ca0a70758c3a22456a8b4f21cbc31f02) shorten the error tests.
+- [375ee1a](https://github.com/franq/franq/commit/375ee1a0b1a551b83c3fc552ffe2f8fd4ce040a1) clean up
+- [3da3827](https://github.com/franq/franq/commit/3da3827515165d7bcdbc83dbdd1068219821b31a) Add unit test for display variant option checkbox
+- [8fb416e](https://github.com/franq/franq/commit/8fb416e143d928bee12cf9e9d51e0620262287d3) Add Display variant option checkbox function
+- [a5eed37](https://github.com/franq/franq/commit/a5eed374a9b730c43e4216433bae6c01075186dc) variants are now added to the cart too (@tonytamps)
+- [4d36a26](https://github.com/franq/franq/commit/4d36a26f86a50b9079aecd4e955fba7846721f64) Merge branch 'master' into feature/server-menu-db
+- [0fae3ea](https://github.com/franq/franq/commit/0fae3eae9c848f87bd32a8e7cafaf62e2b39203a) add test for update
+- [9e95ed5](https://github.com/franq/franq/commit/9e95ed5cca89193d26492b1d6374cd9f0906a79c) Add missing test for edit, delete button
+- [794af90](https://github.com/franq/franq/commit/794af9061ab6dc566cd404097bea52a23f22e653) Added debug info to build steps (@aexmachina)
+- [00a636c](https://github.com/franq/franq/commit/00a636c42de46ede6c7c599b9640f19392383afc) finished the create of a menu.
+- [1e9cd63](https://github.com/franq/franq/commit/1e9cd63d4b97aff7ae24806f8f7875c0b9b30231) Merge branch 'develop' into feature/menu-list-component
+- [84a9f49](https://github.com/franq/franq/commit/84a9f490491a0ba2bf2256a56c261d4971780c83) Add Unit Test @ menu-list component
+- [76847b8](https://github.com/franq/franq/commit/76847b8e14da1353792c259db1ca290119c70a8c) change the order service to be an ObjectProxy, bind the items in the cart to it (@tonytamps)
+- [8e7e483](https://github.com/franq/franq/commit/8e7e483c78e741c81a3c0924d703cc2a6cd7730b) Improve LicenseService - ignore localStorage in tests (@aexmachina)
+- [ab83c67](https://github.com/franq/franq/commit/ab83c6740fd73adf3c310045be50f7c5baa8f1d2) show all products when the all_products flag is set, basic framework for displaying current order in the cart (@tonytamps)
+- [929d3f4](https://github.com/franq/franq/commit/929d3f458aa032eb0259ce0965c18e1e8dd805fc) Add menulist component.
+- [e9472b6](https://github.com/franq/franq/commit/e9472b625597411062f2709adf98934cce14ac68) change variants grid tests to use Simons class preference (@tonytamps)
+- [136fd05](https://github.com/franq/franq/commit/136fd0560debc56e31668a03a00c1761a4b071a0) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/variants-grid (@tonytamps)
+- [eeb86a9](https://github.com/franq/franq/commit/eeb86a97a03f43d690c7c72fa8f16786c33adb26) Remove leftSubmitButton from {{form-cn}} (@aexmachina)
+- [ea95ffa](https://github.com/franq/franq/commit/ea95ffa953440575b61efdecfc70729cbbf59c4b) Merge branch 'master' into feature/health (@SohumB)
+- [e64083b](https://github.com/franq/franq/commit/e64083b63e23241e5189215a73f9afe7335dc0de) /health (@SohumB)
+- [c1a118a](https://github.com/franq/franq/commit/c1a118a25731f3fd6ca13410f938e5e05421a6e9) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/variants-grid (@tonytamps)
+- [fe39a35](https://github.com/franq/franq/commit/fe39a35a0e40f5f3a1b74ebbabe1dcc39260ec0e) Merge branch 'feature/menu-size-selection' into 'master' (@tonytamps)
+- [e73c356](https://github.com/franq/franq/commit/e73c356c664b72ce31661550e58a273f658b2463) read part of menu creation is done.
+- [7bee8ec](https://github.com/franq/franq/commit/7bee8ec3de304ac243379c2c9e8963e36f72ffa9) Tests passing (@aexmachina)
+- [0f63ba6](https://github.com/franq/franq/commit/0f63ba6dba866f1e9b9799703c7ed41524ef959b) Merge remote-tracking branch 'franq/feature/list-filtering' into feature/menu-size-selection (@aexmachina)
+- [65d10da](https://github.com/franq/franq/commit/65d10da9619e397814ea9a70c6ca2e5666f29a77) Merge remote-tracking branch 'franq/master' into feature/menu-size-selection (@aexmachina)
+- [27be333](https://github.com/franq/franq/commit/27be333bf40d661edcaa6be93d0d1a010668d229) remove ember test .get().then() calls since our relationships are no longer 'async' (@tonytamps)
+- [3988c8f](https://github.com/franq/franq/commit/3988c8f285b05a3e60aa6889609d13378f206f77) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/variants-grid (@tonytamps)
+- [8971a8e](https://github.com/franq/franq/commit/8971a8e6a9b245f7009456f001bcf5ad8ea7d7c6) remove ember .get().then() calls since our relationships are no longer 'async' (@tonytamps)
+- [a3431e9](https://github.com/franq/franq/commit/a3431e9fd3bb0832c2f9d0e2a3ef5d192ee71d3a) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/list-filtering (@tonytamps)
+- [0bf2845](https://github.com/franq/franq/commit/0bf28456da781a4aa9faef39d4b0ae7c5c548abd) Merge branch 'master' into feature/embedded-relations-mixin (@SohumB)
+- [bbbb05e](https://github.com/franq/franq/commit/bbbb05e9a76a149776f051783ff6dc330546be47) skip failing test because I'm sick of it for now (@tonytamps)
+- [abad88d](https://github.com/franq/franq/commit/abad88dec92f17c251d4105623b1cde45e0aedbb) Merge remote-tracking branch 'franq/master' into feature/menu-size-selection (@aexmachina)
+- [1df66e6](https://github.com/franq/franq/commit/1df66e638f39517d500cb33fe2b9118d88a5d3fd) Add app/index routes to Terminal and Dashboard because they're required for redirection (AppRoute doesn't run when you're already under app) (@aexmachina)
+- [313129e](https://github.com/franq/franq/commit/313129e6c25bc68f2b5642b9e5ec9b7f066935b6) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/list-filtering
+- [830f0d4](https://github.com/franq/franq/commit/830f0d42cbd60831313c31f51025db41ff4cb6e8) Merge branch 'hotfix/initial-roles' into 'master'
+- [ad79c0a](https://github.com/franq/franq/commit/ad79c0a55f57940a30cb064e8511e42f1811a17e) Moving initial role initialisation into a "preload" file, that's (@SohumB)
+- [8abeef0](https://github.com/franq/franq/commit/8abeef0c3d6f3cd53ed2b1a9378f4a4ea5cd3d25) Merge branch 'feature/new-menu-contain-all-products-list' into 'master' (@SohumB)
+- [824597d](https://github.com/franq/franq/commit/824597da6cb1c9b24d644f63a3c5e6bc9d6a57ac) takeout '{ return .. }'
+- [f31cba5](https://github.com/franq/franq/commit/f31cba58169bbb08370afb9af0b0b775ed3689ef) Changes base on MR comment
+- [4e1acae](https://github.com/franq/franq/commit/4e1acaedbedda4d64019527bfcd259fd179c243c) Merge branch 'master' into feature/new-menu-contain-all-products-list
+- [5ba3469](https://github.com/franq/franq/commit/5ba3469334766da609c95f949c4a149f0c5d70fb) Fix & Add tests.
+- [2b9c105](https://github.com/franq/franq/commit/2b9c1058013a0c027b5182855f8bc53d8aba89cc) Merge branch 'hotfix/menu-mocks' into 'master'
+- [b23a96c](https://github.com/franq/franq/commit/b23a96ce0249c4e28cf9f6a469a9fabb402677c8) Updating the menu mocks to match the newer spec a bit more closely (@SohumB)
+- [cd026cb](https://github.com/franq/franq/commit/cd026cb08880bf42c4d430644dd0f28e06da9a74) Add create menu functionality; Edit some component 'form-cn',
+- [cd152da](https://github.com/franq/franq/commit/cd152da5300667504bbb92cddded1c73e37b40bc) Filter products in the menu by variant name (@aexmachina)
+- [089c196](https://github.com/franq/franq/commit/089c196a4bd4d0608e5031e7585f259e86ff8449) stop guessing and skip the test.. IT'S A MOCK END POINT - WHO CARES (@tonytamps)
+- [582b4ea](https://github.com/franq/franq/commit/582b4ea181b773699b65d93a76055ca2c3e5182b) remove expect for id, it doesnt work with our mocks (@tonytamps)
+- [8c3180d](https://github.com/franq/franq/commit/8c3180d853e87071afbf06c0e9762e3a93a00645) You thought you'd tamed the bug? BUT IT WAS A ME, HEISENBUG (@SohumB)
+- [36e7799](https://github.com/franq/franq/commit/36e77990a77bbdf2aa731bc93bdbe52be8a37fca) s/embedded-relations-mixin/has-embedded-children/g (@SohumB)
+- [75d5db9](https://github.com/franq/franq/commit/75d5db9ca9ef9e4ad5c296f6cdbde6e224f860d8) change the key to be a string, it's not an array (@tonytamps)
+- [e2abe2c](https://github.com/franq/franq/commit/e2abe2c7a653792294a95c9b248c42e4a996e832) Embedded Relations Mixin (@SohumB)
+- [f796aa0](https://github.com/franq/franq/commit/f796aa0cb62e86202e6701bad8b8916cdb8f4316) make the tests pass (@tonytamps)
+- [8d19f84](https://github.com/franq/franq/commit/8d19f842832cbea113027e365f6dfe4971e2e813) Merge branch 'feature/list-filtering' of gitlab.impos.com.au:franq/franq into feature/variants-grid (@tonytamps)
+- [e272a04](https://github.com/franq/franq/commit/e272a0425792ddab443b6c2e99d327c4f1d9b1e3) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/variants-grid (@tonytamps)
+- [fe98e19](https://github.com/franq/franq/commit/fe98e197a08c0ff8cdeb6743e6e779894661de1b) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [30bfb45](https://github.com/franq/franq/commit/30bfb456a109f2f7d508d9bad914f3dcdf683c7f) that might help... might (@tonytamps)
+- [c07169f](https://github.com/franq/franq/commit/c07169f6c2e03c5f0cb0c183384b467ef4fe78f3) that might help... might (@tonytamps)
+- [6730b34](https://github.com/franq/franq/commit/6730b34cacfe10db7f2e15c6b992c86bbea9cb29) added test for variants grid (@tonytamps)
+- [f80b4a6](https://github.com/franq/franq/commit/f80b4a604ddcb5fb9ee760ac2e6f8d3cc95f9c7e) Merge remote-tracking branch 'franq/master' into feature/menu-size-selection (@aexmachina)
+- [ead066d](https://github.com/franq/franq/commit/ead066df6228652c67fc05032260310362e8b3a6) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/variants-grid (@tonytamps)
+- [31f4cf5](https://github.com/franq/franq/commit/31f4cf5681301d200371aebbb57cc1094359db80) fix tests referring to button elements on keypad component (@tonytamps)
+- [9ab3d74](https://github.com/franq/franq/commit/9ab3d74928cb20c1a255f257e4e00d6731b6768f) Merge branch 'master' into feature/menu-size-selection (@aexmachina)
+- [ea4bde2](https://github.com/franq/franq/commit/ea4bde20704364e1e0b7aa694bb8144cff8b32f3) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/list-filtering (@tonytamps)
+- [4bf6327](https://github.com/franq/franq/commit/4bf632781ed7d8ecebbf7b37d2b450f7a5924dad) refactor according to Yuns feedback (@tonytamps)
+- [b0fd377](https://github.com/franq/franq/commit/b0fd37769f7400d94c28882738a61a01629d5e59) Merge branch 'feature/license-assign-with-no-venues' into 'master' (@tonytamps)
+- [c807b52](https://github.com/franq/franq/commit/c807b521dcbe858eea198cdd5653abc489a22518) Remove redundant redirect (@aexmachina)
+- [9576da1](https://github.com/franq/franq/commit/9576da1c7fdcddef19b0ff6a5df87c7740a21c56) Merge remote-tracking branch 'franq/master' into feature/license-assign-with-no-venues (@aexmachina)
+- [4ce7c7a](https://github.com/franq/franq/commit/4ce7c7ae985b7743726e34eb8c8df203612d7d8b) Update basement (@aexmachina)
+- [844e405](https://github.com/franq/franq/commit/844e405eddb0305c3e1fbe04fb2de066cde73da2) Resolves card #187 ieHFXr6y (@aexmachina)
+- [0a188e5](https://github.com/franq/franq/commit/0a188e51e22490b9442ccae82f6ae729b075f022) Added the variants to the menu, filtered by the currently selected list. (@tonytamps)
+- [7f41686](https://github.com/franq/franq/commit/7f416864c9080aff8c69d4dd854c375f23668ec8) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/list-filtering (@tonytamps)
+- [d0b2321](https://github.com/franq/franq/commit/d0b232113fc5d075ab7c3bc0014ea24a3314dd89) Simple bug in {{form-cn}} (@SohumB)
+- [99cff56](https://github.com/franq/franq/commit/99cff5633db296395e14f0bed32802201b49d844) fix the tests (@tonytamps)
+- [2c222d3](https://github.com/franq/franq/commit/2c222d3ccf9408066065355b401cc8d53f5cf7de) Merge branch 'hotfix/regex-quote' into 'master' (@tonytamps)
+- [5095ff9](https://github.com/franq/franq/commit/5095ff9f86a4ca66c57635e6b7de58a722b5e156) ......remove extra brackets.
+- [6bc756f](https://github.com/franq/franq/commit/6bc756f96da299545137c4908a36666fa05e6290) better null & undefined handling inside
+- [df0a2dc](https://github.com/franq/franq/commit/df0a2dc33a11690c18734796cafddcde4462843d) Merge branch 'hotfix/filter-out-archived-menu-to-display-in-menu-index' into 'master' (@tonytamps)
+- [5c80835](https://github.com/franq/franq/commit/5c80835c9f186d42d56a2b6c76a12f942df88f56) change base on feedback
+- [2c28403](https://github.com/franq/franq/commit/2c28403a377ba5694786c13e51c10dae856e2506) add RegExp.quote function
+- [081f8c5](https://github.com/franq/franq/commit/081f8c57c1d4e131bd2110724413dd87df4f9deb) indentation
+- [a31b349](https://github.com/franq/franq/commit/a31b349b77dee6843077b33c3b1e529068ee9961) we are stick to ember-data beta9. skiping the beta 10.
+- [af23f9d](https://github.com/franq/franq/commit/af23f9d8387ee5cad690733aec42927fdc2ac0f3) display only non-archived menu in index; Use FilterableMixin to filter the menu from search bar; formating markup.
+- [f2c3731](https://github.com/franq/franq/commit/f2c3731bcfb1f09773d4a5837f19fbd6a2f76110) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/list-filtering (@tonytamps)
+- [8f570a4](https://github.com/franq/franq/commit/8f570a4eed8c2d13782902f2986ec5d953e9088d) Change filteredProducts to filteredMenuItems, perform the filtering on the menuitems product property. (@tonytamps)
+- [9896338](https://github.com/franq/franq/commit/9896338cabf4b10073a45ab92b89bea557a7e6e7) Merge branch 'feature/archive_menu' into 'master' (@tonytamps)
+- [d5b140f](https://github.com/franq/franq/commit/d5b140f116511de465400ba7d45e629fa81a1a4b) Fixing layout on productgroups/form (@SohumB)
+- [9ebdf2f](https://github.com/franq/franq/commit/9ebdf2ff713e30861f1ce179242427c0e399ee14) Merge branch 'master' into feature/archive_menu
+- [25d54bf](https://github.com/franq/franq/commit/25d54bf4c65f199989893c7fb4f4fdedab17771d) Merge branch 'feature/dashboard-menu-landing-page' into 'master' (@SohumB)
+- [dca06ab](https://github.com/franq/franq/commit/dca06abfe41c4d60b444bb7df9d897e98e87637a) Some stupid bugs: (@SohumB)
+- [60e394f](https://github.com/franq/franq/commit/60e394f75b1b7850e135037822c951602f7a593b) change base on feedback (better test for checking name)
+- [66efd33](https://github.com/franq/franq/commit/66efd33114faad0cddbd5b63b10172e7977e988f) okay, I think that's pretty close now. I feel like I stretched the router. (@tonytamps)
+- [ec40602](https://github.com/franq/franq/commit/ec40602851d0148b459d4a8bdb231ec0ad8da3e8) MR fixes.
+- [80973c3](https://github.com/franq/franq/commit/80973c33faa0550a271de2c1fcd5d01822c97fad) make the screen roughly display like normal (@tonytamps)
+- [b5f2d42](https://github.com/franq/franq/commit/b5f2d422dc1b017e04ffb269b03cbcdf5d42f17f) Merge branch 'feature/dashboard-tests' into 'master' (@SohumB)
+- [be48051](https://github.com/franq/franq/commit/be48051591b42e4dc60d484cf7dbd6247cd3b323) use menu items in menulist route instead of prodicts (@tonytamps)
+- [74a2f3b](https://github.com/franq/franq/commit/74a2f3bfe12ae57fb960b08d8b53458eb2875d64) add class for table.
+- [88a337d](https://github.com/franq/franq/commit/88a337dcb9830eac0f9d10c67440e2c2a8d97267) Add test for ember and fix test for franq
+- [3ebc81e](https://github.com/franq/franq/commit/3ebc81e780d7c4330ab53003b0ce5c6f29b1f239) clean up the code a bit
+- [cfdebad](https://github.com/franq/franq/commit/cfdebad47c9e2de604a6d209a10a83c996cfbb54) Merge branch 'master' into feature/dashboard-menu-landing-page
+- [6db4b1e](https://github.com/franq/franq/commit/6db4b1e78537b0da0f937701e3c626e5d3266d4a) Refactor menu.index to use menu.view and menulist.view (@tonytamps)
+- [86afc2d](https://github.com/franq/franq/commit/86afc2dfad79486793df4c66ff9107bb475a3b07) Merge remote-tracking branch 'franq/master' into feature/dashboard-tests (@aexmachina)
+- [11b0546](https://github.com/franq/franq/commit/11b0546b312510fd46938d6d017b89022d2a69e2) Merge branch 'master' into feature/archive_menu
+- [0bd1b44](https://github.com/franq/franq/commit/0bd1b443a2f0b1b66884f97aa41f4c1022f3c2e2) archived menus are built.
+- [62e1668](https://github.com/franq/franq/commit/62e166890ab35969335d38a521f56e2aef641f8e) Merge branch 'feature/group-variants-dashboard' (@SohumB)
+- [b959672](https://github.com/franq/franq/commit/b959672a1ae8ff36d2f90159a6db3bc70d5c0bfb) Add {{form-cn}} and {{form-control}} components to encapsulate form markup and layout (@aexmachina)
+- [f65cbe6](https://github.com/franq/franq/commit/f65cbe6daa52adf42e7b4f41e93ad5aa0798f2ba) Update gateway.devices route (@aexmachina)
+- [4ef1677](https://github.com/franq/franq/commit/4ef16773d4998cc28cf6d118484d4d287c17fbe3) Add basic layout for menu landing page
+- [c010d9a](https://github.com/franq/franq/commit/c010d9a5fdfb0b64681ec6aadb00074d07ed2b4f) rename variables to be more accurate, create list route (@tonytamps)
+- [c3ec250](https://github.com/franq/franq/commit/c3ec250eb9cf02433c9012928f107678a82a1b40) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/list-filtering (@tonytamps)
+- [725a640](https://github.com/franq/franq/commit/725a64021afde0da918290bdd24ad53bfe17df0e) Merge remote-tracking branch 'franq/master' into feature/dashboard-tests (@aexmachina)
+- [a20a556](https://github.com/franq/franq/commit/a20a5562bbba7b559ed1bea94f239dc6ad29366d) s/menuItem/menuitem/ (@SohumB)
+- [ab92bdd](https://github.com/franq/franq/commit/ab92bddf0887821297f0a2036f99b1931a43242a) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/list-filtering (@tonytamps)
+- [033606f](https://github.com/franq/franq/commit/033606f2a10aaf290f74f1d695a92f928cdd048b) Merge branch 'feature/list-component' into 'master' (@SohumB)
+- [9c847b1](https://github.com/franq/franq/commit/9c847b11225cd88b63675996dab7ecefbd50c002) rename the model references from list to menulist (@tonytamps)
+- [23c87f6](https://github.com/franq/franq/commit/23c87f677b5df81841e17d7547c76c4af90977e2) changed to the menu model (@tonytamps)
+- [11fbf31](https://github.com/franq/franq/commit/11fbf31a05b7b629d0c7afcbe96e88620e818775) We now have the correct price display flow for inherited and override prices (@SohumB)
+- [195edf3](https://github.com/franq/franq/commit/195edf39a23738ff42da4f0f8135f88867d310f2) Merge remote-tracking branch 'franq/master' into feature/dashboard-tests (@aexmachina)
+- [5646be1](https://github.com/franq/franq/commit/5646be164cdcaf290682e7abb2b8105eacee8623) Indentation changes (@SohumB)
+- [6db66ef](https://github.com/franq/franq/commit/6db66efd085480d20d5a894d40c5c2698d62ce1e) Kill the override on the route, now that we don't need it anymore (@SohumB)
+- [782d242](https://github.com/franq/franq/commit/782d242c04ab641797b66472c8f9c0ad76e40cc7) Merge branch 'feature/menu-endpoint' into 'master'
+- [6c1b779](https://github.com/franq/franq/commit/6c1b7795b6e7f44456f235afb46c4775413de201) Update printerimage routes (@aexmachina)
+- [631133a](https://github.com/franq/franq/commit/631133a7d7803605b3a3aa2cfa5024414ea551ed) Fixture updates, test fixing, and a new test to exercise the (@SohumB)
+- [5185d74](https://github.com/franq/franq/commit/5185d74d1860cb995e8ea9b13d12f288c20f378c) Don't try to cleanup embedded items on route exit, because Ember just (@SohumB)
+- [9068a02](https://github.com/franq/franq/commit/9068a02e4b985cc1782a99ff5303b512d2b0b71a) remove comments (@tonytamps)
+- [48a72fe](https://github.com/franq/franq/commit/48a72fe6a1783da5457d2612677a5c9acef28681) test to ensure the list is displayed (@tonytamps)
+- [63e2d67](https://github.com/franq/franq/commit/63e2d67aa69f61360322f39c308f0d96972442f7) fire an action when clicking any of the lists (@tonytamps)
+- [d67b574](https://github.com/franq/franq/commit/d67b574143a1542ea375f421b412da78e12002b0) jiggery to get the lists displaying (@tonytamps)
+- [0bc6b78](https://github.com/franq/franq/commit/0bc6b78383005f03b9b7d313c3c0598492af033f) Switching to a function call for the .set('saving') nonsense (@SohumB)
+- [87613d6](https://github.com/franq/franq/commit/87613d6f5742e3e306cd34593e63c2ed4605e1a6) add array transform and use it in the models (@tonytamps)
+- [3bab738](https://github.com/franq/franq/commit/3bab73815c0e09ffc6f1dd0a33a7008df561baa8) move models to attic (@tonytamps)
+- [8a6b6f5](https://github.com/franq/franq/commit/8a6b6f523f0fd279ff1b9a60f17dd9368842bea7) tweaks to models and controller (@tonytamps)
+- [3968eeb](https://github.com/franq/franq/commit/3968eeb7470d080ebae6916bc96587178bc542c0) add some menu models (@tonytamps)
+- [7e2a951](https://github.com/franq/franq/commit/7e2a951989bbeaea97a7d5037134e8591aa86f6a) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/menu-endpoint (@tonytamps)
+- [6e83e74](https://github.com/franq/franq/commit/6e83e7488c94b7f0f948567806db7c557b849e87) make the tests work with the new code (@tonytamps)
+- [eebf630](https://github.com/franq/franq/commit/eebf630bfaf0c9e0e4acb8c0d9fc34845e1e03ad) Moved all the code to make mocking the endpoint simpler (@tonytamps)
+- [15210f8](https://github.com/franq/franq/commit/15210f838f397a04c513234096d79cf1d3fece75) Merge remote-tracking branch 'franq/master' into feature/dashboard-tests (@aexmachina)
+- [b6a656c](https://github.com/franq/franq/commit/b6a656cbfa1fc6f8e88d8307b2435ba54a902890) Update printer, printergroup and printerimage routes to use the current patterns (@aexmachina)
+- [cd36056](https://github.com/franq/franq/commit/cd3605626bbf144b4b830ee1034f00bc5f3e1b53) Group variants, basic UI (@SohumB)
+- [a949570](https://github.com/franq/franq/commit/a94957029fca5010968374e396fcad1a55628272) {{price-entry}} can be bound to undefined prices (@SohumB)
+- [013edf2](https://github.com/franq/franq/commit/013edf249c8d8c0dbafa2a45b4e77e5f8dbc23d8) Merge branch 'hotfix/fix-saving-productoptionitem-bug' into 'master'
+- [97877d0](https://github.com/franq/franq/commit/97877d0e818e86d3cf08a58fbb4e7e7648a5c81f) created the /menus and /menus/<id> end point with static data (@tonytamps)
+- [7d7f6a0](https://github.com/franq/franq/commit/7d7f6a040a3b992fe167d329b50875af491ca3a7) strange,.. now i changed to expected correct order, and it work on my machine
+- [92bcadb](https://github.com/franq/franq/commit/92bcadbd7036bf856bd0d1e8cd5743b43653fc26) Merge branch 'master' into hotfix/fix-saving-productoptionitem-bug
+- [defd80d](https://github.com/franq/franq/commit/defd80d61bc3813c0b460e3efa4f51ed9d6ff92b) Since we are not able to control the order of optionsitems, As suggessted: 'Create a new test for it'
+- [6a63359](https://github.com/franq/franq/commit/6a63359de1a34d00ab706d1ef95038c1a31e7135) Add test check for adding productgroup as option with its item
+- [23a7185](https://github.com/franq/franq/commit/23a71855454bfbf4367e7ba7da37e62883f92fe3) Null product_variants are allowed, as the point could be price overrides (@SohumB)
+- [43b68aa](https://github.com/franq/franq/commit/43b68aae9ce004ba3dbe49a22faec0fa000a5fb3) Models and serializers for the groupitem hierarchy (@SohumB)
+- [de90d71](https://github.com/franq/franq/commit/de90d7124dc45755360058fb2f76fa5fd77e55ae) {{prices-entry}} now handles deleting a price when it's empty or null (@SohumB)
+- [ea514e8](https://github.com/franq/franq/commit/ea514e8bbb703ceee4c636ab6c9653a91ad0f8bb) Changes and fixes to the accordion component (@SohumB)
+- [738a0fd](https://github.com/franq/franq/commit/738a0fd5e931ca4324dbe0f1c10857a7b9c169eb) Merge branch 'bugfix/license-assign-error' into 'master'
+- [0c78a7c](https://github.com/franq/franq/commit/0c78a7cab3aba295e773db48f81e5cd5013f4444) Merge branch 'master' into hotfix/fix-saving-productoptionitem-bug
+- [e670b67](https://github.com/franq/franq/commit/e670b67a3c8993cde4f7da338108bbbefee327f6) changes based on Yuns feedback (@tonytamps)
+- [3624f1f](https://github.com/franq/franq/commit/3624f1f2133b780c9560c43952faf62ed095961e) Merge branch 'master' of gitlab.impos.com.au:franq/franq into bugfix/license-assign-error (@tonytamps)
+- [59f40ca](https://github.com/franq/franq/commit/59f40ca9acaa3061586362667709b9387142c2b6) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [7900538](https://github.com/franq/franq/commit/7900538e1642f32b8a2bed2521c8301a14405698) more documentation of nginx config (@tonytamps)
+- [4ba5d61](https://github.com/franq/franq/commit/4ba5d614ac8945a4bcbce03967b47cc12887c934) Merge branch 'feature/zone' into 'master' (@SohumB)
+- [07e554d](https://github.com/franq/franq/commit/07e554dd8b68491e587dff0fb19757b94b41599b) update getAllChildren to use isParentOf
+- [d9f2e33](https://github.com/franq/franq/commit/d9f2e336c51424e27f6e3e86dcaa9fc4936140aa) if option is a group, set productoptionitem's goup_id which value is from its parent (option)
+- [179e131](https://github.com/franq/franq/commit/179e1316de59dfa277495d85dee743b5f14e34b4) fix the dashboard zone model test.
+- [9854b5f](https://github.com/franq/franq/commit/9854b5f0b9f7906889d72b93f1ddb62e8be44778) Merge branch 'hotfix/add-readOnly-to-productgroup-edit-route' into 'master'
+- [623a6f0](https://github.com/franq/franq/commit/623a6f0203c4bd15ce47d654de8c6d5678ab16df) format fix
+- [14c30b9](https://github.com/franq/franq/commit/14c30b9d585aa648bcf5bc77a773e7955e8d8962) done replication with test.
+- [c939846](https://github.com/franq/franq/commit/c939846d55aef17e82babd08246bfb511d0d75ca) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [0564c2a](https://github.com/franq/franq/commit/0564c2a7aa99eac90776535fe18ace535c77e160) debugged an nginx issue and documented some steps to debug issues in nginx (@tonytamps)
+- [9813fa8](https://github.com/franq/franq/commit/9813fa84eff6538f45cf26cfba85500568a2d0fc) Add read only to productgroup edit route; move 'readOnly' from edit mixin to controllerProps so can direct access from controller
+- [8d7c350](https://github.com/franq/franq/commit/8d7c35066b7b79f51bf7646ebd96cc3d73efe669) Merge branch 'hotfix/close-foundation-reveal-model-on-exit-route' into 'master'
+- [fd49200](https://github.com/franq/franq/commit/fd492008ab0ec71788b96fbb6325d288959f0fc5) Rename receiptprinterlogo to printerimages (@aexmachina)
+- [2fce706](https://github.com/franq/franq/commit/2fce706081ecdbb079eabb0b82fdaf67a5fdf816) last couple tests at this layer (@tonytamps)
+- [4e625dc](https://github.com/franq/franq/commit/4e625dcdae86e735cced5a6f22ff49a0ee7f396f) try including select2.css to fix styling issue (@tonytamps)
+- [3c0e555](https://github.com/franq/franq/commit/3c0e5556e2f799c4df29261eb35b2151297b5e9e) add some test for the exclude functions (@tonytamps)
+- [6ada9e6](https://github.com/franq/franq/commit/6ada9e67f0c00c8781c7d7efd17aecd39a3c27f5) Merge branch 'master' of gitlab.impos.com.au:franq/franq into bugfix/license-assign-error (@tonytamps)
+- [460824c](https://github.com/franq/franq/commit/460824c41ad585e1f4e3e51cd80a54ce12a2de95) more documentation for the deployment setup (@tonytamps)
+- [bdd8bb3](https://github.com/franq/franq/commit/bdd8bb36ec1380b604a26d6bc8c5973330f55081) update to enable correct routing on page refresh (@tonytamps)
+- [163dedb](https://github.com/franq/franq/commit/163dedbe6af689777db4289b1167a0326d77f156) remove the /terminal prefix from the asset path (@tonytamps)
+- [83f8237](https://github.com/franq/franq/commit/83f823703ee806161f62f18f7b1be186d1be1456) remove the /terminal prefix from the app.manifest path (@tonytamps)
+- [0d0125e](https://github.com/franq/franq/commit/0d0125e6da902aff432e6758f9e733a3e57bc450) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [7b6fbd3](https://github.com/franq/franq/commit/7b6fbd3c21eab579826e4c71aee0f96b75a1a0ff) latest franq nginx conf (@tonytamps)
+- [e8554ab](https://github.com/franq/franq/commit/e8554ab7c33f3edbeceb1bfb85bafc5aa64373c4) Rename receiptprinterlogo to printerimage (@aexmachina)
+- [fb597d5](https://github.com/franq/franq/commit/fb597d58d7d1e1c73c583f7faddd2f5898590cb9) Added tests for price model, tax service and create/edit route mixins (@aexmachina)
+- [21ccd12](https://github.com/franq/franq/commit/21ccd12737980b3582dbd3936233c96c2702598e) MR fixes, basically provided more comment on store procedure, reformatting the tests.
+- [0b20c91](https://github.com/franq/franq/commit/0b20c91e9cae58bb0a6cd01dba99c111d5958808) A slow test config file, now that the example file has been modified to (@SohumB)
+- [ae2bab0](https://github.com/franq/franq/commit/ae2bab0c7f1ab3e6378c4d4f7a312238cca8e26a) firstPrice tests (@aexmachina)
+- [742d794](https://github.com/franq/franq/commit/742d794d1fdfe6d2f1f3836d86fb73a5562f26e3) Merge branch 'master' into feature/dashboard-tests (@aexmachina)
+- [82960f5](https://github.com/franq/franq/commit/82960f54323fc871e0d9b15a5144bbdcbeb1aa7d) Fix initial-data not waiting for replication to complete (@aexmachina)
+- [b9073cf](https://github.com/franq/franq/commit/b9073cffea59fcc7aedb3c55237ffc01465335c9) first-price-test WIP (@aexmachina)
+- [9fcc53a](https://github.com/franq/franq/commit/9fcc53a76bcd2169a5e39d75e652aa425dd666db) Fix product search (again) (@aexmachina)
+- [05b0d86](https://github.com/franq/franq/commit/05b0d86f98a9ed6db53a58db9a7ecb958dc15b64) Merge remote-tracking branch 'franq/master' into feature/products-index (@aexmachina)
+- [6618c50](https://github.com/franq/franq/commit/6618c5054d8de1b5b65d08fe177a985b078b282f) Fix {{price-entry}} tests (@aexmachina)
+- [c5069b3](https://github.com/franq/franq/commit/c5069b317e5e81885154cc2d17c2cef63449bdbf) Add Em.run.sync() to make changes immediately
+- [138f663](https://github.com/franq/franq/commit/138f663daf87e5832e1f3e5274ee053ab4907d5f) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [86b485b](https://github.com/franq/franq/commit/86b485bdf0d5e7ab9081a18c342ea2e375cc5ff3) remove baseUrl from the environment configs (@tonytamps)
+- [c467623](https://github.com/franq/franq/commit/c46762316281c9c163f67426601de2c29c20a148) template only need small-12
+- [9acb674](https://github.com/franq/franq/commit/9acb674da24423e638de902c5db7b9d35c22cd35) Merge branch 'hotfix/make-products-search-results-clickable' into 'master' (@tonytamps)
+- [298e090](https://github.com/franq/franq/commit/298e090ecbe12786126e1a241e2809202c23d485) better format
+- [7a4996b](https://github.com/franq/franq/commit/7a4996be24c27a477083fd9cc6dc708f5841650e) clean up & more tests.
+- [d4b8534](https://github.com/franq/franq/commit/d4b8534dc1024792930998e8c533a72fed7fc32d) add tests for dashboard side.
+- [a9c708f](https://github.com/franq/franq/commit/a9c708f5ca873d7af26570ab4aec06dadc1b4373) Merge remote-tracking branch 'franq/master' into feature/products-index (@aexmachina)
+- [068a6ad](https://github.com/franq/franq/commit/068a6adfc17bff3f34738e59c547d862a2db6aa9) Update products to use index route (@aexmachina)
+- [10b7674](https://github.com/franq/franq/commit/10b7674f5f8d4867a0afcba69ee658a3d90df84d) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [eda4de3](https://github.com/franq/franq/commit/eda4de3537083fb1061c7e62250399a46702ba50) remove dev assets from production broc builds (@tonytamps)
+- [93b1952](https://github.com/franq/franq/commit/93b1952590ba7e781cdf618899245b5d1dccb6c7) Since edit route will check acl, here is not need which acl.products.read user can still view product details
+- [af0fca6](https://github.com/franq/franq/commit/af0fca68b34282aa86f18c25e37716c0b70c7f41) Merge branch 'feature/accordion-component' into 'master' (@tonytamps)
+- [de78a27](https://github.com/franq/franq/commit/de78a27b813af0fe5bb0e19374d627dfa00d755a) Fix undefind keyword error
+- [14fe908](https://github.com/franq/franq/commit/14fe908b9c059fb1dbeb1df7c36d18243928ddb7) Add acl check for user with update privalage to able to edit found product
+- [dd6a60e](https://github.com/franq/franq/commit/dd6a60e57a39fd4186f5d1c97b01ce8ce6454ed6) add descriptions to tests and enhance the mocked data cache (@tonytamps)
+- [eb5329f](https://github.com/franq/franq/commit/eb5329f5608799c61c427f2e15f94bbdb5fa6b11) Using a css class rather than domthrashing (@SohumB)
+- [8cd948d](https://github.com/franq/franq/commit/8cd948d0c078bd67d16418a9ead5753a1999770d) Merge branch 'master' into feature/accordion-component (@SohumB)
+- [52c9e37](https://github.com/franq/franq/commit/52c9e37a06826c32d34da85c6d6317dd55b47550) Fix empty keyword for search product route not found
+- [79ebeb2](https://github.com/franq/franq/commit/79ebeb22f7bbf4e681437d4a8532395ab8ff1386) Merge branch 'feature/groups-have-variants' into 'master' (@tonytamps)
+- [11e373d](https://github.com/franq/franq/commit/11e373d83f72427dd8e88733428fe9fa519fe358) fix shortcircuiting problems in run-all-tests (@SohumB)
+- [3ad3d4c](https://github.com/franq/franq/commit/3ad3d4cba447ec6ab4c042b7af405be58f63209d) Merge branch 'feature/productinstructionitem-disable-and-set-default' into 'master' (@SohumB)
+- [f615a48](https://github.com/franq/franq/commit/f615a486f8ca42b73ad6e4a385ee6e8d8d85c98a) clean up
+- [3c4920a](https://github.com/franq/franq/commit/3c4920a3c864d1faca94fcb513434b0142e797e6) Merge branch 'master' into feature/zone
+- [96ef17f](https://github.com/franq/franq/commit/96ef17f9263c8238e5efb7fb745d4d6503bbc983) CURD of zones are ready in the dashboard.
+- [00398d9](https://github.com/franq/franq/commit/00398d9657c4e98d91f0c30ed182534c2bc35539) Merge branch 'feature/confirm-input-in-instruction-item' into 'master' (@SohumB)
+- [4d30bd4](https://github.com/franq/franq/commit/4d30bd4368c52b091d336981c854d5d5aae34648) Accordion component, first pass (@SohumB)
+- [9e1fc33](https://github.com/franq/franq/commit/9e1fc33cca8735a6aa32d8962f626ebc956c666a) Merge branch 'master' into feature/confirm-input-in-instruction-item
+- [c186986](https://github.com/franq/franq/commit/c1869865e32c43e89e2fb5d75dc199001c4907a5) Merge branch 'master' into feature/productinstructionitem-disable-and-set-default
+- [5bab67f](https://github.com/franq/franq/commit/5bab67fc5bfeef04cd5828a5678127c29c4cee94) remove unneeded observer function for groupable-checkbox
+- [336551f](https://github.com/franq/franq/commit/336551f6083f8d3de8a83eda06c19fd30e5ec521) remove invalid assertion on cashier login screen (@tonytamps)
+- [15a645d](https://github.com/franq/franq/commit/15a645d7dbd86052d088103fd3900b22fadf3de7) Merge branch 'master' into feature/confirm-input-in-instruction-item
+- [d447af4](https://github.com/franq/franq/commit/d447af4bda5807dbbb83d6b34af7875b8c132cce) Change add instructionitem to use confirm-input component; Fix test
+- [23509b7](https://github.com/franq/franq/commit/23509b79f0d61ea3ba829a3bbd52da44cc1b44ef) add controller validation to the venuw and license drop downs (@tonytamps)
+- [e71818b](https://github.com/franq/franq/commit/e71818bfdcd415e1549e39c87895ab8ba6e85b77) Merge branch 'feature/terminal-layout' into 'master'
+- [74836db](https://github.com/franq/franq/commit/74836dbec9fe8b53b44a21c63b499b1fba2090a0) Merge remote-tracking branch 'franq/master' into feature/terminal-layout (@aexmachina)
+- [c1fcbaf](https://github.com/franq/franq/commit/c1fcbaf212c4c45ac99faff46d30c68107fbf30d) Don't mutate the DOM to show/hide elements (@aexmachina)
+- [05339cf](https://github.com/franq/franq/commit/05339cfaabb40c64a2d8e8247d40b30b857cb02c) Merge branch 'master' into feature/productinstructionitem-disable-and-set-default
+- [af8567b](https://github.com/franq/franq/commit/af8567b5fa85b5d939c739eab48ce13d7e946562) Merge branch 'feature/disable-nonprivilege-user--edit-productgroup-capabalities' into 'master' (@SohumB)
+- [6d31d32](https://github.com/franq/franq/commit/6d31d3272835985810771817e26bd4981ae5fa87) Fix from comment - remove manually remove for selected object when toggle disable
+- [8e85036](https://github.com/franq/franq/commit/8e85036f4a266a664da1488eab11d012ee098e13) Add observer for checked to add or remove element
+- [5fdbc6c](https://github.com/franq/franq/commit/5fdbc6c138d8bf1e7bfe26de815d1bb0ce617e89) enable excluded paths from the data cache (@tonytamps)
+- [5a6f073](https://github.com/franq/franq/commit/5a6f07333c8a939bffb08ffca60fccaeffc54ab6) Merge branch 'feature/terminal-login-keypad' into 'master' (@SohumB)
+- [a4d5c7a](https://github.com/franq/franq/commit/a4d5c7a3997540701f37b1cd6e8c788be4227efb) simplified template conditions (@bulkan)
+- [2b20507](https://github.com/franq/franq/commit/2b205079f9bff8a28f2d2fd0e3b40651f0623a9c) Merge branch 'master' into feature/productinstructionitem-disable-and-set-default
+- [f1bd476](https://github.com/franq/franq/commit/f1bd476046eb15ac038b8f40f7ace8a773fb73c0) Merge branch 'master' into feature/disable-nonprivilege-user--edit-productgroup-capabalities
+- [972a20b](https://github.com/franq/franq/commit/972a20be9637b1c8134e5827e34aad25ea2a65ec) Fix price-compoent reate price only when tick is clicked
+- [94d15e8](https://github.com/franq/franq/commit/94d15e8c7d27525b24ce6fbb00c7fc2772cccb75) Merge branch 'master' into feature/terminal-login-keypad (@bulkan)
+- [59e290c](https://github.com/franq/franq/commit/59e290ccb7b0ce2f736fc3746038bddf58073f06) update for 'afternoon' (@bulkan)
+- [dbb27c8](https://github.com/franq/franq/commit/dbb27c832a6f238cd9b7a73ced0796d7b7195dd8) Merge branch 'master' into feature/terminal-layout (@aexmachina)
+- [ff68286](https://github.com/franq/franq/commit/ff6828614e705e98a0280ef369d17e4e8af1a05f) no one saw that (@SohumB)
+- [f9bd862](https://github.com/franq/franq/commit/f9bd86261192ff1dea164b6f2427ea1085cca349) s/group_id/parent_id/ (@SohumB)
+- [1a0ac5c](https://github.com/franq/franq/commit/1a0ac5c6e40fecd5be457f23cbad64be049d7ed2) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/terminal-layout (@tonytamps)
+- [b60085b](https://github.com/franq/franq/commit/b60085b5a40cfabdec4a39696b2b86801a2a44c0) s/ProductGroupItem/GroupItem/g (@SohumB)
+- [c47e658](https://github.com/franq/franq/commit/c47e6586f925624bc2fe9d15e153533130d65881) Added ember executable to git because they're not created them for us (@aexmachina)
+- [9484452](https://github.com/franq/franq/commit/94844524e9cb9f8d19214465e08dc9295d17019a) Merge branch 'master' into feature/productinstructionitem-disable-and-set-default
+- [7e99a34](https://github.com/franq/franq/commit/7e99a343c66ef78b47ec635dd216e561de5f7d12) Merge branch 'master' into feature/disable-nonprivilege-user--edit-productgroup-capabalities
+- [ff3ed08](https://github.com/franq/franq/commit/ff3ed08ce6019517943f18189628ea2649464672) Add Test
+- [ec479d0](https://github.com/franq/franq/commit/ec479d0f76c49457598846f7bbfb93c36412a769) Merge branch 'master' into feature/shared-ember-cli (@aexmachina)
+- [acdd17a](https://github.com/franq/franq/commit/acdd17a9c776f3a1c62546cf2cecc3315ca5189c) Added fast-sass to clean-install.sh (@aexmachina)
+- [8afc1e3](https://github.com/franq/franq/commit/8afc1e3c6300db281793682f02e1a0eec0996e3e) Symlink shared ember-cli into dashboard and terminal (@aexmachina)
+- [4b23276](https://github.com/franq/franq/commit/4b23276387c5413071fee57bbda0c4fd1fedc4b8) remove debugger statements and fix the SINGLE failing test (@tonytamps)
+- [7d56544](https://github.com/franq/franq/commit/7d56544cde8f3ab3a4307a96fdb50a471c9b41b3) Merge branch 'master' into feature/disable-nonprivilege-user--edit-productgroup-capabalities
+- [fa0f2af](https://github.com/franq/franq/commit/fa0f2af47feb66b903d0bd60978568fd97420727) Fix indentation
+- [7144835](https://github.com/franq/franq/commit/7144835309c86cf583e12e7578579d73c5a2604f) changed the cart to be an ember object, as per Simons feedback (@tonytamps)
+- [c1011e1](https://github.com/franq/franq/commit/c1011e1eb5b4a9b5c2f23591fd3631d7436d0ca1) remove unrequired files (@tonytamps)
+- [55e77a0](https://github.com/franq/franq/commit/55e77a0ffd99af996de4f012f3f9d220d4c320b0) refactor the redirection into a single file (@tonytamps)
+- [a8f4f23](https://github.com/franq/franq/commit/a8f4f23443b05f374e2f80fe77675fc9d2c9817d) Add test - disable & set default for productinstructionitem
+- [9ffc753](https://github.com/franq/franq/commit/9ffc753ad3aa3a9011fbb92af2b03d7110123fc4) Merge branch 'master' into feature/productinstructionitem-disable-and-set-default
+- [7af777e](https://github.com/franq/franq/commit/7af777e6ca133c8af7386de7fe3e75837500952f) Add,Edit,Remove produtinstructionitem; Instruction object controller to take controll of productinstructionitem which related to each instruction
+- [ae789ba](https://github.com/franq/franq/commit/ae789baecd512c12be5969288190f8b688311748) Merge branch 'master' into feature/terminal-login-keypad (@bulkan)
+- [373bfe8](https://github.com/franq/franq/commit/373bfe87963ae51552419eeea604f3d546c9590a) update DOM (@bulkan)
+- [a0d73cb](https://github.com/franq/franq/commit/a0d73cbcc8f9d217bc3bb8aed3ddc4b2f908028d) update the DOM (@bulkan)
+- [3a9e595](https://github.com/franq/franq/commit/3a9e595f729d898b6737a884506a976fb765729e) just call function (@bulkan)
+- [dd09160](https://github.com/franq/franq/commit/dd091608fcf060a9c8710efe5677bfde48b4be7b) Added docs to {{change-input}} (@aexmachina)
+- [5311e26](https://github.com/franq/franq/commit/5311e261b8dc3d5ef5d8c5de2b09a6e87d65a5be) server side zone is ready.
+- [d8c46fe](https://github.com/franq/franq/commit/d8c46fe7f404ce1de2c53c376f19667267d6a3a6) Merge branch 'master' into feature/groups-have-variants (@SohumB)
+- [157605b](https://github.com/franq/franq/commit/157605b0e344506067476b7b38961564e2a22337) change clean install to remove fast-sas (@tonytamps)
+- [cb64788](https://github.com/franq/franq/commit/cb647881635560f60327852172a15c80677e9a50) more changes for simon to examine, halp (@tonytamps)
+- [851c88d](https://github.com/franq/franq/commit/851c88de6f78a5c3bf9d1d24d426597423e6df5f) Groups have variants! (@SohumB)
+- [b40b36b](https://github.com/franq/franq/commit/b40b36b6bc1741ecd982b0e491bb6f9abda3b50b) New database tables, plus minimal changes to get tests to pass. (@SohumB)
+- [e448d63](https://github.com/franq/franq/commit/e448d636d1f7934db5ad6daaa842d0f92e78423f) Add acl check controll for productgroups edit and non edit privilege user display in edit route
+- [be1db8e](https://github.com/franq/franq/commit/be1db8e5e774c5dc4b582bddf4f1864c47f4b637) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/terminal-layout (@tonytamps)
+- [5f0eb9b](https://github.com/franq/franq/commit/5f0eb9b8609d8c7718a8bccee6f3b0847189a6ce) Change franq productinstructionitem property, default to status which now taking 'enabled', 'disabled', and 'default'
+- [c9c9f63](https://github.com/franq/franq/commit/c9c9f63e106489e92cdd58ba195538b1028e251a) renamed userid => usercode, passcode => pincode (@bulkan)
+- [1ec58a0](https://github.com/franq/franq/commit/1ec58a09ecc1113bb4c85fd1a83f40340ec21f0a) fixed broken tests (@bulkan)
+- [6f84acb](https://github.com/franq/franq/commit/6f84acb916cd0af134cc4216eb076d2e073ae6ba) ember you're my batch (@bulkan)
+- [11b6c0f](https://github.com/franq/franq/commit/11b6c0fa1404987c8b1cad8c5d43540d7cac2841) trying to integrate into login.hbs (@bulkan)
+- [599fa4c](https://github.com/franq/franq/commit/599fa4cbcbcbad06f66e45d0dd31900fb75f7a70) moar moar tests (@bulkan)
+- [5f64a72](https://github.com/franq/franq/commit/5f64a726e5e55f41dc0d4dc3e5f7a6d5106c6365) writing tests for the cashier-login component (@bulkan)
+- [a4bf7f9](https://github.com/franq/franq/commit/a4bf7f94f0ddee796fcd6b117cc6da4855a480eb) changed code as per wireframe changes (@bulkan)
+- [d3e5068](https://github.com/franq/franq/commit/d3e5068391e466f445704110a60e2c9c52a21b50) updating code to reflect changes in UI wireframes (@bulkan)
+- [c4ee337](https://github.com/franq/franq/commit/c4ee337ab33b7cffded3aaddb03985ffc0c3508b) updated component based on the new design (@bulkan)
+- [645d5de](https://github.com/franq/franq/commit/645d5de7f5ff3cf5f7fd3da6f2849f44d6071d0e) replacing the 8 input boxes with two (@bulkan)
+- [3a742e1](https://github.com/franq/franq/commit/3a742e1ebf31b92f71fa4558257d316ec9169cef) Merge branch 'master' into feature/terminal-login-keypad (@bulkan)
+- [191ae61](https://github.com/franq/franq/commit/191ae6160cb7792e1e87ac75dfa3b4d2129db6b3) Merge branch 'feature/pgroup-wireframes' into 'master'
+- [4bc3a0c](https://github.com/franq/franq/commit/4bc3a0c23f0fb3b5f5449e650f5c3e1a87ddd5db) Merge branch 'master' into feature/pgroup-wireframes (@SohumB)
+- [08f090b](https://github.com/franq/franq/commit/08f090b43792276d132f891b1a4f6ba713ee45d6) Merge branch 'feature/pgroup-new-detail' into 'master' (@SohumB)
+- [a6a713a](https://github.com/franq/franq/commit/a6a713a77f3f61d8ad176471abc17bf71ad5c0c0) return promise from route delete
+- [a610d99](https://github.com/franq/franq/commit/a610d999de32e2756ecd9859c41a508178f53650) restore the get('controllerProps').setProperties in route.
+- [79819ef](https://github.com/franq/franq/commit/79819ef158a609a8fc886babeaa0bc536201c0b2) change deleted action in controller to finishedDeletion and fire it no matter the deletion is failed or not.
+- [f80b492](https://github.com/franq/franq/commit/f80b4926b7d6176eeea04a3ef5d9567bdec7d573) use regexp, use alert when delete failed.
+- [13013d5](https://github.com/franq/franq/commit/13013d53649e222387da45b80caab99c47a882bf) Fixing the property dependencies of `filtered` (@SohumB)
+- [3945ee2](https://github.com/franq/franq/commit/3945ee2a9570811d06bfbbda00b7fcbcca04c032) Case insensitive matching on the typeahead (@SohumB)
+- [9ae1f06](https://github.com/franq/franq/commit/9ae1f06e20e13e2d2b8391a859dfed60b4153939) Trigger a filter action on hitting Enter on the typeahead (@SohumB)
+- [95be0d3](https://github.com/franq/franq/commit/95be0d3560ae609bcab73f65ef853631746fb75f) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/terminal-layout (@tonytamps)
+- [e3ab5df](https://github.com/franq/franq/commit/e3ab5df5e60e1e041c51f2367708de46b80a22b1) Merge branch 'master' into feature/pgroup-new-detail
+- [d070106](https://github.com/franq/franq/commit/d0701063c9fedd8864e48cf47de75042b52adf04) add cart pod to push the logic for history or order tab to there (@tonytamps)
+- [bffc151](https://github.com/franq/franq/commit/bffc151b91961b4b34468086760afbe354d9f620) clean up the binding so there is only one property for the cart (@tonytamps)
+- [5e558bd](https://github.com/franq/franq/commit/5e558bdecad19ef191b95e596ffe9f113c213dfd) fix broken tests.
+- [e5c99a0](https://github.com/franq/franq/commit/e5c99a06893e973d50442fe8ae06681a7cc67589) wire selected cart tab in store and order tab (@tonytamps)
+- [410e2ce](https://github.com/franq/franq/commit/410e2cef9ef17f2b4b37984b07272431b200f0f0) added tests for the things just built.
+- [510690d](https://github.com/franq/franq/commit/510690d295e6e8b67d154099bd6b41400ae05f50) set active tab when selecting store or orders (@tonytamps)
+- [e58c7a0](https://github.com/franq/franq/commit/e58c7a02a49de35ba04a6bcb483e0a21d0eaeef7) Merge branch 'master' into feature/pgroup-wireframes (@SohumB)
+- [adbe124](https://github.com/franq/franq/commit/adbe1241d238ea0ef152d1d68fae1518cd12db25) make the component communication tidier (@tonytamps)
+- [10ecb48](https://github.com/franq/franq/commit/10ecb48fe3a7e3662e6655c3d0a84d5a41baa990) Merge branch 'feature/products-review' into 'master'
+- [fff9180](https://github.com/franq/franq/commit/fff918087c01d204030f07714d419d80a341fa55) s/this.controller/this.get('controller')/ (@SohumB)
+- [49e5f3d](https://github.com/franq/franq/commit/49e5f3df1109cef72e92c7c4abdc4b71e66f34c2) clean up the filterable-select-list
+- [98ac38a](https://github.com/franq/franq/commit/98ac38a6932b3a13fa0dd5169267f8fc27b5e9ff) delete button is ready.
+- [75c6122](https://github.com/franq/franq/commit/75c61222294029ade1a094799859af6476898677) Merge branch 'hotfix/confirm-action-class-binding' into 'master' (@SohumB)
+- [91fd7ff](https://github.com/franq/franq/commit/91fd7ffe2bf3ae2d65809595d4539e6977b93ed6) search name working
+- [7bfe681](https://github.com/franq/franq/commit/7bfe68141da3781307ca52b32588b3070e807baf) merged from hotfix, create form now have tabs, addProduct button working, remove product button working. products shown in table.
+- [57b451b](https://github.com/franq/franq/commit/57b451ba78031350bafd9433670dbbffeded76ca) fix the class binding problem of a confirm-action confirmDisabled
+- [7983bdd](https://github.com/franq/franq/commit/7983bddbd5b8d4a179a12252df19414c66ac86c1) Apply the FormRoute, IndexRoute and CreateRoute pattern to (nearly) all the pods (@aexmachina)
+- [895b0bc](https://github.com/franq/franq/commit/895b0bc844059dbd8ae574aec72e9b94f299db1a) Test for the typeahead (@SohumB)
+- [f2fcd80](https://github.com/franq/franq/commit/f2fcd8022bd9a11156865f9c921698f4db171fc0) View product group details in a table (@SohumB)
+- [8b7f486](https://github.com/franq/franq/commit/8b7f4864bb392980a6fe523b03054e8e98b5cfcc) Merge branch 'feature/pgroup-wireframes' into 'master' (@bulkan)
+- [903b707](https://github.com/franq/franq/commit/903b707ba3adb9a13e69982c8d870ca800e8b6e9) property binding to update the classes on the child element when the button in the parent is clicked (@tonytamps)
+- [d24e345](https://github.com/franq/franq/commit/d24e345783c6e33b6122d9470c0f00d4dd9729a7) Hooking the typeahead component into filtering product groups (@SohumB)
+- [1d2625d](https://github.com/franq/franq/commit/1d2625dbd57850e3ed1ba5a1925e557d0bd52d03) A typeahead component! (@SohumB)
+- [2f2dbcd](https://github.com/franq/franq/commit/2f2dbcd35dd7e84e181038c66cb21b242188a212) Product groups banner (@SohumB)
+- [685804b](https://github.com/franq/franq/commit/685804b68a4dc68365cdec21036f903d9ba044eb) create terminal route that is hidden and move some of the UI to it (@tonytamps)
+- [f31f5f4](https://github.com/franq/franq/commit/f31f5f4717f874d05a7787d9926c834199c050c8) use a computed property to work out the "morning" part of "Good morning" (@bulkan)
+- [035a8b7](https://github.com/franq/franq/commit/035a8b74fa8dca8ca237d8a3ac4e423471fb1458) scketched out rough layout on a single page (@tonytamps)
+- [947d58a](https://github.com/franq/franq/commit/947d58a736e6d4719e24dfc4de92a3fefd2b7fd1) Merge branch 'master' into feature/terminal-login-keypad (@bulkan)
+- [f51435f](https://github.com/franq/franq/commit/f51435fc85467a046064a3ad180c633ea5866b7a) focusing into the inputs now selects the text (@bulkan)
+- [a8d1364](https://github.com/franq/franq/commit/a8d13646474d540c24a37e63843479e46d7ee0a4) Add price property using firstPrice() to models that have an array of prices (@aexmachina)
+- [69b4e32](https://github.com/franq/franq/commit/69b4e32d83907100880d431bd182c990e5c74fac) Minor improvements to products/form/controller and added firstPrice computed property (@aexmachina)
+- [724881f](https://github.com/franq/franq/commit/724881fa873d8f59d7a603b4886bddb8ae49f8a1) Replace route exit methods with deactivate hook (@aexmachina)
+- [496bacc](https://github.com/franq/franq/commit/496baccd67cc8ed13be2baff5e31f00ad13f635c) Added initial sketch for readOnly in edit routes (@aexmachina)
+- [fdc1c82](https://github.com/franq/franq/commit/fdc1c82b403c3efe66a376433f9da1c23d28cca9) Added FormRoute, CreateRoute and EditRoute mixins in Attic, with ACL checks to boot (@aexmachina)
+- [427cdcd](https://github.com/franq/franq/commit/427cdcd6b252666c358e146183aa9aa4b13864b8) after entering a number moves onto next input box (@bulkan)
+- [bbfe396](https://github.com/franq/franq/commit/bbfe396cebb9f779b1bb418a47ac6a9b576c0265) Move inc/ex tax calculations to price model (@aexmachina)
+- [f484177](https://github.com/franq/franq/commit/f4841778e0de35c09304539aa14fdd9bded51883) Change ProductsIndexRoute to use IndexRoute and default styling (@aexmachina)
+- [a0a90b3](https://github.com/franq/franq/commit/a0a90b39f9ea58911546cd7e9e30eec2984bc570) Merge branch 'feature/terminal-templates' into 'master' (@SohumB)
+- [08dad1e](https://github.com/franq/franq/commit/08dad1ee1008152d357d18dd153d66a222782c4e) Merge branch 'bugfix/terminal-route-overrides' into 'master' (@SohumB)
+- [3adc07d](https://github.com/franq/franq/commit/3adc07deb9138a5fe387889b0ec4c5652080457a) when license is assigned, redirect /login to /cashier/login (@tonytamps)
+- [7db9765](https://github.com/franq/franq/commit/7db976522e7d85f9eae84cb117ca0821daed67f6) remove debugger statement (@tonytamps)
+- [2f26fbe](https://github.com/franq/franq/commit/2f26fbe5cb6e3991b498d6a1b780095185e778a3) Moving the common parts of pgroups edit/create into a form (@SohumB)
+- [36b088d](https://github.com/franq/franq/commit/36b088d5f2b6056deaa3eb3f6ce009864b8fb28f) Merge branch 'bugfix/options-weirdnesses' into 'master'
+- [280f1ff](https://github.com/franq/franq/commit/280f1ff7d5e06d75382d0d164e2d079ab57cc9fc) fixed tests? (@tonytamps)
+- [339af5b](https://github.com/franq/franq/commit/339af5b99c21520c5ceaf0a72f3ad1faad281ec7) make the tests work in the browser (why they didn't before, I'll never know) (@tonytamps)
+- [3e0e0db](https://github.com/franq/franq/commit/3e0e0dbd0d30abc985027d9c1ed8fe274d05d5fd) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/terminal-templates (@tonytamps)
+- [839eb89](https://github.com/franq/franq/commit/839eb89e97762f487868cbde7e9ec3ce00b2d7fe) fix issues with templates refactor and tests (@tonytamps)
+- [06734f9](https://github.com/franq/franq/commit/06734f937f57a6399cec84605bb2f35b7a2eb0fe) Merge branch 'master' into bugfix/options-weirdnesses (@SohumB)
+- [2db6e52](https://github.com/franq/franq/commit/2db6e52f42f681b72acfa892b0714a7b09e8a673) Merge branch 'feature/disable-sub-products-option' into 'master' (@SohumB)
+- [387a698](https://github.com/franq/franq/commit/387a69838a24b53fb4a1d1ed3771209def2a7232) refactor terminal templates to be in line with dashboard (@tonytamps)
+- [c61ff5e](https://github.com/franq/franq/commit/c61ff5eae8cc9bfd238db27b1e82bce6796d4737) few fixes for MR
+- [5358f17](https://github.com/franq/franq/commit/5358f17cd8505ccdec3a042e7d5229165fd8db4c) Merge branch 'master' into feature/disable-sub-products-option
+- [ad005f7](https://github.com/franq/franq/commit/ad005f794c769f3f63cc886511d1caf1702f707e) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [3c17242](https://github.com/franq/franq/commit/3c172420f34ee07c6c3bbc95a19456135da775a3) Adding a cleanup test to {{foundation-reveal}} (@SohumB)
+- [f44985f](https://github.com/franq/franq/commit/f44985f24555bd1a82ef72cdb368772c93d87428) MR fixes.
+- [b82ef54](https://github.com/franq/franq/commit/b82ef54e69054d36b29fe0d77ef52c3c74d7e0ea) add more test for option item.
+- [4c9b2f9](https://github.com/franq/franq/commit/4c9b2f9de77a44b1b8f6c028224c6a3af4660b3a) Merge branch 'master' into bugfix/options-weirdnesses (@SohumB)
+- [d056721](https://github.com/franq/franq/commit/d0567214ca52578f6cc72f2990ec73213b10772b) Merge branch 'feature/form-markup' into 'master' (@tonytamps)
+- [5a2e482](https://github.com/franq/franq/commit/5a2e482aee34987b769a790f4a728d3fc9a8be7d) fix the failing tests (@tonytamps)
+- [5039866](https://github.com/franq/franq/commit/5039866f163dd90ddb9607c3d532cfbdf17cb2ac) Merge branch 'master' into feature/disable-sub-products-option
+- [2056ff6](https://github.com/franq/franq/commit/2056ff6171f08d7263243aa4af59c88e597db66a) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/form-markup (@tonytamps)
+- [5fc4de0](https://github.com/franq/franq/commit/5fc4de01a4858665d46f1186b5876a63afe88a29) fix terminal tests.
+- [df76dcc](https://github.com/franq/franq/commit/df76dcc1c94144f89d2f16dafd0f5510a99ff89a) weird thing happened using equal to test whether two DS.Model instance is equal..... now using === and it's all fine. why throws shits qunit.!!!
+- [4a9e585](https://github.com/franq/franq/commit/4a9e585bbc5c4a422ac8f3fc4d524b813f0b276c) weird thing happen on using equal to compare whether two ember-data model is equal.
+- [1f15259](https://github.com/franq/franq/commit/1f15259ff5d1531b655d9d927fdeddac36ee9834) Let's save other people from going down that wild goose chase, shall we? (@SohumB)
+- [dc37ff9](https://github.com/franq/franq/commit/dc37ff9b38ac3bab096e95668de17398552a495d) {{foundation-reveal}} now properly sets `open` to false on ESCs and etc (@SohumB)
+- [8d850fe](https://github.com/franq/franq/commit/8d850febe5c7dfcb1521b10ff9f55211f8c13cb0) Don't use Ember.computed.filter, as it does not properly set up dependencies (@SohumB)
+- [6730cc8](https://github.com/franq/franq/commit/6730cc8c5d39b8675c84392d0ff227055bb27475) Use Ember Magic (TM) to create the options and associated data in ProductController (@SohumB)
+- [8a6334d](https://github.com/franq/franq/commit/8a6334d36a1fbb27a7c1d7595416351c522f89e7) Ember is _really dumb_ about inverse relations (@SohumB)
+- [6c21288](https://github.com/franq/franq/commit/6c21288d48d566d8a429b4acb6148e06b8019941) {{confirm-action}} now supports an option for whether the confirm button should be disabled (@SohumB)
+- [b2ed744](https://github.com/franq/franq/commit/b2ed744c7b6b6e519ec9631b581d47e2645e1068) Use a {{confirm-action}} instead of an adhoc {{foundation-reveal}} in products/form/template (@SohumB)
+- [af25318](https://github.com/franq/franq/commit/af253182a5a633879e0c79b87106333e251195f2) Moved index templates into their correct locations (@aexmachina)
+- [19e66e8](https://github.com/franq/franq/commit/19e66e8e91dbf3f4cfac57c6a4cfc98d19e20ad1) fix weird bug that only happens on testem
+- [a22fe42](https://github.com/franq/franq/commit/a22fe42045dd7667bd26b7408648b604d5e90167) made the auto focusing of userid & pincode work (@bulkan)
+- [de2d38c](https://github.com/franq/franq/commit/de2d38c73d70703a265b581ba9498604faf6fee9) allow buttonPressed action to be passed into {{key-pad}} (@bulkan)
+- [7227041](https://github.com/franq/franq/commit/7227041f77d18c7ddc0c2cb2a22b52e9009eace2) add more case to clear the selectedProduct
+- [353ad7c](https://github.com/franq/franq/commit/353ad7c5a30e906ef233329b3c37ed361e111ba8) use selectedProducts instead of id for the change from groupable checkbox.
+- [29cf8f6](https://github.com/franq/franq/commit/29cf8f601b457f28de14635b8062ca5bc95ba7b5) moved the templates from pods into the templates directory (@tonytamps)
+- [8cd4867](https://github.com/franq/franq/commit/8cd486761fb7c49e08daecd5f5d104a4663904bf) refactored key-pad component to support only rendering numbers (@bulkan)
+- [9c031df](https://github.com/franq/franq/commit/9c031df16a813bbcab7238c59fc191743e48e3db) test fix
+- [f23667c](https://github.com/franq/franq/commit/f23667c9d8667827445508efa2ca4c95f6567df3) Merge branch 'master' into feature/terminal-login-keypad (@bulkan)
+- [a57a39c](https://github.com/franq/franq/commit/a57a39c017382794c5c336ce97dc7b9c27639cdf) Merge branch 'feature/default-sub-products-option' into feature/disable-sub-products-option
+- [3fe4535](https://github.com/franq/franq/commit/3fe4535f53367983789f5db0cf323d679790a89a) initial commit of the cashier-login component (@bulkan)
+- [25169d6](https://github.com/franq/franq/commit/25169d6ba3ef869d51f31033d766120e28a4952d) Merge branch 'feature/default-sub-products-option' into 'master'
+- [5d68c01](https://github.com/franq/franq/commit/5d68c01435083ac7310af6238c1f622a579a4a07) change the controller type in option from controller to object controller.
+- [10c858e](https://github.com/franq/franq/commit/10c858eb3d1dc875f99fc5b6c41190ceba715354) Moved templates into templates/ directory (@aexmachina)
+- [afb59bc](https://github.com/franq/franq/commit/afb59bc44f95725e1deccaebb38d1422494fd0a0) test fix.
+- [d88b891](https://github.com/franq/franq/commit/d88b8917a205aa9cb8a69403d2c753185c90f316) MR fixes.
+- [49a2b88](https://github.com/franq/franq/commit/49a2b88448062a30e3fdbbf3ff6b5230f33f0cdb) remove unwanted selectedProductIds binding.
+- [941cc76](https://github.com/franq/franq/commit/941cc76720ad0845fd62b6a9b5dc457a5dc65c8c) MR fix
+- [20b40a9](https://github.com/franq/franq/commit/20b40a9d2fcc59fa8fbda559ab46afb0cfbe67ef) Template improvements (@aexmachina)
+- [89ad905](https://github.com/franq/franq/commit/89ad905c14284176cd2195a9792470db33e7c451) make filterable select list use updated groupable-checkbox.
+- [dbd4172](https://github.com/franq/franq/commit/dbd417207ca1cba9167c955e8d691ef3c3daefc5) Merge remote-tracking branch 'franq/master' into feature/form-markup (@aexmachina)
+- [e27dcdb](https://github.com/franq/franq/commit/e27dcdbb8b39cc11ec81cf9636bee810e6603335) Form markup and styling (@aexmachina)
+- [eea4965](https://github.com/franq/franq/commit/eea49651bd8ac27b5d29b66676c717c312d2ae6d) Merge branch 'master' into feature/default-sub-products-option
+- [2135c9b](https://github.com/franq/franq/commit/2135c9b02cf751b596d1c36b59d42ec9159d7c35) Merge branch 'hotfix/product-price-editable' into 'master' (@tonytamps)
+- [41306fd](https://github.com/franq/franq/commit/41306fd72b465ed20d7366f3e5ba9406959e3c38) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [9158a0d](https://github.com/franq/franq/commit/9158a0d0d36e853f891b77c69cf289fa31a16d7f) prices shouldn't be editable in the terminal (@bulkan)
+- [f028c08](https://github.com/franq/franq/commit/f028c08fec0b43672b31c7b1bdba5ff80d0522fa) Merge branch 'hotfix/option-model-parentProduct-should-be-just-parent' into 'master' (@SohumB)
+- [8948274](https://github.com/franq/franq/commit/894827449eacb126b69c56a0e8cf3cf2ba43717b) Merge branch 'master' into hotfix/option-model-parentProduct-should-be-just-parent
+- [16601e9](https://github.com/franq/franq/commit/16601e9864e621020c6ffdaf737ab02c5573f756) option model should be the same with franq option
+- [05a88b9](https://github.com/franq/franq/commit/05a88b965ab99b758c164d55f538920102e1f665) Removed config/production.js because it shouldn't be there (@aexmachina)
+- [87e4daa](https://github.com/franq/franq/commit/87e4daa0ee6b641e0b13a575bbdc0c615107ac2b) Missing semicolon, no one saw that >_< (@SohumB)
+- [4391096](https://github.com/franq/franq/commit/43910969f93d2f1bdb3c0b7583cadcdd3f64bc5c) Merge branch 'feature/ds.embeddedrecordsmixin' into 'master' (@SohumB)
+- [bb71896](https://github.com/franq/franq/commit/bb7189670e869bbe2e874b052f0abd645c0c9d6e) Merge branch 'master' into feature/ds.embeddedrecordsmixin (@SohumB)
+- [22c7f64](https://github.com/franq/franq/commit/22c7f6465074d5335da576f0c304b3a3a22a0cb4) Merge branch 'hotfix/prices-entry-isReadOnly-to-readOnly' into 'master' (@SohumB)
+- [d5c16a8](https://github.com/franq/franq/commit/d5c16a8647066500077220f3b3508cf5de035468) Fix prices-entry taking 'readOnly' not 'isReadOnly'
+- [cadcdcb](https://github.com/franq/franq/commit/cadcdcba28bc22704729ef587bf30162f72cd285) Merge branch 'feature/confirm-input-component' into 'master' (@bulkan)
+- [20651e6](https://github.com/franq/franq/commit/20651e60a43fa0149e7154db215c7c870da4f073) Changes from code review (@aexmachina)
+- [4e30dc8](https://github.com/franq/franq/commit/4e30dc8edf835ce8cc3b0622c3412e915df8d3ed) Moving `mapply` into utils (@SohumB)
+- [c263c6e](https://github.com/franq/franq/commit/c263c6e8763ea5315476504053aab2c31c597e1f) Merge branch 'feature/product-filter-queryparams' into 'master'
+- [03d57a4](https://github.com/franq/franq/commit/03d57a41dc75f15fa2d8f110160b6823981e1070) added a few more assertions for binding checks (@bulkan)
+- [7025031](https://github.com/franq/franq/commit/7025031ec147924076f62d1a8350709f5db9116e) test that filtering via query param works (@bulkan)
+- [6c66b92](https://github.com/franq/franq/commit/6c66b9291eb05c065d50af21ccfc38768e6ba86e) Making our fixture adapter understand the ember style embedded records, and fixing+writing tests (@SohumB)
+- [0f3b404](https://github.com/franq/franq/commit/0f3b4046847e19920ed0ad28ef4641aabeb193ec) Converting all serializeForEmbedded into the DS.EmbeddedRecordsMixin style, and defaulting hasMany relations to serialize ids via the EmbeddedRecordsMixin as well (@SohumB)
+- [96328c3](https://github.com/franq/franq/commit/96328c3941cfab8ccaf2e615446c85f0b6b63a91) bind the filter box value to `query` which is also the queryParam (@bulkan)
+- [a0a64d4](https://github.com/franq/franq/commit/a0a64d48cdb1ff70677d1bf19b084923e15788b1) need to pass `transition.queryParams` all the way through (@bulkan)
+- [5e0bed8](https://github.com/franq/franq/commit/5e0bed878f98c44e2ba8313cb0e306b48e4ae543) fix incorrect state
+- [f5971d0](https://github.com/franq/franq/commit/f5971d0dda9e07cdcaf7becca598a4080a522bfc) Merge branch 'feature/default-sub-products-option' into feature/disable-sub-products-option
+- [032e332](https://github.com/franq/franq/commit/032e332a7e2c5f43236fac274df0e362857e7e55) fix the identation.
+- [fa2b74f](https://github.com/franq/franq/commit/fa2b74f193f1a8875d7ded88edd8a018427e42c6) Merge branch 'feature/add-instructions-to-product' into 'master' (@bulkan)
+- [c50384c](https://github.com/franq/franq/commit/c50384c8333008b7747cb84fa51e920bf5ee4681) trying to add a queryParam for product filtering (@bulkan)
+- [eb67fab](https://github.com/franq/franq/commit/eb67fab9a7e9ea6bda830502d0282161e7e53541) reformat test
+- [81a154e](https://github.com/franq/franq/commit/81a154e483835d56e6c2af079626930761c8a463) Merge branch 'master' into feature/add-instructions-to-product
+- [fd7accb](https://github.com/franq/franq/commit/fd7accb4e43411d294c3c8ade9bb0d87bb239627) Fix tests referring to old price-entry component structure (@aexmachina)
+- [5d57492](https://github.com/franq/franq/commit/5d57492d470d21eb5e54d260408a39c9c80e9cc2) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [002efac](https://github.com/franq/franq/commit/002efacc20d451e4fed5c8b7a33c893cc34b1daa) Merge branch 'feature/products-filter' into 'master' (@tonytamps)
+- [6adfa10](https://github.com/franq/franq/commit/6adfa10fad6e793d2af72691f466a3c3f7758f63) Merge branch 'master' into feature/confirm-input-component (@aexmachina)
+- [24bb837](https://github.com/franq/franq/commit/24bb8372d187c16bf65a60850bcf8e2567701df0) Merge branch 'feature/create-product-variant' into 'master'
+- [b195750](https://github.com/franq/franq/commit/b1957509b24ae4edb0db2537792782c6fe78e126) Merge remote-tracking branch 'franq/master' into feature/confirm-input-component (@aexmachina)
+- [6610608](https://github.com/franq/franq/commit/66106088c4220d2ac4e03e79b1400cfc07705c7a) Merge branch 'master' into feature/products-filter (@bulkan)
+- [5207730](https://github.com/franq/franq/commit/5207730574deaf784d80434589e5f2c41d1ae094) Merge branch 'master' into feature/create-product-variant
+- [81cee4a](https://github.com/franq/franq/commit/81cee4ae7b0d83bd1491057f48cd304b722d1325) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/add-instructions-to-product
+- [75e8653](https://github.com/franq/franq/commit/75e8653602e05e62e4dcdd0c05eef0a7fb851e0f) Merge comments changes
+- [b083b49](https://github.com/franq/franq/commit/b083b4953f9e5895512ad4fe6b793da597c13349) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [14ac7c4](https://github.com/franq/franq/commit/14ac7c4a042af4bcb7384a2fbbbd07b03ed7ef13) Merge branch 'feature/current-order' into 'master' (@tonytamps)
+- [060cea1](https://github.com/franq/franq/commit/060cea141fb8d9fba806c80449e2ffccec5cd98a) Merge remote-tracking branch 'franq/master' into feature/confirm-input-component (@aexmachina)
+- [841dfb8](https://github.com/franq/franq/commit/841dfb8dde84d8c4407ac81868e887baa3440cfa) Add test to ensure that a new order is created on destroy (@aexmachina)
+- [5c6524e](https://github.com/franq/franq/commit/5c6524e81c2d29dfaf32a68e4e37504da039cbea) make the test working again after merge master
+- [bbc6f6e](https://github.com/franq/franq/commit/bbc6f6ee581ddb602d4aadfd77bb49c6ba7f16b1) Fix for failing test (@aexmachina)
+- [2fe74ee](https://github.com/franq/franq/commit/2fe74ee0dc22f779b0fcd9d6df105f75b5e8cdd0) Improvements to current-order service (@aexmachina)
+- [3a55839](https://github.com/franq/franq/commit/3a55839ef6e6a10e159607cb4287ffe6aa96ee6b) Fix issue with CurrentOrderService interfering with the DataCache (@aexmachina)
+- [af43da9](https://github.com/franq/franq/commit/af43da9a96a4a0346c34fa99afa983ed0956b508) Merge branch 'master' into feature/add-instructions-to-product
+- [b5d730c](https://github.com/franq/franq/commit/b5d730c8e4962c41637ec7e7699d475559da223d) Added confirm-input component and change price-entry to extend confirm-input (@aexmachina)
+- [57f0941](https://github.com/franq/franq/commit/57f09418ba9435da610760b70b5bfc37fa63b7e3) Fix test get length, avoid get from content; Add TaxService to service-registry
+- [c00ea65](https://github.com/franq/franq/commit/c00ea65012ec9c792a9e5422efe48b98245be92f) Merge branch 'master' into feature/default-sub-products-option
+- [eb6a4ae](https://github.com/franq/franq/commit/eb6a4ae1cfc08ba5af03c1e21091ffa595ba6865) set `model` via the route (@bulkan)
+- [b1fde9e](https://github.com/franq/franq/commit/b1fde9e3c5b17928b1d3b833851f3de7c4950ce8) remove the unneeded `else` (@bulkan)
+- [526eb56](https://github.com/franq/franq/commit/526eb565abfe86fc65ecb18d301e35409aa0f64c) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [0b9afe3](https://github.com/franq/franq/commit/0b9afe319b6ebf5fa71789a736c103baa0571dd2) Merge branch 'master' into feature/create-product-variant
+- [640919b](https://github.com/franq/franq/commit/640919bb0e43ca290b8a5c64ac2d8ff2a05566f6) Merge branch 'feature/view-instructions-of-a-product' into 'master'
+- [85fc371](https://github.com/franq/franq/commit/85fc37178a8d99fcd10c18df0571dfc99333f12f) Merge branch 'master' into feature/create-product-variant
+- [fff9cc4](https://github.com/franq/franq/commit/fff9cc423b6169950ac2e9ed29c5a2a6ca384565) Merge branch 'master' into feature/view-instructions-of-a-product
+- [2be0e5f](https://github.com/franq/franq/commit/2be0e5f9eb6c1b1aff9f89d2482ba0b8d7c7719d) Change get length method
+- [7f06091](https://github.com/franq/franq/commit/7f06091e1787d7ff955581f63220672116781639) Merge branch 'feature/add-items-order' into 'master'
+- [69ec2b6](https://github.com/franq/franq/commit/69ec2b6d34e36ff8b9117cb79e4960cff934290b) dont need the andThen after fillIn (@bulkan)
+- [1ce3095](https://github.com/franq/franq/commit/1ce3095cd09eef41ac37b6c76784c5d1f46a4324) use two spaces in templates (@bulkan)
+- [250b811](https://github.com/franq/franq/commit/250b81121e11922e4cf722c8391fe4995c5de1e4) Merge branch 'master' into feature/view-instructions-of-a-product
+- [64b9609](https://github.com/franq/franq/commit/64b96091da207c7d00f263f16f298cdb27e1108d) Merge branch 'feature/fast-sass' into 'master' (@bulkan)
+- [5541d5c](https://github.com/franq/franq/commit/5541d5ce25167ab031cc8047e1125561d688c6b2) Merge branch 'feature/terminal-keypad' into 'master' (@bulkan)
+- [f5cce48](https://github.com/franq/franq/commit/f5cce485b2831e1664bb28ed68d50a2b9ca4d91c) Merge remote-tracking branch 'franq/master' into feature/price-entry-component (@aexmachina)
+- [5448839](https://github.com/franq/franq/commit/54488399d1e4754626ca245744463292d328874d) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/terminal-keypad (@tonytamps)
+- [2c410cd](https://github.com/franq/franq/commit/2c410cda7e1ce10f76520c7fd00d6466ce5467d2) forsome reason I forgot to commit these changes (@tonytamps)
+- [e834739](https://github.com/franq/franq/commit/e834739ceb9754fa8e6f7ee86d3e60acf949d44d) dont need to inline andThen's straight after fillIn's (@bulkan)
+- [8cae315](https://github.com/franq/franq/commit/8cae3156bc11567b8c08abcee1cbb642384dc7df) dont need to explicitly write `valueBinding` (@bulkan)
+- [a928806](https://github.com/franq/franq/commit/a9288060b1b776f634d048e26ff10cf12020f882) test that product filtering works as expected (@bulkan)
+- [840c987](https://github.com/franq/franq/commit/840c9875922b23f3263dc4885ed33856df0788ce) added ability to filter products (@bulkan)
+- [f5a18c8](https://github.com/franq/franq/commit/f5a18c88cb72d6d0262934b32dbc043fa324ca12) Merge branch 'feature/view-instructions-of-a-product' into feature/add-instructions-to-product
+- [2fc7265](https://github.com/franq/franq/commit/2fc7265f43b02f712dd4debac01e85c71d415f1b) Merge branch 'master' into feature/view-instructions-of-a-product
+- [ab34c1d](https://github.com/franq/franq/commit/ab34c1d3212ace9d5230409bd369f0d445881d6b) Merge branch 'feature/subproduct-of-option-in-accordion' into 'master' (@SohumB)
+- [fd45c54](https://github.com/franq/franq/commit/fd45c54d6a6bd0fedf8ea78e1c447b1578b28ed8) Merge branch 'feature/subproduct-of-option-in-accordion' into feature/create-product-variant
+- [c0ec95e](https://github.com/franq/franq/commit/c0ec95ea3bda4c28e1016db000a5b77c37986db0) Fix test
+- [f29d379](https://github.com/franq/franq/commit/f29d37921dac2a931c093a13406b68c7b4a12ddf) Merge branch 'feature/subproduct-of-option-in-accordion' into feature/create-product-variant
+- [d05752f](https://github.com/franq/franq/commit/d05752f77b06986fc1f118987418686b9cce7a69) kill the heightman
+- [17a94e5](https://github.com/franq/franq/commit/17a94e568b74bed021cb68e4b5b510fd1fc6e933) Merge branch 'feature/view-instructions-of-a-product' into feature/add-instructions-to-product
+- [9ebb8ca](https://github.com/franq/franq/commit/9ebb8ca10de584a9135d8fb68491e8deced16a4f) Fix link to
+- [3c79c7f](https://github.com/franq/franq/commit/3c79c7f163106961f9376b19333186affc567957) Merge branch 'feature/view-instructions-of-a-product' into feature/add-instructions-to-product
+- [5eee358](https://github.com/franq/franq/commit/5eee3586e43c74d2a42438bb45a3fd8716a3279e) Fix merge request
+- [0754606](https://github.com/franq/franq/commit/075460633ccbc0d74ed3dc316381837315d23ba2) Merge branch 'master' into feature/products-filter (@bulkan)
+- [55ae005](https://github.com/franq/franq/commit/55ae005d914bd9f983eed9c7c821ea4fbf95ec57) use the order model to store `actual` products (@bulkan)
+- [6258861](https://github.com/franq/franq/commit/625886144dfc3eb9e0927e083a98b5e3464e263f) use the terminalserviceregistry to register the currentorder service (@bulkan)
+- [d772914](https://github.com/franq/franq/commit/d772914e5daf4d0ab248017b9acf2aae6ba617ae) Merge branch 'master' into feature/view-instructions-of-a-product
+- [5251633](https://github.com/franq/franq/commit/5251633fc5e9556cbcbfb15839919b5a1d48c692) Merge branch 'feature/subproduct-of-option-in-accordion' into feature/create-product-variant
+- [f79bd16](https://github.com/franq/franq/commit/f79bd16b42816b0b4debe7dcf1e1646c4756760a) transition to menu on login (@bulkan)
+- [34805a1](https://github.com/franq/franq/commit/34805a1dfda5335660c8e006f301230d2244b99c) moved menu index into a directory (@bulkan)
+- [270ab99](https://github.com/franq/franq/commit/270ab99c6bbe4c4ba98c8af9f4afcbbf052d00dd) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [73b4e14](https://github.com/franq/franq/commit/73b4e14b420904239ac3ff366f154577bed6f4ae) Fix merge request
+- [9445576](https://github.com/franq/franq/commit/944557656a5e142386e6edd6329dbc09dc2ea941) Merge branch 'feature/terminal-keypad' into 'master'
+- [dcc2fab](https://github.com/franq/franq/commit/dcc2fab44ba6080ff6d317e660298f40769fbec2) missing semicolon (@tonytamps)
+- [e47187b](https://github.com/franq/franq/commit/e47187bd29759c9ef39aeebbe76f2cb837e9b4c1) updated based on Yun's feedback (@tonytamps)
+- [64b9ce3](https://github.com/franq/franq/commit/64b9ce3fcd6fa23041b60a00bd491a3a157415c8) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [09fbc69](https://github.com/franq/franq/commit/09fbc69617308bc2cbbcd8ea4711ec25ee77d921) Merge branch 'feature/uniquify' into 'master' (@SohumB)
+- [beb555d](https://github.com/franq/franq/commit/beb555d6bdc4f1db3115fc647d45d01f955f397b) Splitting uniquify and friends into a simple wrapper around Faker (@SohumB)
+- [8a811ef](https://github.com/franq/franq/commit/8a811efb16cd9a442d9b087be557ec6e20df691c) Merge branch 'feature/view-instructions-of-a-product' into feature/add-instructions-to-product
+- [07374fa](https://github.com/franq/franq/commit/07374fa59174b095b1c6f0807853147efa98bd4c) Merge master, fix conflict
+- [1c8a13a](https://github.com/franq/franq/commit/1c8a13a6d3b6f60dd4388fc68f3f65f9df54e75a) Add ability to use custom Brocfiles for fast builds, eg. bin/tools/fast-sass (@aexmachina)
+- [4c6395f](https://github.com/franq/franq/commit/4c6395f59f0fa217279c2995aea0b8a98ed8ef0d) Refactored {{price-entry}} component and added styling (@aexmachina)
+- [7edac04](https://github.com/franq/franq/commit/7edac04cf009da146ca4b55a16df9d27c14e55a8) created a new CurrentOrder service which we inject into routes/controllers (@bulkan)
+- [33ef31f](https://github.com/franq/franq/commit/33ef31f40a2c57348aebed906f7d8eb8a6903411) Add 'Add instruction' & 'Remove instruction' to a product feature.
+- [bba1d0d](https://github.com/franq/franq/commit/bba1d0d066842bd4a4e75d689697719ac6d39ebc) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/terminal-keypad (@tonytamps)
+- [1a21474](https://github.com/franq/franq/commit/1a21474b0ef9dc3c5ba4a243b6ea644674d63909) Merge branch 'feature/display-products' into 'master'
+- [5c678e7](https://github.com/franq/franq/commit/5c678e7f80b8afa5a98e86760a107f4b8ac3b8b7) Merge branch 'feature/instructions' into 'master'
+- [d5b809d](https://github.com/franq/franq/commit/d5b809d9b0cee5d9507cd9c70d41e60eec6e1c2d) remove extra space in template.
+- [197a043](https://github.com/franq/franq/commit/197a043c1effae1f87c9eb432d157c78fe808901) Replacing a bunch of :contains() selectors with classes (@SohumB)
+- [e39fdb0](https://github.com/franq/franq/commit/e39fdb061b074d01641171ce76ab8bb40de6e063) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [baf62b0](https://github.com/franq/franq/commit/baf62b028936b1b318ffe4467f0b0d17f327181a) unit test the validation function (@tonytamps)
+- [bd804fb](https://github.com/franq/franq/commit/bd804fba5edfb8d74acfd974eafea3809c2992ba) Merge branch 'feature/display-products' into feature/add-items-order (@bulkan)
+- [b3a386b](https://github.com/franq/franq/commit/b3a386ba0dcc7fd75fa69fbe2dca4d518f6628a8) split menu tests into seperate file (@bulkan)
+- [97c4a5a](https://github.com/franq/franq/commit/97c4a5a76b11afab316766f394ec88199a721e9c) use a route to load the products (@bulkan)
+- [f6d7d99](https://github.com/franq/franq/commit/f6d7d9901ce0cbe65b68b8da560171184c6c3ecd) dont assume image url's are from inkfilepicker (@bulkan)
+- [9d9c523](https://github.com/franq/franq/commit/9d9c5232c20d5e79d82ec1fa0e38b80777073384) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/terminal-keypad (@tonytamps)
+- [48d2c54](https://github.com/franq/franq/commit/48d2c54be5457920e31e8cd9c7daf7036e8a21ec) unit testing the keypad (@tonytamps)
+- [6ca74bb](https://github.com/franq/franq/commit/6ca74bbe73bdea026e242e35d9b0f4f86c53e5a9) begun working on adding products to an Order model (@bulkan)
+- [c59c507](https://github.com/franq/franq/commit/c59c507cbf606172e61def3ecb9b0f7832d32b04) refactor to allow an acceptance action (@tonytamps)
+- [17c9c46](https://github.com/franq/franq/commit/17c9c4617ca68d1dfbe4b84c2d8847ed12277e4a) Fixing failing tests via IndexRoute, and some Foundation test tweaks (@SohumB)
+- [58b5f87](https://github.com/franq/franq/commit/58b5f875cec98d239cf39c116cbf31fa9b2698bf) add disable button for option item with tests.
+- [3e952c6](https://github.com/franq/franq/commit/3e952c65bfadfdb0407cd596289259cd0330c61f) add a keypad component and make the buttons on it function (@tonytamps)
+- [cc90f97](https://github.com/franq/franq/commit/cc90f97a9358ca505954805c32fe766f87a249b2) Add linked modules back into dependencies (@aexmachina)
+- [30137f1](https://github.com/franq/franq/commit/30137f1901457ad31fd68b6643f98149fa1063dc) Add attic back into dashboard dependencies (@aexmachina)
+- [0a5af9d](https://github.com/franq/franq/commit/0a5af9d6e4e68e8c923727884ad87edf57cb8a42) add test case for showing the exisitng option item with status=default
+- [2989110](https://github.com/franq/franq/commit/298911010eae7e8bd8a29680da62745748478f02) fix product group test.
+- [79c74c6](https://github.com/franq/franq/commit/79c74c6e56a695c0c5db9c610ee302536dcc8074) instead of hardcoding length assert against fixture products length (@bulkan)
+- [5d5752e](https://github.com/franq/franq/commit/5d5752ea08fa8d17b314a15fda1eb93715c9a0c1) add integration tests for option default.
+- [cb24e63](https://github.com/franq/franq/commit/cb24e6347196f3e95dca27aa792dcf8ed2cbed95) Fixes for merge of feature/index-route (@aexmachina)
+- [2c41329](https://github.com/franq/franq/commit/2c41329c13c4e5b72b249173830141a648d860d3) wrote a test for product rendering (@bulkan)
+- [59e3a43](https://github.com/franq/franq/commit/59e3a433affea24b3f8950eb90f904569776daab) load the fixture stuff in the tests (@bulkan)
+- [55a7fb4](https://github.com/franq/franq/commit/55a7fb4a369180d80cf6f2d6b359da6adbedd25d) test fixes.
+- [aa1bcb0](https://github.com/franq/franq/commit/aa1bcb06c94300bf4e39a3517c1707b0b1429636) clean up
+- [50d0f12](https://github.com/franq/franq/commit/50d0f1287d552845eeae03758c6870318ab5f5c9) Change to use npm install in git-update.sh and remove deps for symlinked modules (@aexmachina)
+- [d81eea7](https://github.com/franq/franq/commit/d81eea7904130494c96fdf6dc70632b76991b449) Merge branch 'feature/display-products' of gitlab.impos.com.au:franq/franq into feature/terminal-keypad (@tonytamps)
+- [8f101ae](https://github.com/franq/franq/commit/8f101ae44b5430f0e5886ae851002da0b0d46730) Merge branch 'master' into feature/view-instructions-of-a-product
+- [64ce96a](https://github.com/franq/franq/commit/64ce96ac804f509d1038e80872f0f3bfc5aa43e1) add missing require statement in Product.js and replicaaaate (@tonytamps)
+- [dfbac97](https://github.com/franq/franq/commit/dfbac97ad2d629a54779af1d335d61ceb27e7cdc) render products in a block-grid (@bulkan)
+- [07233c0](https://github.com/franq/franq/commit/07233c032fdb6a60cf9dcfa0f3670f261044b8d8) Add table view for each instructions of a product
+- [a471557](https://github.com/franq/franq/commit/a471557a11631fd876fb4aca93c33f5f077c2f30) make item check box disabled when the item is disabled or selected >= maximum and current item is not in the list.
+- [4195cb0](https://github.com/franq/franq/commit/4195cb0ab068e4859b237fec864005f76efcfb2b) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [114583d](https://github.com/franq/franq/commit/114583d3e31041765b59f738f3bcceb03faaa9f3) update radio button the set the checked value
+- [4c50872](https://github.com/franq/franq/commit/4c50872db7bf7a8a87e16e0cadca5f5a24face22) a better way to implement setting default for optionitem.
+- [4d72ca0](https://github.com/franq/franq/commit/4d72ca073df9f9bad101c399f120692aee8e842b) Merge branch 'feature/install' into 'master' (@bulkan)
+- [090b151](https://github.com/franq/franq/commit/090b151d002ba22e8d4865f6ca99b4db076f35c2) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@tonytamps)
+- [f5e0164](https://github.com/franq/franq/commit/f5e01641c7314a56199d7a8f925e2998d9ff6d90) disable the `x-powered-by` header that express sets on responses (@bulkan)
+- [9d883a4](https://github.com/franq/franq/commit/9d883a44c2f65e672548650f6a02db22ab118c61) Use fonts from Attic in Terminal (@aexmachina)
+- [1909cd3](https://github.com/franq/franq/commit/1909cd32cb5249308be8a90e05f8e0016082c873) Merge branch 'feature/index-route' into 'feature/instructions' (@SohumB)
+- [8516010](https://github.com/franq/franq/commit/85160106ab6f40b6e53eb87ab3b6562c4372e34c) Remove price_id from Product fixture and remove "Replication store for org %s already exists" messages when not in production (@aexmachina)
+- [cb1016c](https://github.com/franq/franq/commit/cb1016cda6003f868f755ef595cc52a1f1260341) Use exact versions of symlinked modules to avoid npm overwriting them (@aexmachina)
+- [18a14e1](https://github.com/franq/franq/commit/18a14e1c4e54fcd00e3d4cbeffc2f340d3682b03) Change to use install.sh rather than npm postinstall/update hooks (@aexmachina)
+- [328043e](https://github.com/franq/franq/commit/328043e8a205040987795798e2135e7e62d24dd8) Reverted to double quotes to tidy up the diff (@aexmachina)
+- [9ec4b64](https://github.com/franq/franq/commit/9ec4b64c990ebce1e7b5af363227314bb12fd140) Merge remote-tracking branch 'franq/feature/instructions' into feature/index-route (@aexmachina)
+- [a8f410f](https://github.com/franq/franq/commit/a8f410f1161674769ab04d8e1765dc164aff11c8) Instructionitems adding, editing, and deleting, and tests (@SohumB)
+- [793c633](https://github.com/franq/franq/commit/793c6334ea24baadb123e5297e69c7a92911a1fa) Fix test
+- [5d6e9b0](https://github.com/franq/franq/commit/5d6e9b048a00e2474838b00f08a0f85c9c96fdb2) Fix variant constraint which not take same variant name for an organisation
+- [53540f4](https://github.com/franq/franq/commit/53540f47760bfd392d4cb8a3d9b91b25f3cc4b2d) Change to use utils 'centToPrice', 'priceToCent' for converting price
+- [1ad8ae8](https://github.com/franq/franq/commit/1ad8ae81f1412fc0fc9563faada9b1320b448875) Merge from latest feature/subproduct-of-option-in-accordion; Fix conflict
+- [39e1e68](https://github.com/franq/franq/commit/39e1e6825dca5b34365786c1ad350b553cfdf3ca) Merge latest master; Change to latest price model; Fix test
+- [797a542](https://github.com/franq/franq/commit/797a5421f45dd7089689dc66aac9ea9373624740) Merge branch 'feature/remove-option-from-product' into 'master' (@SohumB)
+- [8a82364](https://github.com/franq/franq/commit/8a82364eb7c6c1613cadcc80e12dbaa0d2bdd6f4) clear out the selectedProducts & selectedProductGroups before the modal is up
+- [3b28fc7](https://github.com/franq/franq/commit/3b28fc78c59292b586f68f1b24abdf3cf34875f9) Add test for adding and removing product variant
+- [fc2da14](https://github.com/franq/franq/commit/fc2da148aeb1059a6e6a039485926f8e491228ee) Merge branch 'hotfix/prices-entry-bindings' into 'master'
+- [23e66cc](https://github.com/franq/franq/commit/23e66ccda42fd4bea2a37ebc648dcfea24977afa) Pass along attribute bindings as well (@SohumB)
+- [c5fca76](https://github.com/franq/franq/commit/c5fca760e07044feeb66cb961ab2dedc474b0524) add remove option function
+- [c72a0dd](https://github.com/franq/franq/commit/c72a0dda432e675ea62a2308272f96fcf117815a) Embedded instructionitems, serverside support (@SohumB)
+- [f04dc6f](https://github.com/franq/franq/commit/f04dc6f4ec881dfd0fe48eb59bc2724c9f891579) Generalising transformError (@SohumB)
+- [b01febf](https://github.com/franq/franq/commit/b01febfee2b609666ec6bac671d39b1e5bbf4e8f) Merge branch 'master' into feature/instructions (@SohumB)
+- [7818908](https://github.com/franq/franq/commit/78189086a7fafd7774ae67c15e0a91bdc89c6cfb) Merge branch 'feature/ember-prices' into 'master'
+- [9c5c0bd](https://github.com/franq/franq/commit/9c5c0bd7ae81c722e19a09b90dfa704ece178504) Merge branch 'master' into feature/ember-prices (@SohumB)
+- [2ba4c83](https://github.com/franq/franq/commit/2ba4c836ec78cf9577ee2be5390ae9a97ae84f11) Merge branch 'feature/sub-products-under-option' into 'master' (@SohumB)
+- [a03873b](https://github.com/franq/franq/commit/a03873bdb2cdf3520bc9275a3432806732e9b6b4) remove the test about has_variants(which is deprecated.)
+- [743b10a](https://github.com/franq/franq/commit/743b10afe37f8584a28eb7293ffa157b07f8603a) Some missing embedded serializations and Ember setters can have 3+ arguments (@SohumB)
+- [5fd7854](https://github.com/franq/franq/commit/5fd7854ed1bf21c62c67e2b38ab6b62a10f3c9b8) make hasVariants a computed property.
+- [d6c1bdb](https://github.com/franq/franq/commit/d6c1bdb0912498b7bde30d391f43457c57739b09) change run all tests to accept an env var to allow short circuting (@tonytamps)
+- [298bbdf](https://github.com/franq/franq/commit/298bbdf4b7e5874586680ccc9bc2063dde0e884e) Those should be {{prices-entry}}s in index/template, too (@SohumB)
+- [ab57f3c](https://github.com/franq/franq/commit/ab57f3cde94544eecf23284d66ea335982d7b180) Removing the isolated testcase (@SohumB)
+- [d10711a](https://github.com/franq/franq/commit/d10711a29bcbaf7fbcc875210bddbfc22bc19269) Updating tests to acknowledge the New World Order of hasMany prices (@SohumB)
+- [1a79a89](https://github.com/franq/franq/commit/1a79a897b529e5c8eefbcd9b545c257e2a741c60) Merge branch 'master' into feature/ember-prices (@SohumB)
+- [331f741](https://github.com/franq/franq/commit/331f741a9ec6e0649c757c8edbe3826464f25617) Merge branch 'master' into feature/sub-products-under-option
+- [0ac0a84](https://github.com/franq/franq/commit/0ac0a840c4cb0308c55f881ac431692ca12e1ce4) Merge branch 'feature/advance-fixture-adapter' into 'master' (@SohumB)
+- [7723986](https://github.com/franq/franq/commit/77239867390dfd9d1e2de8a5c20eb9275276fd5d) update createRecord and updateRecord to share the common code bit.
+- [dd11ec9](https://github.com/franq/franq/commit/dd11ec9567e77282c7102f0728d0c55cb6e077b2) Add confirm-action component (@aexmachina)
+- [1e90337](https://github.com/franq/franq/commit/1e90337694a77ac01853290da2cd01e0a4b98bd2) implicit return and use Ember.RSVP.map instead of all.
+- [075b4e4](https://github.com/franq/franq/commit/075b4e4be93fce1886f4037c76e5c6603575973a) Rename productoption -> option
+- [a8c647b](https://github.com/franq/franq/commit/a8c647b4f9e7d02548ad01fd2c9d5c10e6c19f37) Merge from 'subproduct-of-option-in-accordion'; Fix changes
+- [b991b06](https://github.com/franq/franq/commit/b991b06e83939579abb9bb21053c49425c17dfc7) change the relationship attribute from embedded to serializeForEmbedded coz embedded is already a thing inside ember-data
+- [5639a75](https://github.com/franq/franq/commit/5639a75d7eab3e686580445ddfbac55cd6104c61) test fixes.
+- [6435756](https://github.com/franq/franq/commit/6435756451e8cc209c20695c6d9f4762737ac77c) Merge branch 'master' into feature/route-patterns (@aexmachina)
+- [e0c0c1c](https://github.com/franq/franq/commit/e0c0c1c6ef41b56908fe91fb10a3a18959e969a9) make fixture adapter able to get record from either key or 'data.' + key so that it can find the record to delete despite of the state of model.
+- [7fad1e8](https://github.com/franq/franq/commit/7fad1e8a2ee77aac7bcb3e620e0513862d383902) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [6428efc](https://github.com/franq/franq/commit/6428efc0b1c73acc968f80ecb874864a8765677b) Merge branch 'feature/sub-products-under-option' of gitlab.impos.com.au:yun.l/franq into feature/sub-products-under-option (@aexmachina)
+- [abcb181](https://github.com/franq/franq/commit/abcb1816ed26e11d4576f6cb636532f46d93a25c) Removed the need for a workaround to avoid PromiseArray warning (@aexmachina)
+- [304dfb2](https://github.com/franq/franq/commit/304dfb2a636b07c718d77b981dcda8c54c5c4bff) make fixture adapter capable of handling saving the embedded relationship into the memory.
+- [3704680](https://github.com/franq/franq/commit/3704680134677cc81f62dabc71f4e1928556a641) use attribute {embedded: true} to centralize the embedded serialization into the application serializer.
+- [b705eac](https://github.com/franq/franq/commit/b705eaca5d182ceb42d7658725cf7c62d319fada) EVERYTHING IS HORRIBLE (@SohumB)
+- [121df2f](https://github.com/franq/franq/commit/121df2faae126c5c316492b66e512a1b8615928a) Using prices-entry everywhere and updating the models/fixtures to match (@SohumB)
+- [2daef2a](https://github.com/franq/franq/commit/2daef2ae323295094060c6b445bef5ebf5e18c03) Fixing price-entry tests (@SohumB)
+- [aab82b5](https://github.com/franq/franq/commit/aab82b51702854185b11755292d103cea49618f7) Merge branch 'hotfix/option-maximum-minimum' into 'master' (@SohumB)
+- [e380320](https://github.com/franq/franq/commit/e38032060d7f81c3494bf7c86f030ad328d4a9e2) Fix checking valid_range constraint
+- [34201e5](https://github.com/franq/franq/commit/34201e5baef14ed4ed4a60d0bc0a463a520c1819) Merge master, fix conflict
+- [79b1e04](https://github.com/franq/franq/commit/79b1e048202816ea135ff6db14c0d42751d9fd66) shorten the selector in jquery
+- [24b44b0](https://github.com/franq/franq/commit/24b44b076a95c32721c4fd8cf35092f1817338b9) Merge branch 'master' into feature/sub-products-under-option
+- [ddb73d2](https://github.com/franq/franq/commit/ddb73d2f074935ad905ac28002598c8627e60097) remove the price_id in product, which comes from no where.
+- [641e755](https://github.com/franq/franq/commit/641e75561240296bdf7ff02ee325e9336a93569d) Merge remote-tracking branch 'franq/master' into feature/sub-products-under-option (@aexmachina)
+- [f5939a4](https://github.com/franq/franq/commit/f5939a43e4f48c51dececdad5ebb9f9fdeb95a7d) need to load basement/models
+- [c99d79a](https://github.com/franq/franq/commit/c99d79a7dd6db294a06f334a947bca5c9f3fed0a) Merge branch 'master' into feature/sub-products-under-option
+- [1e7124b](https://github.com/franq/franq/commit/1e7124b6825747807c3269beb706da0f6ca6ee71) clean up
+- [ad2480e](https://github.com/franq/franq/commit/ad2480e83a6103b1a59536b70484d8cb1ff544aa) Merge branch 'feature/add-product-option' into 'master'
+- [cbc6e3e](https://github.com/franq/franq/commit/cbc6e3eb6515ef753f6943e9b1822714b9328ee5) MR changes.
+- [645e4c6](https://github.com/franq/franq/commit/645e4c6250cddcbf519eba3b6f2fdaf5edc91300) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [5d045d9](https://github.com/franq/franq/commit/5d045d95dd7f8131b6075b8ed8430bc6fc6dee8a) Merge branch 'feature/install' into 'master'
+- [f9d3ff1](https://github.com/franq/franq/commit/f9d3ff1002c18458016c2d3b99b3d904f7165cb5) Readme improvements (@aexmachina)
+- [badb1ab](https://github.com/franq/franq/commit/badb1ab5c29214762e6612d98cb741872a831989) Added token-auth (@aexmachina)
+- [4de2899](https://github.com/franq/franq/commit/4de2899efaf7a7169dbc31089c2767ff61098137) Fixed issues with install from README.md (@aexmachina)
+- [f8f7ee2](https://github.com/franq/franq/commit/f8f7ee23386592ac1389af6bc411e81077f95822) Making {{price-entry}} take the store and be bindable to the price directly, and adding {{prices-entry}}, a simple wrapper that maps from [{price}] to {price} (@SohumB)
+- [cca024f](https://github.com/franq/franq/commit/cca024f3d400722e4b1e34218997fe6fda139e9f) Require to load basement/models
+- [62c13ed](https://github.com/franq/franq/commit/62c13ed223912fde166a1a6fdee9f904325fd549) Fix incorrect Messages class (@aexmachina)
+- [b1ae3eb](https://github.com/franq/franq/commit/b1ae3eb8d7e1af03883ddf531434f71ed04710ea) Merge branch 'master' into feature/create-product-variant
+- [7e01efb](https://github.com/franq/franq/commit/7e01efb2fe456ef2134e7c259453a3abdd09b60c) Add 'incPriceToTaxPrice', 'exPriceToTaxPrice' function to Tax service; Add controller for each variant to handle input field on blur action
+- [260d7f0](https://github.com/franq/franq/commit/260d7f0d35ab5cbb6fab35754a6ddb4a16e6a6f0) Create a service for tax with functions (toInPrice; toExPrice; toPrice)
+- [02820ef](https://github.com/franq/franq/commit/02820efded9352ff01915adb2121f56ab105136a) Remove - test notify
+- [ae61e6d](https://github.com/franq/franq/commit/ae61e6df524877de65062a7f7016b1a8ad6f3d70) Merge branch 'feature/products' into 'master'
+- [b3409c7](https://github.com/franq/franq/commit/b3409c76280e362753176a7a1b483e7d4e812e22) fix can't load products in index.
+- [fcfda23](https://github.com/franq/franq/commit/fcfda2324c4b5033f03000baa3f01802685f371f) Add delete record on exist (delete all unsave variant and price); Add removeVariant function which delele onclicked variant
+- [d4acc5b](https://github.com/franq/franq/commit/d4acc5bf6f4dc35f1c5a3d279fab94cb03599207) Hey, hey, remember how there are some numbers that are a multiple of both 2 and 3? >_< (@SohumB)
+- [7e1362a](https://github.com/franq/franq/commit/7e1362a7aeae86696baea7751be0ad360ceb875d) Renaming PromiseBus `dependencies` to `priors` (@SohumB)
+- [e248b1c](https://github.com/franq/franq/commit/e248b1c574532c06397febaf966d2790d921fa13) change name of productgroup in option to group.
+- [a0570a7](https://github.com/franq/franq/commit/a0570a792e8edd1c3780b1622b007f750196fb08) template indentation.
+- [6122f82](https://github.com/franq/franq/commit/6122f825f761725b86844c4ce024699d1356b7d3) add showing sub products under options.
+- [efec92c](https://github.com/franq/franq/commit/efec92c82265c2f9e824e4957f0f3128a1c2933e) Renaming replication `dependencies` to `dependents` (@SohumB)
+- [34e1431](https://github.com/franq/franq/commit/34e1431311607949559e5a9c2790781d243ee47e) move add option button to the right tab.
+- [2c66c1d](https://github.com/franq/franq/commit/2c66c1d6a33f6b73f41ed36c2d5c7202840cdd37) further clean up.
+- [c167114](https://github.com/franq/franq/commit/c16711441f70e06a6e254735e399f0d976c59056) Create an "index route" pattern in Attic, useful for routes that display listings with links to edit/delete. Can provide a base to add support for searching etc in the future (@aexmachina)
+- [a2af151](https://github.com/franq/franq/commit/a2af1512093efd4630beab6bb32de05b9a67ae75) add indentation
+- [602a621](https://github.com/franq/franq/commit/602a62189b4d7bbd2ac7bce7d5b0a39f11b943f9) clean up
+- [a855df0](https://github.com/franq/franq/commit/a855df0f8155cfa6d584fab18ac1bd89c1dbf45d) Remove unnecessary dep `deep-equal` and add comment(ary) for a bunch of stuff (@SohumB)
+- [06cee59](https://github.com/franq/franq/commit/06cee59f9ab28a2f7eab6d9b846583dc1b996821) Fix merge conflict
+- [68d345a](https://github.com/franq/franq/commit/68d345a5737ef0736e2f41a5aeb8ec972b92a00b) remove debugger
+- [c71160b](https://github.com/franq/franq/commit/c71160b8e521d500636974196c4cfe7038aff7a6) Merge from Feature/subproduct of option in accordion
+- [e3e2d20](https://github.com/franq/franq/commit/e3e2d2087bdd23aa973e9c7d2567bc1739aa3db0) Change the Price factory to specify NOTNULL fields (@SohumB)
+- [24bf2c5](https://github.com/franq/franq/commit/24bf2c50fec104adab29f7c3d4ba7b61bd36077a) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [d3fef98](https://github.com/franq/franq/commit/d3fef989e40740559d65da3525b7c7bb9472a744) Merge branch 'master' into feature/products (@SohumB)
+- [55e3b39](https://github.com/franq/franq/commit/55e3b390f31120758cf49b9bead9a5d367e021fb) Fix test; Rename serializers' productoption -> option, ...
+- [0bf72a9](https://github.com/franq/franq/commit/0bf72a92678a9000c59f64ce6ac05df6980dde65) Remove a bashism in db-migrate (@SohumB)
+- [059a015](https://github.com/franq/franq/commit/059a015d1616215478d72e3cf02f845c2737db01) pre MR fixes.
+- [f83ed64](https://github.com/franq/franq/commit/f83ed64eaaad0f97d7899d1f2c1784e70458e748) add product edit controller for product edit.
+- [890510d](https://github.com/franq/franq/commit/890510d113f048cf038b42e76586d87909bd1aac) Merge branch 'master' into feature/add-product-option
+- [9cb1887](https://github.com/franq/franq/commit/9cb188781214b3404eff9d92a304bec0c35e16ee) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [f569be5](https://github.com/franq/franq/commit/f569be5bf51b67311c8accff6007602d0d1155c3) add option dialog has been added with test.
+- [189cc63](https://github.com/franq/franq/commit/189cc631b04ec66816a65a53f631ebe56508ef37) Add Test; Rename test's productoption -> option, productvariant -> variant
+- [380d588](https://github.com/franq/franq/commit/380d58842e5993d6406cf44649fddb6deb4d97ef) Merge branch 'master' into feature/instructions (@aexmachina)
+- [44dd18c](https://github.com/franq/franq/commit/44dd18ca5821dcf44bbdb5f7fa6243ad5db4a28d) Merge branch 'bugfix/couchdb-loop' into 'master'
+- [c3791b6](https://github.com/franq/franq/commit/c3791b65d51808977c4bed207f8adef2848926f5) Merge branch 'master' into bugfix/couchdb-loop (@aexmachina)
+- [745e7b0](https://github.com/franq/franq/commit/745e7b0b6a405bd285052ed75c3a2ea3de655c53) Fix test rename for productoption, productvariant
+- [a4c81e8](https://github.com/franq/franq/commit/a4c81e8b87465220317f1ab0ca8a73bb3aae2445) Fix error deleted intructionitem
+- [2558b9b](https://github.com/franq/franq/commit/2558b9b18695d885af334a935324f9af61c67dc5) Fix create variant action
+- [6a105d9](https://github.com/franq/franq/commit/6a105d976bbc823e1d7691cc417a5b1e2a62b534) Merge branch 'feature/subproduct-of-option-in-accordion' into feature/create-product-variant
+- [46e6c88](https://github.com/franq/franq/commit/46e6c88449bc7011dd23db0fe7ded3fed8556b7f) fix missed rename
+- [dd80c01](https://github.com/franq/franq/commit/dd80c01e7e43e10f97f67498a02e39ad97fbf4d6) Change Model: (productoption -> option), (productoptionitem -> optionitem), (productvariant -> variant)
+- [bb5ee65](https://github.com/franq/franq/commit/bb5ee65d7f92ecdc4208aaeb8ebb3dc8f61cdede) Remove Group/Product tag
+- [6fc6890](https://github.com/franq/franq/commit/6fc6890b79353b4143f11f775c37821756bfc4b0) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [3e4e11b](https://github.com/franq/franq/commit/3e4e11b9c764e5f439819661b59dee53054b887b) Basement has to also use bodyparser.urlencoded
+- [cdf02b7](https://github.com/franq/franq/commit/cdf02b7de7b3c4e976f8b24dc49246a4f4b443b2) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [9b8e647](https://github.com/franq/franq/commit/9b8e647914353d3a8f33d995c9be035dab583448) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [df8da2f](https://github.com/franq/franq/commit/df8da2ffc46226b66a62971fdaf3d3580f25e35e) Don't drop Couch DBs in drop-all-tables.js - leads to db-migrate.sh issues (@aexmachina)
+- [70d086b](https://github.com/franq/franq/commit/70d086b874445ba2176a51ef6e1455d2f487ef0f) Merge branch 'feature/dashboard-user-reset-password' into 'master'
+- [f8e1aee](https://github.com/franq/franq/commit/f8e1aeec55a86d3cc5edc0ba2d89564396f1c523) Add Function.prototype.bind() polyfill for PhantomJS to attic, so it runs before vendor deps (@aexmachina)
+- [aea9b05](https://github.com/franq/franq/commit/aea9b052319fc430b1cfb471f85a4d4f8cf3786d) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [d3544a9](https://github.com/franq/franq/commit/d3544a9d31ebeeb4789b336b026b569a1165765b) Fix app-route-test (@aexmachina)
+- [7ff9974](https://github.com/franq/franq/commit/7ff997437b272e5e9efa323abc116f1566659a10) Add foundation-icon-fonts to terminal (@aexmachina)
+- [aebed8a](https://github.com/franq/franq/commit/aebed8a56a6ae7cd55d753fa69f64640090ba24c) Merge branch 'feature/update-queue' (@aexmachina)
+- [f19928a](https://github.com/franq/franq/commit/f19928a6694adf6984365b2d0c5754a5741b955a) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [a2f6bd8](https://github.com/franq/franq/commit/a2f6bd81258a712ca54a8106196386a02cc85ab4) Merge branch 'feature/update-queue' into 'master'
+- [13d8e82](https://github.com/franq/franq/commit/13d8e826595f275afc9af66eea3a431fcb3e0679) Merge remote-tracking branch 'franq/master' into feature/dashboard-user-reset-password (@aexmachina)
+- [3e42afe](https://github.com/franq/franq/commit/3e42afe46ec2296ff476ea5bf3ed2c1e233a37da) Improved clean-install.sh (@aexmachina)
+- [0cbdebf](https://github.com/franq/franq/commit/0cbdebfd75f02110050bc06f98a06aaba6daf8ef) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [36f6233](https://github.com/franq/franq/commit/36f62330731d23e7a1453c39edfa6b47dc069dd2) Change git-update.sh to use npm update and add support in post-install.sh scripts (@aexmachina)
+- [c59c8f8](https://github.com/franq/franq/commit/c59c8f8189e881d32a5f3ee7e9276e6710147106) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [41faf6b](https://github.com/franq/franq/commit/41faf6bec9b9fc079bfa3307d0e8a1d90868d015) Improved db-migrate.sh (@aexmachina)
+- [e7f6dcb](https://github.com/franq/franq/commit/e7f6dcb79db8b6660e00dad2c0b8ec0aab6e0ea7) Test and structural fixes, to avoid weird bugs caused by leaving data in the test database (@SohumB)
+- [3490f6d](https://github.com/franq/franq/commit/3490f6d151320464bb8314ff855c0ce8e31abaab) Improvements from merging feature/dashboard-user-reset-password (@aexmachina)
+- [f7ed8f5](https://github.com/franq/franq/commit/f7ed8f517143ffae1b135d3bbd4d5c330be86e0d) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [ed3c950](https://github.com/franq/franq/commit/ed3c9505ab5184dede50380030e36193d5b6855e) Add 'add size' button to create new varient; Add 'onBasePriceChange' to calculate exTaxPrice and GST;  Add 'onExTaxPriceChange' to calculate base price and GST
+- [29af36b](https://github.com/franq/franq/commit/29af36bfdd18e841bd36523ca2003b92db6af328) Merge branch 'master' into feature/dashboard-user-reset-password (@aexmachina)
+- [0e42efd](https://github.com/franq/franq/commit/0e42efd106ab93d1dba0207a8ca12068e62a373f) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [01b6c0a](https://github.com/franq/franq/commit/01b6c0ae072a1f5a736f109ee1257ddbfc99cd5a) Minor improvements (@aexmachina)
+- [e100d58](https://github.com/franq/franq/commit/e100d58fbd7a84001704df0921465247503a8730) Merge branch 'master' into feature/create-product-variant
+- [402d227](https://github.com/franq/franq/commit/402d22735addf83e781f1184f0d5677fb1c3c87e) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [ae77112](https://github.com/franq/franq/commit/ae771125c48a3c1c61bbc5984825e33bf472ad16) fix the failed build.!!!!!!!!!!!!!!!!!!!!!!
+- [1910a2f](https://github.com/franq/franq/commit/1910a2f81b1b2727298adae5a7b16d149ab91e42) Creating an instruction (@SohumB)
+- [f3550c1](https://github.com/franq/franq/commit/f3550c132e7cdefa558f98cf5cfc6bce18110c88) Add temporary test
+- [730c60a](https://github.com/franq/franq/commit/730c60ae7c8144bee3af6e2781c6276612403fce) Dashboard /instructions index route (@SohumB)
+- [6431b64](https://github.com/franq/franq/commit/6431b64babebfb9dc6ded5b502766e76804e80e7) Serverside Instructions#index and Instructions#show, and tests (@SohumB)
+- [79a41f7](https://github.com/franq/franq/commit/79a41f7cc80d3d1733e08617777bcdd095426230) Merge branch 'bugfix/couchdb-loop' into feature/instructions (@SohumB)
+- [a5f85ea](https://github.com/franq/franq/commit/a5f85ea6b7ad9b44c56abf31322212b413f6f8ba) Merge branch 'master' into bugfix/couchdb-loop (@SohumB)
+- [a0b057a](https://github.com/franq/franq/commit/a0b057ab2a57b8e43e657e9923be0425c8732804) Merge branch 'master' into feature/products (@SohumB)
+- [59c7dbd](https://github.com/franq/franq/commit/59c7dbd80f6a490708b41c5bd14e171ed2fd75bd) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [8207b0c](https://github.com/franq/franq/commit/8207b0c853dd665bd44b911dcca2830b57b191a0) Add isMandatory, isOptional attribute for productoption.
+- [661c919](https://github.com/franq/franq/commit/661c919e5ea7c4bf5db9c4cb180d665c5800c25f) add missing offline-data reference
+- [2686349](https://github.com/franq/franq/commit/26863490d6aed4704a1bd69fb34119acaf0badb3) Merge branch 'master' into feature/update-queue (@aexmachina)
+- [b22030d](https://github.com/franq/franq/commit/b22030dea7240c02ed37e49d0726a9d59f0cf3a7) Add variant which place under product pods to handle 'Sizes & Prices' tab
+- [7cb7b26](https://github.com/franq/franq/commit/7cb7b263de20ed9b5c52c56a005a367a7672eb00) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [e2d4684](https://github.com/franq/franq/commit/e2d46844160113807595cde5400329d4e73a308d) Fix incorrect factory-girl version (@aexmachina)
+- [88b66f1](https://github.com/franq/franq/commit/88b66f140fc3042011be7f57b830ee937d9948d3) Merge branch 'feature/offline' into 'master'
+- [07aec55](https://github.com/franq/franq/commit/07aec558d92b0997ef0b1205365d8a91151802e6) MInor fixes from code review (@aexmachina)
+- [c015752](https://github.com/franq/franq/commit/c0157528d14352a7ab424d367afbcc9c2bc3b7ca) Merge branch 'master' into feature/offline (@aexmachina)
+- [dc3d281](https://github.com/franq/franq/commit/dc3d281c20d202634755bf44fb58be52d82892f8) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [8f400a3](https://github.com/franq/franq/commit/8f400a3f069a4cb1375a9b8f72397bd2296db9b7) Fix merge conflicts, add SendGrid API key
+- [aacb8ce](https://github.com/franq/franq/commit/aacb8ce2aa9837ebf3ec09c98d0bb555f4c91ed2) We use date objects now in #destroy as well (@SohumB)
+- [c02edce](https://github.com/franq/franq/commit/c02edcef5d7902fb78ee2966ed59d02404490d42) Merge branch 'hotfix/update-test-for-price-component' into 'master'
+- [ef0b003](https://github.com/franq/franq/commit/ef0b003612dd58c7602389cde7c08bc9596a1b61) Mergge branch 'master' into hotfix/update-test-for-price-component (@Derrick666)
+- [0fce24b](https://github.com/franq/franq/commit/0fce24bc3bd0b5152c5ef4c42924fd11a115db78) Merge branch 'master' into feature/subproduct-of-option-in-accordion
+- [1409f90](https://github.com/franq/franq/commit/1409f907df0a63c09fed438731f4ab510d276636) Merge branch 'feature/option-rules' into 'master' (@SohumB)
+- [3240b58](https://github.com/franq/franq/commit/3240b584a8e1375a9719ef3d7e90217dfd40d585) replace this.get('option.minimum') with minimum
+- [da04763](https://github.com/franq/franq/commit/da04763a7f51ab3115b5a1bb50b18b0512e257f1) fix product with price component, add readonly attr to price component for display purpose (@Derrick666)
+- [44fa5f2](https://github.com/franq/franq/commit/44fa5f2a81b2ca719cefbe25f2cf5a97fb5c409f) Merge branch 'master' into feature/option-rules
+- [559ed74](https://github.com/franq/franq/commit/559ed74bd3c6f01078546a30675adc0637dc60d5) update upperBoundaries.
+- [43ad7e3](https://github.com/franq/franq/commit/43ad7e353d1c9cfe4f509bc141a01407b562e5e4) MR fixes for option rules, comment added for boundaryAccessor & make upperBoundaries property look clearer.
+- [16d7f12](https://github.com/franq/franq/commit/16d7f12c5e8309e2e822468fa99c188f30083711) Merge branch 'feature/foundation-tabs-nested' into 'master' (@Derrick666)
+- [6ec3a55](https://github.com/franq/franq/commit/6ec3a55163d0afb5293fbaf66f322dfbd27c620a) add test for nested tab and make it working
+- [54a2ce3](https://github.com/franq/franq/commit/54a2ce321c8f7fe75ee4a4f9a193b112fe5fd260) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [86104aa](https://github.com/franq/franq/commit/86104aaf0b4a6e456b5ddaf33896fed928e961e2) remove debugger (@Derrick666)
+- [2e2b7a7](https://github.com/franq/franq/commit/2e2b7a7bd2d723e257a2dcb029ab88971cc6b0ab) fix price test (@Derrick666)
+- [3099a80](https://github.com/franq/franq/commit/3099a80d13b0f45e212374512ceebde9a5ca1539) Fix issue with recursion in call to broccoli-appcache (@aexmachina)
+- [1b280cb](https://github.com/franq/franq/commit/1b280cb0d4ecb638c640c9fbd34722f0ced35312) Only loop a small fixed number of times when replication continuously fails (@SohumB)
+- [901db83](https://github.com/franq/franq/commit/901db8352ce7dd25e086a3c1935661a018df3c81) Merge new update from master
+- [6e89f51](https://github.com/franq/franq/commit/6e89f5131cf2ea67584f7d6af6fd82bdce13f08a) better version of option-rules component, most of the view controlling variables are now directed from computed properties.
+- [f42ac64](https://github.com/franq/franq/commit/f42ac64257ae3da422f2ecd0dfbec9c842707525) Added webfonts to build (@aexmachina)
+- [6da6cec](https://github.com/franq/franq/commit/6da6cecdb771a00f7514788c6efdb3073c89842f) Documentation updates (@aexmachina)
+- [9d7bde9](https://github.com/franq/franq/commit/9d7bde951dd6ec7ea2207b086e97ec37a84cbae6) Merge branch 'feature/offline' into feature/update-queue (@aexmachina)
+- [fda9893](https://github.com/franq/franq/commit/fda989342851215cc409a9a2eb68ac4d45534d07) Merge branch 'master' into feature/offline (@aexmachina)
+- [c45e27f](https://github.com/franq/franq/commit/c45e27f66bb29c28c8e592abf844b4159269ec07) Merge remote-tracking branch 'franq/master' (@aexmachina)
+- [279ee99](https://github.com/franq/franq/commit/279ee99de1dc95305632dacb2753333d6936fb00) Remove (broken) broccoli-file-mover from ember-app.js (@aexmachina)
+- [2f0f9de](https://github.com/franq/franq/commit/2f0f9de787b90cec6c2990601d61bc54ba38cd9b) Merge branch 'bugfix/dates' into 'master' (@Derrick666)
+- [cebd677](https://github.com/franq/franq/commit/cebd677705f1b5dffe3e6f87c8fd27c833d63852) Standardising how we handle dates (@SohumB)
+- [ee7c9aa](https://github.com/franq/franq/commit/ee7c9aabee12b959990bc66056312b3a058caede) Merge branch 'component/price-entry' into 'master'
+- [cf2540e](https://github.com/franq/franq/commit/cf2540ea27218d06feb8d28a7319a5a9d5b7e0b5) indentation fixes (@Derrick666)
+- [ce840ae](https://github.com/franq/franq/commit/ce840aeb73db8c4c6dee551514448aabf6122453) indentation fixes (@Derrick666)
+- [9937ca3](https://github.com/franq/franq/commit/9937ca363c05cd0e4f8e79387947a0d9cca64a27) Merge branch 'master' into component/price-entry (@Derrick666)
+- [45035f2](https://github.com/franq/franq/commit/45035f270d18fe68517bf8dc5553acf8e0939e8e) refactor test using a better style, update component code to use actions and tidy template up (@Derrick666)
+- [15d6328](https://github.com/franq/franq/commit/15d6328f3d8323a0758b530840135025fdaeea15) Merge branch 'master' into feature/offline (@aexmachina)
+- [8385416](https://github.com/franq/franq/commit/83854161c4e531b2f48a43fa073543fe0ff3a75d) Update to ember-cli 0.0.40 - our fork is no longer required (@aexmachina)
+- [07394e4](https://github.com/franq/franq/commit/07394e4f370ea13d308d462b8536fe3d46727d05) Commenting out the belongsTo case (@SohumB)
+- [6a8e8bd](https://github.com/franq/franq/commit/6a8e8bdc2affbfb501d33bb93c6d73ed338eb246) Add README and package.json props to make npm quieter (@aexmachina)
+- [c94c25b](https://github.com/franq/franq/commit/c94c25bdb04ec375ef979ee8d7c22deac26b011b) change nanmes (@Derrick666)
+- [e37c8fe](https://github.com/franq/franq/commit/e37c8feef1f4686fd4c2116d5a9b9e8364c1a362) change test name (@Derrick666)
+- [d7a62e4](https://github.com/franq/franq/commit/d7a62e4cd35faa00d7cb38109471fbda5c4db98e) pre MR fixes.
+- [d1a9f21](https://github.com/franq/franq/commit/d1a9f21d8bcf1b6f350f26d3983d7969ff7870ef) change names (@Derrick666)
+- [e488dc2](https://github.com/franq/franq/commit/e488dc26026286c76d49253dacf22d8d753606e0) add connection section between two boundaries.
+- [d50e8dd](https://github.com/franq/franq/commit/d50e8dd44f2bfb9c0243eb8454aa31204f8df6cb) Merge branch 'master' into component/price-entry (@Derrick666)
+- [e5d82cc](https://github.com/franq/franq/commit/e5d82ccb51139a8979d9d6a31923870b4de1722c) format fix
+- [444b457](https://github.com/franq/franq/commit/444b457c667c0ab509e32cab7c3bd55ae0602a3b) add test for bringing the lower boundary operator select from at most to at least and keep the minimum to the value of the select.
+- [cd2f7b5](https://github.com/franq/franq/commit/cd2f7b515908553a90d55276588b2004d6c301f8) add class binding test for option-rules. added documentation.
+- [c1e93bd](https://github.com/franq/franq/commit/c1e93bd8fe0e6e8940f149dd3dce2f4480ea36ee) finalize the tests for option-rules component.
+- [4f81f6c](https://github.com/franq/franq/commit/4f81f6c84ea524ff991b5c4f86c090d8b7c05641) Merge remote-tracking branch 'franq/master' into feature/update-queue (@aexmachina)
+- [ba20793](https://github.com/franq/franq/commit/ba2079349d7ca801ddd2699f885d2099a5ae47d7) Adding an [API] tag onto the main PUT /products test (@SohumB)
+- [5fd5bd4](https://github.com/franq/franq/commit/5fd5bd4beb9b8966d85283ef60271fa2da620ab8) Quiet a test whose error had changed, apparently (@SohumB)
+- [1ed76b3](https://github.com/franq/franq/commit/1ed76b30e424bd3c5b109aaaa3c82e11fa686eb3) Merge branch 'master' into feature/products (@SohumB)
+- [76e03d9](https://github.com/franq/franq/commit/76e03d90c689f66cae5ab7a437de0f64093c1442) Embedded relationships. (@SohumB)
+- [599ce3e](https://github.com/franq/franq/commit/599ce3e44f9e1ef8de94c6e472459d99f53de8f8) Added tests for the offline service and terminal adapter (@aexmachina)
+- [50f6d43](https://github.com/franq/franq/commit/50f6d43fe4e8517597f40a31905bbc15f0466f5e) Update offline-data build files (@aexmachina)
+- [a02bbe8](https://github.com/franq/franq/commit/a02bbe89cc6a3375975d474ac04aaae1a96d4a1d) tests for empty options has been setup.
+- [b78d6a7](https://github.com/franq/franq/commit/b78d6a7b62d1e70739f25ad4481cd5939e233463) Add UpdateQueue support to TerminalAdapter for offline updates (@aexmachina)
+- [4fa3a83](https://github.com/franq/franq/commit/4fa3a838ce0df8f094d8d01c1c75192b2551a140) added option-rules components & some tests. more to go
+- [a8a8765](https://github.com/franq/franq/commit/a8a8765b7d8757cc9d2dec67c37724284a028701) Update offline-data build files (@aexmachina)
+- [f11dea7](https://github.com/franq/franq/commit/f11dea7113f6c3757620634fbdc864c78191dd90) Added UpdateQueue to offline-data module (@aexmachina)
+- [0faa18f](https://github.com/franq/franq/commit/0faa18fa8a2153517f5465b3c47dc09e0b21ccec) Merge branch 'feature/product_and_group_selection' into 'master' (@SohumB)
+- [51ce6d1](https://github.com/franq/franq/commit/51ce6d1f78b1a157001d4dff774e6262254f481f) Merge branch 'feature/product_select_component' into 'master' (@SohumB)
+- [845fe39](https://github.com/franq/franq/commit/845fe39a35c2ca1ea056f87b74b6835d24332cef) Merge branch 'master' into feature/product_and_group_selection
+- [c95b99c](https://github.com/franq/franq/commit/c95b99cce646c352d1f53ca587839c026260dcdf) Merge branch 'master' into feature/product_select_component
+- [8dab672](https://github.com/franq/franq/commit/8dab67202709aeab7ced2f6752b5418f707d6324) add product-and-group-select with test.
+- [1f6f961](https://github.com/franq/franq/commit/1f6f9613b1b8e4d56b5489a46f0a8c46b2d569c3) PromiseBus now passes in a dependency object rather than being positional about it (@SohumB)
+- [cef18df](https://github.com/franq/franq/commit/cef18dfa5059c1d788da71d9e8ad77f3d61fff1e) Tests passing (@aexmachina)
+- [1b8606d](https://github.com/franq/franq/commit/1b8606d8442e57bbe89a5813b4229d163d7d58f8) Tests for Organisation model (@aexmachina)
+- [f0ba889](https://github.com/franq/franq/commit/f0ba889f55b1f36769d5689c3d0d820cb3657949) Tests passing (@aexmachina)
+- [e5467d4](https://github.com/franq/franq/commit/e5467d44e115eaa4fc2664b3900f56d648cd8d4a) Merge remote-tracking branch 'franq/master' into feature/offline (@aexmachina)
+- [1f64ab8](https://github.com/franq/franq/commit/1f64ab833f2afa291be601ffe468b907b16f242b) Several minor fixes (@aexmachina)
+- [c324a6c](https://github.com/franq/franq/commit/c324a6c76b9f9264028415709bfc6294bb45d890) Merge branch 'hotfix/dashboard_product_model_update' into 'master' (@SohumB)
+- [cd92a85](https://github.com/franq/franq/commit/cd92a85f54ecf609ac263535e6985990f892a5a4) Merge branch 'feature/upload-employee-image' into 'master'
+- [361a9ab](https://github.com/franq/franq/commit/361a9ab00e702ac9944c6be720198d53cd974601) shortern code for set image
+- [8682d97](https://github.com/franq/franq/commit/8682d97b70c14128b4ccb3c8ab10caaf57ed98b1) update the dashboard model with new relationships.
+- [eacdd35](https://github.com/franq/franq/commit/eacdd3500b07ca79863c7c2799113579c556291d) Merge remote-tracking branch 'franq/master' into feature/offline (@aexmachina)
+- [3805408](https://github.com/franq/franq/commit/3805408f345b37bb8ddd208fd5d2846d55a492cc) Rename data-cache to offline-data (@aexmachina)
+- [31bd0db](https://github.com/franq/franq/commit/31bd0db0e41908c8de819ab6f88d1379711ca86c) Add test when for clicking for upload image
+- [b375dc7](https://github.com/franq/franq/commit/b375dc7d6c3da91cd07b34b95fa7de4291b316f0) Fix promise chain
+- [15d8480](https://github.com/franq/franq/commit/15d8480a8b7faad7bb7ccf853b31f9dfe4a87049) Rename data-cache to offline-data (@aexmachina)
+- [e8617ca](https://github.com/franq/franq/commit/e8617ca245c9297803c28cee3bec663f19f0524f) Added dist/ files for offline-data (@aexmachina)
+- [dea371e](https://github.com/franq/franq/commit/dea371ed5d5a92afa5ac6ff93c01e39af93b59d5) Added tests for offline-data and various bugfixes (@aexmachina)
+- [9d9ff92](https://github.com/franq/franq/commit/9d9ff9280042d86862bd1e656ad224bb77a1b9ba) test comment change for two tests about throttle.
+- [f1b37f0](https://github.com/franq/franq/commit/f1b37f0b30e72953084bc46fdc49549815276db2) add Ember.run.throttle for searchTerm, tests attached.
+- [feb6c2d](https://github.com/franq/franq/commit/feb6c2d9864e5ca71fd172e89c9eb13e1918add4) pre MR clean up
+- [14a29d3](https://github.com/franq/franq/commit/14a29d32d479f5f64bce3e3e4b7d51c12c25a396) add tests for radio button
+- [ffe643a](https://github.com/franq/franq/commit/ffe643adb20045c864591d4566db35f01e1224cf) give tests for foundation tabs component
+- [444f4ab](https://github.com/franq/franq/commit/444f4ab92f94e2cf7bdd324f472de4b3ff046b9f) Add product-group-select & test for it.
+- [4dce282](https://github.com/franq/franq/commit/4dce282c3763918fffb6e8b2585dd0e3edf51024) more document for product-select for the inheritance part.
+- [7044a93](https://github.com/franq/franq/commit/7044a9315e7c25c5543e89d02902063ac8196f58) add doFixtureLoadup parameter in setupIsolatedContainer method to increase the product-select component test speed.
+- [b7a9920](https://github.com/franq/franq/commit/b7a9920b45e99f2e99a7bfe5569a8973029ce136) reorganised product-select to be more suitable for reuse.
+- [2a92037](https://github.com/franq/franq/commit/2a920377fd189f7b7cfccb5b04e422326fa1a273) give FilterableListSelect default idField & textField value
+- [604984b](https://github.com/franq/franq/commit/604984b2267c667a75ea233d78015419891235fb) add test for propertiesToWatchForUpdate in FilterableListSelect
+- [02ad57b](https://github.com/franq/franq/commit/02ad57b4f4153a0a54fe43fa46277f62c27f5d3c) add documents for product-select.
+- [9e7798a](https://github.com/franq/franq/commit/9e7798ac224f7ba48dfd3b4ebd8e6db5f7659b27) Add product-select with test.
+- [2dfa699](https://github.com/franq/franq/commit/2dfa69938b79def941d1de0c09e974597b50030e) Merge branch 'master' into component/price-entry (@Derrick666)
+- [a17aa32](https://github.com/franq/franq/commit/a17aa3286ad367767ba1e2d2d2c3d09aba9bdc2c) add observer for ['searchTerm', 'availableList.@each', 'filterFunction', 'idField', 'textField'] in filterable-list-select,
+- [5c6a197](https://github.com/franq/franq/commit/5c6a1976c4f7a3220b76103ade096b09768b9f4a) BaseModel#updateRelated now uses an internal object signature rather than ids (@SohumB)
+- [e83385a](https://github.com/franq/franq/commit/e83385ad6da00a5bfa9cf4851a3ae477cbeee5b4) Merge branch 'master' into feature/product_select_component
+- [15b3000](https://github.com/franq/franq/commit/15b3000601321104658c9579112434c4fb6ed110) Added documentation for filterable-list-select
+- [3d7bd5c](https://github.com/franq/franq/commit/3d7bd5c68da9a7a35f6fea557d5c55466a527e5b) Fix merge
+- [46dfb88](https://github.com/franq/franq/commit/46dfb88676ecc94381eafdb8ae7c473204e8763b) Merge branch 'master' into feature/dashboard-user-reset-password
+- [4f6ed95](https://github.com/franq/franq/commit/4f6ed95b60b46bde13874b7d7cb34d1d325ee746) Merge branch 'master' into feature/upload-employee-image
+- [d355742](https://github.com/franq/franq/commit/d35574290118e7b71c453186543350f54aee9ac2) Add noResultsText & noResultsLinkText, onNoResultsLinkAction to handle the action when no resutls shown in the list.
+- [6604b15](https://github.com/franq/franq/commit/6604b15e8da82637037f3c21e5e484b9a22c6d9a) Merge branch 'feature/products' into 'master' (@SohumB)
+- [536b264](https://github.com/franq/franq/commit/536b264a129dee119b077981e689e74dafd0417b) Moving mapIf to _.mapply (@SohumB)
+- [9b14535](https://github.com/franq/franq/commit/9b145352440ffd8c5d777bc9abe8827dce9ed70f) Some quick additional documentation on the database contract for productoptionitem and groupoptionitem IDs (@SohumB)
+- [db871d5](https://github.com/franq/franq/commit/db871d586469e233b020e17bce2c59829742eaa0) BaseModel#initializeComplexFields (@SohumB)
+- [b3683a2](https://github.com/franq/franq/commit/b3683a2e34c0ae5c7d57cccfd73bc243407b91c8) Renaming the `current` object in BaseController#serialize's output to `primary` (@SohumB)
+- [7030fcb](https://github.com/franq/franq/commit/7030fcb596472445881a248fc906a5fd4294aef3) add functionality for clear search box button
+- [91c2d0f](https://github.com/franq/franq/commit/91c2d0f1472398bb4b6b39fb949e744209cacc86) add test for ressultHeaderInfoText & resultHeaderAddText
+- [c2172f9](https://github.com/franq/franq/commit/c2172f9aa9918a051da115596b1a3b9285c255d6) filterable select list is available with test.
+- [28ff0e6](https://github.com/franq/franq/commit/28ff0e6a9be1b3f2b0390a7df0271803b493f23b) restore skip test; remove command code
+- [422d55c](https://github.com/franq/franq/commit/422d55c9de5a1e9960415fdd25c4eb5062a6b0ab) Add server test for cashier image; Fix add property 'image.url' for user
+- [f762c77](https://github.com/franq/franq/commit/f762c779461e6dac4dabdc8e511a61bb962376f3) Downstream offline support for Terminal using data-cache (soon to be renamed to offline-data) (@aexmachina)
+- [5b75286](https://github.com/franq/franq/commit/5b75286f624871d3eee8e031fa1000afb08cf21b) initial-data.js is now just a script/tools (@aexmachina)
+- [f99f43e](https://github.com/franq/franq/commit/f99f43e89dc158d44ccebd283f7e555bc219a847) Fix sandbox.restore in afterEach; Add image.url for user in helper.js
+- [972f132](https://github.com/franq/franq/commit/972f132703611f08fb45d3c26ca84bafc9d7272d) Add Ember Test; Change on create whould should file picker
+- [41e13ef](https://github.com/franq/franq/commit/41e13efa675992e72be8893606f36c5c54542d5a) Change to show image picker only when user isCashier (usercode is not empty)
+- [78b9d44](https://github.com/franq/franq/commit/78b9d44d41811c77fec973b9df90ae14ee699eee) Add image field for Cashier User in db
+- [ee45409](https://github.com/franq/franq/commit/ee45409ae92ebefee0f01d1857cce65b81d7165a) Merge branch 'master' into feature/upload-employee-image
+- [e8f0761](https://github.com/franq/franq/commit/e8f07612fadb9e88e72eb7e2b9a8a685f404ce21) Merge branch 'master' into feature/products (@SohumB)
+- [5fb2ee0](https://github.com/franq/franq/commit/5fb2ee08a3053e471c613e40bc2e364fe4ddec52) Tests for #index and #show (@SohumB)
+- [b69aafc](https://github.com/franq/franq/commit/b69aafcd870368e46b49e249fc33a8c138fb8472) Serialization and naming fixes (@SohumB)
+- [bb45b33](https://github.com/franq/franq/commit/bb45b338931a2c7373a47cbdba93ac54bc2af431) Fixing constraints and adding parent_product_id to OptionItem (@SohumB)
+- [d486c77](https://github.com/franq/franq/commit/d486c7747d8c7d4a5e1decb0ab3d2c623d389895) Merge branch 'master' into component/price-entry (@Derrick666)
+- [6ed95d8](https://github.com/franq/franq/commit/6ed95d8365c077b7be195c6b655df49d3f63eb61) use class instead of ids in the componennt to identify elements (@Derrick666)
+- [11908df](https://github.com/franq/franq/commit/11908df1db90a8eee6040b37046aad7f731e7d29) remove frock from test (@Derrick666)
+- [5d7e5ae](https://github.com/franq/franq/commit/5d7e5ae57d874a1aae0e777ce308f2b9a2a210d5) change name, cents to price (integer format) and price to priceInDecimal (@Derrick666)
+- [9026228](https://github.com/franq/franq/commit/9026228b41b6774c00849e20a7b5ef429458a5e6) Merge branch 'feature/products-landing-page' into 'master'
+- [3dee2f1](https://github.com/franq/franq/commit/3dee2f19823c97a8c62f866e582b7923dbe0d170) Ember side: Add File Picker for user to choose image for upload.
+- [7b849f2](https://github.com/franq/franq/commit/7b849f2209f12cfc3cd00560a008e2ff9186db37) give up after hijacked the server build process to see what's happened inside phantomjs but still can't find why the test failed.
+- [dd51e18](https://github.com/franq/franq/commit/dd51e18c904edb50db38eb8fa856b59bd9a5abb3) still bug fixing, ignore me~!!!
+- [d4fb13e](https://github.com/franq/franq/commit/d4fb13ef0761bc02a9132db166fff4ce36ab8a37) infinite loop to stop phantom from running too fast.
+- [8a24d9a](https://github.com/franq/franq/commit/8a24d9a9426626a5be1b16a322650120a19cda06) Merge branch 'master' into component/price-entry (@Derrick666)
+- [fbba9bb](https://github.com/franq/franq/commit/fbba9bb3ebc6ca24797f8bfe4785b964f4e01432) test bit for finding the bug in build agent
+- [94f8d8b](https://github.com/franq/franq/commit/94f8d8bb723b0c70a2bdf1f08f778794270270b7) Renaming helpers.getFakeStuff to helpers.fake.stuff (@SohumB)
+- [f1066f9](https://github.com/franq/franq/commit/f1066f9bbb867471c92c743e9a6026fe0b5cd495) Merge branch 'master' into feature/dashboard-user-reset-password
+- [3b69d21](https://github.com/franq/franq/commit/3b69d21fffbb2f1bf593f31b54a85125ebc39cd5) Graphixture now supports pivot columns on belongsToManys (@SohumB)
+- [0cd669f](https://github.com/franq/franq/commit/0cd669fdfb059600841d06a3190a9f6e14858c90) move the loadupFixtureStore out from the loadFixtures and use it only in setupIsolatedContainer
+- [7e5c081](https://github.com/franq/franq/commit/7e5c0813af6a0bc382b027fb158c166fffa85566) Merge branch 'master' into feature/dashboard-user-reset-password
+- [1f3a252](https://github.com/franq/franq/commit/1f3a2529ab63e100ee92393b744868235589d65e) Merge branch 'master' into feature/products-landing-page
+- [9442e21](https://github.com/franq/franq/commit/9442e21bcf1f4220c9c6cd19e6a6e9abf031b1cc) Remove commented code
+- [fe98032](https://github.com/franq/franq/commit/fe980329b742695c560fda2695cedc6f63851130) Merge branch 'feature/product_serializer' into 'master'
+- [40477c2](https://github.com/franq/franq/commit/40477c20ab4d571c8562ddabe0a18202b9aca939) Moving prices to their own tables, rather than an embedded type (@SohumB)
+- [7a25b5c](https://github.com/franq/franq/commit/7a25b5c9d52c38241aaff8f02e0d4812e646ba91) Removing timestamps from embedded models (@SohumB)
+- [af4054a](https://github.com/franq/franq/commit/af4054a1045880669e1345006987182e826ac9ba) Merge branch 'master' into feature/product_serializer
+- [c6e227e](https://github.com/franq/franq/commit/c6e227e7674a81a5ebac1b127ae47a1ced02e282) Models and embedding for products (@SohumB)
+- [bd9540b](https://github.com/franq/franq/commit/bd9540b615baa0d3b582b13c597d389f9856a927) Products data model: Clarified and implemented (@SohumB)
+- [47d63e2](https://github.com/franq/franq/commit/47d63e2b3435e3991c6fdd3c2a2a936458857b67) General complex fields support (@SohumB)
+- [c013814](https://github.com/franq/franq/commit/c01381451c2887d06de7d0c54c7a5017359367d4) Merge branch 'master' into feature/products-landing-page
+- [ca005e2](https://github.com/franq/franq/commit/ca005e2ab546d4158bea7ebea06a4683d698b555) add more attributes for component and add new test case (@Derrick666)
+- [64af61c](https://github.com/franq/franq/commit/64af61c9f5f8e2ed3136d107f709cc6ee658ebcf) Add test for for serverside, add get model in test/helpers; Add more
+- [44233b9](https://github.com/franq/franq/commit/44233b99a15f37b6621ae5555472da14a86dac51) fix merge conflicts from master (@Derrick666)
+- [785c411](https://github.com/franq/franq/commit/785c4119a3ac3884ffd8c9e15b21e75d6211fa2c) fix getId form user test error
+- [8ea57ff](https://github.com/franq/franq/commit/8ea57ff2c6ecdbe93ecded40e01565119e4ecd9e) add ember component unit test (@Derrick666)
+- [7b7d352](https://github.com/franq/franq/commit/7b7d3528b7cd395c21095e56c7934a0cab553b54) Merge branch 'master' into feature/dashboard-user-reset-password
+- [aa39c7e](https://github.com/franq/franq/commit/aa39c7e3e0453f87a28d5cfe3c3dd0ebda55d1c3) Muhahahahaha, make the setupIsolatedContainer a promise and add the tricks there to make it wait for it to finish.
+- [5c12947](https://github.com/franq/franq/commit/5c1294702a22c17a702ad630ef5449c23defec8a) Merge remote-tracking branch 'franq/master' into feature/offline (@aexmachina)
+- [2aab3c7](https://github.com/franq/franq/commit/2aab3c72a1c21479d55e2bfcf24415e5b6693a97) Several minor changes from merge review (@aexmachina)
+- [9bb7b60](https://github.com/franq/franq/commit/9bb7b602088efbf1a76544bc0c5f553be4239fe6) Bug fixes (@aexmachina)
+- [192bceb](https://github.com/franq/franq/commit/192bcebf65b390fa23ddb1fa44491a507b576ab4) fix interge 0 probelm (@Derrick666)
+- [cd81ad2](https://github.com/franq/franq/commit/cd81ad283c02fb043d920dbc0140bd9f358bc3fa) upate error message (@Derrick666)
+- [cdd94f7](https://github.com/franq/franq/commit/cdd94f7118cf84dc456e8d2543db8b8cb4e82b75) use icons for the tick and cross and set width of input (@Derrick666)
+- [60879a8](https://github.com/franq/franq/commit/60879a8a9450cd2d3489dd1fe1f5a93f3c784ea7) include foundation icon fonts (@Derrick666)
+- [2285aeb](https://github.com/franq/franq/commit/2285aebe3070bf73c3002a34075a6c355f2627d4) add default price for price entry component (@Derrick666)
+- [8f63eb3](https://github.com/franq/franq/commit/8f63eb31eaa9e686ed7c44e958f1f3d4f45d4f1b) allow user enter currency sign (@Derrick666)
+- [2e9ee14](https://github.com/franq/franq/commit/2e9ee146840559039faeb2bce586c96d2e0fa99d) change priceInDecimal and priceInCents name to price and cents (@Derrick666)
+- [83eec97](https://github.com/franq/franq/commit/83eec974716d6190d5b48f673e9d1179b5cae5c0) use utils.js to handle price-cents convertion and number formating (@Derrick666)
+- [6b28f8d](https://github.com/franq/franq/commit/6b28f8df6322aeb6fc41e05668fbae2f888eeee7) Merge branch 'feature/token-auth-adapter' into 'feature/dashboard-user-reset-password'
+- [9ef8536](https://github.com/franq/franq/commit/9ef853629fc68dee3e7f0c9c797fe0eec6666047) Merge branch 'feature/product_prize_with_no_size' into 'master'
+- [0d2c56a](https://github.com/franq/franq/commit/0d2c56a8f1d07c8aa92ad0504b8ea610af01ef2e) working version (@Derrick666)
+- [4b193c6](https://github.com/franq/franq/commit/4b193c6eab1eecd5de80f8daf79a824161963339) add price validation (@Derrick666)
+- [a699a0b](https://github.com/franq/franq/commit/a699a0b0458dd1db34cdcc9088c888db0f35ad25) another replace $ with find
+- [580d2ed](https://github.com/franq/franq/commit/580d2ede60e2cbedd49e7f123528140e00bad05c) MR changes
+- [1afd630](https://github.com/franq/franq/commit/1afd6301f45c3cdfbb5ef2d6d983ed0496bbb8f2) Merge branch 'master' into feature/product_prize_with_no_size
+- [3a12813](https://github.com/franq/franq/commit/3a12813d220de1415cb0287d5039ca74f44ae9c1) Merge remote-tracking branch 'franq/master' into feature/offline (@aexmachina)
+- [6808fdd](https://github.com/franq/franq/commit/6808fdd0259e19fe4e34f369dad79a36e11765bc) change elements to global variables and add toggle model function (@Derrick666)
+- [229038e](https://github.com/franq/franq/commit/229038e261e221c17a46c2ea1b702040a86f46d5) Several changes from code review (@aexmachina)
+- [8fac968](https://github.com/franq/franq/commit/8fac96800c99009df184867c599d356b4871bb2f) Change token-auth to use an adapter pattern, rather than using inheritance. (@aexmachina)
+- [916f6ff](https://github.com/franq/franq/commit/916f6ffe8461a5b4b95d8475d16e25844903f216) add confirm and cancel buttons (@Derrick666)
+- [8e02c8d](https://github.com/franq/franq/commit/8e02c8d7125db068946364047a94f28f8c993815) read value from outer templace and sync with component (@Derrick666)
+- [3cf177a](https://github.com/franq/franq/commit/3cf177ac3b642c3b5ceeb493cbe289f5931fe25f) add price entry template and component code,  now initial state and edit state can toggle (@Derrick666)
+- [384d5a5](https://github.com/franq/franq/commit/384d5a57eea7d752664dfdc9775d700baae1954f) capital directory fixed (@Derrick666)
+- [277e65c](https://github.com/franq/franq/commit/277e65cc662d1b35cc202d95849117ed20a5f5a0) variable indentation
+- [79be02a](https://github.com/franq/franq/commit/79be02ab13581d2edadc57eefb71b361ed25ec36) format enhancement in test and remove not used functions.
+- [a4d4b9c](https://github.com/franq/franq/commit/a4d4b9c7293214f68897feadb81a5a0f6543a5d0) Merge branch 'master' into feature/products-landing-page
+- [98c2841](https://github.com/franq/franq/commit/98c2841dbcd9248f5eaa68586b0cacf10597d258) Merge branch 'feature/terminal-cashier-login' into 'master'
+- [f038500](https://github.com/franq/franq/commit/f038500850b08e94753ab21e80e24ae6aa79bf03) Add test for products index page showing products table
+- [d48e716](https://github.com/franq/franq/commit/d48e71632fa5a0f1e77f370a2c2cbcd28fd388e8) whitespaces and indent (@Derrick666)
+- [a7fdbdd](https://github.com/franq/franq/commit/a7fdbdda9fe38ee443bd2571e7f4c0eae330b510) 1. embedded-relationship.js has been renamed to embeddedrelationship.js
+- [7d22453](https://github.com/franq/franq/commit/7d22453d262756c80130cd38dc4848c20dcf9b7c) fix code styling, whitespaces, move cashierlogin service to terminal folder (@Derrick666)
+- [4f654d6](https://github.com/franq/franq/commit/4f654d6cbbd7411e63c919bc0e2c5503d26056f9) change to table view for list of products
+- [de22779](https://github.com/franq/franq/commit/de227794dbee05b08d1172e9bb94ddba60d34759) import foundation table component
+- [c5f34c9](https://github.com/franq/franq/commit/c5f34c9612a91bc71102a6426d9e7513e4af9af8) make full width
+- [8053d67](https://github.com/franq/franq/commit/8053d671ac25afc7759b75c50f4bec1dade1530f) Add TerminalAuth in preparation of separating out the cashier login (@aexmachina)
+- [817afc8](https://github.com/franq/franq/commit/817afc8c9c765ca03bacdb94ca34a5304f629757) use updated submodule
+- [f7d64c9](https://github.com/franq/franq/commit/f7d64c9d4cc117803aac2d4a27c20d62c415d9c2) Replication working both server and client side. (@aexmachina)
+- [fbc6a2e](https://github.com/franq/franq/commit/fbc6a2ee2a44fa9920e3d8da4865cc54f756895f) remove todo
+- [fb89e69](https://github.com/franq/franq/commit/fb89e693b354e8cab4ba073be5c2289b0c8e58ee) Add Ember test recover & reset-password.
+- [cfd9d21](https://github.com/franq/franq/commit/cfd9d2144f650f4c2dcc077cd1b867701330f962) Add Ember recover page test
+- [05a8eb1](https://github.com/franq/franq/commit/05a8eb1faf41cb66e0163e4745f4a90546976168) Added embeddedrelation serializer, which will serialize the specified embedded relationship object ranther than only id.
+- [2b3f6a2](https://github.com/franq/franq/commit/2b3f6a206ca0fdd2b4def73b9a497d0f288ff1be) Add config data for email & sendgrid
+- [45485bc](https://github.com/franq/franq/commit/45485bc9c4a45278605208e229a62a074f3bd080) Add email service using SendGrid
+- [34dcc62](https://github.com/franq/franq/commit/34dcc62f7a7940f64f1a24f16590769ffe717e68) Remind to remove link later
+- [05aeeda](https://github.com/franq/franq/commit/05aeedabcd6b9ebbcf2634790dec5cc28cb3b9b0) Add condition to show 'token revoked' message reather then internal server error
+- [9a23db8](https://github.com/franq/franq/commit/9a23db8ad8aa10f56f21ac4b061dcea3051467db) Fix emailHelper path, data for email
+- [2adf5f6](https://github.com/franq/franq/commit/2adf5f6393c8475bc6c3e72d6d237e4314397a35) Add SendGrid module
+- [1095f2d](https://github.com/franq/franq/commit/1095f2d0b948f7a2f6e483788a5589542c4c1625) Add email template
+- [64bf5ed](https://github.com/franq/franq/commit/64bf5ed286fd001d3d8523521faeea0f7ca2d088) Merge branch 'master' into feature/terminal-cashier-login (@Derrick666)
+- [ab878c8](https://github.com/franq/franq/commit/ab878c87d5a769eca0628aa24c6232965006421f) fix return cashier object problem and pass server side test for user model (@Derrick666)
+- [5e3695c](https://github.com/franq/franq/commit/5e3695ce1211fc78e3e4d04abca9ff5cd9e6d5cf) add has_variants attributes for product.
+- [7262258](https://github.com/franq/franq/commit/726225888642048bc7942799617d7e3cf6b55eca) Merge branch 'master' into feature/dashboard-user-reset-password
+- [a60e02f](https://github.com/franq/franq/commit/a60e02f9fa8ba8387c3e6a82eadcc42dfd218d50) Merge branch 'hotfix/disable_appcache_development' into 'master'
+- [f952974](https://github.com/franq/franq/commit/f9529742d07e8ee9909f06423b2bf2d0deabd1c7) Add load user model and submit action to change password.
+- [2191ba5](https://github.com/franq/franq/commit/2191ba57a9692c42dba71c3607c2e092e4c7b33d) Fix garbageCollector
+- [85304b1](https://github.com/franq/franq/commit/85304b11e6828f944ea602afeeb93ab4727facb7) MR fixes.
+- [289a5cf](https://github.com/franq/franq/commit/289a5cfcd68ad7da50be00d8511b9aab80c66f78) disabled the appcahce for ember development
+- [38766ff](https://github.com/franq/franq/commit/38766ffec74d6910dc8c1861d435ad8cb2a7413c) Fix validation for 'data-equalto' in view (input component doesn't
+- [6c73c07](https://github.com/franq/franq/commit/6c73c07d854f7d7186f60f48b08aef3a131085ca) Merge branch 'master' into feature/product_prize_with_no_size
+- [6d11ac4](https://github.com/franq/franq/commit/6d11ac4529236e39a44b5d8bbe75ac91bf8276cd) Embedded relationships (@SohumB)
+- [bf1d230](https://github.com/franq/franq/commit/bf1d2308d9ef6b40412e9765e6b871b888fe1b1e) fix merge conflicts in src user model test (@Derrick666)
+- [f57f9f3](https://github.com/franq/franq/commit/f57f9f330369c9e541422ed9eb5ec1e2024f6f9f) Add proper comment for radio-button & foundation components.
+- [88d99f4](https://github.com/franq/franq/commit/88d99f4bb90b269bd54b01d998affd2993122bfa) Add tests for product sizes & prices tabs.
+- [86ce731](https://github.com/franq/franq/commit/86ce7315cf79c588f950efe0c17abff195241d69) Added tabs for Sizes&Price for product. also there's a radio button controlled price tab wihtin the basic tab.
+- [b2cbfea](https://github.com/franq/franq/commit/b2cbfeaed226962872599a51fe8a6cc1dfb975b3) Merge branch 'master' into feature/dashboard-user-reset-password
+- [2315c26](https://github.com/franq/franq/commit/2315c26b933b1eaecbc093c7b1769ff80ddc4369) Add dashboard recover & reset-password Functionality.
+- [11b6179](https://github.com/franq/franq/commit/11b6179920aa76539d677eed2e17cc973525c39f) fix user name not showing problem (@Derrick666)
+- [e27b571](https://github.com/franq/franq/commit/e27b57104e0a27b234a4f780459fa61fb920943a) Merge branch 'master' into feature/offline (@aexmachina)
+- [ad88a79](https://github.com/franq/franq/commit/ad88a7976cefcf334f0063745e04bd1c12657506) Merge remote-tracking branch 'franq/master' (@aexmachina)
+- [5fdf29a](https://github.com/franq/franq/commit/5fdf29a393313147993b803e6972d449dda44840) Merge branch 'feature/replication-events' into 'master'
+- [d58acb2](https://github.com/franq/franq/commit/d58acb2969e625b339d5f582e89ffe2ff0efd77d) A few indenting changes (@aexmachina)
+- [22e2f49](https://github.com/franq/franq/commit/22e2f4967c29206aed33a176c197d78dcedf7a7c) Merge branch 'feature/replication-events' of gitlab.impos.com.au:franq/franq into feature/replication-events (@aexmachina)
+- [f1443bd](https://github.com/franq/franq/commit/f1443bd310e2a0c555b7af9487d2d8c58030977c) Minor changes from code review (@aexmachina)
+- [8cc52af](https://github.com/franq/franq/commit/8cc52aff467fd6278e76e0e91b1a92917d3fd2bb) add query condition in user controller (@Derrick666)
+- [d410232](https://github.com/franq/franq/commit/d4102323d80c053f880e9d1452000bdb92518452) Slightly better comments for the `previousAttributesReal` hack (@SohumB)
+- [fca250c](https://github.com/franq/franq/commit/fca250ce03274f6e3378a00f42985fe678d8f6ee) s/replicated/replicationEnabled (@SohumB)
+- [71ca8e0](https://github.com/franq/franq/commit/71ca8e0c212d9a2250e8d2ae8efdd9d1cbd3701b) Handling only the EmptyResponse error in showAndReplicate (@SohumB)
+- [e433d3b](https://github.com/franq/franq/commit/e433d3beb3cf06a0e8b9fa170ae3e11e6bd29086) Switching to a replication context within BaseController (@SohumB)
+- [7fb0289](https://github.com/franq/franq/commit/7fb02892a68316d90fc11718babd54b118319122) reduce bcrypt difficulty (@Derrick666)
+- [d8e106a](https://github.com/franq/franq/commit/d8e106a79737f1a5cef26a934d0623184fecda4f) show logged notice correctly (@Derrick666)
+- [358b9db](https://github.com/franq/franq/commit/358b9dbed1822f3fe97aac13fa50955a3f4254e8) fix concurrent test problem, and use fixture to supply data, use sessionStorage to store wasCashierLoggedIn flag (@Derrick666)
+- [c187251](https://github.com/franq/franq/commit/c187251f93aa3e1a36b9cb0d482ea1261a70852c) Added OfflineService and data-cache module (@aexmachina)
+- [74e2f2b](https://github.com/franq/franq/commit/74e2f2b28c4f3502fdd9c32170c264af5cc93c33) resolve merge conflicts (@Derrick666)
+- [17b2c98](https://github.com/franq/franq/commit/17b2c9800d9ac73d3e043cf5ee88e269352682cb) remove debuggers (@Derrick666)
+- [fd3bfb7](https://github.com/franq/franq/commit/fd3bfb71adc91ca8486ec470a4bd39a4ee9b8981) redirect to organisation instead of mennu (@Derrick666)
+- [aedccf0](https://github.com/franq/franq/commit/aedccf09307581842b4a70c1c222081813d6fc37) Add Token table to database
+- [c1ffaf3](https://github.com/franq/franq/commit/c1ffaf3c50cbfa7c2ee615232c9cd3b2c8c162b5) pass ember ui test (@Derrick666)
+- [2ce68c0](https://github.com/franq/franq/commit/2ce68c0e5189e4f187f4f50d56f23d0612ea232d) add logout redirect (@Derrick666)
+- [79886ee](https://github.com/franq/franq/commit/79886eebd4e047bca5c123b421eaf06e391bd118) fix computed property not updating problem (@Derrick666)
+- [f3a28f6](https://github.com/franq/franq/commit/f3a28f6135dd4cccef7bbc0758d3d91897646ca6) Merge branch 'master' into feature/replication-events (@SohumB)
+- [5b448ac](https://github.com/franq/franq/commit/5b448ac8b0ee11ff3d40beaf613535e86bd13165) Replication is a go. I repeat, replication is a go. (@SohumB)
+- [74df75e](https://github.com/franq/franq/commit/74df75e4e3cb6cec1f8db0ae209d03640a4b988e) fix logout (@Derrick666)
+- [2928aca](https://github.com/franq/franq/commit/2928aca55f4c52f338e25c9018deedc8aa4ef993) Merge branch 'master' into feature/replication-events (@SohumB)
+- [97c2042](https://github.com/franq/franq/commit/97c20429a054b323cedf7f528bbd4c4a6548dfa5) Merge branch 'master' into feature/dashboard-user-reset-password
+- [7bb52bf](https://github.com/franq/franq/commit/7bb52bf4af836d2dbdb03861a822c1983bc7bc0f) Merge remote-tracking branch 'franq/master' into feature/offline (@aexmachina)
+- [86cad9f](https://github.com/franq/franq/commit/86cad9fa4bf698f90c1171385ecd93b988d78b86) Merge branch 'master' of gitlab.impos.com.au:franq/franq
+- [c021dcc](https://github.com/franq/franq/commit/c021dcc8f52244bd4eb9de0e311b8ed16c377767) add the API key for production (staging)
+- [316a0a5](https://github.com/franq/franq/commit/316a0a5f8fa4e4e986487b6da6a79ccb98aeb33c) Add container & accessURLPrefix information for staging in production. These information needs to be changed when it comes to real deployment
+- [7483436](https://github.com/franq/franq/commit/748343669f0f13c8c261ebfc216072d901fa50c0) template for menu (@Derrick666)
+- [736090f](https://github.com/franq/franq/commit/736090f1d8c9c77bda362f2b2c20cde0e9e26604) change menu route and include sessionkey in sessionStorage (@Derrick666)
+- [e5fb4a2](https://github.com/franq/franq/commit/e5fb4a2b2eff4878a5825b1b2d04bc298ce97411) Merge branch 'feature/product_quickcode' into 'master' (@Derrick666)
+- [1a95aab](https://github.com/franq/franq/commit/1a95aab72f705ef81b361012fbb5071b99fb5402) Merge branch 'master' into feature/product_quickcode
+- [8bf0490](https://github.com/franq/franq/commit/8bf0490d53c501381ffaa829237a4d5e3811020f) Merge branch 'hotfix/relation-pivots' into 'master' (@Derrick666)
+- [22c12ce](https://github.com/franq/franq/commit/22c12ce5d1012e800c22920abf7f7c27b6a97468) Do a consistent parse from string ids to integer ids on sanitization (@SohumB)
+- [93c54f2](https://github.com/franq/franq/commit/93c54f2837b8a7f90f5335bd02a3e433fc934f1f) Merge branch 'master' into feature/dashboard-user-reset-password
+- [ba93165](https://github.com/franq/franq/commit/ba93165869720f9c63516a55742dfeec2f9bd34f) Merge branch 'feature/product_barcode' into 'master'
+- [295aa07](https://github.com/franq/franq/commit/295aa0754163d89738ea297292a688f489cc3356) Merge branch 'master' into feature/product_barcode
+- [c23a588](https://github.com/franq/franq/commit/c23a5881fc85ff82c9dc85e3af6bf1b100ee178c) Replicate: products, product groups, surcounts, and users (only when a usercode is involved). And tests. (@SohumB)
+- [5c6d7ad](https://github.com/franq/franq/commit/5c6d7ad3d7a6c000981f7b744f46af53bdb683b9) calledChain custom assertion to model the behaviour of Replicator (@SohumB)
+- [e664ae7](https://github.com/franq/franq/commit/e664ae7ad29275da43355c1d4d5982a89daaef83) Merge remote-tracking branch 'franq/master' into feature/offline (@aexmachina)
+- [25c0fc4](https://github.com/franq/franq/commit/25c0fc4b28b7b531c7e4199bea2c8d064849b8cb) Stub for Replicator, suitable only for testing against, and rewriting BaseController and BaseModel to use it (@SohumB)
+- [36aaafd](https://github.com/franq/franq/commit/36aaafd4a068766be621f1be407b2cf72775f726) Merge branch 'master' into feature/dashboard-user-reset-password
+- [9ab8ce9](https://github.com/franq/franq/commit/9ab8ce9ed4d2d51491f21e5e927da4d5e04d1d58) Merge branch 'hotfix/printer_query_cache' into 'master'
+- [69d7690](https://github.com/franq/franq/commit/69d76901b84e6e34ee5b66cee510d5b73c6d5d9a) add menu page for cashier login redirection and reduce salt difficulty to speed up hash resolution (@Derrick666)
+- [2f3d0b0](https://github.com/franq/franq/commit/2f3d0b08271bcdb8205078d456cb188a1db04c49) fix the multiple time caching problem.
+- [abd2e0d](https://github.com/franq/franq/commit/abd2e0dd04ca97246c48b226cc5c50b4a5355515) remove the only
+- [22311cb](https://github.com/franq/franq/commit/22311cbe4f4254ba48a868062d8b28f034b582f4) add test for barcode duplication case.
+- [24e87fd](https://github.com/franq/franq/commit/24e87fd586aed2b57b1292cabef1de2a024b8293) add quick_code organisation constrain and tests.
+- [d28d4a1](https://github.com/franq/franq/commit/d28d4a1f9ebf355177e8558ceff226cfa2fb036e) quick code field should be using input rather than textarea
+- [5ee3d32](https://github.com/franq/franq/commit/5ee3d32d0bf43b0c11a7b69ac988bc75d1156f01) Added product quick code
+- [3e120ed](https://github.com/franq/franq/commit/3e120ed0e6945ac1c3883ca6e742e53d8a16027e) update cashier login controller (@Derrick666)
+- [de3af11](https://github.com/franq/franq/commit/de3af11372c7ab62a456b68481b19f6aac23990f) Merge branch 'master' into feature/dashboard-user-reset-password
+- [b51798e](https://github.com/franq/franq/commit/b51798e1064a2dcfdbff21e0ef62bb0b1aee6316) use ./node_module/.bin/_mocha instead of mocha in sample.sh
+- [f6cde45](https://github.com/franq/franq/commit/f6cde45321b94a62e6c9b982524c46e981f6c96f) add client side bcrypt for offline pincode verification (@Derrick666)
+- [6c1e770](https://github.com/franq/franq/commit/6c1e7703892cd823151e7431f462094f144002fb) add timeout to 10s for sample.sh
+- [fe786ef](https://github.com/franq/franq/commit/fe786ef3985382428fc270cb7fe311a3e6c926f5) fix tests
+- [41d92c3](https://github.com/franq/franq/commit/41d92c3158210a80139f7bc1d7067b36d4c9a2cf) Merge branch 'master' into feature/dashboard-user-reset-password
+- [63e1559](https://github.com/franq/franq/commit/63e1559ebcc1ff45c9d952d60b22a67ae5581d1b) Merge branch 'master' into feature/product_barcode
+- [29be270](https://github.com/franq/franq/commit/29be2704a93e3cddcd2123555491c4fa17c83e0f) Merge branch 'hotfix/improve-add-printer' into 'master'
+- [0a87ccb](https://github.com/franq/franq/commit/0a87ccb6dcfb6fb06225cdffb53e3e2cc7d5bafc) Merge branch 'master' into hotfix/improve-add-printer
+- [837f775](https://github.com/franq/franq/commit/837f7750ff0b1a7c6ffb5eb0b15a134893bf29db) Merge branch 'master' into feature/dashboard-user-reset-password
+- [a337009](https://github.com/franq/franq/commit/a3370094758255c58563e7b5dc07480a007af872) Merge branch 'hotfix/terminal-tests' into 'master'
+- [e07be0a](https://github.com/franq/franq/commit/e07be0ab127fee688ffa3f0d31c01e8dbe24f2e7) space needed
+- [94eccff](https://github.com/franq/franq/commit/94eccffc35a3c66eef2ebbe79ccebf421d2ce558) make the fixture query handler for license assign subject to the query and also added the comment.
+- [9b40d93](https://github.com/franq/franq/commit/9b40d93719a2dfcd5b0b61f28f0c08636b60c7b6) Set feature locally rather then in global
+- [f862a12](https://github.com/franq/franq/commit/f862a123ee2211c5a93125ed338cd77fa544e4e1) Merge branch 'master' into hotfix/improve-add-printer
+- [7e51799](https://github.com/franq/franq/commit/7e51799181748ada69b1be7e3cc870f2ac34c746) fix terminal tests.
+- [5438925](https://github.com/franq/franq/commit/5438925dac2c9cd7766e22b6b2cfa61e7b24ce61) Add gateway & gateway relation to printer
+- [928fc5f](https://github.com/franq/franq/commit/928fc5f94a19d17d342b950f2318fad1b6cfbade) Merge branch 'master' into hotfix/improve-add-printer
+- [2475741](https://github.com/franq/franq/commit/2475741c18a7f1af32f82e7a2dbe6ec1623cbd63) use input['data-invalid'] to check the number of invalid field rather than counting the form in.
+- [1653043](https://github.com/franq/franq/commit/1653043108678dd24abb23d3c0f28a41fee50590) Merge branch 'master' into feature/product_barcode
+- [cedb3f0](https://github.com/franq/franq/commit/cedb3f0402d1dd3f0dd8d89fc76477de80d9309f) Merge remote-tracking branch 'franq/master' (@aexmachina)
+- [2064760](https://github.com/franq/franq/commit/2064760927b4f49e286e449c4a351bfb8f06e176) Merge remote-tracking branch 'franq/master' into feature/offline (@aexmachina)
+- [a59f766](https://github.com/franq/franq/commit/a59f766ac37d4f71e5c550629cf55eeab66ca30c) Merge branch 'feature/fixture-adapter' into 'master'
+- [5152c78](https://github.com/franq/franq/commit/5152c786d1df59233a5a819a87dd6ca5e61b3aea) Merge branch 'feature/fixture-adapter' into 'feature/fixture-adapter'
+- [736c0a9](https://github.com/franq/franq/commit/736c0a9eb05014d672d6aa3d3020fffb11779d4e) change receipt printer logo edit page model retrieval.
+- [e7f71e8](https://github.com/franq/franq/commit/e7f71e89a6ef045ae095085a332b61c73ea71f70) Remove console.log
+- [6a5c72b](https://github.com/franq/franq/commit/6a5c72b389a03ef6904a366ecd07992f042d8bb0) Add Ember "recover"'s route, template, controller, & view.
+- [c5bc112](https://github.com/franq/franq/commit/c5bc11250addfd685d53e51e4ec274fa55ee7560) put comment on login test to explain why the form is not included in data-invalid anymore.
+- [e2a1aa1](https://github.com/franq/franq/commit/e2a1aa1fc3f58ff067a080557316b523557d34cf) put common code up to setup area in receipt printer logo test
+- [251236e](https://github.com/franq/franq/commit/251236e7bccd8d0cce7006613479c35b27a3cbe7) use another way to change the fixture store temporary.
+- [00b0424](https://github.com/franq/franq/commit/00b04241e82b264c42132715a2dc8412ad649c71) fix receipt printer logo tests.
+- [988aa39](https://github.com/franq/franq/commit/988aa39c4b5602fd52b3d863ee883e6a4c9a6d3a) Simplyfy cache printers method, remove unnecessary code.
+- [0b06804](https://github.com/franq/franq/commit/0b068041915274037f7e0cc37779b07500ea0ae8) Create printer selection object by printerSelectionObject function
+- [4cbad1a](https://github.com/franq/franq/commit/4cbad1a8ff2c3d48cf7468bb2a1403396be3006b) bugfix: instance.attributes was getting permanently modified after a serialize (@SohumB)
+- [7f0fabb](https://github.com/franq/franq/commit/7f0fabb80ff07c069f59c8b2ef0f4f28316da997) PromiseBus (@SohumB)
+- [df97e37](https://github.com/franq/franq/commit/df97e37ba8c232f82ca0eee1f819785b2cb055ce) Merge branch 'master' into hotfix/improve-add-printer
+- [596db9f](https://github.com/franq/franq/commit/596db9f1b7501d7f0a50bead5bf3e61ac96a94ed) Merge remote-tracking branch 'franq/master' (@aexmachina)
+- [78d73b3](https://github.com/franq/franq/commit/78d73b35f9f59ef5c84ca54b461b1eb6748f9c32) Remove failing test - it's already fixed in feature/fixture-adapter (@aexmachina)
+- [e087a4d](https://github.com/franq/franq/commit/e087a4d7449430235441632a2709cf29e1a1bbf4) Merge branch 'master' into feature/terminal-cashier-login (@Derrick666)
+- [afcc636](https://github.com/franq/franq/commit/afcc636929d3f15c897727e3d9f3bf9bfbea2f3d) set the salt to 12 (@Derrick666)
+- [b784b9a](https://github.com/franq/franq/commit/b784b9aa5d5aa197df71b15b89a6417c30edcbca) Merge remote-tracking branch 'franq/master' into feature/fixture-adapter (@aexmachina)
+- [8d46f0e](https://github.com/franq/franq/commit/8d46f0ec03d304758e907dd172c1758078407abf) signature hash to use salt (@Derrick666)
+- [2d933bb](https://github.com/franq/franq/commit/2d933bb3b79d7fea5c26bacd080d2230645d0572) add unit test for User model (@Derrick666)
+- [03be4ec](https://github.com/franq/franq/commit/03be4ecf09f7cafe37907cc59d333a6a313677f8) Update adapter-test.js (@aexmachina)
+- [acc8b3c](https://github.com/franq/franq/commit/acc8b3cfc4c47c8fc336be75965bcec0568c2a01) Update venue-test.js (@aexmachina)
+- [9704aa6](https://github.com/franq/franq/commit/9704aa64f32a0ebea2d9413f15e7638514f844f2) Merge branch 'bugfix/internal-diff-relationship-update' into 'master'
+- [b820ef2](https://github.com/franq/franq/commit/b820ef2a9428d47fc1ab70a1d19b860cc4c9be16) Merge branch 'master' into 'master'
+- [9505f4d](https://github.com/franq/franq/commit/9505f4d704ad3d81fda29fcffcb442de4f8efb6b) Docs and config updates (@aexmachina)
+- [055cbc2](https://github.com/franq/franq/commit/055cbc2e86584d041ffc21d4e456db99b2888b4e) Added new helper methods (@aexmachina)
+- [0f6463a](https://github.com/franq/franq/commit/0f6463a41a6a3a4a17a7e3577805f86cda3da472) Unfinished update of receiptprinterlogo-test.js (@aexmachina)
+- [9cfa11d](https://github.com/franq/franq/commit/9cfa11ddff2b8487f3f6849f1bc60b3366908be6) update user acceptance test (@Derrick666)
+- [0120468](https://github.com/franq/franq/commit/01204683810c6ff9b5fae16364d3a4d9a72c9442) add unique barcode per organisation.
+- [3e8c850](https://github.com/franq/franq/commit/3e8c850cb52eb48dfb6ee3b70179f8593bebd84e) Add barcode support for product
+- [2689274](https://github.com/franq/franq/commit/2689274109652f284a7143aa7565c02f93241594) Fix Test, add more checking for updated printer properties in create/edit.
+- [89dd491](https://github.com/franq/franq/commit/89dd49168a19eff0211d4188038d4affd23de7ab) Avoid to reset printer properties if is the same printer
+- [4af6513](https://github.com/franq/franq/commit/4af6513fc21a1bec32b6cec971340e4023a8ac8c) Remove console.log
+- [b91d459](https://github.com/franq/franq/commit/b91d4595e414df072c52757a28833a1ed0ca287d) Add ability for test to monkey with the fixtures. (@aexmachina)
+- [f053af1](https://github.com/franq/franq/commit/f053af11117f123e3eb10e3ab585e6c9f6a704bf) Change selectedData from selectedVal and store each printer data as part
+- [8f532b4](https://github.com/franq/franq/commit/8f532b437be0c759431a699075314df6683bc858) Merge branch 'master' into feature/terminal-cashier-login (@Derrick666)
+- [788c828](https://github.com/franq/franq/commit/788c8283d7619897f1cf0c35e06d70dc5389290e) Add cache for gateway's printers; Fix available printer selection.
+- [818cb7f](https://github.com/franq/franq/commit/818cb7f59e193899933ca0af245a29116769f3eb) Update productgroup-test (@aexmachina)
+- [5f1f596](https://github.com/franq/franq/commit/5f1f59652166fdd548e313b61f9114ff2d2affba) Updated printers-test.js (@aexmachina)
+- [f37fa4c](https://github.com/franq/franq/commit/f37fa4c87c397d8b266c5b2600dd0d9715c7052c) Update printergroup-test.js (@aexmachina)
+- [259e995](https://github.com/franq/franq/commit/259e995897806d507d18ed1a5198a5b0e3fd0aa6) Fix override when edit between 'usb' & 'ip' printer.
+- [1aebcc0](https://github.com/franq/franq/commit/1aebcc0fad72e95efe697429680292b06f1b59e1) modify ember model for hashed pincode (@Derrick666)
+- [a5d8db4](https://github.com/franq/franq/commit/a5d8db471fa838f2887889643fda0989a13dbf21) change User model, add pincode hash and signature hash/salt (@Derrick666)
+- [257350d](https://github.com/franq/franq/commit/257350d479e20bd00f1c1d292205128c38e2372f) Change select printer selection to string with more printer details
+- [a2b3509](https://github.com/franq/franq/commit/a2b350952c3f127906f827fcba8627edbeb82ab7) Fix Missing 'IP'
+- [411fb2c](https://github.com/franq/franq/commit/411fb2c5c18a56560d8afa1511c60563fa2fc5ad) Merge branch 'master' into hotfix/improve-add-printer
+- [fe7d1e5](https://github.com/franq/franq/commit/fe7d1e5069b8cb525f8020fb8b0eff538184297f) Remove unnecessay test.
+- [bc8d629](https://github.com/franq/franq/commit/bc8d629665cd16ff0c83c2bd1ef4983e8720c26a) Remove uncessary block and test.
+- [bb89058](https://github.com/franq/franq/commit/bb890587ca1ea96d0cf6e4e8e025d68e1f9bb33b) Merge branch 'feature/link-device-to-terminal-license' into 'master' (@SohumB)
+- [96c51a8](https://github.com/franq/franq/commit/96c51a8a31ea3bc4488663a62634bc4fb751ea88) code clean up
+- [80c434d](https://github.com/franq/franq/commit/80c434d3a4141afa006ffb1cf447da253f33a929) handles the license update mode.
+- [22972cd](https://github.com/franq/franq/commit/22972cdf266bf42ea301aca83337b591adbf78b4) Fix get model data, fix set selectedPrinter by serial.
+- [a68847a](https://github.com/franq/franq/commit/a68847a7f0b3463b21f4631662fdb0d637c490cb) Don't delete and recreate relationships every single damn time! (@SohumB)
+- [d9d4ea4](https://github.com/franq/franq/commit/d9d4ea49553b9c0bf0d6da467c020e2db479998b) Merge branch 'master' into hotfix/improve-add-printer
+- [b2633ed](https://github.com/franq/franq/commit/b2633ed9f7816bb4cf177d85fe0e0ee147f3a9a8) Add Test for create and edit printer using select2.
+- [8935ff9](https://github.com/franq/franq/commit/8935ff9e7f807930be5ee0d97b8b8090c10e05c1) Merge branch 'feature/link-device-to-terminal-license' into feature/terminal-cashier-login (@Derrick666)
+- [ebbbee5](https://github.com/franq/franq/commit/ebbbee5e60febfc6613b4f99e49d2300f7aaa764) Merge branch 'upstream-master' into feature/fixture-adapter (@aexmachina)
+- [b17cb44](https://github.com/franq/franq/commit/b17cb44ae93c0ec6624f4f4cb44681f6d1129f7a) Merge remote-tracking branch 'franq/master' (@aexmachina)
+- [200ee1a](https://github.com/franq/franq/commit/200ee1a8163046529483291bffa192092151e87f) Update printergroup tests (@aexmachina)
+- [593bd37](https://github.com/franq/franq/commit/593bd37f20871793d2984938a3bb05dac319db7a) Sample generation from tests (@SohumB)
+- [a386314](https://github.com/franq/franq/commit/a38631491618ebd107bc8d6f6bb5ae7513c65256) Combined 'var' definition
+- [d169b03](https://github.com/franq/franq/commit/d169b03b7bb569b8f529467248bfd431897fdd17) Change name of view function to 'formatNoAvailablePrinter'
+- [7dec8bf](https://github.com/franq/franq/commit/7dec8bfc55dd49fc4d815043397c1605b960caaa) Merge branch 'master' into hotfix/improve-add-printer
+- [7ea77f9](https://github.com/franq/franq/commit/7ea77f9bba86caff75c1cfbb16bda7998bcd5cf0) Merge branch 'hotfix/refactor-select-transformer' into 'master'
+- [ba180a6](https://github.com/franq/franq/commit/ba180a6c1253aae5a8257eaf59ada20c0c6af902) Merge branch 'master' into hotfix/refactor-select-transformer
+- [ae9fbbd](https://github.com/franq/franq/commit/ae9fbbd6bf884939995016328d488e0f58e596bd) Merge branch 'hotfix/fileuploader-apikey-production' into 'master'
+- [e04d200](https://github.com/franq/franq/commit/e04d200b3c779fbbe561b485679675fb1bd29cca) add API key for fileuploader service in production.
+- [13dfca3](https://github.com/franq/franq/commit/13dfca3f6a8209d8b44be4e004705248f4a46d1f) not use navigator.geolocation when it's not available.
+- [e8595cc](https://github.com/franq/franq/commit/e8595cc54aaefd58de020e8088b7a1a291763ce9) move the geolocation.getCurrentLocation to a separate route to solve the response problem that will be varied from many browsers.
+- [e27fc20](https://github.com/franq/franq/commit/e27fc20cc50554bb3ab2c57fdfa0daec0f844704) fix mock gateway & printer
+- [74eec30](https://github.com/franq/franq/commit/74eec301e9dffbb8b306a2df895d8a98aa2e0aa0) Add test for create,edit printer select-2.
+- [9489db7](https://github.com/franq/franq/commit/9489db7ce6ac175866c47fa0c59e48768f5d7e8d) fix license reference change in test.
+- [8748573](https://github.com/franq/franq/commit/87485734f7cde0a36be23af3623bbb4ad43dc0b9) Merge branch 'feature/license-geolocation' into 'feature/link-device-to-terminal-license'
+- [cfd4c0f](https://github.com/franq/franq/commit/cfd4c0f749b5d70164e709c58877853988a562ba) fix the missing bracket in query
+- [3b23472](https://github.com/franq/franq/commit/3b23472a3d5c0c62b0a6435a6d1eb08aa185e20d) add server side test for assign license.
+- [42a5211](https://github.com/franq/franq/commit/42a5211534e00c9952c171b0d4dc596a2d5ccc54) syntax fix
+- [81eb97e](https://github.com/franq/franq/commit/81eb97efe2e9edb105bf2d3d0af9dba9db78fafd) move the device license valid check function to a separate one rather and leave the isDeviceLicensed function to check if the token exists.
+- [6dac3e9](https://github.com/franq/franq/commit/6dac3e9035303c945ba2eca6aadf2d5adf86c580) Fix promise chain, Move afterModel to form/route.
+- [65f522d](https://github.com/franq/franq/commit/65f522d0f73539d2fd70782700b04a196902428e) Merge branch 'master' into hotfix/improve-add-printer
+- [881cd41](https://github.com/franq/franq/commit/881cd416e532d4d5daa1fc7be87ef7ba8480aa62) Add checking for printer changese before save; Set selected to empty when gateway value change
+- [c248247](https://github.com/franq/franq/commit/c2482479b573b3bc9d75239b3ec36a8ed104b66a) Add checking for printer changest
+- [6a81639](https://github.com/franq/franq/commit/6a81639d429520deb7aee507d4cf6e9b65554fb0) Use this endpoint to get the local licenses (@SohumB)
+- [96096b5](https://github.com/franq/franq/commit/96096b55162a64e6db8aa80b8a6507484838f452) Fix cases where we were removing unassigned licenses, and tests (@SohumB)
+- [5288b92](https://github.com/franq/franq/commit/5288b928aacf0bfd6644887910f319a99e985b80) Feed an address into initial-data's venue (@SohumB)
+- [5f1a10e](https://github.com/franq/franq/commit/5f1a10e8ba69e85e99f8e0f2f1541e1e194897ee) Make venue.address not null (@SohumB)
+- [715eed0](https://github.com/franq/franq/commit/715eed0d8f4e5c3dc4569888a1ad76e57b8f1ce4) Merge branch yun.l/feature/link-device-to-terminal-license into feature/license-geolocation (@SohumB)
+- [f824209](https://github.com/franq/franq/commit/f82420995146aa628c01c482b4eef90217942f46) use assignLicense and test it with frock
+- [f15f7b4](https://github.com/franq/franq/commit/f15f7b4fe8f1dc3fa96c83513c80f267b38e9312) Merge branch 'hotfix/terminal-deployment' into 'master'
+- [6b342d5](https://github.com/franq/franq/commit/6b342d51d6561d48577b3a49514188dad3a30af3) fix terminal deployment asset path error
+- [e5d7cd8](https://github.com/franq/franq/commit/e5d7cd8047ec7fc07f6ebfce8af0b894d71417e5) Merge remote-tracking branch 'franq/master' into feature/fixture-adapter (@aexmachina)
+- [9accde0](https://github.com/franq/franq/commit/9accde030ce4a147ebf17df438e6e783b2b7afef) fixes front end test.
+- [85bd509](https://github.com/franq/franq/commit/85bd5093f874bb84f954768c81223ac2913eadef) LicenseController#index.near, and tests (@SohumB)
+- [7b2a51b](https://github.com/franq/franq/commit/7b2a51b1f717e0246a7ea7747b12b2ba27ca4a15) Prefix names in queries in BaseController (@SohumB)
+- [fec1669](https://github.com/franq/franq/commit/fec16696d75d4f8940eb3a5e1e436a91d0ab9ff2) Display gateway by 'gateway_id'
+- [cb8ecb1](https://github.com/franq/franq/commit/cb8ecb14c9b22f50fddac45b7a6c3894ee22720f) Fixing the coordinate type -> geography, and longitude first (@SohumB)
+- [cfdbcb0](https://github.com/franq/franq/commit/cfdbcb00b4cb2eb7727c0db3a0c66367c8bc61e5) Update product-data-model.md (@aexmachina)
+- [77dba56](https://github.com/franq/franq/commit/77dba56c7f9a07feb96cc71b7220173c0e92d7d5) better format
+- [f2a8ae4](https://github.com/franq/franq/commit/f2a8ae433797ac541dd35e31bff379cd498e216b) replace the check is cashier logged in logic to a TODO note
+- [956156c](https://github.com/franq/franq/commit/956156c3e4db8f6e9004eb046f5f0d5272e382b2) able to link a device to a license. also license checking route is up.
+- [8650183](https://github.com/franq/franq/commit/865018368f3183fc1d043a76174ce8273e55d9b3) Add test Helper class and update licenses test (@aexmachina)
+- [22be955](https://github.com/franq/franq/commit/22be9559ed4b44bc7ad8ffade923ea10675175b6) Update surcharges-test.js (@aexmachina)
+- [77cf1f1](https://github.com/franq/franq/commit/77cf1f14222186ddc052d0f6d0bd2f6e23b315f7) Merge branch 'master' into hotfix/refactor-select-transformer
+- [46b550a](https://github.com/franq/franq/commit/46b550a1127f0206f07a9c22f03ec9858952429a) Merge branch 'master' into hotfix/improve-add-printer
+- [7010b24](https://github.com/franq/franq/commit/7010b2472137d1cb52dfdce8517c459d3ab253f5) Add setup select-2 method in controller
+- [bcc866c](https://github.com/franq/franq/commit/bcc866ca850f793c6f0bcb519ea8d7b442267eb1) Add gitAvailablePrinters Method
+- [cc997f0](https://github.com/franq/franq/commit/cc997f0bc697cb9099c26f00a4df968e69c09a57) Add select-2 to select gateway & printer.
+- [40e24b8](https://github.com/franq/franq/commit/40e24b89e117c42e379403edfd1d6bb452ee3bca) Add delete record on exit if 'isNew'
+- [8ab6485](https://github.com/franq/franq/commit/8ab6485aafb3053b6468fb5647fc7b3d77d2cda2) Rawable! To simplify use of stuff that requires raw queries (@SohumB)
+- [cdf7eb0](https://github.com/franq/franq/commit/cdf7eb070c01c37171c3662868b4efc256798849) Fix a dumb BaseModel bug with {} not being treated as empty (@SohumB)
+- [ff7db1c](https://github.com/franq/franq/commit/ff7db1c8ccc13ad4fc34cd14698b31a154538099) Update usergroups-test to use FixtureAdapter (@aexmachina)
+- [53928ad](https://github.com/franq/franq/commit/53928ad757395a69dd199144faab3e01cdec8a90) Update users-test to use FixtureAdapter (@aexmachina)
+- [ed83d98](https://github.com/franq/franq/commit/ed83d980c2d0a98ccc7915129a778132b1a96642) Several minor improvements (@aexmachina)
+- [e6db616](https://github.com/franq/franq/commit/e6db6163341370235b4748f48894630b097ed571) Don't require type to be specified in modelFor() (@aexmachina)
+- [175e2fc](https://github.com/franq/franq/commit/175e2fcd7ca311ff4f0ca68b9f2fc523dec8a521) Change tabs to spaces in .jshintrc (@aexmachina)
+- [1a90edc](https://github.com/franq/franq/commit/1a90edc4eb3cb44800a89d2b2fbe21e2c444e2cd) Update gateways tests to use FixtureStore (@aexmachina)
+- [e167741](https://github.com/franq/franq/commit/e167741d7093674e9ce01889482952bca125f8af) Merge branch 'master' into feature/license-geolocation (@SohumB)
+- [768f558](https://github.com/franq/franq/commit/768f558ad22ce629ad56f5c7f32ab64641108c21) Merge branch 'master' into feature/link-device-to-terminal-license
+- [7bd30f9](https://github.com/franq/franq/commit/7bd30f945d6cd9a7cd31313278bcdf092596b667) Merge branch 'feature/licenses' into 'master'
+- [0d749be](https://github.com/franq/franq/commit/0d749be9611ab004fbbdce931e61ae01adc85f3b) billing.js should use tstzrange too! (@SohumB)
+- [864cad3](https://github.com/franq/franq/commit/864cad3939c05ed3afa443b6eeb59d2fa89e5450) Merge branch 'master' into feature/link-device-to-terminal-license
+- [e505643](https://github.com/franq/franq/commit/e50564361c82d1878f615b0ac0d6509d1fe0f2f2) tmp saving files.
+- [16a8d34](https://github.com/franq/franq/commit/16a8d3495c312feca224d3546e5b9cd384af76bb) tmp commit
+- [9de5f13](https://github.com/franq/franq/commit/9de5f13085ec2644fdd4203f4bc530ce5be3dccf) check app.manifest content
+- [c2d09b7](https://github.com/franq/franq/commit/c2d09b7e4e47eac1db8a5592aef2d2ebf81304ae) test added for appcache
+- [9487b16](https://github.com/franq/franq/commit/9487b161cc6a3a7ff053256ddfdde48b11993754) remove console.log
+- [844b55f](https://github.com/franq/franq/commit/844b55fcb08817323bfab2dc3ff2c023ac1068a8) add appcache service for later use. also add listener to swap to new cache when update ready.
+- [cdd8d14](https://github.com/franq/franq/commit/cdd8d14243cd3e6e107b8a89f3051e9aff8ab489) add {{MANIFEST}} section in /terminal/index.html which allows to put correct manifest location according to the environment
+- [09b3cf6](https://github.com/franq/franq/commit/09b3cf6b2858e43594dbb87c5ba0d46d03c1c820) Update products data model (@aexmachina)
+- [6822971](https://github.com/franq/franq/commit/68229710d47a6a2495f0516fc456c344a041b790) Update config and docs for fast tests (@aexmachina)
+- [c1114ae](https://github.com/franq/franq/commit/c1114aed9bcc5698496b252dc77133510d0be939) Fix "user can edit themselves" test (@aexmachina)
+- [9d99a1a](https://github.com/franq/franq/commit/9d99a1ad10028a0948af88316ad1487033d062d1) rewriting license tests to use deepSatisfy (@SohumB)
+- [90e5085](https://github.com/franq/franq/commit/90e508583dbe2996f5eb0e37d63aa0affa2277d4) Implementing node-postgres type parsing for ranges (@SohumB)
+- [43c4148](https://github.com/franq/franq/commit/43c4148a9f18ed097d4a83fb86c66cc517005c76) Test the history table (@SohumB)
+- [a72d4d3](https://github.com/franq/franq/commit/a72d4d387edee72cfc2c8dff226f38b25fd71d09) implementing deepSatisfy (@SohumB)
+- [d0d958d](https://github.com/franq/franq/commit/d0d958d8def1e643611fae289e9bf308041d12a1) Letting the license view work on truncateAll (@SohumB)
+- [2523e80](https://github.com/franq/franq/commit/2523e8031fc84f8a0396eaff8cbbcbcfad6994de) Switch to timestamps with timezones (@SohumB)
+- [2d02886](https://github.com/franq/franq/commit/2d028862f763cc50e15a2d1f4c0d5cfe4ce61988) make use of environment.baseURL
+- [66da689](https://github.com/franq/franq/commit/66da689e52480ca2b49235a99daf3619df56eecd) Merge branch 'master' into feature/appcache_offline
+- [23cb2cb](https://github.com/franq/franq/commit/23cb2cbddcae703118c1e0b3cea42a826d28d73d) add environment specific config for ember-app, now only temrinal will have the appcache enabled
+- [56f4f50](https://github.com/franq/franq/commit/56f4f506d2e672d2fa16d03c6235f2350d9305c8) move the app.manifest location to relative location rather than absolute one for production deployment
+- [b7ad55a](https://github.com/franq/franq/commit/b7ad55ad839fe9f8681c3e4dcc232c9cd3e39a65) better format in ember-app.js under attic
+- [8056f62](https://github.com/franq/franq/commit/8056f6289f95e3efaaffd5877a02fb9f0827114f) add note for offline deployment
+- [656ec1f](https://github.com/franq/franq/commit/656ec1ff4b9331d59723c30be0f0fa790041e4dd) added appcache support in terminal
+- [9715eff](https://github.com/franq/franq/commit/9715effab0630cd32f4298dc6f4d428df52d2005) Merge remote-tracking branch 'franq/master' (@aexmachina)
+- [da6e802](https://github.com/franq/franq/commit/da6e80294771234ef1cf9c1832c19d23fd2eadfd) Change to use ember-devtools (nee ember-debug) as an ember-addon (@aexmachina)
+- [e556dc6](https://github.com/franq/franq/commit/e556dc6e5303171c774028af627d495cfa6386f8) Merge branch 'master' into feature/licenses (@SohumB)
+- [9c8cb15](https://github.com/franq/franq/commit/9c8cb15c7eddfba6a4cc9cd7a8aa47615bd2f4e1) Quick and dirty billing information aggregator (@SohumB)
+- [22b8ae2](https://github.com/franq/franq/commit/22b8ae2887d9e6f0be7a1333d506867d60cc05ef) Chronometer-style triggers for maintaining history (@SohumB)
+- [2765e66](https://github.com/franq/franq/commit/2765e66a8149dd37a70f9a779c5e9cc1176e60af) Merge branch 'hotfix/evercookie-server-endpoint-path' into 'master' (@SohumB)
+- [f37e902](https://github.com/franq/franq/commit/f37e90252974818e80fe73802007719e0a061cc0) fix the licenses/delete route for attic/utils
+- [dd62644](https://github.com/franq/franq/commit/dd626446ce7337cc68e9f84b040c42bb81f18256) Merge branch 'master' into hotfix/evercookie-server-endpoint-path
+- [2d92ae0](https://github.com/franq/franq/commit/2d92ae0271c37160b509b0a809f7f4e21bec1788) fix the server side evercookie path so that's gonna be the same as the dev environment.
+- [c028713](https://github.com/franq/franq/commit/c0287130b347c97831f652904ee2b75ad72c6740) Merge branch 'feature/licenses' into 'master'
+- [ebf3db9](https://github.com/franq/franq/commit/ebf3db94443556e3b96bdc2758576c65f1d94335) Actually, killing ALL the id=bds (@SohumB)
+- [5479a8d](https://github.com/franq/franq/commit/5479a8d2d18e3628d578de0c7834842c1dcf680d) Removing section id=bd (@SohumB)
+- [792efb2](https://github.com/franq/franq/commit/792efb2061d2e5902ac4ed4274bc8a620693ca02) Add reset route on development to empty the terminalDeviceId
+- [07f9c67](https://github.com/franq/franq/commit/07f9c67fa588fccdea838ab0782fbe8c6b322c64) fix evercookie server backend
+- [489ec82](https://github.com/franq/franq/commit/489ec82b4c30d6e39a02c12fa1d88f55212bf188) fixes the tests that's broken by the merge
+- [e4867b9](https://github.com/franq/franq/commit/e4867b9e84ba3fa34a64b07334e7767516bcdf8a) and fixes the init-app
+- [9363423](https://github.com/franq/franq/commit/936342343d7c9b230f655a239825edb6fb1542c9) Merge branch 'master' into 'master'
+- [3ca3bb2](https://github.com/franq/franq/commit/3ca3bb2633222ede391bef754adaec3c958cba15) Licenses CRUD UI in dashboard, and tests (@SohumB)
+- [12048f7](https://github.com/franq/franq/commit/12048f7a41aa136d0239e75a26674c30e1c1a1e3) Licenses API endpoint, and tests. (+ a nascent terminal table and model) (@SohumB)
+- [2f88d07](https://github.com/franq/franq/commit/2f88d0710c8e75f2c281db41d454e86560555804) Adding in the missing venue fixture, so that tests that head back to organisation.index pass (@SohumB)
+- [b1aef0c](https://github.com/franq/franq/commit/b1aef0c2afaab5cf1b7a660266072809cc53f320) merge fixes.
+- [6151629](https://github.com/franq/franq/commit/6151629bce700b802a6171a52036a06ad856afc5) Merge branch 'hotfix/organisation-index-venues' into 'master'
+- [2fc35a5](https://github.com/franq/franq/commit/2fc35a510bf70a046c253873585973aea990a747) Venues weren't showing up in the org index (@SohumB)
+- [5d64f4a](https://github.com/franq/franq/commit/5d64f4a1fc163ea8573fae1a5df35d13fab3d705) Merge branch 'hotfix/printer_logo_deployment_doc' into 'master' (@SohumB)
+- [33dea4f](https://github.com/franq/franq/commit/33dea4fdb13ee9e0dc85b763adb95b54fb45a2ee) Merge branch 'master' into hotfix/refactor-select-transformer
+- [5bb06f4](https://github.com/franq/franq/commit/5bb06f44731eed8b467d5722487c085e44b2c095) make use of the extracted dashboard-login-controller in utils.
+- [e9376d9](https://github.com/franq/franq/commit/e9376d90c0fe819b5594b16729439cd5446e63bb) pre merge changes
+- [e57ce2d](https://github.com/franq/franq/commit/e57ce2d158f3bb8cdcd1888d7a87911a071cee2f) added tests for the changed app-route
+- [51fb424](https://github.com/franq/franq/commit/51fb424e3d4ba329437a6b79d1dda98b80617aed) Fix tests, update ember to 1.7 in terminal (@aexmachina)
+- [96cef13](https://github.com/franq/franq/commit/96cef132cc4062f96ec35b0c90f5d653fe68bed8) Fix action and input names in login form (@aexmachina)
+- [5bd1325](https://github.com/franq/franq/commit/5bd1325e64239baf07fc10f226dd903bcfa1bf09) Merge remote-tracking branch 'franq/master' (@aexmachina)
+- [9d9e9e1](https://github.com/franq/franq/commit/9d9e9e1905e6afebc11d0303e58dbdfe3aae8700) Improve nodemon config so we're watching less files (@aexmachina)
+- [99c7561](https://github.com/franq/franq/commit/99c756198e5aedc2f80b1a28c966b31ba0d9d5f4) Converting the initial migration to SQL, and fixing a couple of tests that were incorrect (@SohumB)
+- [19892e1](https://github.com/franq/franq/commit/19892e1eb01929c9ae1d8fab37c40719ac392643) Move attic/utils/utils to attic/utils for brevity (@aexmachina)
+- [cd9a7ee](https://github.com/franq/franq/commit/cd9a7ee856a5c8d014b7b913f22c131be845d18f) Update products-data-model.md with feedback from Daniel (@aexmachina)
+- [70fe589](https://github.com/franq/franq/commit/70fe58939d42c8dabc448583c97e4010dbf06baa) Adding the terminal softlink into public (@SohumB)
+- [fca2ea0](https://github.com/franq/franq/commit/fca2ea072adeb13c89cd2b3f26431952017fabe6) Making staging work [unswallowing errors from git-update, allowing production to be migrated as well, building terminal, and updating nginx config] (@SohumB)
+- [19ddf59](https://github.com/franq/franq/commit/19ddf59b7717dc838eb52778be3e4bb36e5b5d76) change login flow, detail
+- [3d7b267](https://github.com/franq/franq/commit/3d7b2678d8b2e61eb590fca7a4d8ab12dab95ba6) fix readme for the need of super user permission and database owner.
+- [9f301fc](https://github.com/franq/franq/commit/9f301fc15ae6c542ff3bfa4ce7d2196e5608e9d0) Increase the timeout on the build agents fivefold (@SohumB)
+- [83cb900](https://github.com/franq/franq/commit/83cb900bf11317f22aa8f8f469cd73040ac4edab) No one saw that >_> (@SohumB)
+- [9a1f8c6](https://github.com/franq/franq/commit/9a1f8c6890b6514f64192dd9cf64e580c16e3c8c) Fix dependency issues in the migration (@SohumB)
+- [7a11855](https://github.com/franq/franq/commit/7a118550d8db6bc5b6fa2bcf1eb2acb515c1a5ff) Merge remote-tracking branch 'franq/master' (@aexmachina)
+- [a0e9b9b](https://github.com/franq/franq/commit/a0e9b9b4d457a74547cb3bac9e43ff9ef53d4aa1) Update products data model (@aexmachina)
+- [2effada](https://github.com/franq/franq/commit/2effadaaef1fe387938a538f6a54fcf3df189984) Added callback to attic/ember-app.js (@aexmachina)
+- [6ea95ba](https://github.com/franq/franq/commit/6ea95bacc4e47e5d022188894ff1ff71c1ebde36) Merge branch 'master' into hotfix/refactor-select-transformer
+- [8d1ab7e](https://github.com/franq/franq/commit/8d1ab7e469eb368743a7033ed8270fcf61e95469) fix gateway table incorrectly specifying its dependencies, and incorrectly not constraining its organisation_id relationship (@SohumB)
+- [4814a6b](https://github.com/franq/franq/commit/4814a6b849327f6f9797a94e55d92085ea225a15) Strip out keys that were `undefined` as well, in the serializer (@SohumB)
+- [e05b77b](https://github.com/franq/franq/commit/e05b77b5d884496c8c3ff1c18f93e200c43e101d) Make graphixture/bookshelf understand how to truncate views (@SohumB)
+- [0dfcdfa](https://github.com/franq/franq/commit/0dfcdfab179356771c6646126175420ebe8125b5) Merge remote-tracking branch 'franq/master' (@aexmachina)
+- [b1a863d](https://github.com/franq/franq/commit/b1a863d97407fd8a6b1659d34a531f462480891c) Update nodemon to 1.2 (@aexmachina)
+- [92002ba](https://github.com/franq/franq/commit/92002baa65b034acd5963d075eb9427619aa3741) Merge branch 'feature/cashiers' into 'master'
+- [cc3be09](https://github.com/franq/franq/commit/cc3be096db0a4a4dcbfba029af50b6a3d162e032) Don't display isNew users in the list (@SohumB)
+- [ddd3844](https://github.com/franq/franq/commit/ddd38449556cf008c13fb68023aa27285c4fb355) Making deleting user actually work (@SohumB)
+- [413f73f](https://github.com/franq/franq/commit/413f73f9ad760e84d01b87939841802a465478a9) Merge branch 'master' into hotfix/refactor-select-transformer
+- [492b9aa](https://github.com/franq/franq/commit/492b9aa87096b5394b667a06f8ca301d73b5fea9) bugfix: not deleting nulls for new records (@SohumB)
+- [5182954](https://github.com/franq/franq/commit/5182954c75629baa7798fd0c1f4931721da0ed5b) Merge branch 'hotfix/editable-printer-names' into 'master'
+- [e4d23f5](https://github.com/franq/franq/commit/e4d23f549f8a594616803ac3f1512380bc840093) fix promise
+- [4a06b75](https://github.com/franq/franq/commit/4a06b7544da6586775e3cc775dc0fb96beb4d0cb) Tests for editing a user and killing the usercode of a user (@SohumB)
+- [86fcd74](https://github.com/franq/franq/commit/86fcd7446ee7cf0c451e6ac28520760ccec1154b) Readd support for deleting bare cashiers and the usercode component of unified users (@SohumB)
+- [1a93bd0](https://github.com/franq/franq/commit/1a93bd05929ec876c9f163b80659e7d7457c78d1) Clean up ember responses to allow specifying null (@SohumB)
+- [e115766](https://github.com/franq/franq/commit/e1157665fb867083633c1cb82daf3529bece2f96) Server side support for deleting bare cashiers, and deleting cashiers from a unified user (via update) (@SohumB)
+- [62ac589](https://github.com/franq/franq/commit/62ac589dc41fe9e3c86751e1d1b2725ed94d53ea) Merge branch 'master' into hotfix/refactor-select-transformer
+- [17ffd0a](https://github.com/franq/franq/commit/17ffd0a456cd0048902e6cf2481c39e19418f299) Merge branch 'master' into hotfix/editable-printer-names
+- [f1bd46d](https://github.com/franq/franq/commit/f1bd46d30640b4e4f61813778740cf019caa05e3) Merge branch 'master' into hotfix/printer_logo_deployment_doc
+- [47c4dc7](https://github.com/franq/franq/commit/47c4dc7e1de5188637252eb7d258a10ad5236358) Merge branch 'master' into feature/cashiers (@SohumB)
+- [d2de6ad](https://github.com/franq/franq/commit/d2de6ad8c68abaa1da0a8c473cb73c948fae02cc) Assigning initial-data users to your organisation (@SohumB)
+- [d606172](https://github.com/franq/franq/commit/d606172c203cf2bbdc1f95cd751529e7ad0aac7f) Removing user/delete and fixing user display name (@SohumB)
+- [c56c991](https://github.com/franq/franq/commit/c56c9917e8142d9fe435f08307e351feced713f4) Fixing migration dependencies (@SohumB)
+- [e4472af](https://github.com/franq/franq/commit/e4472af28cc129a0f2f978936b1bbd651d6413ec) Merge branch 'feature/add-location-to-vendor' into 'master' (@SohumB)
+- [96c694a](https://github.com/franq/franq/commit/96c694a76a2e9c573342e0bc3a2ef51f9b0b317c) use DROP SCHEMA IF EXISTS instead of querying the schemainfo table before the drop.
+- [d54362d](https://github.com/franq/franq/commit/d54362d4933fbd595f6bdaa1d913acf26ac99cb4) fetch
+- [ea0b721](https://github.com/franq/franq/commit/ea0b721561ca611ce9cc3772a45e1be80358af18) fix promise chain
+- [5b6eddb](https://github.com/franq/franq/commit/5b6eddb2693d6528514b12370001b30be31f1c02) Merge master
+- [bb802cc](https://github.com/franq/franq/commit/bb802cce26f99343e1c5d7ee2629967e0ec6bbf5) Change productgroup's create, edit to select-transformer
+- [1005b00](https://github.com/franq/franq/commit/1005b001de852aedf2b1360f31e7436a90f8a17f) Change usergroup's edit create to select-transformer
+- [00b69e3](https://github.com/franq/franq/commit/00b69e34ec00401bff484d77e625b8bc2e4f61fe) Fix test for select-transformer changes in user/edit users/create
+- [dbbc2d4](https://github.com/franq/franq/commit/dbbc2d485a223f66de26afe4d13fd78b6dd3b01b) Merge master
+- [20bd8cd](https://github.com/franq/franq/commit/20bd8cd6405b5d0aad638acec5f1c1921bebf7ba) Refactor user/edit, users/create to use select-transformer
+- [2687b1c](https://github.com/franq/franq/commit/2687b1cc958e7531bf7b6bcffc24ba29af1aaf15) Merge remote-tracking branch 'upstream/master' into enhancement/ember-route-review (@aexmachina)
+- [46ad9db](https://github.com/franq/franq/commit/46ad9db085017a0a741c22ea46c5d0e9c006b13e) Fix tests (@aexmachina)
+- [5ffb28a](https://github.com/franq/franq/commit/5ffb28a9706fa4dd63903badc3b57e0e45aa227d) Fix tests (@aexmachina)
+- [576c287](https://github.com/franq/franq/commit/576c287377ae73a3e78350c9ef854e815f628f96) Cleanup of the products/edit and product/create routes (@aexmachina)
+- [6d40ef8](https://github.com/franq/franq/commit/6d40ef8a2a5ca2f93cc663770452493b9f1a0415) Cleaning up property dependencies (@SohumB)
+- [af6dff0](https://github.com/franq/franq/commit/af6dff0b20f910b8c494cf94e54d2133aee538ff) s/Promise/Ember.RSVP.Promise (@SohumB)
+- [b543143](https://github.com/franq/franq/commit/b5431437e4ef470586ab6c2152424fdd0ab41c83) Merge branch 'master' into feature/cashiers (@SohumB)
+- [48de505](https://github.com/franq/franq/commit/48de50586b08417612cb08e03dfac5f4ddeb4363) Dashboard side of cashiers (@SohumB)
+- [6d518b4](https://github.com/franq/franq/commit/6d518b40bd8b179ed1e3e0efcfd5d6d5cde259cc) fixes
+- [01730c2](https://github.com/franq/franq/commit/01730c292180500f4ba5668ffcaa8e74f6fc55a6) clean up
+- [5a414fd](https://github.com/franq/franq/commit/5a414fd56171a737868ab7c172e0344f04c8e2e3) remove the common setupController code
+- [b7bda90](https://github.com/franq/franq/commit/b7bda90829eb2931270c6b7529f8d1bcdd5da720) merge master
+- [05da436](https://github.com/franq/franq/commit/05da4361799fcabdc7b85419ab4b33c4ba1a955d) Add select-transformer to terminal/bower.json (@aexmachina)
+- [6f75bb2](https://github.com/franq/franq/commit/6f75bb2f91718dcc95c0edd59bb2ec1a3dc075ae) Merge branch 'master' into enhancement/ember-route-review
+- [110634e](https://github.com/franq/franq/commit/110634ef3d25b25ae8d071bdd02d1a9a019763d6) Merge branch 'feature/select-transformer' into 'master'
+- [44f7380](https://github.com/franq/franq/commit/44f738071343daab31a9876f33046f2dda172794) fixing productgroup WIP
+- [2d7df72](https://github.com/franq/franq/commit/2d7df72c62356268f15a8a3abfc49bef8fb357ac) Merge remote-tracking branch 'upstream/master' into feature/select-transformer (@aexmachina)
+- [44d7717](https://github.com/franq/franq/commit/44d7717f6f3fb535419c5e3dfcaf92069203c628) Tests passing :) (@aexmachina)
+- [73e4bbe](https://github.com/franq/franq/commit/73e4bbea5c757aa74cd1c0cebfaf02f93e6a0686) Change product/edit and products/create to use select-transformer (@aexmachina)
+- [7667d0e](https://github.com/franq/franq/commit/7667d0e281e2fa3edf0dce64c4be8f3791f12ad0) Added select-transformer module to allow us to use Ember.Select for checkboxes and radio buttons (@aexmachina)
+- [d4dc6cf](https://github.com/franq/franq/commit/d4dc6cf35660ef019798563dbfb10e4f0970179c) add comment for the controller-props.js
+- [3827195](https://github.com/franq/franq/commit/3827195568677074fc1d34a813579e3e28f5c0f5) make user groups to use the controller props pattern
+- [f3e9b86](https://github.com/franq/franq/commit/f3e9b8627bc4166f1c806601096d5be77fd5c30e) use this._super(controller, model) inside setupController instead of setting it explicitly
+- [8fd5e59](https://github.com/franq/franq/commit/8fd5e59528532775644b9fc9b2718ae15a215c10) remove the listener after destroy.
+- [95fccaf](https://github.com/franq/franq/commit/95fccaf1b873a1551bf80577f8a563186b3ebeb1) fix the usergroups with controller props pattern
+- [be56759](https://github.com/franq/franq/commit/be567597eee9e6ae33411b11f0f41feee0bfba63) fix the printer create
+- [68d0c22](https://github.com/franq/franq/commit/68d0c22aebb235a2193c114d560e5b3226d7822d) use controller-pros pattern on printer/edit.
+- [651206e](https://github.com/franq/franq/commit/651206e0b553f959a474c7fefe0388ab04c2e0b3) fix merge
+- [2492f0f](https://github.com/franq/franq/commit/2492f0fcf033914bac98ee0f4c3b7ee4e08b38f9) moved the setupController to afterModel
+- [a68124e](https://github.com/franq/franq/commit/a68124ef4909a9cd5af9f7e3543db3e143743c53) Switch permissions around so that (@SohumB)
+- [ca7bbb7](https://github.com/franq/franq/commit/ca7bbb728936efe031cd705b1650c2b2bd9c0585) Merge branch 'feature/environment-refactor' into 'master'
+- [929ff91](https://github.com/franq/franq/commit/929ff913d90a15a3098b16c87fd31b0bf0b437c8) Merge branch 'master' into feature/add-location-to-vendor
+- [280d8c5](https://github.com/franq/franq/commit/280d8c5c0f0738996ee97bbc850a7c0d07082f69) clean up
+- [204cc26](https://github.com/franq/franq/commit/204cc26d117eb8296bcf820186df5b8bfda1dd3d) fixes.
+- [31f63dd](https://github.com/franq/franq/commit/31f63ddc85dc55b28511e87da857db240b264b17) managed to do the frontend test
+- [b420b80](https://github.com/franq/franq/commit/b420b80bcb85d35c10b4cd4605c2b375f1313413) Cashiers, with tests, as unified entries on the user view (@SohumB)
+- [44b1bb6](https://github.com/franq/franq/commit/44b1bb6ec9060b76a9bdd1f11a7a9efda1d32aff) Merge branch 'feature/environment-refactor' into feature/cashiers (@SohumB)
+- [0f280fc](https://github.com/franq/franq/commit/0f280fc1e90200b1ae47bb86deb9a39aa76ccd49) Remember remember that the `req.user` object is a model, not a POJO. Fixing requestEnvironment as per. (@SohumB)
+- [1716648](https://github.com/franq/franq/commit/171664834d92847244fdb80be63c6496a13c0fdd) Fix the “user” view to use a full outer join instead of a union, and to (try to) upsert on updates (@SohumB)
+- [8eaeeb6](https://github.com/franq/franq/commit/8eaeeb60f4f4c388c42c377a32386edcb2679240) fix .......
+- [113bb43](https://github.com/franq/franq/commit/113bb437f52f12785a5d531a4e853c12f220abfa) skip the subroute test but it's problematic.
+- [d660eb3](https://github.com/franq/franq/commit/d660eb3bdd09095f3a27323c876b2daad9e8e4f5) added address server side test
+- [46fa67b](https://github.com/franq/franq/commit/46fa67ba11ba24b83a4ebcc864ac173c697720cd) Merge branch 'master' into feature/cashiers (@SohumB)
+- [275f9bd](https://github.com/franq/franq/commit/275f9bdeec8b8344f9f2cf82cf4f834cdf933d7e) fix
+- [26165ef](https://github.com/franq/franq/commit/26165efdb5ecab29a397d7ff92d4069b227291d9) Pushing the user_organisation relationship into a view (@SohumB)
+- [e52146b](https://github.com/franq/franq/commit/e52146b7c216a6e472c590340ac27ef1de0f5b8a) ember test
+- [39fd5e7](https://github.com/franq/franq/commit/39fd5e7484f51c46eeaa9e0a6989cb6a2602c12c) filled doc for postgis
+- [2e0c86d](https://github.com/franq/franq/commit/2e0c86d3115166591db9613f22c5ffeeb9ee29c7) fix the edit venue showing problem.
+- [8dfbe61](https://github.com/franq/franq/commit/8dfbe61d9fc6acf9eb897cc412d053f77b6bb498) fix node test
+- [2c2673e](https://github.com/franq/franq/commit/2c2673edfcf83642f1a8e9c46b4af16db13c4daa) put address type translation logic in Venue Model
+- [3413e10](https://github.com/franq/franq/commit/3413e1051f2d06b6079e5230055ba8b55503b6dd) single string get gateway controller model
+- [53b2332](https://github.com/franq/franq/commit/53b2332f9b91b0d7e72e0d01ac8e069725efdb1d) -> master
+- [45e790f](https://github.com/franq/franq/commit/45e790f12bc4e3785c157204d9f79947c200df37) Bugfix: Fields could be omitted if they came lexically before their corresponding relationship (@SohumB)
+- [fce0f19](https://github.com/franq/franq/commit/fce0f19a4dbb6a6d9f21a4925c767b6c199900a2) Passing the environment through to BaseModel#save so as to allow pulling organisation_id from models that don't use it (User) (@SohumB)
+- [b8ef79a](https://github.com/franq/franq/commit/b8ef79a8eb72f4f6aa786b3275678577223019e9) Add organisation_id constraints to a bunch more relationships (@SohumB)
+- [1d1a1e6](https://github.com/franq/franq/commit/1d1a1e6b0bd27f1cffa2e8c2c562c18ec323b0f7) Adding and fixing tests for these constraints (@SohumB)
+- [546f51a](https://github.com/franq/franq/commit/546f51a37702a69c976ded42c4cbed48c4359707) Change references to Promise to RSVP.Promise (@aexmachina)
+- [1781e14](https://github.com/franq/franq/commit/1781e14954e37800ebfcd6c6e6ae20f3e160621f) Merge remote-tracking branch 'upstream/master' into hotfix/improve-controller-route (@aexmachina)
+- [44b80b3](https://github.com/franq/franq/commit/44b80b3cdc83c6043afb54b1ae94b831fd008e43) Merge branch 'hotfix/improve-controller-route' into 'master'
+- [48d5db9](https://github.com/franq/franq/commit/48d5db9329b222320e8293f19003160d390773f5) Merge remote-tracking branch 'upstream/master' into hotfix/improve-controller-route (@aexmachina)
+- [63728a0](https://github.com/franq/franq/commit/63728a02e6a89d4fda9f3cb1f51846b5e9289df1) Change dashboard surcharges-test.js to work in other timezones (@aexmachina)
+- [60bccc0](https://github.com/franq/franq/commit/60bccc04ae7c410e02b9d1bd4fd9d7724453f90a) Added initial version of products-and-items.md (@aexmachina)
+- [8c64706](https://github.com/franq/franq/commit/8c64706c1287be973aedd1df6310d16356ec0973) merge master, fix ~ gateway-device
+- [4d5735b](https://github.com/franq/franq/commit/4d5735b723c49fc3edaa239a9de3ee872d84bbb8) setup controller
+- [8c76bfd](https://github.com/franq/franq/commit/8c76bfd6220471ada9af3eb3f86635c86149f2fd) change
+- [8511da0](https://github.com/franq/franq/commit/8511da0f3744268d023b7f9901a8ee102f11c6b8) Implement relation visibility (@SohumB)
+- [a5a0d70](https://github.com/franq/franq/commit/a5a0d7075700da7442a8fd579f51d0b5ede74445) Fixing the normal visibility bugs by genericising the organisation_id addConditions code (@SohumB)
+- [32ce348](https://github.com/franq/franq/commit/32ce348786f70177b65095c64fd917769f1f70a4) Adding (failing) tests for normal and relationship update visibility bugs (@SohumB)
+- [b68e9d5](https://github.com/franq/franq/commit/b68e9d55c4b9540267d8bb2949b45bb683f51968) Quick notes on debugging `ember test` (@SohumB)
+- [15a4438](https://github.com/franq/franq/commit/15a4438f10a4673d0b1ace5fdc75423bb4407da4) fix Joi validation for product and productgroup (@Derrick666)
+- [90c6dbe](https://github.com/franq/franq/commit/90c6dbe077ea526a7ea160de5d67a6e1f654fb81) Fixing incorrect imports in some attic/app-addon/models (@SohumB)
+- [2caecd7](https://github.com/franq/franq/commit/2caecd7daa62a7e53bbf57b7e2d8e602ece99fd9) fixing PhantomJS tests by providing explicit references to Ember.RSVP.Promise, and not assuming a browser implementation (@SohumB)
+- [e2ea959](https://github.com/franq/franq/commit/e2ea95958ed1321468bf3ae50d787f3d19d02bc5) combine prepareDevices & prepareController
+- [20e6896](https://github.com/franq/franq/commit/20e68967fe6b48906e25055311560f4fe6828d2b) adding broccoli-merge-trees to attic/package.json (@SohumB)
+- [e8fee94](https://github.com/franq/franq/commit/e8fee941bcddbde0a61a76b1c0dbbb970b8ed194) Merge branch 'master' into hotfix/improve-controller-route (@Derrick666)
+- [1d2982b](https://github.com/franq/franq/commit/1d2982b0dca6becfe0c89e85ddd43593058f08f4) format change
+- [431c820](https://github.com/franq/franq/commit/431c820ae478373af72eac2a094995c517b8638c) wording
+- [e40d802](https://github.com/franq/franq/commit/e40d802a59f49c0f6223b9d78f98f0a033cfbb06) edit venue works fine now.
+- [d84d879](https://github.com/franq/franq/commit/d84d879d643adfa7a2abf0dfa5874ef67d121d49) Ensure the deps are linked before we run npm install in them, as required by basement's post-install (@SohumB)
+- [78d69ce](https://github.com/franq/franq/commit/78d69cea6f35c868a5ce0b2fb406e147c54b055b) address-select component added.
+- [70e385f](https://github.com/franq/franq/commit/70e385faaddaeca42cb7d7c4bfc1e23ecc182103) change prepareController promise style
+- [b8a1cd3](https://github.com/franq/franq/commit/b8a1cd3cdc2857656b2154f21f3207812c5d8786) change default device to selected; change way to check device exist
+- [d791927](https://github.com/franq/franq/commit/d7919272f95418719b593d62cc076bd1eb99ffd1) Merge branch 'feature/assign_logo_to_printer' into 'master' (@SohumB)
+- [ceb6620](https://github.com/franq/franq/commit/ceb6620df758cb30d6967a5d514d5b787d56f5df) merge fix
+- [c605e35](https://github.com/franq/franq/commit/c605e354886c1672d79e36e388a3126a1c7583cb) Merge branch 'feature/assign-user-to-usergroup' into 'master' (@SohumB)
+- [c29a286](https://github.com/franq/franq/commit/c29a286280374a7b8fa18213f8cdcc049d2816e7) fix spacing, unnecessay test
+- [f368e39](https://github.com/franq/franq/commit/f368e3901d5050434279d5a06b4a74b7b7c7ecd4) break if-else into multiple lines for clearance, remove unnecessary empty checking
+- [f06ddf9](https://github.com/franq/franq/commit/f06ddf9a0d6581ef57ed579220859d8651ca851a) create printer by just name as input
+- [6e42e6a](https://github.com/franq/franq/commit/6e42e6aa471ead00765024248f885db4b83c8266) fix cashdrawer model
+- [94fac06](https://github.com/franq/franq/commit/94fac068f48c5ca09d77e24aad1f66d82224e5f4) User model: fixed! Database now uses user_data (id only), as the foreign key target for user_with_email and user_with_usercode, and an editable(!) view that is the union of those rows. (@SohumB)
+- [31d63f5](https://github.com/franq/franq/commit/31d63f5e261aaadc9b669e2d0a063ad594b438c3) Merge branch 'master' into hotfix/editable-printer-names
+- [9605de0](https://github.com/franq/franq/commit/9605de05166ce4ec68c27cadf9e7e33f1fb091d5) Merge branch 'master' into feature/assign-user-to-usergroup
+- [b8e641a](https://github.com/franq/franq/commit/b8e641a23206fdf1dec9c157f75049fe3a7759c0) merge master
+- [c10930a](https://github.com/franq/franq/commit/c10930ad954de0e0c354252e2c88a18e6bd9ad60) Fixed terminal placeholder test (@aexmachina)
+- [cff9afe](https://github.com/franq/franq/commit/cff9afe9a8e08ad790d5273cce46cb0626c5d5eb) -
+- [0be96a1](https://github.com/franq/franq/commit/0be96a192a5bb144bd9e3be75ff1ade2ca1659b0) fix attic error
+- [acb50c4](https://github.com/franq/franq/commit/acb50c40285cd9644b4049a8f53f9b84c673421b) refer to vendor/attic
+- [1849271](https://github.com/franq/franq/commit/18492712c1755dec290f36a261e89d9a00731c4c) Merge remote-tracking branch 'upstream/master' (@aexmachina)
+- [df2972c](https://github.com/franq/franq/commit/df2972c9d0ab2340d21c3baa97a94919d4f47fae) Terminal tests passing (@aexmachina)
+- [a89f58e](https://github.com/franq/franq/commit/a89f58e51a63aa766a85c87d9306fcef97b9a507) Merge branch 'master' into feature/assign-user-to-usergroup
+- [7bbffaa](https://github.com/franq/franq/commit/7bbffaacef0367d0af0507ab4d9d20c53c20b45f) Merge branch 'master' into feature/assign_logo_to_printer
+- [709c118](https://github.com/franq/franq/commit/709c118f69da622eecaf4e33cb0a0ae13dee76e9) Merge remote-tracking branch 'upstream/master' (@aexmachina)
+- [bde8a17](https://github.com/franq/franq/commit/bde8a170ceed5890ea23f8918df84bd01a10be20) Update broccoli-jstransform in attic (@aexmachina)
+- [d69f0a5](https://github.com/franq/franq/commit/d69f0a5c21d3135a1b19c7aba14437365d2f7316) Fix imports from 'attic' to 'vendor/attic' (@aexmachina)
+- [9c4be90](https://github.com/franq/franq/commit/9c4be9075f9659cb5fa5e02ce8a5f22582234609) Merge branch 'master' into feature/assign_logo_to_printer
+- [72372ee](https://github.com/franq/franq/commit/72372ee5c20219b9fa979d9ba8f2a043379b67cd) improve test for checkbox
+- [9dbfc60](https://github.com/franq/franq/commit/9dbfc60e841caf9e92da46f807a1108a8ef4b3a5) fix return promis
+- [f267413](https://github.com/franq/franq/commit/f267413928cd99cff2ef6f64a8bd111c43675dd4) merge master
+- [bf907f9](https://github.com/franq/franq/commit/bf907f9e8dc3ac3a46101ea99d3ce87848b40bc3) refactor code to use destructuring assignment (@Derrick666)
+- [6b40f7a](https://github.com/franq/franq/commit/6b40f7aae72dd91e66768f2d2e318915b391a2a2) fix edit mix-in directory (@Derrick666)
+- [309c89e](https://github.com/franq/franq/commit/309c89ed21cd017df224eef9feeca194ca765d92) fix merge conflicts (@Derrick666)
+- [53fd46f](https://github.com/franq/franq/commit/53fd46f3eadff69e159e733e28cea437cffe91dd) Merge branch 'master' into 'master' (@Derrick666)
+- [1802ce4](https://github.com/franq/franq/commit/1802ce48de32c2cfb730b6075691a2f593f60351) Improve: Usergroup Parent Route in 'usergroups/form/route' (remove 'usergroups/edit' ~confusing
+- [a9c35fb](https://github.com/franq/franq/commit/a9c35fb601d48ba84360474fbe52354cbf40aa09) Imporve: Parent Route of User are now 'form/route' extend by 'edit' & 'create'
+- [37822ea](https://github.com/franq/franq/commit/37822ea0b68a2cf3724651fefc1e4e31bf7bca81) Removed commented code from attic (@aexmachina)
+- [12d0f96](https://github.com/franq/franq/commit/12d0f961d437ec63c708f087e88af913968c9621) Attic imports are now in 'vendor/attic' (@aexmachina)
+- [dc21ec1](https://github.com/franq/franq/commit/dc21ec1696db32e5a6b65e302c5f4e67b06a599c) Adding back reference to updated reference (@Derrick666)
+- [30cd657](https://github.com/franq/franq/commit/30cd65744a94e7809b02f945cbc1e3f1a0996fb3) destructuring assingment
+- [c709627](https://github.com/franq/franq/commit/c709627f20ca80c102992d4e3c6781841cbf8a54) remove select2 test code
+- [a033697](https://github.com/franq/franq/commit/a033697dee430d7800c16690681a05ef45ef6b86) Merge remote-tracking branch 'upstream/master' (@aexmachina)
+- [ce55ff2](https://github.com/franq/franq/commit/ce55ff23ac3926634094cbc1705f91c8cb203a63) add form codes
+- [33f34e4](https://github.com/franq/franq/commit/33f34e4ce18395cc7b0e14e24097096ee3f10b88) add more doc for select2, change select2's event distribution, now they all via attributes rather than bubbling up to the parent view.
+- [76fa0ed](https://github.com/franq/franq/commit/76fa0ed789b5ac68c15395d04975ebd5000c0e66) put edit/create route/controller into form folder
+- [fa24aac](https://github.com/franq/franq/commit/fa24aace2d2d18241c0ad49869755d899d1ab1a1) add more document for select-2
+- [094c3bc](https://github.com/franq/franq/commit/094c3bc8fc8dbd086e4b837ce04e22684c36a231) extra comma
+- [57aae9d](https://github.com/franq/franq/commit/57aae9d304580eb349680b12a3a39f99d44df87c) remove unnecessary function.
+- [b0266b1](https://github.com/franq/franq/commit/b0266b1c54b97d972c75a8c2253e59f33057f271) product create route shares edit route
+- [69e2caa](https://github.com/franq/franq/commit/69e2caa802c1111562e8e3d20fbbc89f00f0d213) merge fixes
+- [507d18c](https://github.com/franq/franq/commit/507d18c5d1aca11713e0b33a8ae5013e3070f648) productgroup create route shares edit route
+- [22cdb79](https://github.com/franq/franq/commit/22cdb792babd90675bb4d2f1b57f0f57982506d1) fix setupcontroller problems in product and productgroups
+- [1186379](https://github.com/franq/franq/commit/118637960c6491b02cd85d3f9b7870b3c611abde) pre-merge check
+- [2de32a0](https://github.com/franq/franq/commit/2de32a042ba26dd18ab97fffbdc53642b5293f73) move select2 into attic
+- [9c41f42](https://github.com/franq/franq/commit/9c41f420c6e2f1fd44b8edd6d07629e2c48e1511) fix logo doesn't show up in printer group controller
+- [1948720](https://github.com/franq/franq/commit/19487209560378226e2e99ffae5556d877fbbb34) make sure the initial selection setup doesn't trigger the change.
+- [4cbdc85](https://github.com/franq/franq/commit/4cbdc8581ff19dd2db448d05286aea0db5a8d9c2) make sure the select2 change only call once
+- [47214d6](https://github.com/franq/franq/commit/47214d6796ab7c82a3f1e49db433e33e2f33fc20) fix existing logo problem in edit printer group
+- [c16d5dd](https://github.com/franq/franq/commit/c16d5dd32ac2cfacf0fdf7017ca58cca095ed0e6) fix weird no gateway in payload problem.
+- [181c906](https://github.com/franq/franq/commit/181c906b513619462041b9709c16783c3bafc1fd) change according to Sohum comment
+- [53acd13](https://github.com/franq/franq/commit/53acd13588a4d41673850c468df3792e338df35f) merge latest master + fix conflict
+- [9881ece](https://github.com/franq/franq/commit/9881ece2b4aac64e3a3be265973ac31ba78a6ebb) Merge branch 'master' into feature/assign_logo_to_printer
+- [755e421](https://github.com/franq/franq/commit/755e4213a8290f1d5800ed607945d01fa6c112cb) add tests for add & edit printer group with logo & printers.
+- [3c343f5](https://github.com/franq/franq/commit/3c343f5c2d8fcaf9fdc1a9851f973dab96ae6ef2) add won't trigger test for receipt printer logo
+- [500c84a](https://github.com/franq/franq/commit/500c84a8abe1f250c0f4141d01e3e54c13971e66) add logo update test for adding the printer groups.
+- [96b3efc](https://github.com/franq/franq/commit/96b3efc0bf2f4bfbe4feeefb7bdc20788d0e891e) fixes to select-2 on change event
+- [2d66ccd](https://github.com/franq/franq/commit/2d66ccd69c4c52dda9c3e2a43c6132a0de216fcd) Improve products/create (@aexmachina)
+- [5eb66f7](https://github.com/franq/franq/commit/5eb66f73a180e22726e9c09d84a917474ee7faf3) Add es6-destructuring support \o/ (@aexmachina)
+- [73522e8](https://github.com/franq/franq/commit/73522e8e9182450b2721f8214040aab61cdcfd98) Minor improvements to usergroup/edit (@aexmachina)
+- [a7f82ac](https://github.com/franq/franq/commit/a7f82ac6e0c83ee5e9fee50cb760dc8b212c744c) Fix capitalisation of window.DashboardENV (@aexmachina)
+- [0eee132](https://github.com/franq/franq/commit/0eee1324659a286a51265394d08a0231c3b03d4b) Disable jshint tests and code coverage, and enable terminal tests (@SohumB)
+- [5c67f2a](https://github.com/franq/franq/commit/5c67f2acdc81b438abee0e240b76a7cfadbaf546) Default to truncateAll - causes a 66% speedup on agentsmith (@SohumB)
+- [66df38e](https://github.com/franq/franq/commit/66df38ebe5946e458ab8f3be4ca96792130af7bc) Gateway ListDevices: Show printer name in text if printer added :: Default Empty name for discovered device
+- [7183769](https://github.com/franq/franq/commit/7183769d4193ded43f745feb6837c69bd3a25fcd) Merge remote-tracking branch 'upstream/master' (@aexmachina)
+- [be6b908](https://github.com/franq/franq/commit/be6b9085cc2f98d30d0c0686f6b0e53791fce9fb) Updated offline-use.md (@aexmachina)
+- [ba9f3be](https://github.com/franq/franq/commit/ba9f3be649a34d658383d251ef3ece7a1e4e46ae) keep printer name consistent with printer page
+- [4b2b011](https://github.com/franq/franq/commit/4b2b01100cc9c485f8cc45d7d36e501a9a199345) Make build actually fail on errors (@SohumB)
+- [25f7b69](https://github.com/franq/franq/commit/25f7b69b3b6a8830b53c7acc955f7eff3f35f0a5) fix exisiting frontend test.
+- [cabb920](https://github.com/franq/franq/commit/cabb92054ba36c2910f7c46163d60ed508789f5e) merge from upstream
+- [39adc2f](https://github.com/franq/franq/commit/39adc2f2c8635f47ef74ee20398cd79d320a59d7) add relationship test between printerimage & printer groups.
+- [2d7044d](https://github.com/franq/franq/commit/2d7044d89602f4fcf81baab0cf80dd66518c9d52) Fix changing printer's name in controller
+- [1d72a04](https://github.com/franq/franq/commit/1d72a049f5db157cedc0f392aa830a64ba535ec1) finish the existing test.
+- [4eec3de](https://github.com/franq/franq/commit/4eec3de00f3d9bafcd066cbf01ab18b5de6573fa) Merge branch 'master' into feature/assign_logo_to_printer
+- [fddb8cb](https://github.com/franq/franq/commit/fddb8cbdd5e5d493436e0b2bc8a65bd7ace8de45) Merge branch 'feature/dashboard-acl' into 'master'
+- [08fefaf](https://github.com/franq/franq/commit/08fefafef75bf31548572f7f0a2ef92e73d345b3) fix hasMany bugs for empty input in base model
+- [d854590](https://github.com/franq/franq/commit/d8545906c82abb31139ceb046744a9136b4ade96) Merge branch 'bugfix/organisation-cleanup' into 'master'
+- [a36e28e](https://github.com/franq/franq/commit/a36e28e9b8d818e48c8d862302e589b68c2b7a15) Merge branch 'master' into bugfix/organisation-cleanup (@SohumB)
+- [4f76a0b](https://github.com/franq/franq/commit/4f76a0b20a77d3a174df6df2b95a9e1072b3963a) merge from master
+- [f085bd6](https://github.com/franq/franq/commit/f085bd6b750fa05f63d880d42a55e8ace363784b) Merge branch 'master' into feature/dashboard-acl (@SohumB)
+- [25f2706](https://github.com/franq/franq/commit/25f2706cd235faca6d63e70186a48c1e1f2cb7a7) add fakehr into bower.json
+- [e0d07d6](https://github.com/franq/franq/commit/e0d07d6490705d2cecdadb23d7ead9f541fe24c8) Adding symlink to attic inside terminal (@SohumB)
+- [38bc6c8](https://github.com/franq/franq/commit/38bc6c8f95698965f9f7e9027cb77daa8eefaaf6) Remove Cashdrawer duplicate column from printer => reference to printer by id
+- [57d04b7](https://github.com/franq/franq/commit/57d04b70cfb021097ab92923153b322738293c22) skip update logo when there's no printer/logo
+- [efd37d8](https://github.com/franq/franq/commit/efd37d8cbf3aadfe604912c0360527f98e6855c1) add idField, textField & objectNameField support for select2
+- [211ce89](https://github.com/franq/franq/commit/211ce899fa6077af4d97a6841fe3a11c3199720f) Add serializer to support one to many relationship
+- [ee8b50c](https://github.com/franq/franq/commit/ee8b50cdd6946d0d43b8b887b5fa889ef985aefe) Moved application.hbs (@aexmachina)
+- [112c37d](https://github.com/franq/franq/commit/112c37d4fce4c1dd6a2ddddb04a17e6c07d238e8) Implemented SASS sharing between Dashboard and Terminal (@aexmachina)
+- [eeb1f41](https://github.com/franq/franq/commit/eeb1f41b02de8db79952923cb195a0109b81baeb) Change to ember-cli fork for compileES6 workaround (@aexmachina)
+- [7d2399d](https://github.com/franq/franq/commit/7d2399d5dd47ac5a8d940767370f7e92c9a7349c) Cleaning up all `belongsTo(Organisation)` code from the dashboard. (@SohumB)
+- [91abca0](https://github.com/franq/franq/commit/91abca0181a91ff7deaf78f1b54eab3648fee88a) Cleaning up all references to the organisation from the API. Also, fixing a _lot_ of tests. (@SohumB)
+- [f6ac0e4](https://github.com/franq/franq/commit/f6ac0e49c1b965487d1683e95495f626f828f837) Adding a `helpers.db` method to easily make assertions on database state (@SohumB)
+- [16b5a9b](https://github.com/franq/franq/commit/16b5a9b4189e847f1f97f10ab26ec3324785eeb4) Created modules/attic for front-end code shared between dashboard and terminal, implemented as an ember-addon (@aexmachina)
+- [e50388b](https://github.com/franq/franq/commit/e50388b04610b4e4fab0620a1b1185cd3e933e69) assign logo is available in the edit route of printer groups.
+- [882c002](https://github.com/franq/franq/commit/882c002368c8f542b6fe88313df914ce4bff9d46) Merge branch 'feature/bookshelf-relations' into feature/assign_logo_to_printer
+- [7285966](https://github.com/franq/franq/commit/7285966bda850061dff9a616897c1f87457b170e) put error message when update logo error.
+- [8191b1d](https://github.com/franq/franq/commit/8191b1de771bf72576735752f0754b3f0d89496a) able to assign logo to printer group
+- [2c1f2b4](https://github.com/franq/franq/commit/2c1f2b4aaaa83b83803143f8ff893035d502baf9) fix template table mismatch (@Derrick666)
+- [d73ad5a](https://github.com/franq/franq/commit/d73ad5a6ff224215d4356f1ee61aa8b00f3b5e07) clean up template (@Derrick666)
+- [e7977e9](https://github.com/franq/franq/commit/e7977e9031a34183197b4a5e95209055d313f424) move some functions from actions to normal functions (@Derrick666)
+- [ebdb489](https://github.com/franq/franq/commit/ebdb489e4f039250891f3b091d82a91bd9ad0735) clean up code (@Derrick666)
+- [703f5c3](https://github.com/franq/franq/commit/703f5c315ba7aeb60b5427536724d51339e49905) Merge branch 'hotfix/editable-printer-names' of gitlab.impos.com.au:franq/franq into hotfix/editable-printer-names (@Derrick666)
+- [9906d4f](https://github.com/franq/franq/commit/9906d4f5826de3009b31c1ff18a87eab1a809f31) put things in route.js and fix checkbox problems (@Derrick666)
+- [c801085](https://github.com/franq/franq/commit/c8010857e0b8d17bcd6af3758c10e66979f1b1e0) set very basic table format :: since going to change in new design
+- [4e497e8](https://github.com/franq/franq/commit/4e497e83d5fcecfcfdef81aeaa967078fad28911) Merge branch 'hotfix/editable-printer-names' of gitlab.impos.com.au:franq/franq into hotfix/editable-printer-names (@Derrick666)
+- [96ccf6d](https://github.com/franq/franq/commit/96ccf6d89eeb1f473d6b341ea824fa9dd0745e80) avoid duplication (@Derrick666)
+- [d4c1979](https://github.com/franq/franq/commit/d4c19796f696b6ec84714e5620ca8e47464dd37c) Adding kinda-iffy support for hasMany relationships (in particular, the clear-and-add doesn't work for not-null foreign-keys) (@SohumB)
+- [d973450](https://github.com/franq/franq/commit/d973450d21af78a025bf7aec2db50d2e7390e384) Merge branch 'master' into hotfix/editable-printer-names
+- [8584c8e](https://github.com/franq/franq/commit/8584c8e84b19ebb014d6dcca909977524d4b7135) Moving printer_image up in the migration file so that the dependencies track (@SohumB)
+- [3fc8c43](https://github.com/franq/franq/commit/3fc8c43282d0733c0c89069489d00e9ec08af020) Merge remote-tracking branch 'refs/remotes/yun/feature/assign_logo_to_printer' into feature/bookshelf-relations (@SohumB)
+- [e5d548a](https://github.com/franq/franq/commit/e5d548a5d7f0f10ea7dd5f57f53d20170b078938) move exit hook to edit-mixin
+- [3de564d](https://github.com/franq/franq/commit/3de564d28058fe5a6b0623cefa208dc4bfb322db) able to add printer image into printer groups
+- [37f21cd](https://github.com/franq/franq/commit/37f21cd978915a1ff910da45f56a82d14a0e9b3b) rollback model when exit with isDirty
+- [128cc26](https://github.com/franq/franq/commit/128cc263f885fb4a561cc200015619a05c018122) merge buttons into one (@Derrick666)
+- [77ce11b](https://github.com/franq/franq/commit/77ce11b9fbceade259ad8761b8373d18c203c969) Initial commit of terminal/ created using ember init (@aexmachina)
+- [742994e](https://github.com/franq/franq/commit/742994e55418b1d4e7def8d716cae29356369df5) Initial commit of terminal/ created using ember init (@aexmachina)
+- [c91bee9](https://github.com/franq/franq/commit/c91bee9fbb1f4cd088680a4a07db397608afb9b6) Edit printer: Not showing others field beside 'Printer Name', and 'Printer Groups'
+- [ff1deb7](https://github.com/franq/franq/commit/ff1deb7cb6ce1a5d98821590e1acfc18840a20ad) Moving set-relations code into BaseModel (@SohumB)
+- [f6e6020](https://github.com/franq/franq/commit/f6e602025dc8d196488617c1aeb5dfb9d42947f5) Some stupid syntax and spacing fixes to test/acceptance/pgroup (@SohumB)
+- [8891314](https://github.com/franq/franq/commit/889131454e7481dc0aaa9586301bb037d90d058f) Some docs on the serverside testing environment (@SohumB)
+- [56d31f3](https://github.com/franq/franq/commit/56d31f32d063d8b995312497fc0961683514434c) Merge branch 'master' into feature/assign-user-to-usergroup
+- [4a507be](https://github.com/franq/franq/commit/4a507be4e130481f5684290114c7634188c02b60) Merge branch 'master' into feature/assign-user-to-usergroup
+- [433dd96](https://github.com/franq/franq/commit/433dd962770da4d5a1ed65907044d066895eecf1) fix merge conflicts (@Derrick666)
+- [4e94e9d](https://github.com/franq/franq/commit/4e94e9d0a2dbb96796284d767535c2dc696f23de) Merge remote-tracking branch 'upstream/master' (@aexmachina)
+- [de93dc9](https://github.com/franq/franq/commit/de93dc9d60582ca3f5402b355d3ec23b7d2a187c) Merge branch 'feature/rollback-for-clear' into 'master'
+- [15f1ecb](https://github.com/franq/franq/commit/15f1ecba121f7aad7d98de74c5f0e9ae35b5bb94) editable printer name and unique constraint on the printers serial column (@tonytamps)
+- [9e89665](https://github.com/franq/franq/commit/9e896659a48cf83cba25c59ca66930174536c78c) Merge branch 'master' into feature/rollback-for-clear (@SohumB)
+- [1d24948](https://github.com/franq/franq/commit/1d24948739fa2dbab36c404e3457086dc52de534) Put ACL checks around index templates, which needs switching #collection directives to #each [as #collection overrides this :(] (@SohumB)
+- [bb18b4b](https://github.com/franq/franq/commit/bb18b4bffe219289c6cda7c95ca7eb0fe0e769fd) Fix using observe bug (when user click cancel the object already changed)
+- [67010be](https://github.com/franq/franq/commit/67010be861c31133a8147eb89473bbcccaeb353e) Merge branch 'master' into feature/assign_logo_to_printer
+- [dea0823](https://github.com/franq/franq/commit/dea082328733c69d9e30d523c4a11bdeb2f411ac) Merge branch 'feature/cleanup' into 'master'
+- [ca98f91](https://github.com/franq/franq/commit/ca98f91eb430796df6a0d8b9912ac676a754672b) Added docs for offline solution and realtime updates (@aexmachina)
+- [6a5d0c4](https://github.com/franq/franq/commit/6a5d0c4cb762032d7460ddbe66629f75e7e92d02) pass node tests (@Derrick666)
+- [6b68357](https://github.com/franq/franq/commit/6b683574283db4b60a77b40acaab8689a64f22f3) Add ember test
+- [f6b72d8](https://github.com/franq/franq/commit/f6b72d88e331359bc2e6bfdee60a4dd751346aff) Re-added ember-data.model-fragments (@aexmachina)
+- [f826125](https://github.com/franq/franq/commit/f826125bae581c88f3f45933668ac49ff286ab30) pass ember test (@Derrick666)
+- [3c1146f](https://github.com/franq/franq/commit/3c1146f933d5f2c8a63982de1baa7a488e1bfd63) Add support for template strings (@aexmachina)
+- [a24f40a](https://github.com/franq/franq/commit/a24f40a4b48fc231f1250d77a834ed7ca468af2b) Merge remote-tracking branch 'upstream/master' (@aexmachina)
+- [98b2980](https://github.com/franq/franq/commit/98b2980c01185314e7f6b2173c6abe36771a24d9) Moving modules/basement forks to franq namespace (@SohumB)
+- [412f43a](https://github.com/franq/franq/commit/412f43a35cfbad89773827d47ebfb15d6503846a) Merge branch 'master' into feature/product-surcount (@Derrick666)
+- [f328eeb](https://github.com/franq/franq/commit/f328eebf64a2a9c6e0c5b85b578b426c4ea79c46) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/assign-user-to-usergroup
+- [bd8ea3f](https://github.com/franq/franq/commit/bd8ea3f9354b0cc193b5989de73fd2dd131dcf48) Add server test - create,edit usergroup with users
+- [e02c70c](https://github.com/franq/franq/commit/e02c70c4908e6ce5c6f1a02af76777db33b42c16) Merge branch 'hotfix/skip_delete_product_img_when_no_data' into 'master' (@SohumB)
+- [a611180](https://github.com/franq/franq/commit/a611180182cef8272741882e259f1ca872a1545a) skip removal when no data
+- [649cdb5](https://github.com/franq/franq/commit/649cdb5c42fbfb1b29fbfda3109302bb1d052d4f) Update ember-cli and change to use upstream rather than fork (@aexmachina)
+- [529e901](https://github.com/franq/franq/commit/529e901238cf52899aeafcc5a3adb521f6f53305) fix mapBy naming error (@Derrick666)
+- [aa14dc1](https://github.com/franq/franq/commit/aa14dc1ebd95078f668e3c6070d9df0feda8af08) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/assign-user-to-usergroup
+- [4242e89](https://github.com/franq/franq/commit/4242e89d660d913ee4062f669429177fede01fef) Add assign usergroup's user from 'create', 'edit' usergroup.
+- [a60b314](https://github.com/franq/franq/commit/a60b3141db5aacbd37e2f754cd01f2bc3cab2232) select2 doc fix.
+- [986ca23](https://github.com/franq/franq/commit/986ca230a84b06a96634296393650af4f7eaf2db) Added the shared select2 views, which can be reused.
+- [897dabc](https://github.com/franq/franq/commit/897dabc7a3e40d540ef148d555cfcb3774bd1872) merge from master (@Derrick666)
+- [40254d7](https://github.com/franq/franq/commit/40254d776c777de12f18440820971cab80242094) Merge branch 'master' into feature/cleanup (@SohumB)
+- [619f26a](https://github.com/franq/franq/commit/619f26af6685db7684a9d671f036dc2a59a8a088) some fixes for ember side (@Derrick666)
+- [1f6af7c](https://github.com/franq/franq/commit/1f6af7cd4ea619969039a2a684b246a88a39da41) Merge branch 'feature/surcount-productGroup' into 'master' (@SohumB)
+- [32265a6](https://github.com/franq/franq/commit/32265a6c6f8f60e4cdba8b9fa615f4dc507a2926) remove logger, rename variables in test, fix model foreign keys (@Derrick666)
+- [6094f6f](https://github.com/franq/franq/commit/6094f6f152fad148f95d86bf0bfb7df28729cb90) fix model foreign key (@Derrick666)
+- [6b1945d](https://github.com/franq/franq/commit/6b1945dd6e78e702b545497889fe61abb68ae210) new modol (@Derrick666)
+- [6890ae3](https://github.com/franq/franq/commit/6890ae30a319c33a48e506196708aed60f830894) add new model for product_surcount, modify models, controllers (Product and Surcount) (@Derrick666)
+- [b78ad08](https://github.com/franq/franq/commit/b78ad08aa2a7a3d3158bc8513cfc0b8b4e2d73ff) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/assign-user-to-usergroup
+- [48caa3b](https://github.com/franq/franq/commit/48caa3bb3920c15881b12d55b452e997bfb79880) Switch to compiled bcrypt (@SohumB)
+- [16f811e](https://github.com/franq/franq/commit/16f811e92a37f3af4b2eacaa950ac6dbca087e84) Test fixes, and cleaning up UI behaviour (@SohumB)
+- [15d1b21](https://github.com/franq/franq/commit/15d1b21f33d94db5cae4e163d156612d1995103e) reverse
+- [d4909e9](https://github.com/franq/franq/commit/d4909e9b35f71a250f3fe5b7ba4d93895e413f82) create product with surcounts (@Derrick666)
+- [e8a9fb4](https://github.com/franq/franq/commit/e8a9fb4be08d3ce7104c7ae973686d3bd2a575a6) Merge branch 'master' into feature/assign-user-to-usergroup
+- [e16bc0c](https://github.com/franq/franq/commit/e16bc0ce513b1814b833fe813b22b4e345ce18e8) Merge branch 'master' into feature/product-surcount (@Derrick666)
+- [d52fd3a](https://github.com/franq/franq/commit/d52fd3a37d07940176ac5fd406bb4d98d3caffda) edit product with surcounts (@Derrick666)
+- [40e1f05](https://github.com/franq/franq/commit/40e1f05166eca5a4392d4e48f4061fb1c931aaba) Merge branch 'feature/discounts-surcharges' into 'master'
+- [a298d47](https://github.com/franq/franq/commit/a298d4774badb7e8fec6104be9071bb68c24e1e0) fix migration (@Derrick666)
+- [647e443](https://github.com/franq/franq/commit/647e443fdbbb780e475e4abb4b3da96ea29489a0) add product_surcount table in migration (@Derrick666)
+- [dd14cd6](https://github.com/franq/franq/commit/dd14cd60277532cefd293f43a50a699b6fee6374) Stub out bcryptjs in tests/setup.js, to avoid that hit on tests (@SohumB)
+- [8fb2f65](https://github.com/franq/franq/commit/8fb2f65649467a53daeccff3fcdb86bcdca2c340) Rollback strategy for fixture loading, too (@SohumB)
+- [099979c](https://github.com/franq/franq/commit/099979c8ad2ce5522dc6d48674b2f20ef53ee549) Quieting gateway errors (@SohumB)
+- [24678a5](https://github.com/franq/franq/commit/24678a5e54175d6dafc594c76901f4eeddcf13de) Add Server Test: user with  usergroups
+- [8ef4111](https://github.com/franq/franq/commit/8ef41110763e26538f9cb1088f64f9fe1c8c3506) Add test - ember @ user for usergroup checkbox
+- [1996133](https://github.com/franq/franq/commit/19961339f66e5e929d5f52bb5a4effc22c6c51ed) Moving dependencies from personal repositories to the github.com/franq namespace (@SohumB)
+- [672ee4f](https://github.com/franq/franq/commit/672ee4f01075af1df67ca0aa6cfaaf98288f7fd6) Serializing included relationships based on #relationsToInclude, and removing the current organisation links (@SohumB)
+- [7bf9599](https://github.com/franq/franq/commit/7bf9599b66316a9525a795c49a7fc5815ee1ebb6) Merge branch 'feature/discounts-surcharges' into feature/surcount-productGroup (@Derrick666)
+- [2bfd2b1](https://github.com/franq/franq/commit/2bfd2b177ece1487f44819fb664d5823d41d51f1) pass server side tests (@Derrick666)
+- [a8ade93](https://github.com/franq/franq/commit/a8ade93243384a60a95dcae7080eaf467e1c4677) fix test
+- [f236fa0](https://github.com/franq/franq/commit/f236fa0a5a3c53a4dbc951b536f40fd4f0d9f298) Specify not inclusive on daterange (@SohumB)
+- [99f1104](https://github.com/franq/franq/commit/99f11049d3a3616b58e62f70c3b317f7fd799cd0) Merge branch 'master' into feature/discounts-surcharges (@SohumB)
+- [c8944c1](https://github.com/franq/franq/commit/c8944c182b4bcec1220d9d05e87bf4fe1ecce85e) Converting absolute to a bigint numeric price (@SohumB)
+- [586abbc](https://github.com/franq/franq/commit/586abbc610790f65583bd1820905b92c5851a050) Indentation fix (@SohumB)
+- [534b1ac](https://github.com/franq/franq/commit/534b1aca75a04b305ac7c6b11b5e97d78b54ac29) We already handle null names (@SohumB)
+- [8b1fb3d](https://github.com/franq/franq/commit/8b1fb3da8d58df8dbb7f0ea28a8c54ff4805f432) We have cascades for this now (@SohumB)
+- [507b745](https://github.com/franq/franq/commit/507b745c1977643d38d0e3a2ce2976e693f90758) Use environment logic for things that should be retrieved from the token (@SohumB)
+- [3a1b3ac](https://github.com/franq/franq/commit/3a1b3ac8fd1a8208b50377c77b7040d9af1eba63) added imagemagick document in deployment.md
+- [1c60bef](https://github.com/franq/franq/commit/1c60bef0e9cc836a6fdd3f245dca0f3cfd0d7c73) Models now output and input (via serialize and deserialize) the relationship names, without “_id” (@SohumB)
+- [7a5e6dc](https://github.com/franq/franq/commit/7a5e6dc01072cae899e21962ee2344b90705ecd4) add ember test (@Derrick666)
+- [6286825](https://github.com/franq/franq/commit/6286825c6d5249f3649051143d1ee9c03be1b010) Merge branch 'master' into feature/surcount-productGroup (@Derrick666)
+- [1b1fca2](https://github.com/franq/franq/commit/1b1fca22e08e57d20eb30ea1bce656f5f423dbe9) -
+- [643df27](https://github.com/franq/franq/commit/643df27d91f749b3e95e5da43d71c74102b42ae3) test fixes (@Derrick666)
+- [b95640d](https://github.com/franq/franq/commit/b95640dc0aee9e13b3a6553b918730b1305213df) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/assign-user-to-usergroup
+- [403bb67](https://github.com/franq/franq/commit/403bb67477fcd6086c739ec479845a563d03aef6) Merge branch 'feature/printer_logo_management' into 'master' (@SohumB)
+- [66bb208](https://github.com/franq/franq/commit/66bb20843ed72d6510f1f14549583c75c6be4c2e) merge fixes.
+- [17c4241](https://github.com/franq/franq/commit/17c4241727801e56cac3d8d86b736f4d91eeab5a) test fixes
+- [726360a](https://github.com/franq/franq/commit/726360a776f3abdf42a14740f5ca5cf5c8034000) Merge branch 'master' into feature/surcount-productGroup (@Derrick666)
+- [da85140](https://github.com/franq/franq/commit/da851402260c80ad753f3d7eb55b11b2b22e05d4) Merge branch 'master' into feature/printer_logo_management
+- [5eb9db5](https://github.com/franq/franq/commit/5eb9db582f8d6136249f0a7f7a2d67f7ca9102c8) merge req change
+- [21ee16f](https://github.com/franq/franq/commit/21ee16f8b4e8ef0620bad6d5467d8ce29f74d9b1) change groups to usergroups (as chenged in user-model)
+- [a9755ec](https://github.com/franq/franq/commit/a9755ecd112f6c504039a90eb82894ab7f5a8b0b) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/assign-user-to-usergroup
+- [9dfd592](https://github.com/franq/franq/commit/9dfd5929d51ff670ed8c749c06e0eee88cafc267) Add 'usergroups' objects before save-to-post
+- [fa9e83e](https://github.com/franq/franq/commit/fa9e83e344455181095efd3cfb7ef89cf30bef16) Fix edit 'setObjects'.
+- [4c983bc](https://github.com/franq/franq/commit/4c983bc0230343562b643972260bf28e6fa04082) Merge branch 'feature/printer-group-assignment' into 'master' (@SohumB)
+- [ffe9aef](https://github.com/franq/franq/commit/ffe9aef42c1fb2a9ea299acb581e649b97a63ba5) |--> ES6
+- [fe827c9](https://github.com/franq/franq/commit/fe827c91f0a8db3d040aea772c36d964ddf98844) Merge branch 'feature/discounts-surcharges' into feature/surcount-productGroup (@Derrick666)
+- [e19612e](https://github.com/franq/franq/commit/e19612e0dff56a99986f17874b330e76c9323aed) meger from master (@Derrick666)
+- [10aec88](https://github.com/franq/franq/commit/10aec88ccd17daf8f2f034c72e304c7b6b0870d6) fix controller in create (@Derrick666)
+- [eaa7dbc](https://github.com/franq/franq/commit/eaa7dbcf45c6168f12349be39faf64a192ef3786) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/printer-group-assignment (@tonytamps)
+- [7535adb](https://github.com/franq/franq/commit/7535adb4b7454b2815b11a2f2b44c6ced9742254) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/assign-user-to-usergroup
+- [359dfb9](https://github.com/franq/franq/commit/359dfb98a91163773a3b78e00bd034a8e9bd56e6) Merge branch 'feature/device-registration' into 'master' (@SohumB)
+- [cfc6ce6](https://github.com/franq/franq/commit/cfc6ce67497c71b198144c3fd86d0aafb8e231a5) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/assign-user-to-usergroup
+- [9e87bd0](https://github.com/franq/franq/commit/9e87bd0cc4b49a35ae6b781f06ec9a46d0b3b877) Merge branch 'hotfix/basemodel-related' into 'master'
+- [c7a46be](https://github.com/franq/franq/commit/c7a46be72d3c55e25b64ccd089c28ff2f9427845) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/device-registration (@tonytamps)
+- [a470c97](https://github.com/franq/franq/commit/a470c97f10be5b73b845f6356841491afc324835) fixing changes based on sohums feedback (@tonytamps)
+- [f36964a](https://github.com/franq/franq/commit/f36964ad0b0bd5b83e0025d882744d678a761ada) Fixing BaseModel.related to call the function on the instance, not the prototype (@SohumB)
+- [4190dd8](https://github.com/franq/franq/commit/4190dd8d4b9ff1cd644c03e7003bde64c30a30a0) change group to usergroup
+- [3d82f5d](https://github.com/franq/franq/commit/3d82f5dffa782c5dc92b55080e98d10f450c6de6) -
+- [8205993](https://github.com/franq/franq/commit/8205993aa1591645989c52f3f6e3cda8aa423ae7) create form to assign surcount to a product group (@Derrick666)
+- [c4d6d88](https://github.com/franq/franq/commit/c4d6d88ef0f8697f48e297c1e10b9e767dfb03bc) edit form to assign surcount to a product group (@Derrick666)
+- [2ffab88](https://github.com/franq/franq/commit/2ffab88d6b48e349b5e75adedf79e85cdb3bf533) Dashboard dayofweek and daterange conditions for surcounts (@SohumB)
+- [1004a70](https://github.com/franq/franq/commit/1004a70ca452d15d4d04720dfaefc061356b3b00) Recreate null values serverside when switching surcount type (@SohumB)
+- [a55259d](https://github.com/franq/franq/commit/a55259dfd9e8b96c227af8e8ffb0ca4cf55ed7e4) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/assign-user-to-usergroup
+- [34c7082](https://github.com/franq/franq/commit/34c70823547a43e6ef6f2de6e6eb9b7205085fb7) Add user groups checkbox selection
+- [f9c7115](https://github.com/franq/franq/commit/f9c7115b10665aaf0d0369c114deeecfaf6a2af4) Add controller to user/edit to store usergroups and selectedUsergroups
+- [2abf088](https://github.com/franq/franq/commit/2abf088bd3dc58fabf45165d77e58cf94d67ee14) Add relation HasMany (user <-> usergroups)
+- [64779ba](https://github.com/franq/franq/commit/64779bab968ffd58063f772878bdb79100982cc1) Move form-content to load from form-template..
+- [064f3c2](https://github.com/franq/franq/commit/064f3c278fb74787bf28199f8f0a5d8c74364364) format fixes.
+- [46ef84c](https://github.com/franq/franq/commit/46ef84c7afd49974e6d2e8b21611fbb204232cef) new basement update
+- [f21a814](https://github.com/franq/franq/commit/f21a814f5370af21972961fb405a880867f5b46d) add server side test for printer image
+- [aa6e624](https://github.com/franq/franq/commit/aa6e62406de19ccf311c9d8b7c717dbecf759202) Serverside dayofweek and daterange conditions for surcounts (@SohumB)
+- [a6cef28](https://github.com/franq/franq/commit/a6cef287efbcaed6e3646d4622ab46f766f84ec3) Merge branch 'master' into feature/gateway-device-discovery
+- [5e9f94d](https://github.com/franq/franq/commit/5e9f94dae5246a7971f57fa68106f5facd5951ea) Add frontend tests
+- [58fda61](https://github.com/franq/franq/commit/58fda61389a17594088b8cd8cac3e2531468ea79) fix migration problems (@Derrick666)
+- [70ae738](https://github.com/franq/franq/commit/70ae738344b68907b97a3e65a3de1b571c60828b) Merge branch 'feature/discounts-surcharges' into 'master' (@tonytamps)
+- [281e924](https://github.com/franq/franq/commit/281e9247289693cd5bb32faa90e0b2f534eb78ab) TODO validation test (@SohumB)
+- [81a956a](https://github.com/franq/franq/commit/81a956abd71efa99f87fa96eb3760ca997f76ec1) Merge branch 'feature/discounts-surcharges' into feature/surcount-productGroup (@Derrick666)
+- [3c9eab8](https://github.com/franq/franq/commit/3c9eab8d8b542e1349a8008099239de9af7d015b) Merge branch 'hotfix/broccoli-sass-pin' into feature/surcount-productGroup (@Derrick666)
+- [7f60a4b](https://github.com/franq/franq/commit/7f60a4bd3bad4ae5e357c1e84f6288e65e71c9d8) Merge branch 'hotfix/broccoli-sass-pin' into feature/discounts-surcharges (@SohumB)
+- [b253844](https://github.com/franq/franq/commit/b253844c401cfbf4fa532b87080384eed7db70a9) NOPE they either don't support sass/scss or segfault. Needed to go grab an archival copy that works, that github still lets you download, but isn't in a checkout-able form (@SohumB)
+- [a304aa0](https://github.com/franq/franq/commit/a304aa012e115eda90f8b2eb350d9856b1370fbd) Merge branch 'hotfix/broccoli-sass-pin' into feature/surcount-productGroup (@Derrick666)
+- [a4c7dc1](https://github.com/franq/franq/commit/a4c7dc106179266d0912131f379bb50856c0ed58) Actually that commit appears to not exist on the server anymore. (@SohumB)
+- [ec23ef1](https://github.com/franq/franq/commit/ec23ef1b1261ca634634408b98b6a3d8b3a1be10) Merge branch 'hotfix/broccoli-sass-pin' into feature/surcount-productGroup (@Derrick666)
+- [eb0dff5](https://github.com/franq/franq/commit/eb0dff50e78b572411a52d6ab1f32d23a262bf3b) Pinning broccoli-sass to a version that _doesn't_ segfault (@SohumB)
+- [9fba9ed](https://github.com/franq/franq/commit/9fba9ed5283226a649f0b59919e83784fa5a8585) Implementing a joi schema in surcounts (@SohumB)
+- [e41ebea](https://github.com/franq/franq/commit/e41ebeab04d42da22bffb4c450c20d21801f6a79) Adding the absolute dollar value option to surcounts (@SohumB)
+- [446d870](https://github.com/franq/franq/commit/446d870cc77f5343cfa61773d38889fe9c0a862e) Add processing while the image is processing.
+- [1eb23a3](https://github.com/franq/franq/commit/1eb23a33e8abbb62d42d26297604765c21360698) delete is available.
+- [2855ebf](https://github.com/franq/franq/commit/2855ebff064b76a99abcf3ae5000604ddf7263da) edit is available.
+- [36382f1](https://github.com/franq/franq/commit/36382f1877c31d75d0d43ee6b541c94ad725de03) Introducing Joi! This necessitated splitting “deserialize” into “sanitize” and “validate”, and moving InkFilePicker logic into the Product model instead of the Product controller. (@SohumB)
+- [ac3bdca](https://github.com/franq/franq/commit/ac3bdca8fae486bcd09b6b316110dfdb2a034f5f) add migration and model for surcount_pgroup table (@Derrick666)
+- [cc78b7f](https://github.com/franq/franq/commit/cc78b7faf8fda8982a1be9ba5b740847431ca4a9) remove .only from gateway tests (@tonytamps)
+- [9e1db08](https://github.com/franq/franq/commit/9e1db0813c662e26f90c72fa8c7a7a6512aa13c8) fixing tests in ui (@tonytamps)
+- [39928e0](https://github.com/franq/franq/commit/39928e0adc08ef51da4737c9e9ec5ae1e0f17722) layout fix
+- [2c5a1a8](https://github.com/franq/franq/commit/2c5a1a887623e848ea37532f5d9c44f65f748072) add list of logos
+- [95f5b0d](https://github.com/franq/franq/commit/95f5b0d989a468f30c5b6f82b35e354139b6ed42) Able to create printer image
+- [803984f](https://github.com/franq/franq/commit/803984f3dce8cf6e328ca3f942414f1f147702a9) silencing and tidying tests (@tonytamps)
+- [8328ee6](https://github.com/franq/franq/commit/8328ee685b75a1451097fcb6e25ad51c9425457c) added tests for updating related data between printers and printer groups (@tonytamps)
+- [f21f833](https://github.com/franq/franq/commit/f21f833148a0548f55a7715e987a1bb728c6e722) assign printer groups to printer when adding (@tonytamps)
+- [70efa60](https://github.com/franq/franq/commit/70efa60da689dadf5c0081c65b0aea9cb9ef8d32) assign printers to printer groups when editing (@tonytamps)
+- [9385c30](https://github.com/franq/franq/commit/9385c303aec5a382e4c2e78355b79135568243e6) allow assigning printer groups to printers on edit. (@tonytamps)
+- [9124303](https://github.com/franq/franq/commit/912430392cd5567538c7a6d9b9abeb2ca159ae5e) Merge branch 'master' into feature/discounts-surcharges (@SohumB)
+- [e693cc9](https://github.com/franq/franq/commit/e693cc94ccc9e325cc55e5e5541c38f2288efff7) Add conditions json field to surcount (@SohumB)
+- [64791f9](https://github.com/franq/franq/commit/64791f9fcf6ff0c2a911163bd6d65cc141f197b6) Switch to forked bookshelf that refreshes the entire model on inserts and updates (@SohumB)
+- [5ea1e4b](https://github.com/franq/franq/commit/5ea1e4b0c3f8742a2d725a6688818e6abf94df74) Moving route base to Form, deleting unnecessary files, and using the super.methodname syntax as per code review (@SohumB)
+- [46f6329](https://github.com/franq/franq/commit/46f6329130d450657404cb61d08e54e7d5c1d942) Dashboard UI for conditions, starting with timeofday (@SohumB)
+- [3fbb8b7](https://github.com/franq/franq/commit/3fbb8b79fcb4d09dad033b87f62fb566858d9e61) Adding ember-data model-fragments to the dashboard app (@SohumB)
+- [91da126](https://github.com/franq/franq/commit/91da126de27459bc9e0c660ca9b15234744764bb) allow selecting printer groups on edit (@tonytamps)
+- [fb3e620](https://github.com/franq/franq/commit/fb3e62063241c4fb8ddcccfae5dab28c7116421a) assign printer groups to printers when creating (@tonytamps)
+- [bbcc050](https://github.com/franq/franq/commit/bbcc0505ff1500cf6836ec6d994b97b4267c562f) printer edit route and controller (@tonytamps)
+- [7b0c769](https://github.com/franq/franq/commit/7b0c7699134d173911781090bff5b100cd3ca7ef) initial setup for the printer logo management.
+- [398cf6f](https://github.com/franq/franq/commit/398cf6fcbdf92956615ee5192dc6e55e60021167) add cashdrawer code and tests (@tonytamps)
+- [aafcf05](https://github.com/franq/franq/commit/aafcf05bf2587fbb1c920d4bf346c60a5383158f) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/device-registration (@tonytamps)
+- [46dd985](https://github.com/franq/franq/commit/46dd9851e515abcdf181bea2cd503a6202b5515a) scale create tests (@tonytamps)
+- [9ea9803](https://github.com/franq/franq/commit/9ea9803aa67f0267ed23e3afdf21849647dd77c4) printer create tests (@tonytamps)
+- [e5698aa](https://github.com/franq/franq/commit/e5698aae98100553d258e819a0cec9d468c397e8) Merge branch 'feature/gateway-device-discovery' of gitlab.impos.com.au:yun.l/franq into feature/device-registration (@tonytamps)
+- [197e24d](https://github.com/franq/franq/commit/197e24df7b5f45ea63f9ea48dc032e0246231c47) allow adding scales as well (@tonytamps)
+- [7438cd7](https://github.com/franq/franq/commit/7438cd7a5b23ba82a6d52556855ebc8b0686d838) Merge branch 'feature/gateway-device-discovery' into 'master' (@SohumB)
+- [1ed1225](https://github.com/franq/franq/commit/1ed1225d9598479ea03ba2e0507093b3e3433a67) typo fix for the previous commit
+- [b0e75ef](https://github.com/franq/franq/commit/b0e75ef4f0b58235e90cebee300c89f18581b6cf) remove the org property from the post body (@tonytamps)
+- [68d1291](https://github.com/franq/franq/commit/68d1291d06290d3812bd482b9d2ad80d44f0c85b) add all printers and single printer buttons in the UI (@tonytamps)
+- [8d26047](https://github.com/franq/franq/commit/8d260471c07cf1c42f2ebfd8daf6fc5a26ddba0f) Unify surcharges and templates in the UI (@SohumB)
+- [71d0eef](https://github.com/franq/franq/commit/71d0eefb0aa609deaba23596689870cea3608784) Merge branch 'feature/gateway-device-discovery' of gitlab.impos.com.au:yun.l/franq into feature/device-registration (@tonytamps)
+- [f82810c](https://github.com/franq/franq/commit/f82810c0228ee9062d00b8b5e091e80b096a44e0) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/device-registration (@tonytamps)
+- [dd83617](https://github.com/franq/franq/commit/dd83617ea37fe5086e9e6e63ad85a2ba0553f78e) create printer from device discovery (@tonytamps)
+- [a78c8e4](https://github.com/franq/franq/commit/a78c8e49d1b59a7cb19276d4fba1979be02eeddb) Dashboard surcharges, and tests (@SohumB)
+- [d2507b5](https://github.com/franq/franq/commit/d2507b5061f64085e659e160c2e684d2a80a1e47) Add service registry class to make reference to service easier.
+- [523d582](https://github.com/franq/franq/commit/523d582c17dd95a936dc0e4e28b1df65501614b2) Merge branch 'master' into feature/gateway-device-discovery
+- [a1b4325](https://github.com/franq/franq/commit/a1b4325424fca8e9475ec2836c2bfa1570dfeff6) API side surcounts (exposed as /surcharges), and tests (@SohumB)
+- [77814ee](https://github.com/franq/franq/commit/77814eeb9f062729d13d93ae686190e28b47f2e2) add script to pickup scales.
+- [4827c43](https://github.com/franq/franq/commit/4827c43faf5ba3e17f73cd735eab175ced85ab89) turn on the discovery printing.
+- [344c9f6](https://github.com/franq/franq/commit/344c9f602de3acede216e840d446c3ca0b8c41e7) add test for gateway discovery
+- [18e9fcf](https://github.com/franq/franq/commit/18e9fcf83ec887329fff04b19f3d39800f07da3b) Add gateway device discovery in
+- [841b145](https://github.com/franq/franq/commit/841b14586e66417e4b247c0bac95a6d37c3766f4) Merge branch 'feature/printer-groups' into 'master' (@SohumB)
+- [7cba724](https://github.com/franq/franq/commit/7cba7241d80d440635bc60e9f4dd16566fa57b0e) updated basement (@tonytamps)
+- [c58c8b5](https://github.com/franq/franq/commit/c58c8b51fabd1de5fd557f91f95bb04e21874405) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/printer-groups (@tonytamps)
+- [902fde6](https://github.com/franq/franq/commit/902fde67a2e22e9111f4a74d452a88d8c9e68e3d) Merge branch 'feature/product-group-assignment' into 'master' (@SohumB)
+- [3ec0f9d](https://github.com/franq/franq/commit/3ec0f9d6b8573c09bfc479c261ecd6e91f769cab) ensure products are only removed after their relationship with productgroups (@tonytamps)
+- [f51bdc6](https://github.com/franq/franq/commit/f51bdc6c91b68978e16fe860aea21b1b33cf6e37) add printergroups to the drop statement of initial (@tonytamps)
+- [310793e](https://github.com/franq/franq/commit/310793ebd232a710afbb3014553fb46b3ca6b549) add tables to the knex down statement (@tonytamps)
+- [8a33f20](https://github.com/franq/franq/commit/8a33f204a98b84da26cd29433ca81d24830a24e6) remove .only from tests and remove unrequired assert of length (@tonytamps)
+- [fbcdc80](https://github.com/franq/franq/commit/fbcdc80f3f7d79f70086283197ecca6cd0914306) refactor an error message to contain a field when returned from postgres to avoid a second regex (@tonytamps)
+- [f6bb499](https://github.com/franq/franq/commit/f6bb4996ebdd1ebb2511d71db15c700cb3aecdaf) changes based on Sohum's feedback (@tonytamps)
+- [5ec96c4](https://github.com/franq/franq/commit/5ec96c4e3afc6b3f70c14ed123d915a8da8fb92e) add link to printer groups to org index page (@tonytamps)
+- [2453652](https://github.com/franq/franq/commit/245365223321163f5cc428827157f9ac4552cc61) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/printer-groups (@tonytamps)
+- [0dcf739](https://github.com/franq/franq/commit/0dcf7395e4efdc343c13c989cee884324854de66) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/product-group-assignment (@tonytamps)
+- [a8f11bf](https://github.com/franq/franq/commit/a8f11bf03cbba2fd0ee854d3052b543cae0e1ee8) Merge branch 'hotfix/model-registry' into 'master' (@SohumB)
+- [9d3f09e](https://github.com/franq/franq/commit/9d3f09e81c9fcbaf5b00832d793bb5084170d44d) require()ing dependencies for models that were missing it (@SohumB)
+- [06d322f](https://github.com/franq/franq/commit/06d322f81977d9b47578a9e312b0937e6154831c) Using the Bookshelf model registry for Gateway and Product (@SohumB)
+- [ef7e527](https://github.com/franq/franq/commit/ef7e527eaae91753c2e8ad6207a92f5ce5cfdb20) Merge branch 'feature/gateway_discovery' into 'master' (@SohumB)
+- [7349c34](https://github.com/franq/franq/commit/7349c342bb0b10b52b7070bb7cdcb7c84ac8843c) change number to gateway_id
+- [ee4fd55](https://github.com/franq/franq/commit/ee4fd559407953626250efaa2b25131378deb238) fixes based on Sohums feedback (@tonytamps)
+- [a6f72ce](https://github.com/franq/franq/commit/a6f72cec227bd4033c1fe7ea3aaebdd47fe24785) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/product-group-assignment (@tonytamps)
+- [8f7963e](https://github.com/franq/franq/commit/8f7963e3e65e3d17d88fa61db7bd1ec043fd6912) fix a test to not edit the initial data (@tonytamps)
+- [eb92969](https://github.com/franq/franq/commit/eb9296907017e2d43b6022b0cf861174ce995f99) format fix
+- [306d794](https://github.com/franq/franq/commit/306d794ef6f52dc35d4b1cef85bd5791de7f0094) Merge branch 'master' into feature/gateway_discovery
+- [40577a7](https://github.com/franq/franq/commit/40577a741589093b4b8cb21f2280f3a2b9a711ec) Merge branch 'hotfix/usergroup-relations' into 'master'
+- [bc12149](https://github.com/franq/franq/commit/bc1214923a805cc6d8a6c3ee0e2a54f4ac9f24b6) Hotfix: Usergroup should ignore organisation properties passed to it (@SohumB)
+- [ae059ee](https://github.com/franq/franq/commit/ae059ee47c23bd5bac83f8b53f262465e1a0acf1) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/printer-groups (@tonytamps)
+- [9f12b2b](https://github.com/franq/franq/commit/9f12b2bcee440f1798aff014f4c2fe943ed9da8a) testing successful update and delete case (@tonytamps)
+- [f7ff433](https://github.com/franq/franq/commit/f7ff433280af9a8c00157488e7dbb59aa2ed36da) PrinterGroup tests for create (@tonytamps)
+- [3401740](https://github.com/franq/franq/commit/34017405944dbddc4863f0a0a2ff41db54299453) Merge branch 'feature/venue-edit' into 'master'
+- [d87c66e](https://github.com/franq/franq/commit/d87c66ed401687e2dc7ed741c8112349d216cc4f) Indentation and TODOs (@SohumB)
+- [bc98dd5](https://github.com/franq/franq/commit/bc98dd5a821ed78a8bc90aa1b31f6a24d57708a6) Merge branch 'master' into feature/gateway_discovery
+- [532cde1](https://github.com/franq/franq/commit/532cde1001e120c4cd194036efc971ad3c22c8e5) add tests for wrong response case.
+- [d3143e4](https://github.com/franq/franq/commit/d3143e4ba01c86f499882054d6fe7fd7488d43ca) fixes
+- [995302e](https://github.com/franq/franq/commit/995302ec64c8c826507b72620f91d9f7c89534e1) fixes
+- [c778b45](https://github.com/franq/franq/commit/c778b458189fe2c0efc53f06079516882ae00b82) Add test for gateway/index
+- [01d11bd](https://github.com/franq/franq/commit/01d11bda519211570cbf6eb086913585ce102e48) add test for frontend
+- [a3462ef](https://github.com/franq/franq/commit/a3462ef1002b1e1004f1d036cce94b9ad203f3e5) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/printer-groups (@tonytamps)
+- [b8e1a7f](https://github.com/franq/franq/commit/b8e1a7f538bef8b79bc8febca5819781615e589a) front-end testing for printer groups (@tonytamps)
+- [457d99d](https://github.com/franq/franq/commit/457d99d63c6ac2bccbf3b95fdea41e617857ce5e) Merge branch 'bugfix/raml' into 'master' (@tonytamps)
+- [c0761bf](https://github.com/franq/franq/commit/c0761bfe55ffe0e87a3b71e4dbadf1e5facf437f) Add functionality for frontend gateway add & delete.  ddd tests for GatewayController
+- [4818d15](https://github.com/franq/franq/commit/4818d15d8ac9d974b8a50845ce139c9cb090263d) delete printer group UI, server appears to to autowired (@tonytamps)
+- [4d1c586](https://github.com/franq/franq/commit/4d1c586b9aaa218572b9c2bcbe8dc308927c67ef) dashboard /venue/:id/edit was already implemented, just needed tests (@SohumB)
+- [0641ccb](https://github.com/franq/franq/commit/0641ccb3394008e8dc284154f3d1fa2afd34fbf5) Token Auth interface fixes (@SohumB)
+- [4833b8c](https://github.com/franq/franq/commit/4833b8c2b9e6c1aff99959284a876d81de792034) Add gateway index
+- [346edd9](https://github.com/franq/franq/commit/346edd9ff37520d2a259391d9f69979fa21412c8) Add gateway discovery
+- [2d511ae](https://github.com/franq/franq/commit/2d511ae1d629566e9dee9ae1e6532f8874c42c6d) printer group update (@tonytamps)
+- [7a5dca3](https://github.com/franq/franq/commit/7a5dca32bb296d9dccfcee86b6fb6285c660da6d) create printer group index (@tonytamps)
+- [9ec6a61](https://github.com/franq/franq/commit/9ec6a61b0d8725e4aefe04c6f9393d9ab0f5fe0d) create printergroups server code (@tonytamps)
+- [71296ed](https://github.com/franq/franq/commit/71296ed7ddcf98c1d24f53eaaf25a9cf14cc7c8a) printer.create route and form (@tonytamps)
+- [d1feb35](https://github.com/franq/franq/commit/d1feb358138300a56458fcadf7db5a35c71c73a0) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/product-group-assignment (@tonytamps)
+- [b390c08](https://github.com/franq/franq/commit/b390c0834d4a99e364d3b3dc7ac4318bac0b4de3) PUT /venues/:id, and tests, and converting venues to use visibility instead of acl/relationships (@SohumB)
+- [44ce502](https://github.com/franq/franq/commit/44ce5020b4ec2d870ebde1487053230136fdcdbd) Quick guard against setting the id on any requests (@SohumB)
+- [ef32de8](https://github.com/franq/franq/commit/ef32de8e69ed5a498ce60eb61ae815f7bf329f96) Merge branch 'bugfix/raml' into feature/venue-edit (@SohumB)
+- [b36a76b](https://github.com/franq/franq/commit/b36a76b1e5f54ab98eee3088613f12753fae0cfd) Merge branch 'hotfix/venue-index' into 'master'
+- [9eaaa92](https://github.com/franq/franq/commit/9eaaa92b1e1246461285037170d58fc576594216) add organisation_id contraint to Product and ProductGroup controller (@tonytamps)
+- [68e3e9d](https://github.com/franq/franq/commit/68e3e9d2b26822b65949589e88df2e3d98150d4c) Adding VenueController#addConditions, switching Venue.js to the class syntax, and adding an index test (@SohumB)
+- [b901213](https://github.com/franq/franq/commit/b901213a5da2fc9e35133d51da273690901b3b78) ensure that products are dusplayed when editing and creating groups (@tonytamps)
+- [d3ffc4b](https://github.com/franq/franq/commit/d3ffc4ba2df4a00f96ab4fadca86713244766bae) utests to check that product groups include related products when creating and updating (@tonytamps)
+- [ac84101](https://github.com/franq/franq/commit/ac841015f6b80153f4ffaf334882146b002d8469) Test fixes (@SohumB)
+- [767faaa](https://github.com/franq/franq/commit/767faaac7d0003abe6ad70ceacd17af5892bef16) testing that products get their related product groups when fetching and updating (@tonytamps)
+- [8e6a6e2](https://github.com/franq/franq/commit/8e6a6e2bd5298f6187041a4aad9bbba4fbf103c9) Changing names so as to syntax highlight correctly (@SohumB)
+- [617a150](https://github.com/franq/franq/commit/617a150cf51b805b57e710c5b3ceb3e6545a662f) Merge branch 'bugfix/basecontroller-update' into 'master'
+- [e29df96](https://github.com/franq/franq/commit/e29df9674a8fe03184c0d549fd6bd288c99c749a) remove console.log (@tonytamps)
+- [3051607](https://github.com/franq/franq/commit/30516070eecdb9ba5b00c922e6fd681105312351) check in so I can go home (@tonytamps)
+- [f307447](https://github.com/franq/franq/commit/f3074473f65df877e4a2e719f4131dddc7396152) RAML updates (@SohumB)
+- [e71fa5f](https://github.com/franq/franq/commit/e71fa5f57ef4f4688d8f480848675d36b6daf627) BaseController#updateRelated now is ordered, and the tests load fixture data once (@SohumB)
+- [6a1a5d0](https://github.com/franq/franq/commit/6a1a5d0893387b0ccdaa102afada1dca92c46d59) add prducts -> productgroups relationship and fetch it from the database on create (@tonytamps)
+- [84eb6e5](https://github.com/franq/franq/commit/84eb6e5acb9917a5e4f3c0c339a01a5252b579e7) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/product-group-assignment (@tonytamps)
+- [d340804](https://github.com/franq/franq/commit/d340804be3528d4080b64888a332c605e5505338) Merge branch 'feature/products-search' into 'master'
+- [2293f1e](https://github.com/franq/franq/commit/2293f1e8659735a2c5b207d45e7cfbb48c0a6e1b) change case of ilike statement for knex (@tonytamps)
+- [3ff2272](https://github.com/franq/franq/commit/3ff2272f868f16202fa42a7d016de30916500a31) remove send paramter from a get request in a test (@tonytamps)
+- [1b9f3b6](https://github.com/franq/franq/commit/1b9f3b60b410d93f3d5045e637e12db983bf5d4f) rename variable from prpductGroup to product (@tonytamps)
+- [1e2ddfe](https://github.com/franq/franq/commit/1e2ddfeacc7aa1f40d77961b5ebf7d1eaa20b4a7) pushing changes noted by Yun (@tonytamps)
+- [3df0284](https://github.com/franq/franq/commit/3df0284c179517c1e51b9107415d0a237a9d629a) Merge branch 'feature/products-search' of gitlab.impos.com.au:tony.t/franq into feature/products-search (@tonytamps)
+- [32694dc](https://github.com/franq/franq/commit/32694dcfba1646318b9a536f59190c073b0813fd) Merge branch 'feature/products-search' into feature/product-group-assignment (@tonytamps)
+- [349b0f0](https://github.com/franq/franq/commit/349b0f00a8b4012f1efd13cae828c6a3970df974) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/products-search (@tonytamps)
+- [90ac650](https://github.com/franq/franq/commit/90ac650a9b618942d7785e8e1ecc3d19706bbb06) Merge branch 'feature/test-transaction' into 'master' (@tonytamps)
+- [8363a0a](https://github.com/franq/franq/commit/8363a0a9c9a929080bf9694ae374e7fcaa40b462) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/products-search (@tonytamps)
+- [0880e89](https://github.com/franq/franq/commit/0880e893b80841e92896c9b3d43fe6db66c8d544) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/product-group-assignment (@tonytamps)
+- [58df95d](https://github.com/franq/franq/commit/58df95db6753f22712d3e13c4b9fc19975911991) edit product groups now allows editing selected products (@tonytamps)
+- [f249188](https://github.com/franq/franq/commit/f24918813eefba4691e9d8b58af412ef7ba18b8f) Merge branch 'feature/bookshelf-knex-update' into 'master' (@SohumB)
+- [92c40a4](https://github.com/franq/franq/commit/92c40a461b294b52af8d672514cc675186747a98) Temporary hack to quiet the eventemitter warning; ref Simon on his return (@SohumB)
+- [a7edcb9](https://github.com/franq/franq/commit/a7edcb99698a65ae670cb48bfacaa84176640fb8) Some quick text fixes to acceptance/pgroup, ugroup, and product (@SohumB)
+- [093bb63](https://github.com/franq/franq/commit/093bb63d0802a8458829e8ed9481ff7aabf195a1) moving the knex hack into a knex fork (@SohumB)
+- [029b77f](https://github.com/franq/franq/commit/029b77f9d3944bf94f8f539bab6fb15101f912f9) knex objects now need a .then() to be coerced to a Promise (@SohumB)
+- [0b7763b](https://github.com/franq/franq/commit/0b7763b37a2c46f8629aab7b68ee3a18cc84ff8c) Merge branch 'master' into feature/test-transaction (@SohumB)
+- [1aa908e](https://github.com/franq/franq/commit/1aa908e1bf15d616fc20a4a0bdbe63cf4eaefea5) Merge branch 'feature/bookshelf-knex-update' into feature/test-transaction (@SohumB)
+- [384a7c2](https://github.com/franq/franq/commit/384a7c233877a080eec4f2df3e4bc04b5aa60203) Merge branch 'feature/dashboard-groups' into 'master'
+- [708bc87](https://github.com/franq/franq/commit/708bc87829a7d7c0329f5aae60aca24ebf64ab23) Merge branch 'master' into feature/dashboard-groups (@SohumB)
+- [6d8ac74](https://github.com/franq/franq/commit/6d8ac745d4c618be13a2f838c65f9e24f249a12f) Merge branch 'master' into feature/bookshelf-knex-update (@SohumB)
+- [7bcc364](https://github.com/franq/franq/commit/7bcc3641c928f95c54db04a523fcad28bb7ce79e) Updating code for bookshelf 7 and knex 6 (@SohumB)
+- [9725105](https://github.com/franq/franq/commit/9725105aa95cac50e762028c6136693b23b4922f) Moving the fixture loading code into a helper that can be overridden for togglability (@SohumB)
+- [ce0ec2c](https://github.com/franq/franq/commit/ce0ec2cf563818355a61db8c68f29439bec91e70) Fix for BaseModel mock in BaseController tests (@SohumB)
+- [c4946c3](https://github.com/franq/franq/commit/c4946c31dcc72c287c2802eb150f29cc46c04923) server changes for create product group required to assign products (@tonytamps)
+- [ce1a748](https://github.com/franq/franq/commit/ce1a7486ec3f5e734a8c87303088586badef6883) products assignment to product groups interface (@tonytamps)
+- [37ccda4](https://github.com/franq/franq/commit/37ccda4528d85805e443e65be5e04e69d8af74f8) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/product-group-assignment (@tonytamps)
+- [ec06a89](https://github.com/franq/franq/commit/ec06a891759411aa101f11a774b87fce96a19052) fix failing test due to products changes (@tonytamps)
+- [c8374b2](https://github.com/franq/franq/commit/c8374b22ffc35e5ce40623b7b7a2f65c88b6b253) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/products-search (@tonytamps)
+- [b57d77d](https://github.com/franq/franq/commit/b57d77d5076ac60343a0417546134e1eae53ef85) remove the only from the products controller tests (@tonytamps)
+- [9566d78](https://github.com/franq/franq/commit/9566d78c5818c0a4e5853bf99ee2d8db51930b1f) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/products (@tonytamps)
+- [c7c4993](https://github.com/franq/franq/commit/c7c4993bc0cbe32c08f5120d693b8f861bb7bf6f) remove .only from product controller tests (@tonytamps)
+- [841f913](https://github.com/franq/franq/commit/841f913eeb5e02f2c0a59cd5e2f309370003bde4) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/product-group-assignment (@tonytamps)
+- [9509249](https://github.com/franq/franq/commit/95092499a8df90f737c843dc3e12a81e1bf06cae) Merge branch 'master' into 'master' (@SohumB)
+- [cc1205a](https://github.com/franq/franq/commit/cc1205acdd377d207eda9bafba4c0c09add83e4c) remove the no longer used textPrice property.
+- [25853cb](https://github.com/franq/franq/commit/25853cb5e715ec51821e6ecbafce1b212b34d290) test fix
+- [de0ea05](https://github.com/franq/franq/commit/de0ea0581c36b5ed3aeb261e59b158eed43d52c7) tests added.
+- [d2108bc](https://github.com/franq/franq/commit/d2108bc050aa3a575e5d71c845885cc216627993) product edit & delete test built, fix frontend test. & remove ink file picker object after edit or remote
+- [99da70e](https://github.com/franq/franq/commit/99da70eb5c91d8ea518e8f7f23bdf954c907b852) change the org index page to link to products index (@tonytamps)
+- [7a4cfaa](https://github.com/franq/franq/commit/7a4cfaabd625962041756d261440bf4f388ee887) update search test to pass (@tonytamps)
+- [02037ee](https://github.com/franq/franq/commit/02037ee5a711a22f97c29d25389a69cdf14c0522) Merge branch 'feature/products' of gitlab.impos.com.au:yun.l/franq into feature/products-search (@tonytamps)
+- [43936ed](https://github.com/franq/franq/commit/43936ed7e2e427af3239e11a3f158fe2eea40210) merge fixes & test for products.
+- [eb05884](https://github.com/franq/franq/commit/eb05884925260a6134e94ae78d0cfff21b6dc2ad) basement update (@tonytamps)
+- [fe91639](https://github.com/franq/franq/commit/fe91639af18905814bbefe066623caf4f27b6c24) fix jshint error (@tonytamps)
+- [7deb783](https://github.com/franq/franq/commit/7deb7838218c649072b4161949924292007ecb3c) Merge branch 'feature/products' of gitlab.impos.com.au:yun.l/franq into feature/products-search (@tonytamps)
+- [08c1c29](https://github.com/franq/franq/commit/08c1c29287a112c665d265c8bb0dc498bab59bb5) add conditions to the get to allow a search query (@tonytamps)
+- [6e19b0c](https://github.com/franq/franq/commit/6e19b0cf7ef7b63bdc0ee49bc9f38f7414ae8b66) remove not needed ember notify
+- [26f1701](https://github.com/franq/franq/commit/26f1701847e4720dd1464c6a25bed47899d50f40) field name fixes for user/form?
+- [1619843](https://github.com/franq/franq/commit/16198430cd44dcd06f805be14a9d1fa5ce6c2e35) remove the else branch
+- [5f8964b](https://github.com/franq/franq/commit/5f8964b06080f11dcc3854a306bccb3c3c894120) merge request fixes.
+- [06e966c](https://github.com/franq/franq/commit/06e966c15d65227195b7958336b853cf23896a85) Tests now run in a rollback transaction. This needs a hack to turn app transactions into SAVEPOINTs, which probably just emphasises the need for a proper concurrency solution for testing (@SohumB)
+- [cb79271](https://github.com/franq/franq/commit/cb792719dc68f7f224de5bfd66ec071148b351b3) jshint update
+- [fea29c5](https://github.com/franq/franq/commit/fea29c540c9fb90b65dc3900bd16cad0e59c1d62) update indentation of .jshintrc
+- [e83b442](https://github.com/franq/franq/commit/e83b4428c4c3d980891c83caba5ee54032aad44b) basement update
+- [d993dd9](https://github.com/franq/franq/commit/d993dd9fc22f0ca3e024519ae717150d50b9c7d8) change the way to use ink file picker
+- [1a4955d](https://github.com/franq/franq/commit/1a4955d8bd072d6386c35ee9106a34fc0fe44e80) make product update to remove remote file when image changed.
+- [afd5241](https://github.com/franq/franq/commit/afd5241c84542fdd1635c6943152eb8c3794f5aa) front end for searching persons records (@tonytamps)
+- [7c6f0c9](https://github.com/franq/franq/commit/7c6f0c98e5473aa8d44f1cedc3d7eae53fef72d8) Splitting initial-data into a testable component and a runnable component (@SohumB)
+- [ebc9244](https://github.com/franq/franq/commit/ebc92448e41101bd7a7c5c5106545269dbf55f20) fixing tests that don't clean up before themselves (@SohumB)
+- [d0524a2](https://github.com/franq/franq/commit/d0524a29d63eba24d124ed4c1f26c164e06de9ea) Merge branch 'feature/products' of gitlab.impos.com.au:yun.l/franq into feature/products-search (@tonytamps)
+- [0c40122](https://github.com/franq/franq/commit/0c40122cc2f2fbcd54560ba3b2c026cdbb48bb2d) fix the helpers.setToken mehtod
+- [cd5504e](https://github.com/franq/franq/commit/cd5504ecec99a15bde4b90039368435fb3f7448c) move products from organisation into its own pod (@tonytamps)
+- [48f2234](https://github.com/franq/franq/commit/48f22344a3576a104cd36541c0abdb35f92694b0) Merge branch 'feature/products' of gitlab.impos.com.au:yun.l/franq into feature/products-search (@tonytamps)
+- [90ae450](https://github.com/franq/franq/commit/90ae450008f0a4a8087d2b811f4e41f68cae285d) Merge branch 'master' into feature/products
+- [f700be9](https://github.com/franq/franq/commit/f700be998c9104bbdd39bee4574dddc1474809e7) missing files.
+- [38f316f](https://github.com/franq/franq/commit/38f316f1552991e8f533f8aa3cb2fa8a6003234a) fix price input box problem by moving trasnformation into view.
+- [f122d25](https://github.com/franq/franq/commit/f122d253deaf6dc133025bf45abb202b847176e2) Merge branch 'bugfix/users-pgroups-test-rewrites' into 'master' (@tonytamps)
+- [c640667](https://github.com/franq/franq/commit/c640667c380a52c22cf959461180f802b2ccb598) Add support for updating many-to-many relations in BaseController#update (@aexmachina)
+- [958e4b2](https://github.com/franq/franq/commit/958e4b2c3c0045187a954bce7cf898efcaa1fbac) Rewriting some product group tests to be simpler (@SohumB)
+- [e2d0c08](https://github.com/franq/franq/commit/e2d0c08244ba7f268f560106d414d08d63f3ef0f) Rewriting some user tests to be simpler (@SohumB)
+- [362064e](https://github.com/franq/franq/commit/362064e3f0bafdf9460ad4268f7781a605f84a21) Fixing product group tests to check whether the right data is sent (@SohumB)
+- [8912567](https://github.com/franq/franq/commit/8912567e2908acba08261fadded3e1fbfc9a36e5) Frock now supports function bodies (@SohumB)
+- [8c2aef6](https://github.com/franq/franq/commit/8c2aef6a1876865773adfe40eed3c0b19d9157ab) Adding a test and a couple of pending tests for users (@SohumB)
+- [561fa53](https://github.com/franq/franq/commit/561fa532adfbad135f63daf4b60e92136074b000) Removing the organisation.users relationship, as we use visibility for this (@SohumB)
+- [f6875b7](https://github.com/franq/franq/commit/f6875b784da5b496a00db552868686e0f045cf05) Fixing some tagnames in user html (@SohumB)
+- [dda8963](https://github.com/franq/franq/commit/dda8963cf4d1a5cb919dfd8c6dff92a9a43be28e) Set wrapInEval: true in dashboard Brocfile (@aexmachina)
+- [832a3c1](https://github.com/franq/franq/commit/832a3c16c549e4388f9a20f8b5a497a101983404) Usergroups CRUD operations, and tests (@SohumB)
+- [e06b55a](https://github.com/franq/franq/commit/e06b55a45056ac8cfff0063aa76542e9fa5799ba) Frock now reports unhandled requests (@SohumB)
+- [db35659](https://github.com/franq/franq/commit/db3565964b7214a87911235ed4bf9c73382983f3) Frock now supports function bodies (@SohumB)
+- [81db6db](https://github.com/franq/franq/commit/81db6db3515fcaa85b90d378cad4d23c99c07374) Adding frock to vendor-files.sh (@SohumB)
+- [ab9e23c](https://github.com/franq/franq/commit/ab9e23c33c19696e7fcfeb8848e5737352cf920e) remove the *.orig from the .gitignore file
+- [0fe3e0d](https://github.com/franq/franq/commit/0fe3e0d349d8da0292399c2604f62c5f05818d79) fix the button redirect.
+- [f45a006](https://github.com/franq/franq/commit/f45a006b0d5035f54ce0953dcbf90d9db8deea69) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/products-search (@tonytamps)
+- [411b0e8](https://github.com/franq/franq/commit/411b0e80f62f2b3a202ec03d372d4a6e2ebe5097) Merge branch 'hotfix/fakehr_in_vendor_file' into 'master' (@tonytamps)
+- [1a2e205](https://github.com/franq/franq/commit/1a2e205998d56c8fb345e5359b6eac48a382f751) leave the viewprice undefined when price is not there.
+- [32770fa](https://github.com/franq/franq/commit/32770fa5156df9caf37b48cfd25b8801f3392e17) fix vendor files.
+- [e6955c8](https://github.com/franq/franq/commit/e6955c8ca297341d4a94767cd985d7b279daf4c5) fix the updated reference
+- [d35ae4a](https://github.com/franq/franq/commit/d35ae4a6840e04467f60d27330e8a07435374157) Merge branch 'feature/BaseController-test-serialize-fix' into 'master'
+- [100fb45](https://github.com/franq/franq/commit/100fb452ff24a1aac820dca21f61b43e31909747) fix the serialize on base controller tests (@tonytamps)
+- [2a0ba75](https://github.com/franq/franq/commit/2a0ba75112aa3d4d1db3793c720493e2bc1b5663) Merge branch 'master' into feature/products
+- [e83f47c](https://github.com/franq/franq/commit/e83f47c07f766c3589ffad9dae788cb00104159d) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [38c8c89](https://github.com/franq/franq/commit/38c8c891d669de3f9b1ca078e96046c80e44a025) Specify branch in ember-cli git dependency (@aexmachina)
+- [860168d](https://github.com/franq/franq/commit/860168d23a3cb58c4138fc7ef2490a3e5ab6518e) Merge branch 'master' into feature/dashboard-groups (@SohumB)
+- [b80a190](https://github.com/franq/franq/commit/b80a19056af4d3f515091f68f23cffd42bb830b7) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [61f143e](https://github.com/franq/franq/commit/61f143e4c5e9d3fcf6464d282401515d4e25beb0) Changes for updates to ember-cli (@aexmachina)
+- [58096ba](https://github.com/franq/franq/commit/58096baad527cdc61d4dd5cc762d7a8667b1183e) make image column nullable.
+- [950da81](https://github.com/franq/franq/commit/950da81d5edfb55f9266a160a65b82e19717c824) finished updating image schema.
+- [a412ba5](https://github.com/franq/franq/commit/a412ba55ac85723f998fbc40c4351ccb1c3a8d7b) initial logo upload
+- [03b074b](https://github.com/franq/franq/commit/03b074bfd3f43821505ace9ff8e2257b871ad166) Merge branch 'feature/frock-and-tests' into 'master' (@SohumB)
+- [7f0d9b8](https://github.com/franq/franq/commit/7f0d9b8f21a4aad4e7c58628999936c9f6d04fce) fix failing server tests (@tonytamps)
+- [3a1cf55](https://github.com/franq/franq/commit/3a1cf55e285ad1dc030e866a978a0450c3faf778) Update delete tests to select their elements in a more reliable way (@tonytamps)
+- [2519b2a](https://github.com/franq/franq/commit/2519b2ab9489ce6caa8cd8a69bb329f83f36dcf2) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/frock-and-tests (@tonytamps)
+- [eaa5342](https://github.com/franq/franq/commit/eaa53428c4062d1633b2fe2d7d597ca69f263d35) refactor how product groups are fetched, finished update and delete tests for them (@tonytamps)
+- [053378e](https://github.com/franq/franq/commit/053378e14a2027d7d45b1d8b456a98efb9ef2b0d) modifications to brocfile for fakehr and fakexmlhttprequest, ember testing for product groups, frock helper created (@tonytamps)
+- [760910c](https://github.com/franq/franq/commit/760910c68226c0f3b178df7b44bbcae85d588f27) ON DELETE CASCADE for role_ugroup for ugroup, and tests for UserGroupController#destroy (@SohumB)
+- [5c0bd4b](https://github.com/franq/franq/commit/5c0bd4bc6e12f1a72105697adf95491971efe43d) Organisation#createInitialGroups now assigns the groups to the roles that prompted them (@SohumB)
+- [5c095db](https://github.com/franq/franq/commit/5c095db2612e5870151f39854740e7b5fdb7640f) First pass at dashboard usergroup/delete (@SohumB)
+- [770e17a](https://github.com/franq/franq/commit/770e17a4d52ccbc80d7afc5ef92a10263ce3a7ff) Convert UserGroup.roles to an embedded relation (@SohumB)
+- [9344a27](https://github.com/franq/franq/commit/9344a27869440528e4d592ae3f938319b3a91e7f) Merge branch 'master' into feature/dashboard-groups (@SohumB)
+- [4d50fd7](https://github.com/franq/franq/commit/4d50fd7df405ba087a6516b99081c7f885db1c46) Fix modules/basement reference (@SohumB)
+- [9d9aabd](https://github.com/franq/franq/commit/9d9aabd0d654f4ec3cc7e5bbb68d152ea8d28ea8) Add glob module to dashboard (@aexmachina)
+- [b3c5010](https://github.com/franq/franq/commit/b3c5010cbece11cf437f0680e08e688d514f20aa) Merge branch 'feature/basecontroller-update' (@aexmachina)
+- [f0c90f0](https://github.com/franq/franq/commit/f0c90f0032cd10fe9dc1886bc728bebb8022e10c) Change BaseController#getConditions() to addConditions() (@aexmachina)
+- [3c5dc26](https://github.com/franq/franq/commit/3c5dc26eecaa55f72c373213919e6b9d34039e4b) Merge branch 'feature/basecontroller-update' into 'master'
+- [199f8e2](https://github.com/franq/franq/commit/199f8e26310a966986cf6c2960759a3d3d148a08) code cleaning up.
+- [d57607a](https://github.com/franq/franq/commit/d57607ab6d1818da0bb3cd48c59a0ba4268edd6f) add test for product edit.
+- [84f033f](https://github.com/franq/franq/commit/84f033f3b02736e1df336eb69d79026fc4ef39aa) added test for product model
+- [748c09e](https://github.com/franq/franq/commit/748c09ebb2f199e399dd73d47ff5fd488205733f) move the viewPrice property up to the model so that it can be reused.
+- [68cde63](https://github.com/franq/franq/commit/68cde6351db704e47c81c2972ef1750631214a1d) Merge branch 'master' into feature/products and add product delete
+- [2fd1c7d](https://github.com/franq/franq/commit/2fd1c7d8a805497af90d7adf9123f77f3ccb7c4d) make product price transformation in view.
+- [d301206](https://github.com/franq/franq/commit/d3012060865a157a32189dc9a63ae0c56e36e1e5) BaseController#update now runs one query, uses { patch: true }, and pulls in getConditions. This necessitated a split between Model.forge and Model.deserialize, test fixes for the same. (@SohumB)
+- [8107d77](https://github.com/franq/franq/commit/8107d77b58b60022f6fc927f95d8429b91e62264) Minor changes on code review (@aexmachina)
+- [b2f1411](https://github.com/franq/franq/commit/b2f1411c559592ccbfc1e255050d26e20a5344f1) Merge branch 'master' into feature/create-product-groups (@aexmachina)
+- [218bdb3](https://github.com/franq/franq/commit/218bdb3b2d400a8472219beee72cb1ff79e1a400) Updated basement (@aexmachina)
+- [5e461e3](https://github.com/franq/franq/commit/5e461e342a423725932d9edb23fb04d87dfa4b0d) initial product test.
+- [266f897](https://github.com/franq/franq/commit/266f8977b76c5fcd27e25be950b8749ae42be634) test-server.sh path change.
+- [b59bfbc](https://github.com/franq/franq/commit/b59bfbcb32a4830c40f78a7da8a81fbe711ea82e) add product groups button to Org Index page for easy navigation (@tonytamps)
+- [baa5609](https://github.com/franq/franq/commit/baa56092d8bbbd2d35a3e0e8d0695baa23e11de4) remove debug
+- [849da48](https://github.com/franq/franq/commit/849da48dbf07a25a3c460d98e075cac5b66b61d7) add product groups button to Org Index page for easy navigation (@tonytamps)
+- [78fad64](https://github.com/franq/franq/commit/78fad647f36d6916ef0880e788f5d2b5b64c72dc) usergroups/index, hooking into organisation/index, and tests (@SohumB)
+- [9d98173](https://github.com/franq/franq/commit/9d98173f625eabf56504944e09955c821c8bb5dc) refactor update and delete to live in the base controller. (@tonytamps)
+- [c106076](https://github.com/franq/franq/commit/c1060764482b25bde476cf87840e9ad91545a525) done the product edit form.
+- [8376a2c](https://github.com/franq/franq/commit/8376a2c4a05d24e6bdecfc4d46a7892232364e90) move the product create form to to common code area.
+- [00bd0a6](https://github.com/franq/franq/commit/00bd0a6612889b0caa003d6ccb271fe686f8149b) product groups testing for CRUD operations (@tonytamps)
+- [3bf5376](https://github.com/franq/franq/commit/3bf537637dc30b2bfb9c2ff86f6654da6f108599) add the drop table statement for product
+- [47668f4](https://github.com/franq/franq/commit/47668f478725e7b6e30445937c155599e1617471) Merge branch 'feature/products' into 'feature/products'
+- [c73d3f1](https://github.com/franq/franq/commit/c73d3f14193d5fd01795388604a22d3aadcee943) Add create product to dashboard (@aexmachina)
+- [541f97d](https://github.com/franq/franq/commit/541f97d0d4ed74fa49c92d4ad4704115f321386a) Merge branch 'feature/dashboard-groups' into feature/products (@aexmachina)
+- [be1e84a](https://github.com/franq/franq/commit/be1e84a25fddea9b33346fdadd666638cc7709e5) Merge branch 'feature/dashboard-groups' into feature/products (@aexmachina)
+- [2b7204e](https://github.com/franq/franq/commit/2b7204e2002bb9f5103d880764d5860416e5e75b) implement product group remove, client and server (@tonytamps)
+- [cf364ae](https://github.com/franq/franq/commit/cf364ae7747f4031967abb619b98e9fed2e2b569) BaseController fix: #index wasn't including relations (plus tests in usergroups) (@SohumB)
+- [851564f](https://github.com/franq/franq/commit/851564fe9b45015454b97ede8707eb5574842a1e) implemement product group updates (@tonytamps)
+- [ec13c9d](https://github.com/franq/franq/commit/ec13c9da6513554c8fa259ec548a00de64ca8b08) Initial tests for usergroups (@SohumB)
+- [d43f1cd](https://github.com/franq/franq/commit/d43f1cdf30bb18398106bf3459904436e6760469) Fix login test failures in autofills (@SohumB)
+- [65727d9](https://github.com/franq/franq/commit/65727d9791fdd800c5eac989a7757a95a408d2f2) Merge branch 'feature/products' into 'feature/products'
+- [801d376](https://github.com/franq/franq/commit/801d376b409e5030fd11f58d04a48756d9667e63) Product Group create (client and server) (@tonytamps)
+- [9489eab](https://github.com/franq/franq/commit/9489eabfb164c87477bffaf3706798949ab8d68c) Add Product model and ProductController (@aexmachina)
+- [9be5013](https://github.com/franq/franq/commit/9be501310530be8118cb7d4dcf765407efc101f6) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [a5a8925](https://github.com/franq/franq/commit/a5a89258654cb5eac86a339a187d5421f1fb89fe) test to ensure user to be deleted isn't the owner of an organisation (@tonytamps)
+- [46203b0](https://github.com/franq/franq/commit/46203b0aea9f53aabf0e7b101f4ea47c8d39fa91) validation to prevent deletion of a user that is an organistion owner (@tonytamps)
+- [d72871e](https://github.com/franq/franq/commit/d72871e3f0a16cd8d13dc6c717b0d54bd382bec9) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/users-crud (@tonytamps)
+- [ce1f223](https://github.com/franq/franq/commit/ce1f22357c81507cae0c5968a0dc6dd19bd18e97) Merge branch 'master' into feature/dashboard-groups (@SohumB)
+- [70ace93](https://github.com/franq/franq/commit/70ace93bda351f91b38d0079ac7df211f3104236) user update funcitonality and tests (@tonytamps)
+- [2912b8a](https://github.com/franq/franq/commit/2912b8a7a8b992ff503fd77a5b27aa8a24c9c220) Add polyfill for Function.bind() so tests run in PhantomJS Commented test not working for some strange reason... (@aexmachina)
+- [f477057](https://github.com/franq/franq/commit/f477057f423f8bd43baf07f048a29aa4db95a277) .gitkeep in dashboard/vendor (@SohumB)
+- [e29844a](https://github.com/franq/franq/commit/e29844a20c19b51af1dfbd1576ab1ff282588ea5) Merge branch 'hotfix/post-user-no-email' into 'master' (@tonytamps)
+- [230d94d](https://github.com/franq/franq/commit/230d94db527c105063bbe5fe9c6ffbe71c55c970) Hotfix: friendlier error messages for no email or password specified (@SohumB)
+- [54a4f8e](https://github.com/franq/franq/commit/54a4f8eb6153d68eb4bdb5806fba0d6ea3ff1c06) Add polyfill for Function.bind() so tests run in PhantomJS (@aexmachina)
+- [b6d8374](https://github.com/franq/franq/commit/b6d8374467f14ea726d5ef5b4c1cee0f9dbafbe7) add user.update to controller (@tonytamps)
+- [3bf1d75](https://github.com/franq/franq/commit/3bf1d75ca666dad9821374084cffaea84a470b4e) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/users-crud (@tonytamps)
+- [e852de3](https://github.com/franq/franq/commit/e852de38a97260683c3bdf9fe7134895bd93e99f) Fix tests (Urls now assumes properties on the instance, remove the groups “role”, and clean up the acl test) (@SohumB)
+- [2dbaae8](https://github.com/franq/franq/commit/2dbaae85850771adab04d673883c221bb179d948) Merge branch 'master' into feature/dashboard-groups (@aexmachina)
+- [ac33787](https://github.com/franq/franq/commit/ac33787b0c927b8247142d2a26bbb777ba426534) Merge branch 'feature/dashboard-authorisation' (@aexmachina)
+- [a5a603d](https://github.com/franq/franq/commit/a5a603d20d3a12090300aa5a40c4013c3d67986e) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [80a5278](https://github.com/franq/franq/commit/80a52781260998ff06aee49c5e7b66c9ac806492) Dashboard tests (@aexmachina)
+- [c6e34b1](https://github.com/franq/franq/commit/c6e34b1f57aab06aa5e17426236a127f5f162240) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/users-crud (@tonytamps)
+- [3156ca9](https://github.com/franq/franq/commit/3156ca90992066069ecacb059a684795849f440f) make sure the tests are a little more robust when checking existance (@tonytamps)
+- [7fca1e6](https://github.com/franq/franq/commit/7fca1e615815ecbc3c143341e83b0d5f5a76fc42) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/dashboard-authorisation (@aexmachina)
+- [d51d511](https://github.com/franq/franq/commit/d51d51127852c38c2d3eab9899bb03c3f9b3ef62) add tests for updating and deleting non-existant users (@tonytamps)
+- [9d5f4c0](https://github.com/franq/franq/commit/9d5f4c0833bbcfb3f8675f9ec5964682f03c778b) fix tests to expect a 200 (success) when deleting a user (@tonytamps)
+- [5863242](https://github.com/franq/franq/commit/5863242963e42581ba43ea7a7f165a3982ffba67) Merge branch simon.w/feature/authorisation (@SohumB)
+- [6421dbb](https://github.com/franq/franq/commit/6421dbb1a125602dcd4c7635b20f89d8f4e88984) Merge branch 'feature/authorisation' into feature/dashboard-authorisation (@aexmachina)
+- [6b580f3](https://github.com/franq/franq/commit/6b580f3180a72acf94062fd149f111b290f8f054) Merge branch 'master' into feature/dashboard-authorisation (@aexmachina)
+- [5f2213c](https://github.com/franq/franq/commit/5f2213cde269c2ef23979bebfb09b1997ed997f1) Merge branch 'feature/group-create' into 'master'
+- [d9150fc](https://github.com/franq/franq/commit/d9150fcb64ea44d3302fa2cd92a23e589c198d98) Added some comments to TokenAuthUser, and ensure that `roles: {organisation: []}` (@aexmachina)
+- [950631c](https://github.com/franq/franq/commit/950631c845b4bdce31bec609d9450f5f7ae9f75d) update organisation tests to expect the correct(?) URL for users (@tonytamps)
+- [3c959fe](https://github.com/franq/franq/commit/3c959fe4c2c769f13352dbc71d5dd81de5fb5d62) Fixes for group creation in the dashboard (@aexmachina)
+- [aeff91b](https://github.com/franq/franq/commit/aeff91be5ccea87709056f9a84162662f39bb42f) Untested group creation (@aexmachina)
+- [18ad1fc](https://github.com/franq/franq/commit/18ad1fc58542579be1a30679873b294113afa49f) Changed to use a form of `super` that works with both Traceur and JSTransform (@aexmachina)
+- [5b7cb74](https://github.com/franq/franq/commit/5b7cb74ae98efb8e4530adc3eb32cf09b5da51fd) s/role.name/role.id/g (@SohumB)
+- [3e1732d](https://github.com/franq/franq/commit/3e1732d88dea410a6af5150f76a651751ee45dce) Merge branch 'master' into feature/group-create (@SohumB)
+- [4a6a3de](https://github.com/franq/franq/commit/4a6a3dee0b47c44d61939e53fd8b5f112eb1c033) Fix a weird and wonderful acl initialisation bug (@SohumB)
+- [8f529bd](https://github.com/franq/franq/commit/8f529bd6ad3219691fab42c4937a8c969db695e7) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/dashboard-groups (@aexmachina)
+- [69809c7](https://github.com/franq/franq/commit/69809c73e6debf31db0ab28e03877a3066e84789) s/role.name/role.id/g (@SohumB)
+- [6dc15b0](https://github.com/franq/franq/commit/6dc15b02a6e7113e2dc001ae865d61c16626e807) fix tests to expect not implemented for users put and delete (@tonytamps)
+- [6a404da](https://github.com/franq/franq/commit/6a404da47bcc9bc255a00cd208cda1a4dd03335b) remove factory girl from package.json, its been moved to basement package.json (@tonytamps)
+- [be101ce](https://github.com/franq/franq/commit/be101cebd0f391097654b30ebe440f8349c3ed53) Merge branch 'feature/dashboard-authorisation' of gitlab.impos.com.au:franq/franq into feature/dashboard-authorisation (@tonytamps)
+- [f7d1c64](https://github.com/franq/franq/commit/f7d1c648830b663371c837ea361cc29a7155c9a6) Merge branch 'feature/group-create' of gitlab.impos.com.au:franq/franq into feature/dashboard-groups (@aexmachina)
+- [d80a83e](https://github.com/franq/franq/commit/d80a83ef4be6f3b952d432006032a8133b960bbe) Merge branch 'master' into feature/dashboard-authorisation (@aexmachina)
+- [cb96e59](https://github.com/franq/franq/commit/cb96e5973c5b870f8e7cd5593add17d3b7220d63) Merge branch 'feature/authorisation' into 'master'
+- [0df6c35](https://github.com/franq/franq/commit/0df6c3524578585d3bddb1dea9a0b860cde947cb) Minor changes from review (@aexmachina)
+- [202cbd2](https://github.com/franq/franq/commit/202cbd273308338779d693ec832de8d4d73bd768) Merge branch 'feature/authorisation' of gitlab.impos.com.au:franq/franq into feature/authorisation (@aexmachina)
+- [15d031d](https://github.com/franq/franq/commit/15d031d30a5f5512828aee97502208e87991661a) user delete modal (@tonytamps)
+- [325670c](https://github.com/franq/franq/commit/325670c378190f7327199e82d9da788a28d1fe64) Test for invalid roles in POST /groups (@SohumB)
+- [7770ac7](https://github.com/franq/franq/commit/7770ac798c857d4fec6acb951f596f0836eadb3c) Test and bug fixes (@SohumB)
+- [b37e27c](https://github.com/franq/franq/commit/b37e27c946070e861ec1d5b75987b0b33ea82b29) Merge remote-tracking branch 'refs/remotes/simon/feature/authorisation' into feature/authorisation (@SohumB)
+- [d2944ce](https://github.com/franq/franq/commit/d2944ce0fc38e22b2e52228b6970ad7234ce9ca6) Move post-install.sh login for basement/node_modules to basement, so that running npm install in basement doesn't cause problems (@aexmachina)
+- [2058c9b](https://github.com/franq/franq/commit/2058c9bfcea713c29804e9fd21790d4a0444ca93) No need for jstransform to ignore files in vendor/ any more (@aexmachina)
+- [fdb4c66](https://github.com/franq/franq/commit/fdb4c66e81a5ee200092c0bc02980185d7043e1f) fix factory-girl version in packages.json and add new route for user delete (@tonytamps)
+- [f1a25e3](https://github.com/franq/franq/commit/f1a25e323bce7cbc48fe9cbc3c8b8f1e00b8eb25) Merge branch 'feature/dashboard-authorisation' of gitlab.impos.com.au:franq/franq into feature/dashboard-authorisation (@tonytamps)
+- [2804bf6](https://github.com/franq/franq/commit/2804bf63620ac80e0745ce0751139d2ac988604b) ACL service now users the roles and acl returned from the server, yay! (@aexmachina)
+- [24453b3](https://github.com/franq/franq/commit/24453b347111137aedf0ff4318e1b9cf32725846) Merge branch 'feature/authorisation' into feature/dashboard-authorisation (@aexmachina)
+- [0977571](https://github.com/franq/franq/commit/0977571b9494199f9bfa0b01b146279633fd248e) Change initial data to create roles, groups and to assign users to groups so they have permissions (@aexmachina)
+- [e5a70b8](https://github.com/franq/franq/commit/e5a70b82e33387557812b104866e71b02fc51e90) Mocking Model#related as well, in BaseController tests (@SohumB)
+- [7947062](https://github.com/franq/franq/commit/79470620275d050113d4b7c1141ca5f4076ae751) POST /usergroups, necessitating association-setting logic in BaseController#create (@SohumB)
+- [d31556a](https://github.com/franq/franq/commit/d31556af1dc58f3180d1b9570de54cf0b748833a) Quick bugfix and removing of a console.log (@SohumB)
+- [f6c22ea](https://github.com/franq/franq/commit/f6c22eaaee7f10da59f4fd9ca3041a15b6e0b890) edit user template, route, form, etc.. and update the json error format in handle error (@tonytamps)
+- [2d87bbb](https://github.com/franq/franq/commit/2d87bbbfdec0ddec6d3f980a67e37c2e24d9623d) tests for the BaseController/acl hookup (@SohumB)
+- [213d3ec](https://github.com/franq/franq/commit/213d3ec7c8b2af75801916acbe1215384bac7f15) Roles now use just the name as their primary key, and a graphixture bugfix to handle setting primary keys (@SohumB)
+- [799c503](https://github.com/franq/franq/commit/799c503bf68beb5fd72c3554d0503d211c2f17e3) Merge branch 'feature/authorisation' of gitlab.impos.com.au:franq/franq into feature/dashboard-authorisation (@tonytamps)
+- [47cbec1](https://github.com/franq/franq/commit/47cbec137bd516f0ba2d441091b23cab598ad198) sed s/userGroup/ugroup/g (@SohumB)
+- [8dee756](https://github.com/franq/franq/commit/8dee756124fbb80de09a8b067ab6a0405a1edde8) Don't use es6 in main.js, before traceur has a chance to hook in (@SohumB)
+- [332be2c](https://github.com/franq/franq/commit/332be2cae1173d85d25a3e700097e656a44415d4) Escape hatches: owners can always auth as their organisation, and owners are always assigned role “admin” for their organisation. (@SohumB)
+- [0333100](https://github.com/franq/franq/commit/0333100fd34cec1331cac9089cfbe2234c633d34) Add factory model for UserVenue, update checking for activeOrganisation and create default UserVenue relationship for the first user (@tonytamps)
+- [d9232a4](https://github.com/franq/franq/commit/d9232a48ac6da47e47ddc67a2f3222e2105cf33e) Move bower components out of vendor/ to get faster builds (@aexmachina)
+- [6ef1017](https://github.com/franq/franq/commit/6ef1017e32145d95ab8fbf05b9408faf0505605d) Add user creation (@aexmachina)
+- [5e3c2a2](https://github.com/franq/franq/commit/5e3c2a2e28c6372882dcc70ebc810ea2302ed8aa) Merge branch 'feature/authorisation' into feature/dashboard-authorisation (@aexmachina)
+- [0ade7e7](https://github.com/franq/franq/commit/0ade7e7db2d32260a7686fa658a8169c96fc758d) Move bower components out of vendor/ to get faster builds (@aexmachina)
+- [e0428d8](https://github.com/franq/franq/commit/e0428d8484e38c72059093df20a9e168c7961ba3) Modifying BaseController to check the acl on queries (@SohumB)
+- [9b7aad2](https://github.com/franq/franq/commit/9b7aad2bc6d69fc02e538d62f8f4ed3add208e0e) Fixing tests (fixtures, roles payload, etc.) (@SohumB)
+- [bcededb](https://github.com/franq/franq/commit/bcededba85b19ee99467b299cb1f216efa2db85f) acl.js, necessitating a controller registry, and tests. (@SohumB)
+- [70a3acc](https://github.com/franq/franq/commit/70a3acc6266666575b03dd91c577cce95e9a5b64) Changing app#init to now return a promise instead of being synchronous (@SohumB)
+- [958bd95](https://github.com/franq/franq/commit/958bd950a538f85a1036cd0202e4909290443211) Token Auth now handles an authenticated hash of roles and current organisation, so that these are available to future queries. (@SohumB)
+- [c1acfd1](https://github.com/franq/franq/commit/c1acfd1724bde6091294fdce17cd5c98e58a3059) Schema changes ref: users, groups, roles discussion (@SohumB)
+- [1775299](https://github.com/franq/franq/commit/17752996ba4a6c14de8c200b87b5630bd1e96d0f) Fixed broken tests (@aexmachina)
+- [cae2e0f](https://github.com/franq/franq/commit/cae2e0f1ce098e3931f868706ed02d4847833e7e) Remote .only (@aexmachina)
+- [17aac05](https://github.com/franq/franq/commit/17aac05bb1243468e1b3abbd75e0ca2b92f3be0a) Updated with changes from token-auth module (@aexmachina)
+- [3e9175b](https://github.com/franq/franq/commit/3e9175be8295ecbf37658ab525d02f93b820a7e0) token-auth improvements: add ability to add arbitrary info to the token payload (@aexmachina)
+- [2ef9d58](https://github.com/franq/franq/commit/2ef9d5818e353c8d485a1040dbeb29f43c22558e) Added browserified miracle-acl (@aexmachina)
+- [0e3a548](https://github.com/franq/franq/commit/0e3a548592ab2f9aaed15d64afd0cd064c13510e) Add miracle module and browserify script (@aexmachina)
+- [82db903](https://github.com/franq/franq/commit/82db9037c38be3ac171051b184e33a851f15c742) Add authorisation-model.md (@aexmachina)
+- [13052ff](https://github.com/franq/franq/commit/13052ff7f6b29683a5fd7d7d96c4ff56d8e20cb8) Added shortcut icon (@aexmachina)
+- [1688063](https://github.com/franq/franq/commit/1688063ce946208e7a79b62767f3e70bf98b46f9) Add missing quote, oops! (@aexmachina)
+- [29767d4](https://github.com/franq/franq/commit/29767d496490afdb3de506fc05f67c4805ea7dad) Skip client side tests until they work again (@aexmachina)
+- [d5cbf90](https://github.com/franq/franq/commit/d5cbf9035239f9f27b3dd55c740675d5594f7427) Add venue create/edit to Dashboard (@aexmachina)
+- [a0d63ce](https://github.com/franq/franq/commit/a0d63ce8e53381ac7a58a44b24d5e780d43f7cda) Minor changes (@aexmachina)
+- [cc0d4c5](https://github.com/franq/franq/commit/cc0d4c5513490e0d5bdf78bc58492538b96b7cb2) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [4efb9b9](https://github.com/franq/franq/commit/4efb9b924c05ce76c4d0f6199bb622837a7c3ffc) Merge branch 'feature/organisation-visibility-via-venue' into 'master'
+- [8c473cf](https://github.com/franq/franq/commit/8c473cf9f22b08ea8f8746f0d259fa4daf33a966) Fix venues dropdown (@aexmachina)
+- [5713538](https://github.com/franq/franq/commit/5713538213ccc3041f216accb1cbfc158ceffadf) Several fixes for staging deployment (@aexmachina)
+- [99a93fc](https://github.com/franq/franq/commit/99a93fc508986e8867b8e19a19c60e04e93287e3) Added missing organisation links. (@danbell)
+- [5417be8](https://github.com/franq/franq/commit/5417be8acae423b376af63872d60c4a9bb00855e) Updated endpoints for roles and groups. (@danbell)
+- [4dc1f07](https://github.com/franq/franq/commit/4dc1f071a2b26c73ccbe3ec9196fc5e93e1deacb) Defined endpoints for roles and groups. (@danbell)
+- [d1f7714](https://github.com/franq/franq/commit/d1f771492948c0b47b8dd8123b207839324fb7bb) Rewording `conditions` back to `this.getConditions` (@SohumB)
+- [d2d6307](https://github.com/franq/franq/commit/d2d630746b36971e11a9cfd442c14cf1c91af51f) Restructuring test/acceptance/organisation.js, and adding tests for the join visibility pathway (@SohumB)
+- [4ed8e2c](https://github.com/franq/franq/commit/4ed8e2c5e15001774776d10d59aa32e39cec0ec2) Clean up of models and schema. Cashier and CashierVenue models are no longer required, s/role_name/name, s/organisations/organisation in Role, and some convenience associations in UserVenue (@SohumB)
+- [757500b](https://github.com/franq/franq/commit/757500bd2ecf82d8eb94daac13b2b1dbf6465c20) Cross-relation visibility, the right way. Requiring a rewriting of getConditions' interface. (@SohumB)
+- [9d7acc4](https://github.com/franq/franq/commit/9d7acc491ac7b4528539d5cb76e94a8cbab7a71a) First pass at proper cross-relation visibility (@SohumB)
+- [686496c](https://github.com/franq/franq/commit/686496ca381b752a363b226f10cd61682f0e75a5) Restructuring the database to combine cashiers and users, ref: conversation with Dan (@SohumB)
+- [1bf34b0](https://github.com/franq/franq/commit/1bf34b06df6435a794bf55eaeb62aacd0c08b5c3) Split organisation tests into read and write tests (~40% speed improvement) (@SohumB)
+- [75fa7b4](https://github.com/franq/franq/commit/75fa7b4db05abea8448b14e5ea3c36b08908580c) Avoid loading initial-data.js twice on git-update.sh (@aexmachina)
+- [249a681](https://github.com/franq/franq/commit/249a681cadc5fa5eadae6d2223f6c08cc453d39e) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [a33b11e](https://github.com/franq/franq/commit/a33b11e95ec4876b675e3e279596425c23285c7e) Add git submodule sync to git-update.sh (@aexmachina)
+- [edc778b](https://github.com/franq/franq/commit/edc778b6563ebeee0967db0619a41979660d225e) First pass at an `unlogify` script (@SohumB)
+- [20899e0](https://github.com/franq/franq/commit/20899e0a4feefe4d8263a461503a4c039eae6d85) Merge branch 'feature/create-venue' into 'master'
+- [3a8d859](https://github.com/franq/franq/commit/3a8d859f76bb343f77dda9d753b136ebcbfc9e1e) Set Ember locationType to auto in production (@aexmachina)
+- [90492a7](https://github.com/franq/franq/commit/90492a72ddc28a3e94f28307bd293eec6e702ff2) Added some randomness to the getFakeOrg() helper (@aexmachina)
+- [6959926](https://github.com/franq/franq/commit/6959926790e9483ae0e097793e54cd6db7ac0b15) Improve docs, adding example config files (@aexmachina)
+- [9635951](https://github.com/franq/franq/commit/9635951af4984d9dba12f7c7200b4c2fb87419fe) Added executable bit to git-update.sh (@aexmachina)
+- [9cc92df](https://github.com/franq/franq/commit/9cc92df07c35c9f94041f766714c11e4c4d8cbc7) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [74f7dd5](https://github.com/franq/franq/commit/74f7dd536b8e42b2f7746d88c517f4f489dc9dc2) Added git-update.sh for staging deployments (@aexmachina)
+- [966246d](https://github.com/franq/franq/commit/966246d380840443e7bb974b89870e09b5d53697) Fixing test-runner to actually use inotifywait and pipe to bunyan (@SohumB)
+- [c1cf276](https://github.com/franq/franq/commit/c1cf276babdaadbc51dbfa7b80e876dd69d5828a) POST /venues (@SohumB)
+- [158f9e4](https://github.com/franq/franq/commit/158f9e49f39b37631046bbf497ba0c2cc2245515) Fix staging build (@aexmachina)
+- [5edd009](https://github.com/franq/franq/commit/5edd009ffc7dbf6a70d8821cc835a3b46693c5cf) Add example nginx.conf file (@aexmachina)
+- [00e77d8](https://github.com/franq/franq/commit/00e77d8967b5281c641d530c369156e9e83627eb) Added build.sh to build dashboard on staging (@aexmachina)
+- [4839c0a](https://github.com/franq/franq/commit/4839c0a7e84a653a54038ac53fee4e32044c85a0) Merge branch 'feature/dashboard-organisations' (@aexmachina)
+- [878cb15](https://github.com/franq/franq/commit/878cb155b6c3fecd062a1a1e03019c40d62f53c8) Organisation routing and selection, including tests thereof (@aexmachina)
+- [7000002](https://github.com/franq/franq/commit/7000002b12e9efd5e4bca20244d097b2f291c502) Merge branch 'feature/dashboard-organisations' into 'master'
+- [931ef97](https://github.com/franq/franq/commit/931ef973ff805f5189147b2a78383dee6e214618) Merge remote-tracking branch 'upstream/master' into feature/dashboard-organisations (@aexmachina)
+- [f329956](https://github.com/franq/franq/commit/f329956e86f3fa1505fff684224620bb7c95c8fd) Merge branch 'feature/dashboard-organisations' of gitlab.impos.com.au:franq/franq into feature/dashboard-organisations (@aexmachina)
+- [e33a5eb](https://github.com/franq/franq/commit/e33a5eb8273cc9cdcfce34e1733ecbe2009827ea) Several BaseController improvements (@aexmachina)
+- [f94223f](https://github.com/franq/franq/commit/f94223faea1b4e67084122a1e901b2faf71559f0) Implementing visibility in BaseController#subRoute (@SohumB)
+- [3da8a38](https://github.com/franq/franq/commit/3da8a38a992de16f288cc2e66c973ceb2532f295) Merge branch 'feature/dashboard-organisations' of gitlab.impos.com.au:franq/franq into feature/dashboard-organisations (@aexmachina)
+- [b488e9b](https://github.com/franq/franq/commit/b488e9be8783371f32eed1703bbf64d851a022fb) Upgrade ember-debug and ember-notify (@aexmachina)
+- [b117de3](https://github.com/franq/franq/commit/b117de317b267ea54549bdd77c67ef5cb234a586) https://trello.com/c/DD45RtZF (@danbell)
+- [e4462d6](https://github.com/franq/franq/commit/e4462d6a42ecbed479e8f0d7d485c8c386f8484e) Removing /user/:id/organisations (@SohumB)
+- [1a91cbf](https://github.com/franq/franq/commit/1a91cbf596e7cd011902729c46828297f6aa95eb) Singular/plural cleanup. All urls are now plural, all inputs and outputs are typed. { type: } fields are always singular, #create POSTdata and responses and #show responses have singular types, #index and #routeTo responses use plural types. (@SohumB)
+- [b3fde8c](https://github.com/franq/franq/commit/b3fde8c97adb9806c7b210416043da6354fd2fd5) Use #addSubRoute, and other naming changes inside BaseController (@SohumB)
+- [e7da9f8](https://github.com/franq/franq/commit/e7da9f821a575dbfd869d0938ffb079e57e15e47) Merge branch 'feature/dashboard-organisations' of gitlab.impos.com.au:franq/franq into feature/dashboard-organisations (@aexmachina)
+- [6679362](https://github.com/franq/franq/commit/667936291b0075d0cd73e08361d0f78e855939aa) Completely unchecked commit of Dashboard WIP (@aexmachina)
+- [2bd84f2](https://github.com/franq/franq/commit/2bd84f2f78bfb962fb0df96849d0fe56b69d19b9) first success case acceptance test for /venue/:id/organisations (BaseController#subRoute) (@SohumB)
+- [109820e](https://github.com/franq/franq/commit/109820e4b31564ec4f12171876d19f17cf57f338) pull out links code to a BaseController helper (@SohumB)
+- [1ca61b0](https://github.com/franq/franq/commit/1ca61b08344fd42b6fcab42f0e3d55d5d3452351) Merge branch 'feature/dashboard-organisations' of gitlab.impos.com.au:franq/franq into feature/dashboard-organisations (@aexmachina)
+- [6c4c6fd](https://github.com/franq/franq/commit/6c4c6fdec9b08ec6c388c8a216ab65db09602932) /user/:id/organisations, theoretically (@SohumB)
+- [b06e575](https://github.com/franq/franq/commit/b06e57536919d2fcba791facde2e9bda93af13bb) bugfixes: subRoutes - they're hasMany by default (@SohumB)
+- [6650878](https://github.com/franq/franq/commit/6650878cad752011eeeed7b3f95530496e34bb79) bugfix: graphixture now sends the truncate calls serially, not in parallel (@SohumB)
+- [b850821](https://github.com/franq/franq/commit/b85082140864c4d9f3dcf8ba7086c36b92d6a653) `venue_name` and `venue_type` renamed to `name` and `type` (@SohumB)
+- [3fa1fc7](https://github.com/franq/franq/commit/3fa1fc71a41c541daf5092b1b6831a33ed330d28) Merge branch 'feature/dashboard-organisations' of gitlab.impos.com.au:franq/franq into feature/dashboard-organisations (@aexmachina)
+- [fa8b3f8](https://github.com/franq/franq/commit/fa8b3f8cc208eb9d4c57cbf56c451e1151c34f76) Tests for select-organisation (@aexmachina)
+- [34d77d0](https://github.com/franq/franq/commit/34d77d0cb70b7aa24e7567a87f2ca5ac87e457d9) subRoutes, initial implementation (@SohumB)
+- [e8156c5](https://github.com/franq/franq/commit/e8156c5654f5b15ae1b8138b948a169f5fcb9388) hooking up organisation/:id/venues subroute (@SohumB)
+- [874b320](https://github.com/franq/franq/commit/874b3207a3ff02a1e2872e2e8ded4939803c5e3a) Exclude .git from test-runner.sh watch (@aexmachina)
+- [ae67317](https://github.com/franq/franq/commit/ae67317029d1e89101cfa5bdce75c4684cc71df9) Select organisation FTW (@aexmachina)
+- [5516f8b](https://github.com/franq/franq/commit/5516f8b56b0082a9c1e31d9c777233825074e697) Merge branch 'master' into feature/dashboard-organisations (@aexmachina)
+- [1561cbd](https://github.com/franq/franq/commit/1561cbd2348117ddff4ce1c99f56b2381868da98) Merge branch 'feature/create-organisation' (@aexmachina)
+- [9bf220d](https://github.com/franq/franq/commit/9bf220d6b5b9db70f4e9676f7e4bd3fe008e9a1a) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [65abd81](https://github.com/franq/franq/commit/65abd81900dbf16ad7a572398ca4312516fc0ad3) ES6 all the things (@aexmachina)
+- [ccadae2](https://github.com/franq/franq/commit/ccadae2d59dae7fd064f495ff691846b2586be75) Dashboard organisations WIP (@aexmachina)
+- [1988cec](https://github.com/franq/franq/commit/1988cecfecb5235d220705e92920ab2d41cdc4dc) Merge branch 'simon/master' - BaseController#show, and tests for UserController#show (@SohumB)
+- [47993a2](https://github.com/franq/franq/commit/47993a250d4d147f8555f3b54eda4bcbb7068636) drop-all-tables now properly loads the environment and passes it on (@SohumB)
+- [39cf12f](https://github.com/franq/franq/commit/39cf12f1536ced74ba5bfdb04603a4241baf4a4f) Added test for UserController.show() (@aexmachina)
+- [9ae009f](https://github.com/franq/franq/commit/9ae009f837007d77c6d139eebd39469bb40b240d) /organisation POST and tests (@SohumB)
+- [7f4a8d5](https://github.com/franq/franq/commit/7f4a8d5a7c19f4ab20697cc90d696b414ff82779) fixing UserController tests to actually test something useful (@SohumB)
+- [82a52ec](https://github.com/franq/franq/commit/82a52ecfeb3c5c1339a375f1a106df7fe9c23928) bugfix: case sensitivity (@SohumB)
+- [b82b419](https://github.com/franq/franq/commit/b82b4195bb62fd4d3b6f9c0f6e4ca9611d2d00d9) Remove express-resource and 501 responses from tests (@aexmachina)
+- [c0f4d2f](https://github.com/franq/franq/commit/c0f4d2f5d7ed1f213acff5cb24ad63b86ca50480) Moved BaseController and BaseModel in from basement while under active development (@aexmachina)
+- [4a6c8f9](https://github.com/franq/franq/commit/4a6c8f90911b33ad6d1cd2d23e481ae9706db52f) Merge branch 'master' of gitlab.impos.com.au:franq/franq into feature/dashboard-organisations (@aexmachina)
+- [e965786](https://github.com/franq/franq/commit/e965786f85477ce9960506ac97a1f5ce90f05115) bugfix: BaseController (@SohumB)
+- [7a438cd](https://github.com/franq/franq/commit/7a438cdcbeb014fc30c2a25b65742f2e9d769587) renamed to match the class/filename naming scheme (@SohumB)
+- [65e1817](https://github.com/franq/franq/commit/65e181739bdaf5a48907f2aaa6ea9ed895746511) Merge branch 'master' into feature/dashboard-organisations (@aexmachina)
+- [ce3d323](https://github.com/franq/franq/commit/ce3d323798fb79bfa16a536722d1253ab5d5c92c) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [82e80d0](https://github.com/franq/franq/commit/82e80d001b156fbf62f535f596c5d539a03019c4) Minor tweaks (@aexmachina)
+- [b741191](https://github.com/franq/franq/commit/b7411911b8c2f4d9d4649d47b68143bd2c406032) fixing UserController and BaseController tests so that they specify the updated RAML (@SohumB)
+- [6220636](https://github.com/franq/franq/commit/6220636af60cb16c811d63e99f7c76cb53e147d2) removing old OrganisationController tests (@SohumB)
+- [0317bb6](https://github.com/franq/franq/commit/0317bb665a7b3fe0793975071536c5f221ef32d7) using the links output instead (@SohumB)
+- [d7dbbdb](https://github.com/franq/franq/commit/d7dbbdbe2dadcb27c7ac1d4f78c124210cdfcb61) OrganisationController#index, first pass (@SohumB)
+- [cc88a8e](https://github.com/franq/franq/commit/cc88a8eba7f00550bdf7d8dba44677c7a1748c8c) pulling out the fakeUser subroutine into helpers, and serializing payloads in helpers.setToken (@SohumB)
+- [5458398](https://github.com/franq/franq/commit/545839872ac4f57dc951bcad0545be9c62d9fb7a) capitalisation and s/organisation_name/name (@SohumB)
+- [f09ea45](https://github.com/franq/franq/commit/f09ea45e8b01d9e29c3a86bc99ecbaa2ae933332) - Change test-runner.sh to avoid using mocha --watch (@aexmachina)
+- [e91d696](https://github.com/franq/franq/commit/e91d696ac87b209a3538e6070ac85895222c79fd) https://trello.com/c/eliKSSU6 (@danbell)
+- [2e56849](https://github.com/franq/franq/commit/2e56849985c8954c78eee6890669ddc3fe4eb7bf) Merge branch 'master' into feature/dashboard-organisations (@aexmachina)
+- [3eb5282](https://github.com/franq/franq/commit/3eb5282820c2f4b805af7e6e8851f3631ba9e909) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [6e7244f](https://github.com/franq/franq/commit/6e7244f6c34aabf9a1ab858ee902ac2c6945e86a) Merge branch 'master' into feature/dashboard-organisations (@aexmachina)
+- [02a98fd](https://github.com/franq/franq/commit/02a98fdddfac1ef1378179a06f600cdfa89f467d) - Change test-runner.sh to not use mocha --watch (@aexmachina)
+- [e8e4440](https://github.com/franq/franq/commit/e8e44403d46c04e11666fc7ddb469bd199dc9715) Updated API to meet JSON API: http://jsonapi.org/format/. (@danbell)
+- [435ea5b](https://github.com/franq/franq/commit/435ea5be0153718e6379f41ead0d7804d77c254f) Merge branch 'master' into feature/dashboard-organisations (@aexmachina)
+- [0359f49](https://github.com/franq/franq/commit/0359f490b2d172484f7f587f5111132312a17a6a) Merge branch 'UserController' into 'master'
+- [9114515](https://github.com/franq/franq/commit/9114515fc3888e3a4e9ca67f5f2bcf0e448827ec) Update basement (@aexmachina)
+- [d4022ad](https://github.com/franq/franq/commit/d4022ad623b78edba62ce7c7b574ec07f2ca9384) Add ApplicationAdapter and tests, which adds the auth token to requests (@aexmachina)
+- [53dae60](https://github.com/franq/franq/commit/53dae6045090b495f6b5f48e8a4d9c3dc32c99cd) adding missing dependency: express-resource (@SohumB)
+- [a4d6c2b](https://github.com/franq/franq/commit/a4d6c2be2a32e4ee7a1b27fa4a55ba3f12bfe646) UserController, and tests for the same (@SohumB)
+- [20ebafc](https://github.com/franq/franq/commit/20ebafc46e7a5156fe52165c1e12c9c2a7ed6417) Merge branch 'feature/dashboard-auth' into 'master' (@SohumB)
+- [b4a99da](https://github.com/franq/franq/commit/b4a99da27883c7b2f217b43c87c697040c716c9c) API class now prepends "/api/v1" in all its methods (@aexmachina)
+- [90ccd8b](https://github.com/franq/franq/commit/90ccd8b0e9a12e38f4d6f7f391de7d869b268632) Add ES6 support using broccoli-jstransform. (@aexmachina)
+- [633cc9f](https://github.com/franq/franq/commit/633cc9f81aa80ad5e4bc8ed139586fb7406bfe8d) Merge branch 'feature/dashboard-auth' of gitlab.impos.com.au:simon.w/franq into feature/dashboard-auth (@aexmachina)
+- [c8d94ea](https://github.com/franq/franq/commit/c8d94ea1c4cb8343b94eb16948cf7b4a50e69377) - Dashboard login, logout and tests (@aexmachina)
+- [4f065d9](https://github.com/franq/franq/commit/4f065d97d1ef5008c9fcb84c16bdd4b4d8dd1f44) Merge branch 'master' into feature/dashboard-auth (@aexmachina)
+- [cb8a7c9](https://github.com/franq/franq/commit/cb8a7c9e6763a4493b1314b8d49c9f6d5644ddb2) - Add bin/tools/create-user.js to create users on the CLI (@aexmachina)
+- [7abbb85](https://github.com/franq/franq/commit/7abbb85429ed381d538eaab7683bb77c5b7880df) - Add login and logout routes (@aexmachina)
+- [dc617e1](https://github.com/franq/franq/commit/dc617e13248a8fb04a3b3b5003ee80322b622967) - Add login and logout routes (@aexmachina)
+- [e584510](https://github.com/franq/franq/commit/e584510418736e36d4abb8670851d8c519fed495) adding traceur for es6! (@SohumB)
+- [7176905](https://github.com/franq/franq/commit/71769053c54aa6ad1914d2e0efb87ebb82b411c5) Merge branch 'master' into feature/dashboard-auth (@aexmachina)
+- [8973264](https://github.com/franq/franq/commit/89732644fbe07f2985930067fe4814dc2b3a9136) Merge branch 'master' of impos-git:franq/franq into feature/dashboard-auth (@aexmachina)
+- [0925122](https://github.com/franq/franq/commit/0925122d9333cdeeda67b084d23a63e9fcf6604a) Only drop/migrate tests when NODE_ENV=development (@aexmachina)
+- [b3affbe](https://github.com/franq/franq/commit/b3affbec0bc9291358acf9558eff5a46267bc819) Merge branch 'master' into 'master' (@SohumB)
+- [7e6d2c8](https://github.com/franq/franq/commit/7e6d2c86634522957b12f30627ffeaa116581b5d) - Add "drop" action to bin/db-migrate.sh (@aexmachina)
+- [c07e7b6](https://github.com/franq/franq/commit/c07e7b66eadee1ef76e345de6dd5b6ffd8fb3a21) Merge branch 'master' into feature/dashboard-auth (@aexmachina)
+- [f771124](https://github.com/franq/franq/commit/f7711246dd66701032c172a7192b686fe7ac487d) Merge branch 'feature/fixtures' into 'master'
+- [1bb4125](https://github.com/franq/franq/commit/1bb4125a1d6b66528c7c53b1b90bbb775658479c) Renamed fixtures to graphixture (@aexmachina)
+- [2164454](https://github.com/franq/franq/commit/21644545a10f30ad4472cedac28a7efe6498cbf4) Various minor fixes (no pun intended) (@aexmachina)
+- [926c97c](https://github.com/franq/franq/commit/926c97c4048f94f202dd67229e5ac930a5e9045a) https://trello.com/c/i7lBlPNG (@danbell)
+- [9879480](https://github.com/franq/franq/commit/9879480b8183441adffbe94904201430fd17bf4f) Dashboard login WIP (@aexmachina)
+- [c1018c8](https://github.com/franq/franq/commit/c1018c84bfcb2cb164ddccaf5ea850b673df95be) initial version of fixtures module (@SohumB)
+- [3ceccfd](https://github.com/franq/franq/commit/3ceccfd3385d69d461bbb356b15b648dacec3f0f) https://trello.com/c/lZm0M7ov (@danbell)
+- [7b036d8](https://github.com/franq/franq/commit/7b036d83ca032453a53875ae9eba426bcc53ee46) https://trello.com/c/P947mlFB (@danbell)
+- [f5f40e5](https://github.com/franq/franq/commit/f5f40e5f93bc100d2e4462da2451b9b968053c9a) Merge branch 'master' into feature/dashboard-auth (@aexmachina)
+- [273f208](https://github.com/franq/franq/commit/273f208b617ee17356a5d9f2f7c2586bbebe1c5d) Added test for TokenAuthUser.findById() (@aexmachina)
+- [0ef0f0b](https://github.com/franq/franq/commit/0ef0f0b62a6ebca68cb5a8bd8c5ad4c6074bef87) Merge branch 'feature/token-auth' into 'master' (@SohumB)
+- [551e6b8](https://github.com/franq/franq/commit/551e6b82b2dec4815f60db65b567bc0a677ab63e) Merge branch 'feature/token-auth' into feature/dashboard-auth (@aexmachina)
+- [4d82d8a](https://github.com/franq/franq/commit/4d82d8a887d04d381de00bfa522b60cbb69a2657) Cleanup users after test (@aexmachina)
+- [955218b](https://github.com/franq/franq/commit/955218b3119f444a39b42c09702c90d85652109c) Forked Faker.js (@aexmachina)
+- [4788363](https://github.com/franq/franq/commit/478836349202c6ff38ad828487b6786dc144afa4) bin/db-migrate.sh now does not use a bashism (@SohumB)
+- [3681aac](https://github.com/franq/franq/commit/3681aacba0a1716f4101d5a7b2f6065baa11268d) Merge branch 'feature/token-auth' into feature/dashboard-auth (@aexmachina)
+- [a1ddf36](https://github.com/franq/franq/commit/a1ddf364ad6023e8c11dbfa008122f29c730deaf) - Minor doc improvements (@aexmachina)
+- [0c59a0a](https://github.com/franq/franq/commit/0c59a0a08965294aa35f87194239f7083f88dc33) Fixed token-auth tests (@aexmachina)
+- [d232e49](https://github.com/franq/franq/commit/d232e49f28be0ef66149a1a490d107cc2d418478) Update team-city.md doc (@aexmachina)
+- [8236f7b](https://github.com/franq/franq/commit/8236f7b5514c98bddea4254e5ef62aedfcc55db3) https://trello.com/c/Wip6MlJA (@danbell)
+- [b0e22ec](https://github.com/franq/franq/commit/b0e22ecac714db37aa66f67b5fba1ed41c74a9c6) https://trello.com/c/HHVmt6B2 (@danbell)
+- [11103fb](https://github.com/franq/franq/commit/11103fbfb41989904403550bf96e23b782e9518f) Fixed jshint error. (@danbell)
+- [2af1fc9](https://github.com/franq/franq/commit/2af1fc926a591e6fb03ef702b2a5a5878e352241) - token-auth tests completed (@aexmachina)
+- [ddc5b10](https://github.com/franq/franq/commit/ddc5b10891ff7cd5746b3f86a706ff844e07a152) Changed submodule URL to use SSH (@aexmachina)
+- [bb61c00](https://github.com/franq/franq/commit/bb61c000cb00acb2367bc3dabb935170e089f83e) Merge remote-tracking branch 'upstream/master' into feature/token-auth (@aexmachina)
+- [ba81d1b](https://github.com/franq/franq/commit/ba81d1b49b0dead083d266ae56154b8ed26376bc) Merge branch 'bugfix/tern' into 'master'
+- [d4bdfa3](https://github.com/franq/franq/commit/d4bdfa378e85d00079b145c0b130c54ca1fb1f33) .tern-project uses plugins, not plugin (@SohumB)
+- [d6907ba](https://github.com/franq/franq/commit/d6907ba595e2acb3f8e66250145699026ba9dc5c) Merge branch 'feature/token-auth-bookshelf' into feature/token-auth (@aexmachina)
+- [39791ab](https://github.com/franq/franq/commit/39791abcc62044d51d3694537473ffa50e3a7247) Merge branch 'master' into feature/token-auth (@aexmachina)
+- [12e6c59](https://github.com/franq/franq/commit/12e6c590aa36d35ea53f64efa7ecda5e3d77c41f) Merge branch 'feature/tern' (@SohumB)
+- [ad6685d](https://github.com/franq/franq/commit/ad6685dda7637f4e106c8306fca17893acef729c) Merge branch 'feature/dashboard' (@aexmachina)
+- [6c87346](https://github.com/franq/franq/commit/6c87346c66879607615d6fdc0bb668ce78838a8a) Merge branch 'feature/basement-submodule' into 'master'
+- [428dfd6](https://github.com/franq/franq/commit/428dfd60aac8be685f72a68cfbfe3d845030aa44) Merge branch 'feature/bookshelf' into 'master' (@SohumB)
+- [488646d](https://github.com/franq/franq/commit/488646d588c22ae366c1de62ac0a17707fc595b6) fixed submodule url (@bulkan)
+- [6cb3026](https://github.com/franq/franq/commit/6cb3026a6088aaf43e79bd5047384040ac11f9cc) Moved basement to a git submodule (@aexmachina)
+- [d80a0eb](https://github.com/franq/franq/commit/d80a0eb0fb00df209920e00772c574792d63ad3d) Moved basement to a git submodule (@aexmachina)
+- [0c7431f](https://github.com/franq/franq/commit/0c7431f2d3e13e34391a1443f121eda48017dd8d) - Move bookshelf.js and BaseModel to basement (@aexmachina)
+- [ae9d33d](https://github.com/franq/franq/commit/ae9d33d53026853062ffb53afba194e4ac990316) lodash.json (@SohumB)
+- [eb2bc85](https://github.com/franq/franq/commit/eb2bc85b5279b5bbdb6a8eb479e17372a0273025) WIP (@aexmachina)
+- [68bded3](https://github.com/franq/franq/commit/68bded31a4cae72982c7e5a3b371a8b2a0c8e052) .tern-project files (@SohumB)
+- [071d678](https://github.com/franq/franq/commit/071d678f3d286da1d5f27094ca453ef9772f81b5) Merge branch 'feature/bookshelf' into feature/token-auth-bookshelf (@aexmachina)
+- [a4d2045](https://github.com/franq/franq/commit/a4d2045559dcc267e351096af7373c3d11aff833) Merge branch 'master' into feature/token-auth-bookshelf (@aexmachina)
+- [d4bba8c](https://github.com/franq/franq/commit/d4bba8c57f9570958221437743b4dd25bc26c9b6) Merge branch 'master' into feature/bookshelf (@aexmachina)
+- [8f88458](https://github.com/franq/franq/commit/8f88458a27d93d3dc720a0fd5622da981e46f099) Add pg dependency (@aexmachina)
+- [d23ab6c](https://github.com/franq/franq/commit/d23ab6cd9c7e59eaf74ffb3242849229744e3e2b) Created Dashboard blueprint using `ember new dashboard` (@aexmachina)
+- [585ffaa](https://github.com/franq/franq/commit/585ffaafb8c9a004caa93eff311ebabfc937f52a) Merge branch 'master' into feature/bookshelf (@SohumB)
+- [975639d](https://github.com/franq/franq/commit/975639d49c51eafe4af8a84249c567a5237df1f5) Initial bookshelf docs (@SohumB)
+- [d8673b9](https://github.com/franq/franq/commit/d8673b953f3bb1500690cd3d06bcbbda4def50fd) Initial bookshelf models (@SohumB)
+- [73f60ea](https://github.com/franq/franq/commit/73f60ea286dc60b546158636253a5e17ef50c316) document some requirements I can remember for the build agent and how to set one up (@tonytamps)
+- [6458515](https://github.com/franq/franq/commit/6458515db31ffa4aab04f55d7692c013903708c9) Merge branch 'master' of impos-git:franq/franq (@aexmachina)
+- [bc47c9c](https://github.com/franq/franq/commit/bc47c9c776be43590db16549b63f9537bfbae40e) Fixed main.js after removing Promise from src/app.js (@aexmachina)
+- [9cd8f73](https://github.com/franq/franq/commit/9cd8f7318e88916a76c200ead7162580b052e946) use node_module/src
+- [51d0d32](https://github.com/franq/franq/commit/51d0d3289196132dfe8e5537a695e6fd3f8033dd) remove express-bunyan-logger dependancy
+- [b31a169](https://github.com/franq/franq/commit/b31a169130c110aab3540deff6d427053a041635) Merge branch 'master' of impos-git:franq/franq (@aexmachina)
+- [288160b](https://github.com/franq/franq/commit/288160be5987cd2ee882d8bab0c9ad9504e86169) Added symlink to src/ in node_modules/ (@aexmachina)
+- [a353c64](https://github.com/franq/franq/commit/a353c64a552f5c97ab406b3b1d3b6970a440ca52) new version joi fixes.
+- [3885e6c](https://github.com/franq/franq/commit/3885e6c889deab2a74ed42a4ffea55e1734cfc95) fix package.json
+- [bb93497](https://github.com/franq/franq/commit/bb93497796b9403dbdbdf7f4548ad14b9913b4f3) Merge branch 'master' of gitlab.impos.com.au:franq/franq
+- [34c06ae](https://github.com/franq/franq/commit/34c06ae41c7ff96d3173739331a243901749667c) Added istanbul module and config to exclude modules/ (@aexmachina)
+- [d98a8aa](https://github.com/franq/franq/commit/d98a8aa70dee46ec5cb3280cd2d0fe1ec6ffd7c4) Changed back to config-node from npm now the changes from my PR (@aexmachina)
+- [bfd2274](https://github.com/franq/franq/commit/bfd2274d505acb679a01ff4d1899278276bbe8ce) Initial commit of token-based authentication. Still needs to be integrated with an (as-yet non-existent) User model (@aexmachina)
+- [a08e156](https://github.com/franq/franq/commit/a08e156f55024ffa64b215f8e1ef99d26eeb811f) Merge branch 'master' of impos-git:franq/franq (@aexmachina)
+- [4d89402](https://github.com/franq/franq/commit/4d89402a1298d226e626122417bf294d2a4c0bcd) A few minor changes (@aexmachina)
+- [494ba17](https://github.com/franq/franq/commit/494ba17a5e37508ab190f44d8ae2585cf9857a19) - Change app.js to be synchronous for cleaner tests (@aexmachina)
+- [3e2116b](https://github.com/franq/franq/commit/3e2116be0788f2a48d9d8cfbb361f777eae53fe1) #8 Cd1YaBCI is not the card number you were looking for... (@ralish)
+- [72289ae](https://github.com/franq/franq/commit/72289aefc7fe8c729cbdcbdf73347e645dfb6665) Add unit test for organisation controller.
+- [5bf4e73](https://github.com/franq/franq/commit/5bf4e738e67266a862f2aae40462cbbb094fd458) Add in organisation controllers.
+- [32e20a2](https://github.com/franq/franq/commit/32e20a242dfa19704620c1f5b3fecc3d488b6462) #Cd1YaBCI for the good of the build (@tonytamps)
+- [e3b94e7](https://github.com/franq/franq/commit/e3b94e7d58be80710c48f18ee23c98a23b62d0d7) re-commit the commented tests to increase converage (@tonytamps)
+- [26e4027](https://github.com/franq/franq/commit/26e40270e31982bd679e685d31c7c787d9761db1) Merge branch 'master' of gitlab.impos.com.au:franq/franq
+- [42bb9c7](https://github.com/franq/franq/commit/42bb9c7d4512d8a6e489b27ed188e70cefc4fc67) add report command to package.json (@tonytamps)
+- [22c4c22](https://github.com/franq/franq/commit/22c4c22931956dd439f454c4b4759f90bf489a4c) missing comma.
+- [c1c44cd](https://github.com/franq/franq/commit/c1c44cd94da96575bfb8fdac72089f15f39a0dee) testing if the build fails when coverage drops (@tonytamps)
+- [a75895c](https://github.com/franq/franq/commit/a75895c9812963e636f8840428b2963f29811c1e) include istanbul and generate coverage (@tonytamps)
+- [6df3854](https://github.com/franq/franq/commit/6df38545c670c94bc2dfb3441237f59970564b5b) add a test for admin GET (@tonytamps)
+- [7605833](https://github.com/franq/franq/commit/7605833b432e8d68a98f44786555b5506697ee09) Merge branch 'master' of gitlab.impos.com.au:franq/franq
+- [9b4411e](https://github.com/franq/franq/commit/9b4411ee8608d4a96bcd7c1ad88d6ef1bfe03a05) basic test framework for admin (@tonytamps)
+- [7688808](https://github.com/franq/franq/commit/76888081daae3bd70b4e84cf031fb6169163a317) Knex, and initial migration (@SohumB)
+- [86d89e3](https://github.com/franq/franq/commit/86d89e3c9791734d78d4c1f8a4905b099e9350ab) GET and POST for admin (@tonytamps)
+- [0dadc7d](https://github.com/franq/franq/commit/0dadc7df4169ba9e15f78e4de0b57b88c6ce7a0f) update .gitignore
+- [97213ef](https://github.com/franq/franq/commit/97213eff90b804854747e6438d6b381cce97a089) Merge branch 'master' of impos-git:franq/franq (@aexmachina)
+- [60ea917](https://github.com/franq/franq/commit/60ea917d85e9c2c07c4f2f944ae9ebd3563d0d9d) - Remove config files from Git (@aexmachina)
+- [aff8c88](https://github.com/franq/franq/commit/aff8c882ee41c2253b943f455bbb0bf7e82584ef) Fix broken url in deployment.md (@tonytamps)
+- [3bce105](https://github.com/franq/franq/commit/3bce1050bf87dc01c8b33dd937cf7912f4818d42) Merge branch 'master' of gitlab.impos.com.au:franq/franq
+- [11fa54f](https://github.com/franq/franq/commit/11fa54f409a20f9764cc51e3fe3f07e2c64d3e94) merge
+- [667b377](https://github.com/franq/franq/commit/667b37760e64e03a747882bb5f8913cc0c8e381d) tidy deployment.md (@tonytamps)
+- [7bd9a70](https://github.com/franq/franq/commit/7bd9a70a45763aa269a3df2fda92dd2b834909ca) Updated README.md and deployment.md. Added production config file (@tonytamps)
+- [75e9904](https://github.com/franq/franq/commit/75e99048281a8356b1a82fe459906dede1fc666e) Merge branch 'master' of impos-git:franq/franq (@aexmachina)
+- [822c65c](https://github.com/franq/franq/commit/822c65cabb43a506fe52e06806c60c8dc81fbcbc) Added views (@aexmachina)
+- [315a248](https://github.com/franq/franq/commit/315a24817b006fc8134cd7277a854d0ec2c34a8e) make changes to readme.md (@tonytamps)
+- [8a7436f](https://github.com/franq/franq/commit/8a7436f60df743c6e76f2c694089feb0629ed982) update default database config (@tonytamps)
+- [87a2a6e](https://github.com/franq/franq/commit/87a2a6e4f9146a7f5f24b1a3ab35b84974a1c026) Merge branch 'master' of gitlab.impos.com.au:franq/franq (@aexmachina)
+- [71516d7](https://github.com/franq/franq/commit/71516d78d2985e9eb3046713a03916e4572051e6) Merge branch 'master' of gitlab.impos.com.au:simon.w/franq (@aexmachina)
+- [da74535](https://github.com/franq/franq/commit/da74535a4b9b026faec9384fb56d7e8c0959e3a3) - Add api-middleware.js to basement/ (@aexmachina)
+- [8a3d5fe](https://github.com/franq/franq/commit/8a3d5febc8773c8b0f5e54112b8542844f6fd144) - Add api-middleware.js to basement/ (@aexmachina)
+- [24c29dc](https://github.com/franq/franq/commit/24c29dcdbf0b8673a10700a8c758bfb8b3f0ddae) Lots of small changes and improvements (@aexmachina)
+- [aeac558](https://github.com/franq/franq/commit/aeac558ad1ca9d4d46a9cf49b76347203a732245) Fixed git url in doc. (@danbell)
+- [86ad836](https://github.com/franq/franq/commit/86ad836e30bd11a91f190049310a205786e0d74b) added missing dependencies (@tonytamps)
+- [112203f](https://github.com/franq/franq/commit/112203fa9e35db8c5859b3aaf18747758a665282) Add required directories for post-install.sh (@tonytamps)
+- [dcb41f4](https://github.com/franq/franq/commit/dcb41f4a8778d639e5add9c7b6f0e480ee570b10) Initial commit.
+- [09500f3](https://github.com/franq/franq/commit/09500f38f4910576d57c695bee92f9c423078d64) Moved getting-started.md to README.md (@aexmachina)
+- [0b9a4ef](https://github.com/franq/franq/commit/0b9a4efae573ff408a60e22bda43b040ef0022a0) - Added a common config file that's merged with the environment config (@aexmachina)
+- [e9834be](https://github.com/franq/franq/commit/e9834be8303bf467d957c6cdf660861fbb3c2dda) Added blueprint for new and improved Franq (@aexmachina)
