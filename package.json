@@ -9,12 +9,11 @@
   "dependencies": {
     "bluebird": "1.0.3",
     "ghauth": "0.0.0",
-    "github": "0.1.16",
+    "github": "^0.2.3",
     "github-commit-stream": "0.1.0",
     "lodash": "2.4.1",
-    "moment": "2.5.1",
+    "moment": "^2.8.4",
     "nomnom": "1.6.2",
-    "octonode": "^0.6.12",
     "parse-link-header": "0.1.0",
     "semver": "2.2.1"
   },
